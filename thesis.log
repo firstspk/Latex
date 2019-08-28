@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  28 AUG 2019 11:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  28 AUG 2019 11:28
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1129,7 +1129,20 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ("C:\Users\USER\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.sty
 "
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (thesis.aux)
+) (thesis.aux
+
+LaTeX Warning: Label `tab: transfer learning' multiply defined.
+
+
+LaTeX Warning: Label `tab: transfer learning' multiply defined.
+
+
+LaTeX Warning: Label `tab: transfer learning ActivityNet' multiply defined.
+
+
+LaTeX Warning: Label `fig:SelectTab_sampled' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1233,13 +1246,10 @@ LaTeX Info: Redefining \nameref on input line 7.
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1334,35 +1344,33 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 33--35
 [4
 
 
+]) (thesis.toc [5
+
+
 ])
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-[5
+ [6
+
+] (thesis.lof [7
 
 
-]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
-[6
+ [8
+
+] (thesis.lot [9
 
 
-]
-
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
-
+])
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-(pages/symbols.tex [7
 
+(pages/symbols.tex [10
 
 ]
 Overfull \hbox (3.46233pt too wide) in alignment at lines 4--9
@@ -1374,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
-) (pages/abbreviations.tex [8
+) (pages/abbreviations.tex [11
 
 
 
@@ -1388,7 +1396,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--17
 
  []
 
-) [9
+) [12
 
 
 
@@ -1421,12 +1429,9 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
  [6] [7]
 File: chapter2/images/DBoF.png Graphic file (type bmp)
 <chapter2/images/DBoF.png>
-
-
-LaTeX Warning: Reference `fig:BSS' on page 8 undefined on input line 92.
-
 File: chapter2/images/BSS.png Graphic file (type bmp)
 <chapter2/images/BSS.png>
+
 [8
 
 ]
@@ -1435,27 +1440,14 @@ Overfull \hbox (78.8399pt too wide) in paragraph at lines 107--114
  []
 
 
-LaTeX Warning: Reference `tab: ประสิทธิภาพของโมเดลที่สร้างจาก YouTube-8M' on pa
-ge 9 undefined on input line 157.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 136--161
 
  []
 
 [9] [10]
-
-LaTeX Warning: Reference `tab: transfer learning' on page 11 undefined on input
- line 184.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 162--186
 
  []
-
-
-LaTeX Warning: Reference `tab: transfer learning ActivityNet' on page 11 undefi
-ned on input line 209.
 
 
 Overfull \hbox (3.14577pt too wide) in paragraph at lines 214--215
@@ -1492,31 +1484,31 @@ File: chapter2/images/Example_of_class.png Graphic file (type bmp)
 ]
 File: chapter2/images/UI.png Graphic file (type bmp)
 <chapter2/images/UI.png>
-File: chapter2/images/statistic_moment.png Graphic file (type bmp)
-<chapter2/images/statistic_moment.png>
  [18
 
-] [19]
+]
+File: chapter2/images/statistic_moment.png Graphic file (type bmp)
+<chapter2/images/statistic_moment.png>
 File: chapter2/images/compare_dataset.png Graphic file (type bmp)
 <chapter2/images/compare_dataset.png>
 
-Overfull \hbox (8.32397pt too wide) in paragraph at lines 53--54
+Overfull \hbox (8.32397pt too wide) in paragraph at lines 52--53
 []\TU/THSarabunNew(0)/m/n/12 เริ่ม การ preprocess จาก แยก ภาพRGB ออก มา จาก วิด
 ีโอ และ ทำการ เปลี่ยน ขนาด ของ ภาพ ให้ เป็น 340x256
  []
 
+[19
 
-Overfull \hbox (11.58846pt too wide) in paragraph at lines 92--93
+]
+Overfull \hbox (11.58846pt too wide) in paragraph at lines 91--92
 []\TU/THSarabunNew(0)/m/n/12 จาก ภาพ จะ เห็น ได้ ว่า ผล ลัพท์ ที่ ดี สุด คือ กา
 ร ทำ ensemble(SVM) ซึ่ง เป็น รวม ของ โมเดล ReNet50-ImageNet,
  []
 
-[20
-
-]
+[20]
 File: chapter2/images/CAM.png Graphic file (type bmp)
 <chapter2/images/CAM.png>
-) [21] [22] (chapter2/optical_flow.tex
+) [21] (chapter2/optical_flow.tex
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
 <chapter2/images/vector_optical.png>
 
@@ -1534,7 +1526,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--43
 
  []
 
-[23
+[22
 
 ]) (chapter2/2steamCNN.tex
 File: chapter2/images/2steamCNN.png Graphic file (type bmp)
@@ -1545,9 +1537,9 @@ Overfull \hbox (2.63611pt too wide) in paragraph at lines 8--25
  video classification โดย จะ แบ่ง ออก เป็น สอง กระบวนการ
  []
 
-) (chapter3/chapter3.tex [24]
+) (chapter3/chapter3.tex [23]
 บทที่ 3.
-[25
+[24
 
 ] (chapter3/labeler.tex
 Overfull \hbox (9.04048pt too wide) in paragraph at lines 1--5
@@ -1555,41 +1547,29 @@ Overfull \hbox (9.04048pt too wide) in paragraph at lines 1--5
 ลตฟอร์ม ที่ สามารถ พัฒนา ด้วย ภาษา Python ได้ และ เป็น แพลตฟอร์ม
  []
 
-
-LaTeX Warning: Reference `fig:labeling_overview' on page 26 undefined on input 
-line 12.
-
 File: chapter3/images/3_3/labelingToolOverview.png Graphic file (type bmp)
 <chapter3/images/3_3/labelingToolOverview.png>
-[26
+[25
 
 ]
-
-LaTeX Warning: Reference `fig:selectTab' on page 27 undefined on input line 24.
-
-
 File: chapter3/images/3_3/SelectTab.png Graphic file (type bmp)
 <chapter3/images/3_3/SelectTab.png>
-[27
+ [26
+
+]
+File: chapter3/images/3_3/SelectTab_sampled.png Graphic file (type bmp)
+<chapter3/images/3_3/SelectTab_sampled.png>
+ [27
 
 ]
 
-LaTeX Warning: Reference `fig:SelectTab_sampled' on page 28 undefined on input 
-line 35.
+LaTeX Warning: Reference `' on page 28 undefined on input line 45.
 
 File: chapter3/images/3_3/SelectTab_sampled.png Graphic file (type bmp)
 <chapter3/images/3_3/SelectTab_sampled.png>
-[28
+) [28
 
-]
-
-LaTeX Warning: Reference `' on page 29 undefined on input line 45.
-
-File: chapter3/images/3_3/SelectTab_sampled.png Graphic file (type bmp)
-<chapter3/images/3_3/SelectTab_sampled.png>
-) [29
-
-] (chapter3/software.tex [30
+] (chapter3/software.tex [29
 
 ]
 Overfull \hbox (10.04614pt too wide) in paragraph at lines 69--70
@@ -1598,62 +1578,37 @@ Overfull \hbox (10.04614pt too wide) in paragraph at lines 69--70
 F เนื่องจาก
  []
 
-
-LaTeX Warning: Reference `fig:urdf_link_code' on page 31 undefined on input lin
-e 87.
-
-[31
+[30
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 13.46844pt on input line 91.
 File: chapter3/images/urdf_link.png Graphic file (type bmp)
 <chapter3/images/urdf_link.png>
+ [31
+
+]
+File: chapter3/images/urdf_joint.png Graphic file (type bmp)
+<chapter3/images/urdf_joint.png>
  [32
 
 ]
-
-LaTeX Warning: Reference `fig:urdf_joint_code' on page 33 undefined on input li
-ne 133.
-
-
-LaTeX Warning: Reference `fig:urdf_joint' on page 33 undefined on input line 15
-1.
-
-File: chapter3/images/urdf_joint.png Graphic file (type bmp)
-<chapter3/images/urdf_joint.png>
-[33
-
-]
-
-LaTeX Warning: Reference `fig:uthai_ros_node' on page 34 undefined on input lin
-e 172.
-
 File: chapter3/images/uthai_ros_node.png Graphic file (type bmp)
 <chapter3/images/uthai_ros_node.png>
-[34
+ [33
 
-] [35]
+] [34] [35
 
-LaTeX Warning: Reference `tab:geometry_pose' on page 36 undefined on input line
- 302.
-
-
-LaTeX Warning: Reference `tab:nav_odometry' on page 36 undefined on input line 
-333.
-
-[36
-
-] [37
+] [36
 
 ]))
 No file thesis.bbl.
-[38
+[37
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 47.
- (appendix/appendix1.tex [38
+ (appendix/appendix1.tex [37
 
 
 ]
@@ -1661,84 +1616,84 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (appendix/dynamic_prop.tex
 File: appendix/images/uthai_dynamic_all.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_all.jpeg>
- [39
+ [38
 
 ]
 File: appendix/images/uthai_dynamic_rhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhy.jpeg>
- [40
+ [39
 
 ]
 File: appendix/images/uthai_dynamic_lhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhy.jpeg>
- [41
+ [40
 
 ]
 File: appendix/images/uthai_dynamic_rhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhr.jpeg>
- [42
+ [41
 
 ]
 File: appendix/images/uthai_dynamic_lhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhr.jpeg>
- [43
+ [42
 
 ]
 File: appendix/images/uthai_dynamic_rhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhp.jpeg>
- [44
+ [43
 
 ]
 File: appendix/images/uthai_dynamic_lhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhp.jpeg>
- [45
+ [44
 
 ]
 File: appendix/images/uthai_dynamic_rkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rkp.jpeg>
- [46
+ [45
 
 ]
 File: appendix/images/uthai_dynamic_lkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lkp.jpeg>
- [47
+ [46
 
 ]
 File: appendix/images/uthai_dynamic_rap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rap.jpeg>
 
-[48
+[47
 
 ]
 File: appendix/images/uthai_dynamic_lap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lap.jpeg>
- [49
+ [48
 
 ]
 File: appendix/images/uthai_dynamic_rar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rar.jpeg>
- [50
+ [49
 
 ]
 File: appendix/images/uthai_dynamic_lar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lar.jpeg>
-)) (pages/vitea.tex [51
+)) (pages/vitea.tex [50
 
 ]
 File: pages/images/jirad.jpg Graphic file (type bmp)
 <pages/images/jirad.jpg>
- [52
+ [51
 
 
 ]
 File: pages/images/taa.jpg Graphic file (type bmp)
 <pages/images/taa.jpg>
- [53
+ [52
 
 ]
 File: pages/images/wuttipat.jpg Graphic file (type bmp)
 <pages/images/wuttipat.jpg>
-) [54
+) [53
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -1753,23 +1708,23 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E
-(rerunfilecheck)             After:  E793585D87EEC339D8CB8C9BB12D3427.
+(rerunfilecheck)             Before: E793585D87EEC339D8CB8C9BB12D3427
+(rerunfilecheck)             After:  8A5B837A9F20CA416F0926ABC60EEB2B.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 38068 strings out of 427669
- 760551 string characters out of 3145155
- 1038637 words of memory out of 3000000
- 41588 multiletter control sequences out of 15000+200000
+ 38081 strings out of 427669
+ 760684 string characters out of 3145155
+ 1036637 words of memory out of 3000000
+ 41595 multiletter control sequences out of 15000+200000
  536762 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,83p,1042b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (66 pages).
+Output written on thesis.pdf (68 pages).
