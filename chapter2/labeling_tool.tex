@@ -10,6 +10,15 @@
 \end{enumerate}
 ส่วนใหญ่ที่เป็นแบบทำด้วยมือ ซึ่งทำให้ใช้เวลาในการทำนาน และ เสียพลังงานในการทำเป็นอย่างมาก
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{chapter2/images/darklabel.png}
+		\caption{UI ของโปรแกรม DarkLabel}
+    	\label{fig:darklabel}
+\end{figure}
+
+
+\clearpage
 \subsubsection*{2.1.2 โปรแกรม OpenLabeling}
 จะมีโปรแกรมการทำงานอยู่ 2 โหมดการทำงาน คือ แบบทำด้วยมือและ แบบอัตโนมัติซึ่งมีการทำงานแยกจากกันอย่างชัดเจน
 
@@ -31,5 +40,12 @@
  	\end{enumerate}
  \end{enumerate}
 หลังจากที่ได้ทดลองใช้โปรแกรม OpenLabeling ทั้ง 2 โหมดการทำงานแล้วพบว่า การทำงานแบบ mode auto การที่เราไม่สามารถปรับแก้ไขสิ่งใดในระหว่างกระบวนการ labeling นั้น ทำให้หากเกิดกรณีที่โมเดลทำนายกรอบสี่เหลี่ยม (predict bounding) พลาด หรือ เกินมา เราจะไม่สามารถแก้ไขได้ และ การทำงานแบบ mode manual ไม่มีระบบตรวจสอบกรอบสี่เหลี่ยม (detect bounding box) ทำให้ผู้ใช้งานจะต้องสร้างกรอบสี่เหลี่ยม (bounding box) ขึ้นมาเอง
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{chapter2/images/openlabel.png}
+		\caption{UI ของโปรแกรม OpenLabeling}
+    	\label{fig:openlabel}
+\end{figure}
 
 
