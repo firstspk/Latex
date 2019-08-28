@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  28 AUG 2019 15:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  28 AUG 2019 16:02
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1516,7 +1516,7 @@ Overfull \hbox (11.58846pt too wide) in paragraph at lines 91--92
 [19]
 File: chapter2/images/CAM.png Graphic file (type bmp)
 <chapter2/images/CAM.png>
-) [20] (chapter2/optical_flow.tex
+) (chapter2/optical_flow.tex
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
 <chapter2/images/vector_optical.png>
 
@@ -1524,28 +1524,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--43
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 21--31
 
  []
 
-[21
 
-]) (chapter2/2steamCNN.tex
+Underfull \hbox (badness 10000) in paragraph at lines 32--44
+
+ []
+
+) [21
+
+] (chapter2/2steamCNN.tex
 File: chapter2/images/2steamCNN.png Graphic file (type bmp)
 <chapter2/images/2steamCNN.png>
 )
-Overfull \hbox (2.63611pt too wide) in paragraph at lines 8--25
+Overfull \hbox (2.63611pt too wide) in paragraph at lines 8--24
 []\TU/THSarabunNew(0)/m/n/12 Two-Steam CNN [][][] เป็น วิธี การ หนึ่ง ใน การ ทำ
  video classification โดย จะ แบ่ง ออก เป็น สอง กระบวนการ
  []
 
-) (chapter3/chapter3.tex [22]
+) (chapter3/chapter3.tex [22
+
+]
 บทที่ 3.
 [23
 

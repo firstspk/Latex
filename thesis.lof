@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces สถิติของชุดข้อมูลของ Moments in timel\relax }}{18}{figure.caption.32}% 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces เปรียบเทียบขอมูลระหว่าง Dataset\relax }}{18}{figure.caption.33}% 
 \contentsline {figure}{\numberline {2.15}{\ignorespaces ภาพที่ได้จากการทำ CAM และผลลัพท์ที่ได้จากการทำนายด้วยโมเดล resnet50-ImageNet\relax }}{20}{figure.caption.36}% 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces ตัวอย่างการเคลื่อนที่ของลูกบอล\relax }}{21}{figure.caption.37}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces ตัวอย่างการเคลื่อนที่ของลูกบอล\relax }}{20}{figure.caption.37}% 
 \contentsline {figure}{\numberline {2.17}{\ignorespaces แสดงโครงสร้างการทำงานของ two stream\relax }}{22}{figure.caption.38}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
