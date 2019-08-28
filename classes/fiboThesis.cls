@@ -32,6 +32,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{ifthen} %% สำหรับใช้ if-else
 
+\usepackage{amsmath}
 \usepackage{verbatim} %% สำหรับใส่ Code programming
 \usepackage{graphicx} %% สำหรับใส่ รูปภาพ
 \usepackage[hidelinks]{hyperref} %% สำหรับใส่ URL
