@@ -8,7 +8,7 @@
 	\item ภาพรวมของแอพพลิเคชั่น
 	\item รายละเอียดของโมเดล
 \end{itemize}
-\vspace{3mm}
+
 \section{หน้าที่ความรับผิดชอบ} 
 \paragraph*{ปฐมพงศ์ สินธุ์งาม}
 สร้างและทดสอบโมเดลจดจำการกระทำมนุษย์ I3D และออกแบบพร้อมทั้งสร้างระบบ Tracker
@@ -16,6 +16,40 @@
 รวบรวมฟังก์ชั่นต่างๆของแอพพลิเคชั่น และออกแบบพร้อมทั้งสร้างระบบแอพพลิเคชั่นในส่วน Selection และ Detection
 \paragraph*{อุกฤษฎ์ เลิศวรรณาการ}
 สร้างและทดสอบโมเดลจดจำการกระทำมนุษย์ Resnet-50 และออกแบบพร้อมทั้งสร้างระบบ Person ReID 
+
+
+\vspace{6mm}
+\section{เครื่องมือที่ใช้ในงานวิจัย} 
+\subsection*{Pycharm community รุ่น 2017.1.2} เป็นโปรแกรมไว้ใช้สำหรับเขียนและแก้ไขโค้ดซึ่งข้อดีของโปรแกรมนี้ คือ มี Feature ต่างๆเพื่ออำนวยความสะดวกในการเขียนโค้ด เช่น syntax highlighting , Auto-completion ฯลฯ  และสามารถนำมารันและทดสอบแอพพลิเคชั่นได้
+
+\subsection*{Jupyter รุ่น 2017.1.2} เป็นโปรแกรมไว้ใช้สำหรับเขียนและแก้ไขโค้ด แต่เหมาะสำหรับรันโมเดล หรือ โค้ดที่รันเป็น section แยกกัน ซึ่งการรันเป็น section มีข้อดีคือ หากมีการแก้ไขโปรแกรม ไม่จำเป็นต้องรันใหม่ทุกส่วนในโปรแกรม
+
+\subsection*{Qt Creator รุ่น 4.9.2 (Community)}
+เป็นเครื่องมือสำหรับออกแบบ หน้าต่าง UI ของ pyqt และ เซฟเเป็นไฟล์ .ui ซึ่งมีข้อดีคือ เรียกใช้ง่าย มี  widget ที่สามารถใช้ได้หลากหลายเหมาะสำหรับการออกแบบโปรโตไทป์
+
+
+\clearpage
+\section{ภาษาที่ใช้ในการพัฒนาระบบ} 
+	ใช้ภาษา python ในการพัฒนาเป็นหลัก เพราะ python เป็นภาษาที่ปัจจุบันมีการใช้กันอย่างแพร่ทำให้มี tools ที่อำนวยความสะดวกให้แก่การพัฒนา และยังเป็นภาษาที่สามารถเข้าใจได้ง่ายและไม่ซับซ้อนจนเกินไป โดยในการทำวิจัยครั้งนี้ได้เลือก python version 3.6.8 มาใช้ในการพัฒนา เนื่องจากเป็น version ที่รองรับการทำงานของ library tensorflow และ cuda version 9
+
+\vspace{3mm}
+\section{Library computer ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น} 
+\begin{enumerate}\setlength\itemsep{-0.3em}
+	\item numpy		\quad\quad\quad version 1.16.4	\quad library ใช้สำหรับการคำนวณและ array
+	\item pandas		\quad\quad\quad version 0.24.2	\quad library ใช้สำหรับการจัดการเกี่ยวกับ excel
+	\item opencv		\quad\quad \quad version 4.1.0.25	\quad library ใช้สำหรับการจัดการข้อมูลที่เป็นภาพ
+	\item pillow		\quad\quad\quad version 6.0.0		\quad library  ใช้สำหรับการจัดการข้อมูลที่เป็นภาพ
+	\item torchsummary	\quad version 1.5.1		\quad library ใช้สำหรับการทำ 
+	\item pytorch		\quad\quad\quad version 1.10.0	\quad library ใช้สำหรับการทำ AI
+	\item torchvision		\quad\quad version 0.3.0	 	\quad library ใช้สำหรับการทำ AI
+	\item scikit-learn	\quad\quad version 0.21.2	\quad library ใช้สำหรับการทำ AI
+	\item scipy			\quad\quad\quad\quad version 1.3.0		\quad library ใช้สำหรับการทำ AI
+	\item sklearn		\quad\quad\quad version 0.0		\quad library ใช้สำหรับการทำ AI
+	\item pickleshare	\quad\quad version 0.7.5		\quad library ใช้สำหรับการทำ encoding โมเดล
+	\item tqdm			\quad\quad\quad\quad version 4.32.1	\quad library ใช้สำหรับนับจำนวนการทำ loop
+	\item pyqt5		\quad\quad\quad\quad version 5.9.2		\quad library ใช้สำหรับการทำแอพพลิเคชั่น
+\end{enumerate}
+
 
 \vspace{3mm}
 \section{แผนการดำเนินงาน}
