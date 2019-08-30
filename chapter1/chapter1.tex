@@ -44,23 +44,61 @@
 \section{ภาพรวมของระบบและขั้นตอนการดำเนินงาน}
 งานวิจัยนี้การดำเนินงานวิจัยถูกแบ่งออกเป็นสองส่วน คือ ส่วนที่หนึ่งส่วนเครื่องมือสำหรับการเตรียมชุดข้อมูล (dataset) เป็นส่วนที่ทำเครื่องมือสำหรับช่วยผู้พัฒนาในการสร้างชุดข้อมูล และส่วนที่สองนำชุดข้อมูลไปสร้างโมเดล
 \subsection*{ศึกษาค้นคว้าเอกสารและงานวิจัยที่เกี่ยวข้อง}
-\begin{itemize}\setlength\itemsep{-0.3em}
+\begin{enumerate}\setlength\itemsep{-0.25em}
 	\item ศึกษาเกี่ยวกับการวิเคราะห์ผลวิดิโอ (video analytics)
 	\item ศึกษาเกี่ยวกับชุดข้อมูลสำหรับการวิเคราะห์ผลวิดิโอ
 	\item ศึกษาเกี่ยวกับโมเดลใช้ในการวิเคราะห์ผลวิดิโอ
 	\item ศึกษาเครื่องมือที่ใช้สำหรับช่วยสร้างชุดข้อมูล
-\end{itemize}
-\subsection*{1) ส่วนเครื่องมือสำหรับการเตรียมชุดข้อมูล (dataset)}
-\begin{itemize}\setlength\itemsep{-0.3em}
+\end{enumerate}
+\subsection*{ส่วนเครื่องมือสำหรับการเตรียมชุดข้อมูล (dataset)}
+\begin{enumerate}\setlength\itemsep{-0.25em}
 	\item ออกแบบหน้าต่างของแอพพลิเคชั่น
 	\item สร้างระบบของแอพพลิเคชั่น
 	\item ทดสอบการทำงานของแอพพลิเคชั่น
-\end{itemize}
+\end{enumerate}
 \subsection*{2) ส่วนนำชุดข้อมูลไปสร้างโมเดล}
-\begin{itemize}\setlength\itemsep{-0.3em}
+\begin{enumerate}\setlength\itemsep{-0.25em}
 	\item สร้างชุดข้อมูลสำหรับสร้างโมเดล
 	\item สร้างโมเดลสำหรับการทำนายการกระทำของมนุษย์
 	\item ทดสอบการทำงานของโมเดล
-\end{itemize}
+\end{enumerate}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Gantt chart}แผนการทำงานของคณะวิจัยจะแบ่งออกเป็น 3 ช่วง ซึ่งในแต่ละช่วงจะมี task ดังนี้
+\begin{enumerate}
+	\item Phase 1 :  ศึกษาข้อมูลเกี่ยวกับการทำวิเคราะห์วิดีโอ(video analytics) และเครื่องมือที่ใช้ในการทำโครงการวิจัย
+		\begin{enumerate}\setlength\itemsep{-0.25em}
+			\item task 1 	ศึกษา และ ทดลองใช้เทคนิคที่เกี่ยวข้องกับการวิเคราะห์วิดีโอ(video analytics)
+			\item task2	รวบรวมชุดข้อมูลสำหรับการทำ human action recognition
+		\end{enumerate}
+	\item Phase 2 :  สร้างและออกแบบแอพพลิเคชั่นโดยจะประกอบด้วยงานในส่วนหลักๆ คือ
+		\begin{enumerate}\setlength\itemsep{-0.25em}
+			\item task3	โมเดลสำหรับวิเคราะห์ผลการกระทำของมนุษย์
+			\item task4	หน้าต่าง UI
+		\end{enumerate}
+	\item Phase 3 : ปรับปรุงและแก้ไขปัญหา ทำให้แอพพลเคชั่นสามารถนำไปใช้งานได้จริง
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Milestones}จะมีการกำหนด milestones ทั้งหมด 3 ครั้ง คือ
+\begin{enumerate}
+	\item Milestone  1  วันที่ 12  มิถุนายน  2562
+		\begin{enumerate}\setlength\itemsep{-0.25em}
+			\item ศึกษางานวิจัยที่เกี่ยวข้องกับการวิเคราะห์วิดีโอ(video analytics) ต่าง ๆ  ได้แก่ Youtube-8M , Moment in time , AVA
+		\end{enumerate}
+	\item Milestone  2  วันที่ 14  สิงหาคม 2562
+		\begin{enumerate}\setlength\itemsep{-0.25em}
+			\item สร้างหน้าต่าง UI ครบสมบูรณ์
+			\item ความคืบหน้าของโมเดลมากกว่า 50 \%-symbol
+			\item ฟังก์ชั่นการทำงานของแอพพลิเคชั่นสามารถทำงานได้มากกว่า 50 \%-symbol
+		\end{enumerate}
+	\item Milestone  3  วันที่ 15  ตุลาคม 2562
+		\begin{enumerate}\setlength\itemsep{-0.25em}
+			\item นาย ปฐมพงศ์ สินธุ์งาม \\หน้าที่รับผิดชอบ สร้างและทดสอบโมเดล I3D และ ทำโปรแกรมในส่วน Tracking
+			\item นาย ศุภกร เบญจวิกรัย \\หน้าที่รับผิดชอบ รวบรวมฟังก์ชั่นต่างๆของแอพพลิเคชั่น และ ทำแอพพลิคชั่นในส่วน Select, Detection
+			\item นาย อุกฤษฎ์ เลิศวรรณาการ \\หน้าที่รับผิดชอบ สร้างและทดสอบโมเดล Resnet-50และทำโปรแกรมในส่วน Person reid 
+		\end{enumerate}
+\end{enumerate}
+
+
+
