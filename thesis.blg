@@ -1,0 +1,25 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+The style file: plain.bst
+Database file #1: pages/reference.bib
+Warning--entry type for "DAR15" isn't style-file defined
+--line 52 of file pages/reference.bib
+Warning--entry type for "Ant16" isn't style-file defined
+--line 61 of file pages/reference.bib
+Warning--entry type for "Ant161" isn't style-file defined
+--line 81 of file pages/reference.bib
+Warning--entry type for "the17" isn't style-file defined
+--line 91 of file pages/reference.bib
+Warning--entry type for "Hum70" isn't style-file defined
+--line 115 of file pages/reference.bib
+Warning--entry type for "Dis" isn't style-file defined
+--line 124 of file pages/reference.bib
+Warning--entry type for "DAR10" isn't style-file defined
+--line 131 of file pages/reference.bib
+Warning--to sort, need author or key in Hum70
+Warning--to sort, need author or key in Dis
+Warning--to sort, need author or key in DAR10
+Warning--empty journal in einstein
+Warning--empty journal in Sew95
+Warning--empty journal in NgB10
+Warning--empty journal in Hay15
+(There were 14 warnings)

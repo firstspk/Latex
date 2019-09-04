@@ -1,0 +1,33 @@
+\BOOKMARK [0][-]{chapter*.1}{บทคัดย่อ}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{กิตติกรรมประกาศ}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{สารบัญ}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{รายการรูปภาพ}{}% 4
+\BOOKMARK [0][-]{chapter*.9}{รายการตาราง}{}% 5
+\BOOKMARK [0][-]{chapter*.10}{รายการสัญลักษณ์}{}% 6
+\BOOKMARK [0][-]{chapter*.11}{ประมวลศัพท์และตัวย่อ}{}% 7
+\BOOKMARK [0][-]{chapter.1}{บทนำ}{}% 8
+\BOOKMARK [1][-]{section.1.1}{ที่มาและความสำคัญ}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{วัตถุประสงค์}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{ประโยชน์ที่คาดว่าจะได้รับ}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.4}{ขอบเขตการดำเนินงาน}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.5}{ภาพรวมของระบบและขั้นตอนการดำเนินงาน}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.6}{Gantt\040chart}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.7}{Milestones}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Labeling\040tools}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{Dataset}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Optical\040flow}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.4}{Two-Steam\040CNN}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{ระเบียบวิธีวิจัย}{}% 21
+\BOOKMARK [1][-]{section.3.1}{หน้าที่ความรับผิดชอบ}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{เครื่องมือที่ใช้ในงานวิจัย}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{ภาษาที่ใช้ในการพัฒนาระบบ}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.4}{Library computer ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.5}{แผนการดำเนินงาน}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.6}{การออกแบบแอพพลิเคชั่น labeling tool}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.6.1}{แอพพลิเคชั่น labeling tool}{section.3.6}% 28
+\BOOKMARK [1][-]{section.3.7}{การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter*.44}{เอกสารอ้างอิง}{}% 30
+\BOOKMARK [0][-]{appendix.A}{ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{}% 31
+\BOOKMARK [1][-]{section.A.1}{ค่าคุณสมบัติทางพลศาสตร์}{appendix.A}% 32
+\BOOKMARK [0][-]{appendix*.71}{ประวัติผู้เขียน}{}% 33
