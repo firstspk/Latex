@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{Dis}
+Discover nao.
+
+\bibitem{humanoid_genetic}
+นายชาญชัย ชัยสุขโกศล.
+\newblock {\em
+  การสังเคราะห์โปรแกรมควบคุมหุ่นยนต์เดินสองขา
+  แบบสมดุลสถิตโดยอัตโนมัติ
+  ด้วยการคำนวณเชิงวิวัฒน์}.
+\newblock
+  \url{http://ezproxy.car.chula.ac.th:2074/bitstream/123456789/11758/1/chanchai.pdf},
+  2544.
+
+\bibitem{humanoid_design_and_walking}
+นายปรีดา เลิศพงศ์วิภูษณะ.
+\newblock {\em
+  การออกแบบและสร้างหุ่นยนต์สองขาและการสังเคราะห์โปรแกรมการเดิน}.
+\newblock
+  \url{http://ezproxy.car.chula.ac.th:2074/bitstream/123456789/6246/1/Preeda.pdf},
+  2546.
+
+\bibitem{walkgen_from_imageprocessing}
+ยศวีย์ แก้วมณี.
+\newblock {\em
+  การสร้างรูปแบบการเดินส่วนขาของหุ่นยนต์คล้ายมนุษย์โดยเลียนแบบจากภาพท่าทางของมนุษย์}.
+\newblock \url{http://kb.psu.ac.th/psukb/bitstream/2010/5569/1/307650.pdf},
+  2552.
+
+\bibitem{teleop_humanoid}
+นส.สุณัฏฐา จริยาวัฒนากุล.
+\newblock {\em
+  การควบคุมหุ่นยนต์เซมิฮิวมานอยด์ระยะไกล}.
+\newblock doi.nrct.go.th, 2556.
+
+\bibitem{Hum70}
+Humanoid history - wabot-, 9 1970.
+
+\bibitem{DAR10}
+Darwin-op, 9 2010.
+
+\bibitem{Ant161}
+Antoine~Petit Chairman.
+\newblock Poppy-project, 9 2016.
+
+\bibitem{Ant16}
+Antoine~Petit Chairman and CEO of~Inria.
+\newblock Poppy-project, 9 2016.
+
+\bibitem{einstein}
+Albert Einstein.
+\newblock Zur elektrodynamik bewegter k{\"o}rper. (german) [on the
+  electrodynamics of moving bodies].
+\newblock 322(10):891--921, 1905.
+
+\bibitem{latexcompanion}
+Michel Goossens, Frank Mittelbach, and Alexander Samarin.
+\newblock {\em The \LaTeX\ Companion}.
+\newblock Addison-Wesley, 1993.
+
+\bibitem{Sew95}
+Seward D.W. A. Bradshaw~F. Margrave.
+\newblock The anatomy of a humanoid robot.
+\newblock pages 437--443, 1995.
+
+\bibitem{DAR15}
+None.
+\newblock Darpa web site, June 2015.
+
+\bibitem{NgB10}
+Ng~Buck Sin.
+\newblock Robo-erectus tr-2010 teensize team description paper.
+\newblock 2010.
+
+\bibitem{the17}
+Consortium the RobotCub.
+\newblock icub.org - an opensource cognitive humanoid robotic platform, 9 2017.
+
+\bibitem{Hay15}
+Hayashibara Yasuo.
+\newblock Cit brains (kid size league).
+\newblock 2015.
+
+\end{thebibliography}

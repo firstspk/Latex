@@ -1,0 +1,44 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+{\vskip -10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces UI ของโปรแกรม DarkLabel\relax }}{4}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces UI ของโปรแกรม OpenLabeling\relax }}{5}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ตัวอย่าง catagories ต่างๆของ YouTube-8M\relax }}{6}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ขั้นตอนกระบวนการการลดขนาดของชุดข้อมูลให้สามารถใช้งานได้ง่ายยิ่งขึ้น\relax }}{7}{figure.caption.16}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces โครงสร้างของโมเดล DBoF\relax }}{8}{figure.caption.17}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces (ซ้าย) โครงสร้างจาก Beyond Short Snippets: Deep Networks for Video Classification, (ขวา) ส่วนที่สามารถใช้งานกับ YouTube-8M ได้\relax }}{9}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ด้านซ้าย แสดงการสุ่มตัวอย่าง (sampling)วิดีโอ เป็นคีย์เฟรม(keyframes) , ด้านขวา แสดงคีย์เฟรม (keyframes) ที่ถูก labels ซึ่งเป็น Multiple label annotation\relax }}{12}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces แสดงขั้นตอนการทำงานของการเก็บข้อมูลทำชุดข้อมูล\relax }}{12}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces แสดง interface สำหรับสร้าง action label\relax }}{14}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces แสดง interface สำหรับสร้าง action label\relax }}{15}{figure.caption.25}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces ตัวอย่างของวิดีโอ class เดียวกันไม่จำเป็นต้องเป็น agents เดียวกัน\relax }}{17}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces User interface ของโปรแกรมทำ label\relax }}{18}{figure.caption.30}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces สถิติของชุดข้อมูลของ Moments in timel\relax }}{19}{figure.caption.31}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces เปรียบเทียบขอมูลระหว่าง Dataset\relax }}{19}{figure.caption.32}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces ภาพที่ได้จากการทำ CAM และผลลัพท์ที่ได้จากการทำนายด้วยโมเดล resnet50-ImageNet\relax }}{21}{figure.caption.35}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces ตัวอย่างการเคลื่อนที่ของลูกบอล\relax }}{21}{figure.caption.36}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces แสดงโครงสร้างการทำงานของ two stream\relax }}{23}{figure.caption.37}% 
+\addvspace {10\p@ }
+{\vskip -10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ภาพรวมระบบของแอพพลิเคชั่น labeling tool\relax }}{26}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces หน้าต่างหน้าต่าง Select ของแอพพลิเคชั่น labeling tool\relax }}{27}{figure.caption.39}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Select\relax }}{28}{figure.caption.40}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces หน้าต่าง Detect ของแอพพลิเคชั่น labeling tool\relax }}{29}{figure.caption.41}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Detect\relax }}{30}{figure.caption.42}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces หน้าต่าง Track ของแอพพลิเคชั่น labeling tool\relax }}{31}{figure.caption.43}% 
+\addvspace {10\p@ }
+{\vskip -10pt}
+\contentsline {figure}{\numberline {ก.1}{\ignorespaces ภาพแสดงช่วงล่างทั้งตัว\relax }}{34}{figure.caption.45}% 
+\contentsline {figure}{\numberline {ก.2}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Yaw\relax }}{35}{figure.caption.47}% 
+\contentsline {figure}{\numberline {ก.3}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Yaw\relax }}{36}{figure.caption.49}% 
+\contentsline {figure}{\numberline {ก.4}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Roll\relax }}{37}{figure.caption.51}% 
+\contentsline {figure}{\numberline {ก.5}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Roll\relax }}{38}{figure.caption.53}% 
+\contentsline {figure}{\numberline {ก.6}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Pitch\relax }}{39}{figure.caption.55}% 
+\contentsline {figure}{\numberline {ก.7}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Pitch\relax }}{40}{figure.caption.57}% 
+\contentsline {figure}{\numberline {ก.8}{\ignorespaces ภาพแสดงก้านต่อ Right Knee Pitch\relax }}{41}{figure.caption.59}% 
+\contentsline {figure}{\numberline {ก.9}{\ignorespaces ภาพแสดงก้านต่อ Left Knee Pitch\relax }}{42}{figure.caption.61}% 
+\contentsline {figure}{\numberline {ก.10}{\ignorespaces ภาพแสดงก้านต่อ Right Ankle Pitch\relax }}{43}{figure.caption.63}% 
+\contentsline {figure}{\numberline {ก.11}{\ignorespaces ภาพแสดงก้านต่อ Left Ankle Pitch\relax }}{44}{figure.caption.65}% 
+\contentsline {figure}{\numberline {ก.12}{\ignorespaces ภาพแสดงก้านต่อ Right Ankle Roll\relax }}{45}{figure.caption.67}% 
+\contentsline {figure}{\numberline {ก.13}{\ignorespaces ภาพแสดงก้านต่อ Left Ankle Roll\relax }}{46}{figure.caption.69}% 
+\contentsfinish 
