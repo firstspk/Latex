@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  5 SEP 2019 22:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  5 SEP 2019 23:08
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -848,6 +848,9 @@ LaTeX Warning: Label `tab: transfer learning' multiply defined.
 
 LaTeX Warning: Label `tab: transfer learning ActivityNet' multiply defined.
 
+
+LaTeX Warning: Label `fig:result_track' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -1298,7 +1301,68 @@ File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
 ) [35
 
-]) (thesis.bbl [36
+]) (chapter4/chapter4.tex [36
+
+]
+บทที่ 4.
+(chapter4/labeling_tool.tex
+File: chapter4/images/Final_ui/Select.jpg Graphic file (type bmp)
+<chapter4/images/Final_ui/Select.jpg>
+
+
+LaTeX Warning: Reference `fig:' on page 37 undefined on input line 8.
+
+[37
+
+]
+File: chapter4/images/Final_ui/Detect.jpg Graphic file (type bmp)
+<chapter4/images/Final_ui/Detect.jpg>
+
+
+LaTeX Warning: Reference `fig:' on page 38 undefined on input line 26.
+
+[38
+
+]
+File: chapter4/images/Final_ui/Track.jpg Graphic file (type bmp)
+<chapter4/images/Final_ui/Track.jpg>
+
+
+LaTeX Warning: Reference `fig:' on page 39 undefined on input line 41.
+
+[39
+
+]
+File: chapter4/images/Final_ui/Label.jpg Graphic file (type bmp)
+<chapter4/images/Final_ui/Label.jpg>
+
+
+LaTeX Warning: Reference `fig:' on page 40 undefined on input line 58.
+
+[40
+
+]
+File: chapter4/images/Result/result_select3.jpg Graphic file (type bmp)
+<chapter4/images/Result/result_select3.jpg>
+File: chapter4/images/Result/result_select4.jpg Graphic file (type bmp)
+<chapter4/images/Result/result_select4.jpg>
+ [41
+
+]
+File: chapter4/images/Result/result_select6.jpg Graphic file (type bmp)
+<chapter4/images/Result/result_select6.jpg>
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 13.46844pt on input line 86.
+File: chapter4/images/Result/result_select7.jpg Graphic file (type bmp)
+<chapter4/images/Result/result_select7.jpg>
+ [42
+
+]
+File: chapter4/images/Result/result_select.jpg Graphic file (type bmp)
+<chapter4/images/Result/result_select.jpg>
+File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
+<chapter4/images/Result/result_select9.jpg>
+)) (thesis.bbl [43
 
 ]
 
@@ -1309,12 +1373,12 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 18.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 9.83997pt on input line 59.
-) [37
+) [44
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [37
+ (appendix/appendix1.tex [44
 
 
 ]
@@ -1322,85 +1386,83 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (appendix/dynamic_prop.tex
 File: appendix/images/uthai_dynamic_all.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_all.jpeg>
- [38
+ [45
 
 ]
 File: appendix/images/uthai_dynamic_rhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhy.jpeg>
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 13.46844pt on input line 84.
- [39
+ [46
 
 ]
 File: appendix/images/uthai_dynamic_lhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhy.jpeg>
- [40
+ [47
 
 ]
 File: appendix/images/uthai_dynamic_rhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhr.jpeg>
- [41
+ [48
 
 ]
 File: appendix/images/uthai_dynamic_lhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhr.jpeg>
- [42
+ [49
 
 ]
 File: appendix/images/uthai_dynamic_rhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhp.jpeg>
- [43
+ [50
 
 ]
 File: appendix/images/uthai_dynamic_lhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhp.jpeg>
- [44
+ [51
 
 ]
 File: appendix/images/uthai_dynamic_rkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rkp.jpeg>
- [45
+ [52
 
 ]
 File: appendix/images/uthai_dynamic_lkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lkp.jpeg>
- [46
+ [53
 
 ]
 File: appendix/images/uthai_dynamic_rap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rap.jpeg>
- [47
+ [54
 
 ]
 File: appendix/images/uthai_dynamic_lap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lap.jpeg>
- [48
+ [55
 
 ]
 File: appendix/images/uthai_dynamic_rar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rar.jpeg>
- [49
+ [56
 
 ]
 File: appendix/images/uthai_dynamic_lar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lar.jpeg>
-)) (pages/vitea.tex [50
+)) (pages/vitea.tex [57
 
 ]
 File: pages/images/jirad.jpg Graphic file (type bmp)
 <pages/images/jirad.jpg>
- [51
+ [58
 
 
 ]
 File: pages/images/taa.jpg Graphic file (type bmp)
 <pages/images/taa.jpg>
- [52
+ [59
 
 ]
 File: pages/images/wuttipat.jpg Graphic file (type bmp)
 <pages/images/wuttipat.jpg>
-) [53
+) [60
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1409,10 +1471,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 91C109DC95943599B081C0ABD71E2477.
+(rerunfilecheck)             Checksum: 29157895EFCC853C3E0971DEAB00923C.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1420,12 +1485,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38091 strings out of 427669
- 757834 string characters out of 3149215
+ 38151 strings out of 427669
+ 759600 string characters out of 3149215
  1035269 words of memory out of 3000000
- 41612 multiletter control sequences out of 15000+200000
+ 41654 multiletter control sequences out of 15000+200000
  536698 words of font info for 56 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,83p,1068b,639s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,83p,1068b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (67 pages, 1201968 bytes).
+Output written on thesis.xdv (74 pages, 1300152 bytes).
