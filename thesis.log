@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 SEP 2019 11:06
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 SEP 2019 11:47
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1244,12 +1244,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
 
 ]
-Overfull \hbox (3.46233pt too wide) in alignment at lines 4--16
+Overfull \hbox (54.68172pt too wide) in alignment at lines 4--18
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--17
+Underfull \hbox (badness 10000) in paragraph at lines 3--19
 
  []
 
