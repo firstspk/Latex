@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  5 SEP 2019 23:08
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 SEP 2019 12:29
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1098,6 +1098,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--17
 
 ] (chapter1/chapter1.tex
 บทที่ 1.
+
+Overfull \hbox (5.8453pt too wide) in paragraph at lines 31--32
+[]\TU/THSarabunNew(0)/bx/n/12 ออกแบบ และ สร้าง ต้นแบบ ของ แพลตฟอร์ม วิเคราะห์ การก ระ ทำ มนุษย์ โดย งาน วิจัย นี้ จะ มุ่ง เน้น การ ประมวล
+ []
+
 [1
 
 
@@ -1493,4 +1498,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,12n,83p,1068b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (74 pages, 1300152 bytes).
+Output written on thesis.xdv (74 pages, 1302872 bytes).
