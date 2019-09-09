@@ -1,7 +1,7 @@
 \subsection*{หน้าต่าง Select}
 \begin{figure}[!ht]
   \centering
-    \includegraphics[scale=0.65]{chapter4/images/Final_ui/Select.jpg}
+    \includegraphics[scale=0.4]{chapter4/images/Final_ui/Select.jpg}
     \caption{รูปหน้าต่างแสดงผลของหน้าต่าง Select}
     \label{fig:final_select}
 \end{figure}
@@ -19,7 +19,7 @@
 \subsection*{หน้าต่าง Detect}
 \begin{figure}[!ht]
   \centering
-    \includegraphics[scale=0.65]{chapter4/images/Final_ui/Detect.jpg}
+    \includegraphics[scale=0.4]{chapter4/images/Final_ui/Detect.jpg}
     \caption{รูปหน้าต่างแสดงผลของหน้าต่าง Detect}
     \label{fig:final_detect}
 \end{figure}
@@ -34,7 +34,7 @@
 \subsection*{หน้าต่าง Track}
 \begin{figure}[!ht]
   \centering
-    \includegraphics[scale=0.65]{chapter4/images/Final_ui/Track.jpg}
+    \includegraphics[scale=0.4]{chapter4/images/Final_ui/Track.jpg}
     \caption{รูปหน้าต่างแสดงผลของหน้าต่าง Track}
     \label{fig:final_track}
 \end{figure}
@@ -51,11 +51,19 @@
 \subsection*{หน้าต่าง Label}
 \begin{figure}[!ht]
   \centering
-    \includegraphics[scale=0.65]{chapter4/images/Final_ui/Label.jpg}
+    \includegraphics[scale=0.4]{chapter4/images/Final_ui/Label.jpg}
     \caption{รูปหน้าต่างแสดงผลของหน้าต่าง Label}
     \label{fig:final_label}
 \end{figure}
 จากรูปที่ \ref{fig:final_label} แสดงหน้าต่าง Label ของแอพพลิเคชั่น ซึ่งเมื่อเทียบกันกับหน้าต่าง Label ในฉบับร่าง (\ref{fig:}) จะมีส่วนที่เพิ่มเติมขึ้นมาดังนี้
+\begin{enumerate}
+	\item ปรับหน้าตาโหมดการทำงานแบบอัตโนมัติและกำหนดเองจากฉบับร่างเพื่อให้สามารถใช้งานได้สะดวกขึ้น
+	\item เพิ่มแถบเลื่อน เป็น 2 แถบเลื่อนทำให้สามารถดูคีย์เฟรมและเฟรมที่อยู่ระหว่างช่วงคีย์เฟรมได้สะดวกขึ้น
+	\item เครื่องมือสำหรับค้นหาหรือเพิ่มหมวดหมู่ของการกระทำ
+	\item แถบแสดงสถานะกระบวนการทำงาน
+	\item ปุ่มสำหรับเริ่มต้นการทำงานใหม่ 
+	\item แถบสำหรับคำแนะนำช่วยเหลือ
+\end{enumerate}		
 
 \clearpage
 \subsection{ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}
@@ -67,6 +75,7 @@
     \label{fig:result_select}
 \end{figure}
 ขั้นตอนแรกแอพพลิเคชั่นจะสกัดแยกวิดิโอออกเป็นเฟรมทั้งหมด และ ทำการสุ่มคีย์เฟรมออกมาตามความถี่ที่ผู้ใช้ตั้งไว้ จากนั้นแอพพลิเคชั่นจะนำโมเดล yolo-v3 มาตรวจสอบว่าแต่ละคีย์เฟรมมีเฟรมใดบ้างที่มีมนุษย์อยู่ภายในเฟรม จากนั้นจะทำการแยกเฟรมที่มีมนุษย์อยู่ และ ไม่มีมนุษย์อยู่ ดังรูป \ref{fig:result_select}
+
 
 \subsection*{ผลลัพท์การทำงานของหน้าต่าง Detect}
 \begin{figure}[!ht]

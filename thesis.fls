@@ -367,6 +367,9 @@ INPUT chapter2\images\CAM.png
 INPUT chapter2\optical_flow.tex
 INPUT chapter2\optical_flow.tex
 INPUT chapter2\images\vector_optical.png
+INPUT chapter2\tracking.tex
+INPUT chapter2\tracking.tex
+INPUT chapter2\images\track-concept.png
 INPUT chapter2\2steamCNN.tex
 INPUT chapter2\2steamCNN.tex
 INPUT chapter2\images\2steamCNN.png

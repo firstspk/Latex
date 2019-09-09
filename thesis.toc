@@ -9,37 +9,38 @@
 \contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}ประโยชน์ที่คาดว่าจะได้รับ}{1}{section.1.3}% 
-\contentsline {section}{\numberline {1.4}ขอบเขตการดำเนินงาน}{2}{section.1.4}% 
-\contentsline {section}{\numberline {1.5}ภาพรวมของระบบและขั้นตอนการดำเนินงาน}{2}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}Gantt chart}{3}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Milestones}{3}{section.1.7}% 
-\contentsline {chapter}{\numberline {2}ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{4}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Labeling tools}{4}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Dataset}{6}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Optical flow}{21}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Two-Steam CNN}{23}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{24}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}หน้าที่ความรับผิดชอบ}{24}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}เครื่องมือที่ใช้ในงานวิจัย}{24}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}ภาษาที่ใช้ในการพัฒนาระบบ}{25}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{25}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}แผนการดำเนินงาน}{25}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}การออกแบบแอพพลิเคชั่น labeling tool}{26}{section.3.6}% 
-\contentsline {subsection}{\numberline {3.6.1}แอพพลิเคชั่น labeling tool}{26}{subsection.3.6.1}% 
-\contentsline {subsubsection}{\numberline {3.6.1.1}Select}{27}{subsubsection.3.6.1.1}% 
-\contentsline {subsubsection}{\numberline {3.6.1.2}Detect}{29}{subsubsection.3.6.1.2}% 
-\contentsline {subsubsection}{\numberline {3.6.1.3}Track}{31}{subsubsection.3.6.1.3}% 
-\contentsline {subsubsection}{\numberline {3.6.1.4}Action label}{33}{subsubsection.3.6.1.4}% 
-\contentsline {subsubsection}{\numberline {3.6.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{35}{subsubsection.3.6.1.5}% 
-\contentsline {section}{\numberline {3.7}การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{36}{section.3.7}% 
-\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{37}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Labeling tool}{37}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{37}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{41}{subsection.4.1.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{44}{chapter*.56}% 
+\contentsline {section}{\numberline {1.4}ขอบเขตการดำเนินงาน}{3}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}ภาพรวมของระบบและขั้นตอนการดำเนินงาน}{3}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Gantt chart}{4}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Milestones}{4}{section.1.7}% 
+\contentsline {chapter}{\numberline {2}ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Labeling tools}{5}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}ชุดข้อมูล}{7}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Optical flow}{22}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Tracking}{24}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Two-Steam CNN}{25}{section.2.5}% 
+\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{26}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}หน้าที่ความรับผิดชอบ}{26}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}เครื่องมือที่ใช้ในงานวิจัย}{26}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}ภาษาที่ใช้ในการพัฒนาระบบ}{27}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{27}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}แผนการดำเนินงาน}{27}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}การออกแบบแอพพลิเคชั่น labeling tool}{28}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}แอพพลิเคชั่น labeling tool}{28}{subsection.3.6.1}% 
+\contentsline {subsubsection}{\numberline {3.6.1.1}Select}{29}{subsubsection.3.6.1.1}% 
+\contentsline {subsubsection}{\numberline {3.6.1.2}Detect}{31}{subsubsection.3.6.1.2}% 
+\contentsline {subsubsection}{\numberline {3.6.1.3}Track}{33}{subsubsection.3.6.1.3}% 
+\contentsline {subsubsection}{\numberline {3.6.1.4}Action label}{35}{subsubsection.3.6.1.4}% 
+\contentsline {subsubsection}{\numberline {3.6.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{37}{subsubsection.3.6.1.5}% 
+\contentsline {section}{\numberline {3.7}การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{38}{section.3.7}% 
+\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{39}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Labeling tool}{39}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{39}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{43}{subsection.4.1.2}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{46}{chapter*.57}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{45}{appendix.A}% 
-\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{45}{section.A.1}% 
-\contentsline {chapter}{ประวัติผู้เขียน}{58}{appendix*.83}% 
+\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{47}{appendix.A}% 
+\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{47}{section.A.1}% 
+\contentsline {chapter}{ประวัติผู้เขียน}{60}{appendix*.84}% 
 \contentsfinish 
