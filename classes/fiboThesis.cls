@@ -20,18 +20,15 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% THAI Font %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{fontspec}
-\XeTeXlinebreaklocale "th_TH"
-\XeTeXlinebreakskip = 0pt plus 1pt
-\defaultfontfeatures{Scale=1.23,Mapping=tex-text}
-\setmainfont[Mapping=tex-text]{TH Sarabun New}
-\renewcommand\baselinestretch{1.2}
-\setlength{\parindent}{10mm}
-\setlength{\parskip}{1ex}
-\setlength{\baselineskip}{1.25em}
+\setmainfont{TH SarabunPSK}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{ifthen} %% สำหรับใช้ if-else
 
+\usepackage{array}
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
 \usepackage{amsmath} %% ใช้เขียนสมการ
 \usepackage{verbatim} %% สำหรับใส่ Code programming
 \usepackage{graphicx} %% สำหรับใส่ รูปภาพ
