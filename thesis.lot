@@ -1,15 +1,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces ข้อมูลเชิงสถิติของ YouTube-8M\relax }}{9}{table.caption.15}% 
-\contentsline {table}{\numberline {2.2}{\ignorespaces ประสิทธิภาพของโมเดลที่สร้างจาก YouTube-8M ด้วยวิธีต่างๆตามหัวข้อที่ 1 และ 2 โดยแถวที่ 1 คือ frame-level โมเดลและแถวที่ 2 คือ video-level โมเดล\relax }}{13}{table.caption.19}% 
-\contentsline {table}{\numberline {2.3}{\ignorespaces ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล Sports-1M โดยใช้ video-level presentation\relax }}{14}{table.caption.20}% 
-\contentsline {table}{\numberline {2.4}{\ignorespaces ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล ActivityNet โดยใช้ video-level presentation\relax }}{14}{table.caption.21}% 
-\contentsline {table}{\numberline {2.5}{\ignorespaces ผลการทดลองของวิธีต่างๆบน Frame Level\relax }}{18}{table.caption.26}% 
-\contentsline {table}{\numberline {2.6}{\ignorespaces ผลการทดลองของวิธีต่างๆบน Video Level\relax }}{19}{table.caption.27}% 
-\contentsline {table}{\numberline {2.7}{\ignorespaces ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล ActivityNet โดยใช้ video-level presentation\relax }}{19}{table.caption.28}% 
-\contentsline {table}{\numberline {2.8}{\ignorespaces Classification accuracy ของ TOP-1 และ TOP-5\relax }}{23}{table.caption.33}% 
-\contentsline {table}{\numberline {2.9}{\ignorespaces Data transfer performance ของโมเดล Resnet50 I3D\relax }}{23}{table.caption.34}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces ข้อมูลเชิงสถิติของ YouTube-8M\relax }}{11}{table.caption.16}% 
+\contentsline {table}{\numberline {2.2}{\ignorespaces ประสิทธิภาพของโมเดลที่สร้างจาก YouTube-8M ด้วยวิธีต่างๆตามหัวข้อที่ 1 และ 2 โดยแถวที่ 1 คือ frame-level โมเดลและแถวที่ 2 คือ video-level โมเดล\relax }}{15}{table.caption.20}% 
+\contentsline {table}{\numberline {2.3}{\ignorespaces ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล Sports-1M โดยใช้ video-level presentation\relax }}{16}{table.caption.21}% 
+\contentsline {table}{\numberline {2.4}{\ignorespaces ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล ActivityNet โดยใช้ video-level presentation\relax }}{16}{table.caption.22}% 
+\contentsline {table}{\numberline {2.5}{\ignorespaces ผลการทดลองของวิธีต่างๆบน Frame Level\relax }}{20}{table.caption.27}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces ผลการทดลองของวิธีต่างๆบน Video Level\relax }}{21}{table.caption.28}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล ActivityNet โดยใช้ video-level presentation\relax }}{21}{table.caption.29}% 
+\contentsline {table}{\numberline {2.8}{\ignorespaces Classification accuracy ของ TOP-1 และ TOP-5\relax }}{25}{table.caption.34}% 
+\contentsline {table}{\numberline {2.9}{\ignorespaces Data transfer performance ของโมเดล Resnet50 I3D\relax }}{25}{table.caption.35}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
