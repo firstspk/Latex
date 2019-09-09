@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  9 SEP 2019 15:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  9 SEP 2019 15:44
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1140,9 +1140,6 @@ LaTeX Warning: Label `tab: transfer learning' multiply defined.
 LaTeX Warning: Label `tab: transfer learning ActivityNet' multiply defined.
 
 
-LaTeX Warning: Label `fig:Track concept' multiply defined.
-
-
 LaTeX Warning: Label `fig:labeling_overview' multiply defined.
 
 
@@ -1432,12 +1429,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
@@ -1809,15 +1806,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 89DC9AA206225662EAEFAD29EEDC3EA4.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 382D5150EEA19FCA87142672C7976236
-(rerunfilecheck)             After:  89DC9AA206225662EAEFAD29EEDC3EA4.
 
 LaTeX Warning: There were undefined references.
 
