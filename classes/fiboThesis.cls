@@ -20,7 +20,14 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% THAI Font %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{fontspec}
-\setmainfont{TH SarabunPSK}
+\XeTeXlinebreaklocale "th_TH"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\defaultfontfeatures{Scale=1.23,Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{TH Sarabun New}
+\renewcommand\baselinestretch{1.2}
+\setlength{\parindent}{10mm}
+\setlength{\parskip}{1ex}
+\setlength{\baselineskip}{1.25em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{ifthen} %% สำหรับใช้ if-else

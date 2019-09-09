@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 SEP 2019 13:54
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  9 SEP 2019 14:42
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -246,20 +246,29 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 14.75995pt on input line 27.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen138
+\ar@mcellbox=\box46
+\extrarowheight=\dimen139
+\NC@list=\toks14
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box47
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks14
-\ex@=\dimen138
+\@emptytoks=\toks15
+\ex@=\dimen140
 )) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen139
+\pmbraise@=\dimen141
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -273,9 +282,9 @@ LaTeX Info: Redefining \overline on input line 385.
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box46
-\strutbox@=\box47
-\big@size=\dimen140
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count195
@@ -283,33 +292,33 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \dotsspace@=\muskip16
 \c@parentequation=\count197
 \dspbrk@lvl=\count198
-\tag@help=\toks15
+\tag@help=\toks16
 \row@=\count199
 \column@=\count266
 \maxfields@=\count267
-\andhelp@=\toks16
-\eqnshift@=\dimen141
-\alignsep@=\dimen142
-\tagshift@=\dimen143
-\tagwidth@=\dimen144
-\totwidth@=\dimen145
-\lineht@=\dimen146
-\@envbody=\toks17
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks18
+\andhelp@=\toks17
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks18
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks19
-\verbatim@line=\toks20
+\every@verbatim=\toks20
+\verbatim@line=\toks21
 \verbatim@in@stream=\read2
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
  ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
@@ -321,8 +330,8 @@ Package graphics Info: Driver file: xetex.def on input line 99.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\xetex.def"
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
 Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
  ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
@@ -368,7 +377,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen149
+\@linkdim=\dimen151
 \Hy@linkcounter=\count268
 \Hy@pagecounter=\count269
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
@@ -391,10 +400,10 @@ Package hyperref Info: Bookmarks ON on input line 4803.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen150
+\XeTeXLinkMargin=\dimen152
 \Fld@menulength=\count272
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
 Package hyperref Info: Hyper figures OFF on input line 6411.
 Package hyperref Info: Link nesting OFF on input line 6416.
 Package hyperref Info: Hyper index ON on input line 6419.
@@ -416,7 +425,7 @@ File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\stringenc.sty"
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
 )
-\pdfm@box=\box48
+\pdfm@box=\box50
 \c@Hy@AnnotLevel=\count276
 \HyField@AnnotCount=\count277
 \Fld@listcount=\count278
@@ -425,33 +434,33 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip52
+\Hy@SectionHShift=\skip54
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/enumitem\enumitem.sty"
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip53
-\enit@outerparindent=\dimen153
-\enit@toks=\toks22
-\enit@inbox=\box49
+\labelindent=\skip55
+\enit@outerparindent=\dimen155
+\enit@toks=\toks23
+\enit@inbox=\box51
 \enit@count@id=\count280
 \enitdp@description=\count281
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip54
+\multirow@colwidth=\skip56
 \multirow@cntb=\count282
-\multirow@dima=\skip55
-\bigstrutjot=\dimen154
+\multirow@dima=\skip57
+\bigstrutjot=\dimen156
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
  ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen155
-\captionmargin@=\dimen156
-\captionwidth=\dimen157
-\caption@tempdima=\dimen158
-\caption@indent=\dimen159
-\caption@parindent=\dimen160
-\caption@hangindent=\dimen161
+\captionmargin=\dimen157
+\captionmargin@=\dimen158
+\captionwidth=\dimen159
+\caption@tempdima=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
 )
 \c@caption@flags=\count283
 \c@ContinuedFloat=\count284
@@ -467,46 +476,46 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@cnth=\count287
 \Gm@cntv=\count288
 \c@Gm@tempcnt=\count289
-\Gm@bindingoffset=\dimen162
-\Gm@wd@mp=\dimen163
-\Gm@odd@mp=\dimen164
-\Gm@even@mp=\dimen165
-\Gm@layoutwidth=\dimen166
-\Gm@layoutheight=\dimen167
-\Gm@layouthoffset=\dimen168
-\Gm@layoutvoffset=\dimen169
-\Gm@dimlist=\toks23
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks24
  ("C:\Program Files\MiKTeX 2.9\tex/xelatex/xetexconfig\geometry.cfg")) ("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-\f@nch@headwidth=\skip56
-\f@nch@O@elh=\skip57
-\f@nch@O@erh=\skip58
-\f@nch@O@olh=\skip59
-\f@nch@O@orh=\skip60
-\f@nch@O@elf=\skip61
-\f@nch@O@erf=\skip62
-\f@nch@O@olf=\skip63
-\f@nch@O@orf=\skip64
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
 Package: titlesec 2019/07/16 v2.11 Sectioning titles
-\ttl@box=\box50
-\beforetitleunit=\skip65
-\aftertitleunit=\skip66
-\ttl@plus=\dimen170
-\ttl@minus=\dimen171
-\ttl@toksa=\toks24
-\titlewidth=\dimen172
-\titlewidthlast=\dimen173
-\titlewidthfirst=\dimen174
+\ttl@box=\box52
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen172
+\ttl@minus=\dimen173
+\ttl@toksa=\toks25
+\titlewidth=\dimen174
+\titlewidthlast=\dimen175
+\titlewidthfirst=\dimen176
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titletoc.sty"
 Package: titletoc 2019/07/16 v2.11 TOC entries
-\ttl@leftsep=\dimen175
+\ttl@leftsep=\dimen177
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty" ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty" ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen176
-\pgfutil@tempdimb=\dimen177
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.tex")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
-\pgfutil@abb=\box51
+\pgfutil@abb=\box53
  ("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
@@ -516,30 +525,30 @@ Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty" ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
 Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen178
-\pgf@y=\dimen179
-\pgf@xa=\dimen180
-\pgf@ya=\dimen181
-\pgf@xb=\dimen182
-\pgf@yb=\dimen183
-\pgf@xc=\dimen184
-\pgf@yc=\dimen185
-\pgf@xd=\dimen186
-\pgf@yd=\dimen187
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
+\pgf@xd=\dimen188
+\pgf@yd=\dimen189
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count290
 \c@pgf@countb=\count291
 \c@pgf@countc=\count292
 \c@pgf@countd=\count293
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
 \pgf@sys@id@count=\count294
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
 File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
@@ -576,52 +585,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
 Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen188
+\pgfmath@dimen=\dimen190
 \pgfmath@count=\count298
-\pgfmath@box=\box52
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@box=\box54
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex"))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count299
 )) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex") ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen189
-\pgf@picmaxx=\dimen190
-\pgf@picminy=\dimen191
-\pgf@picmaxy=\dimen192
-\pgf@pathminx=\dimen193
-\pgf@pathmaxx=\dimen194
-\pgf@pathminy=\dimen195
-\pgf@pathmaxy=\dimen196
-\pgf@xx=\dimen197
-\pgf@xy=\dimen198
-\pgf@yx=\dimen199
-\pgf@yy=\dimen256
-\pgf@zx=\dimen257
-\pgf@zy=\dimen258
+\pgf@picminx=\dimen191
+\pgf@picmaxx=\dimen192
+\pgf@picminy=\dimen193
+\pgf@picmaxy=\dimen194
+\pgf@pathminx=\dimen195
+\pgf@pathmaxx=\dimen196
+\pgf@pathminy=\dimen197
+\pgf@pathmaxy=\dimen198
+\pgf@xx=\dimen199
+\pgf@xy=\dimen256
+\pgf@yx=\dimen257
+\pgf@yy=\dimen258
+\pgf@zx=\dimen259
+\pgf@zy=\dimen260
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen259
-\pgf@path@lasty=\dimen260
+\pgf@path@lastx=\dimen261
+\pgf@path@lasty=\dimen262
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen261
-\pgf@shorten@start@additional=\dimen262
+\pgf@shorten@end@additional=\dimen263
+\pgf@shorten@start@additional=\dimen264
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfpic=\box53
-\pgf@hbox=\box54
-\pgf@layerbox@main=\box55
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
 \pgf@picture@serial@count=\count300
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen263
+\pgflinewidth=\dimen265
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen264
-\pgf@pt@y=\dimen265
-\pgf@pt@temp=\dimen266
+\pgf@pt@x=\dimen266
+\pgf@pt@y=\dimen267
+\pgf@pt@temp=\dimen268
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
@@ -630,17 +639,17 @@ File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen267
+\pgfarrowsep=\dimen269
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen268
+\pgf@max=\dimen270
 \pgf@sys@shading@range@num=\count301
 \pgf@shadingcount=\count302
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfexternal@startupbox=\box56
+\pgfexternal@startupbox=\box58
 )) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
@@ -651,41 +660,41 @@ File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodeparttextbox=\box57
+\pgfnodeparttextbox=\box59
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen269
-\pgf@nodesepend=\dimen270
+\pgf@nodesepstart=\dimen271
+\pgf@nodesepend=\dimen272
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
 )) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty" ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex")) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
 Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
-\pgffor@iter=\dimen271
-\pgffor@skip=\dimen272
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen273
+\pgffor@skip=\dimen274
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 )) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
 Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@plot@mark@count=\count303
-\pgfplotmarksize=\dimen273
+\pgfplotmarksize=\dimen275
 )
-\tikz@lastx=\dimen274
-\tikz@lasty=\dimen275
-\tikz@lastxsaved=\dimen276
-\tikz@lastysaved=\dimen277
-\tikz@lastmovetox=\dimen278
-\tikz@lastmovetoy=\dimen279
-\tikzleveldistance=\dimen280
-\tikzsiblingdistance=\dimen281
-\tikz@figbox=\box58
-\tikz@figbox@bg=\box59
-\tikz@tempbox=\box60
-\tikz@tempbox@bg=\box61
+\tikz@lastx=\dimen276
+\tikz@lasty=\dimen277
+\tikz@lastxsaved=\dimen278
+\tikz@lastysaved=\dimen279
+\tikz@lastmovetox=\dimen280
+\tikz@lastmovetoy=\dimen281
+\tikzleveldistance=\dimen282
+\tikzsiblingdistance=\dimen283
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
 \tikztreelevel=\count304
 \tikznumberofchildren=\count305
 \tikznumberofcurrentchild=\count306
@@ -704,16 +713,16 @@ Package: fancyvrb 2019/01/15
  Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
 \FV@CodeLineNo=\count312
 \FV@InFile=\read4
-\FV@TabBox=\box62
+\FV@TabBox=\box64
 \c@FancyVerbLine=\count313
 \FV@StepNumber=\count314
 \FV@OutFile=\write4
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen282
-\WF@size=\dimen283
+\wrapoverhang=\dimen284
+\WF@size=\dimen285
 \c@WF@wrappedlines=\count315
-\WF@box=\box63
-\WF@everypar=\toks37
+\WF@box=\box65
+\WF@everypar=\toks38
 Package: wrapfig 2003/01/31  v 3.6
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
@@ -740,26 +749,26 @@ File: pgflibraryshapes.arrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 File: tikzlibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex"
 File: pgflibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodepartlowerbox=\box64
-\pgfnodeparttwobox=\box65
-\pgfnodepartthreebox=\box66
-\pgfnodepartfourbox=\box67
-\pgfnodeparttwentybox=\box68
-\pgfnodepartnineteenbox=\box69
-\pgfnodeparteighteenbox=\box70
-\pgfnodepartseventeenbox=\box71
-\pgfnodepartsixteenbox=\box72
-\pgfnodepartfifteenbox=\box73
-\pgfnodepartfourteenbox=\box74
-\pgfnodepartthirteenbox=\box75
-\pgfnodeparttwelvebox=\box76
-\pgfnodepartelevenbox=\box77
-\pgfnodeparttenbox=\box78
-\pgfnodepartninebox=\box79
-\pgfnodeparteightbox=\box80
-\pgfnodepartsevenbox=\box81
-\pgfnodepartsixbox=\box82
-\pgfnodepartfivebox=\box83
+\pgfnodepartlowerbox=\box66
+\pgfnodeparttwobox=\box67
+\pgfnodepartthreebox=\box68
+\pgfnodepartfourbox=\box69
+\pgfnodeparttwentybox=\box70
+\pgfnodepartnineteenbox=\box71
+\pgfnodeparteighteenbox=\box72
+\pgfnodepartseventeenbox=\box73
+\pgfnodepartsixteenbox=\box74
+\pgfnodepartfifteenbox=\box75
+\pgfnodepartfourteenbox=\box76
+\pgfnodepartthirteenbox=\box77
+\pgfnodeparttwelvebox=\box78
+\pgfnodepartelevenbox=\box79
+\pgfnodeparttenbox=\box80
+\pgfnodepartninebox=\box81
+\pgfnodeparteightbox=\box82
+\pgfnodepartsevenbox=\box83
+\pgfnodepartsixbox=\box84
+\pgfnodepartfivebox=\box85
 ))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryautomata.code.tex"
 File: tikzlibraryautomata.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex"
@@ -768,24 +777,13 @@ File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 File: tikzlibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\arrowsize=\dimen284
+\arrowsize=\dimen286
 )) ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen285
-\ar@mcellbox=\box84
-\extrarowheight=\dimen286
-\NC@list=\toks38
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box85
-)
 \TX@col@width=\dimen287
 \TX@old@table=\dimen288
 \TX@old@col=\dimen289
@@ -793,7 +791,8 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@delta=\dimen291
 \TX@cols=\count317
 \TX@ftn=\toks39
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/adjustbox\adjustbox.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/adjustbox\adjustbox.sty"
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
  ("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -847,6 +846,9 @@ LaTeX Warning: Label `tab: transfer learning' multiply defined.
 
 
 LaTeX Warning: Label `tab: transfer learning ActivityNet' multiply defined.
+
+
+LaTeX Warning: Label `fig:labeling_overview' multiply defined.
 
 
 LaTeX Warning: Label `fig:result_track' multiply defined.
@@ -1083,12 +1085,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
 
 ]
-Overfull \hbox (54.68172pt too wide) in alignment at lines 4--19
+Overfull \hbox (54.68172pt too wide) in alignment at lines 4--17
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--20
+Underfull \hbox (badness 10000) in paragraph at lines 3--18
 
  []
 
@@ -1098,40 +1100,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--20
 
 ] (chapter1/chapter1.tex
 บทที่ 1.
-
-Overfull \hbox (34.67297pt too wide) in paragraph at lines 4--15
-[]\TU/THSarabunNew(0)/bx/n/12 «««< HEAD บริษัท เพ อ เซ็ป ทรา ดำเนิน ธุรกิจ เกี่ยว กับ การ ให้ บริการ และ คำ ปรึกษา เกี่ยว กับ ปัญญา ประดิษฐ์(artificial
- []
-
-
-Overfull \hbox (5.8453pt too wide) in paragraph at lines 35--36
-[]\TU/THSarabunNew(0)/bx/n/12 ออกแบบ และ สร้าง ต้นแบบ ของ แพลตฟอร์ม วิเคราะห์ การก ระ ทำ มนุษย์ โดย งาน วิจัย นี้ จะ มุ่ง เน้น การ ประมวล
- []
-
 [1
 
 
-] [2] [3
+] [2
 
-]) (chapter2/chapter2.tex [4
-
-]
+]) (chapter2/chapter2.tex
 บทที่ 2.
 (chapter2/labeling_tool.tex
 File: chapter2/images/darklabel.png Graphic file (type bmp)
 <chapter2/images/darklabel.png>
- [5
+ [3
+
 
 
 ]
 File: chapter2/images/openlabel.png Graphic file (type bmp)
 <chapter2/images/openlabel.png>
-) [6
+) [4
 
 ] (chapter2/youtube_8m.tex
 File: chapter2/images/youtube-8m.png Graphic file (type bmp)
 <chapter2/images/youtube-8m.png>
- [7
+ [5
 
 ]
 File: chapter2/images/decrease_data.png Graphic file (type bmp)
@@ -1142,10 +1133,10 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 8.60997pt on input line 74.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 6.14998pt on input line 74.
- [8]
+ [6]
 File: chapter2/images/DBoF.png Graphic file (type bmp)
 <chapter2/images/DBoF.png>
- [9]
+ [7]
 File: chapter2/images/BSS.png Graphic file (type bmp)
 <chapter2/images/BSS.png>
 
@@ -1153,14 +1144,14 @@ Overfull \hbox (78.8399pt too wide) in paragraph at lines 108--115
 [] 
  []
 
-[10
+[8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 137--162
 
  []
 
-[11]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 163--187
 
  []
@@ -1170,35 +1161,35 @@ Overfull \hbox (3.14577pt too wide) in paragraph at lines 215--216
 []\TU/THSarabunNew(0)/bx/n/12 เนื่องจาก ว่า YouTube-8M นั้น มี จำนวน ข้อมูล ที่ เยอะ มาก ทำให้ ไม่ สามารถ ตรวจ สอบ ได้ ทั้งหมด ว่า ground-
  []
 
-) [12
+) [10
 
 ] (chapter2/ava.tex
 File: chapter2/images/AVA.png Graphic file (type bmp)
 <chapter2/images/AVA.png>
 File: chapter2/images/data_collection_ava.png Graphic file (type bmp)
 <chapter2/images/data_collection_ava.png>
- [13
+ [11
 
 
-] [14]
+] [12]
 File: chapter2/images/vocab.png Graphic file (type bmp)
 <chapter2/images/vocab.png>
- [15
+ [13
 
 ]
 File: chapter2/images/structure_ava.png Graphic file (type bmp)
 <chapter2/images/structure_ava.png>
- [16
+ [14
 
-]) [17] (chapter2/momentintime.tex
+]) [15] (chapter2/momentintime.tex
 File: chapter2/images/Example_of_class.png Graphic file (type bmp)
 <chapter2/images/Example_of_class.png>
- [18
+ [16
 
 ]
 File: chapter2/images/UI.png Graphic file (type bmp)
 <chapter2/images/UI.png>
- [19
+ [17
 
 ]
 File: chapter2/images/statistic_moment.png Graphic file (type bmp)
@@ -1210,14 +1201,14 @@ Overfull \hbox (8.32397pt too wide) in paragraph at lines 52--53
 []\TU/THSarabunNew(0)/bx/n/12 เริ่ม การ preprocess จาก แยก ภาพRGB ออก มา จาก วิดีโอ และ ทำการ เปลี่ยน ขนาด ของ ภาพ ให้ เป็น 340x256
  []
 
-[20
+[18
 
 ]
 Overfull \hbox (11.58846pt too wide) in paragraph at lines 91--92
 []\TU/THSarabunNew(0)/bx/n/12 จาก ภาพ จะ เห็น ได้ ว่า ผล ลัพท์ ที่ ดี สุด คือ การ ทำ ensemble(SVM) ซึ่ง เป็น รวม ของ โมเดล ReNet50-ImageNet,
  []
 
-[21]
+[19]
 File: chapter2/images/CAM.png Graphic file (type bmp)
 <chapter2/images/CAM.png>
 ) (chapter2/optical_flow.tex
@@ -1228,7 +1219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-[22]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 21--31
 
  []
@@ -1238,29 +1229,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--44
 
  []
 
-) [23
+) [21
 
 ] (chapter2/tracking.tex
 File: chapter2/images/track-concept.png Graphic file (type bmp)
 <chapter2/images/track-concept.png>
-)
-Underfull \hbox (badness 10000) in paragraph at lines 10--24
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-[24
 
-] (chapter2/2steamCNN.tex
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+[22
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+) (chapter2/2steamCNN.tex
 File: chapter2/images/2steamCNN.png Graphic file (type bmp)
 <chapter2/images/2steamCNN.png>
 )
@@ -1268,68 +1274,70 @@ Overfull \hbox (2.63611pt too wide) in paragraph at lines 8--27
 []\TU/THSarabunNew(0)/bx/n/12 Two-Steam CNN [][][] เป็น วิธี การ หนึ่ง ใน การ ทำ video classification โดย จะ แบ่ง ออก เป็น สอง กระบวนการ
  []
 
-) (chapter3/chapter3.tex [25]
+) (chapter3/chapter3.tex [23] [24]
 บทที่ 3.
-[26
+[25
+
+] [26
+
+] [27
 
 ]
-Overfull \hbox (3.72885pt too wide) in paragraph at lines 40--59
-[][] 
- []
-
-[27
+File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
+<chapter3/images/Overview/HowItWorks.png>
+ [28
 
 ] (chapter3/labeler.tex
 File: chapter3/images/3_6/labelingToolOverview.png Graphic file (type bmp)
 <chapter3/images/3_6/labelingToolOverview.png>
- [28
+ [29
 
 ]
 File: chapter3/images/3_6/SelectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft.png>
- [29
+ [30
 
 ]
 File: chapter3/images/3_6/SelectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft_point.png>
- [30
+ [31
 
 ]
 File: chapter3/images/3_6/DetectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft.png>
- [31
+ [32
 
 ]
 File: chapter3/images/3_6/DetectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft_point.png>
- [32
+ [33
 
 ]
 File: chapter3/images/3_6/TrackDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft.png>
- [33
+ [34
 
 ]
 File: chapter3/images/3_6/TrackDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft_point.png>
- [34
+ [35
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft.png>
- [35
+ [36
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft_point.png>
- [36
+ [37
 
 ]
 File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
-) [37
+) [38
 
-]) (chapter4/chapter4.tex [38
+]) (chapter4/chapter4.tex [39
 
 ]
 บทที่ 4.
@@ -1338,43 +1346,43 @@ File: chapter4/images/Final_ui/Select.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Select.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 39 undefined on input line 8.
+LaTeX Warning: Reference `fig:' on page 40 undefined on input line 8.
 
-[39
+[40
 
 ]
 File: chapter4/images/Final_ui/Detect.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Detect.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 40 undefined on input line 26.
+LaTeX Warning: Reference `fig:' on page 41 undefined on input line 26.
 
-[40
+[41
 
 ]
 File: chapter4/images/Final_ui/Track.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Track.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 41 undefined on input line 41.
+LaTeX Warning: Reference `fig:' on page 42 undefined on input line 41.
 
-[41
+[42
 
 ]
 File: chapter4/images/Final_ui/Label.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Label.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 42 undefined on input line 58.
+LaTeX Warning: Reference `fig:' on page 43 undefined on input line 58.
 
-[42
+[43
 
 ]
 File: chapter4/images/Result/result_select3.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select3.jpg>
 File: chapter4/images/Result/result_select4.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select4.jpg>
- [43
+ [44
 
 ]
 File: chapter4/images/Result/result_select6.jpg Graphic file (type bmp)
@@ -1383,14 +1391,14 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 13.46844pt on input line 95.
 File: chapter4/images/Result/result_select7.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select7.jpg>
- [44
+ [45
 
 ]
 File: chapter4/images/Result/result_select.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select.jpg>
 File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select9.jpg>
-)) (thesis.bbl [45
+)) (thesis.bbl [46
 
 ]
 
@@ -1401,12 +1409,12 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 18.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 9.83997pt on input line 59.
-) [46
+) [47
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [46
+ (appendix/appendix1.tex [47
 
 
 ]
@@ -1414,83 +1422,83 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (appendix/dynamic_prop.tex
 File: appendix/images/uthai_dynamic_all.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_all.jpeg>
- [47
+ [48
 
 ]
 File: appendix/images/uthai_dynamic_rhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhy.jpeg>
- [48
+ [49
 
 ]
 File: appendix/images/uthai_dynamic_lhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhy.jpeg>
- [49
+ [50
 
 ]
 File: appendix/images/uthai_dynamic_rhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhr.jpeg>
- [50
+ [51
 
 ]
 File: appendix/images/uthai_dynamic_lhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhr.jpeg>
- [51
+ [52
 
 ]
 File: appendix/images/uthai_dynamic_rhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhp.jpeg>
- [52
+ [53
 
 ]
 File: appendix/images/uthai_dynamic_lhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhp.jpeg>
- [53
+ [54
 
 ]
 File: appendix/images/uthai_dynamic_rkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rkp.jpeg>
- [54
+ [55
 
 ]
 File: appendix/images/uthai_dynamic_lkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lkp.jpeg>
- [55
+ [56
 
 ]
 File: appendix/images/uthai_dynamic_rap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rap.jpeg>
- [56
+ [57
 
 ]
 File: appendix/images/uthai_dynamic_lap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lap.jpeg>
- [57
+ [58
 
 ]
 File: appendix/images/uthai_dynamic_rar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rar.jpeg>
- [58
+ [59
 
 ]
 File: appendix/images/uthai_dynamic_lar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lar.jpeg>
-)) (pages/vitea.tex [59
+)) (pages/vitea.tex [60
 
 ]
 File: pages/images/jirad.jpg Graphic file (type bmp)
 <pages/images/jirad.jpg>
- [60
+ [61
 
 
 ]
 File: pages/images/taa.jpg Graphic file (type bmp)
 <pages/images/taa.jpg>
- [61
+ [62
 
 ]
 File: pages/images/wuttipat.jpg Graphic file (type bmp)
 <pages/images/wuttipat.jpg>
-) [62
+) [63
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1499,7 +1507,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 405E365BE5373FC12968A7BA9593265F.
+(rerunfilecheck)             Checksum: E00ADAA432C803ECFC3785738C93E5FA.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1513,12 +1521,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38159 strings out of 427669
- 759794 string characters out of 3149215
- 1035269 words of memory out of 3000000
- 41658 multiletter control sequences out of 15000+200000
+ 38167 strings out of 427669
+ 759999 string characters out of 3149215
+ 1036196 words of memory out of 3000000
+ 41664 multiletter control sequences out of 15000+200000
  536698 words of font info for 56 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,83p,1068b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (76 pages, 1349880 bytes).
+Output written on thesis.xdv (77 pages, 1346432 bytes).

@@ -47,6 +47,8 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
@@ -263,8 +265,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
@@ -375,6 +375,7 @@ INPUT chapter2\2steamCNN.tex
 INPUT chapter2\images\2steamCNN.png
 INPUT chapter3\chapter3.tex
 INPUT chapter3\chapter3.tex
+INPUT chapter3\images\Overview\HowItWorks.png
 INPUT chapter3\labeler.tex
 INPUT chapter3\labeler.tex
 INPUT chapter3\images\3_6\labelingToolOverview.png
