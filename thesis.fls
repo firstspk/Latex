@@ -340,6 +340,15 @@ INPUT chapter1\chapter1.tex
 INPUT chapter1\ganttchart.png
 INPUT chapter2\chapter2.tex
 INPUT chapter2\chapter2.tex
+INPUT chapter2\video_analytics.tex
+INPUT chapter2\video_analytics.tex
+INPUT chapter2\tracking.tex
+INPUT chapter2\tracking.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT chapter2\images\track-concept.png
+INPUT chapter2\reid.tex
+INPUT chapter2\reid.tex
 INPUT chapter2\labeling_tool.tex
 INPUT chapter2\labeling_tool.tex
 INPUT chapter2\images\darklabel.png
@@ -348,8 +357,6 @@ INPUT chapter2\youtube_8m.tex
 INPUT chapter2\youtube_8m.tex
 INPUT chapter2\images\youtube-8m.png
 INPUT chapter2\images\decrease_data.png
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT chapter2\images\DBoF.png
 INPUT chapter2\images\BSS.png
 INPUT chapter2\ava.tex
@@ -368,9 +375,6 @@ INPUT chapter2\images\CAM.png
 INPUT chapter2\optical_flow.tex
 INPUT chapter2\optical_flow.tex
 INPUT chapter2\images\vector_optical.png
-INPUT chapter2\tracking.tex
-INPUT chapter2\tracking.tex
-INPUT chapter2\images\track-concept.png
 INPUT chapter2\2steamCNN.tex
 INPUT chapter2\2steamCNN.tex
 INPUT chapter2\images\2steamCNN.png

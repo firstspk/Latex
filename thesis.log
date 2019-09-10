@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  10 SEP 2019 13:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  10 SEP 2019 13:47
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1117,36 +1117,56 @@ Overfull \hbox (53.3489pt too wide) in paragraph at lines 78--79
 
 ]) (chapter2/chapter2.tex
 บทที่ 2.
-(chapter2/labeling_tool.tex
-File: chapter2/images/darklabel.png Graphic file (type bmp)
-<chapter2/images/darklabel.png>
+(chapter2/video_analytics.tex (chapter2/tracking.tex
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 12.29996pt on input line 1.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 8.60997pt on input line 1.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 6.14998pt on input line 1.
+File: chapter2/images/track-concept.png Graphic file (type bmp)
+<chapter2/images/track-concept.png>
  [4
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+) (chapter2/reid.tex) [6] [7] [8]) [9] (chapter2/labeling_tool.tex
+File: chapter2/images/darklabel.png Graphic file (type bmp)
+<chapter2/images/darklabel.png>
+ [10
+
+]
 File: chapter2/images/openlabel.png Graphic file (type bmp)
 <chapter2/images/openlabel.png>
-) [5
+) [11
 
 ] (chapter2/youtube_8m.tex
 File: chapter2/images/youtube-8m.png Graphic file (type bmp)
 <chapter2/images/youtube-8m.png>
- [6
+ [12
 
 ]
 File: chapter2/images/decrease_data.png Graphic file (type bmp)
 <chapter2/images/decrease_data.png>
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 74.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 8.60997pt on input line 74.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 6.14998pt on input line 74.
- [7]
+ [13]
 File: chapter2/images/DBoF.png Graphic file (type bmp)
 <chapter2/images/DBoF.png>
- [8]
+ [14]
 File: chapter2/images/BSS.png Graphic file (type bmp)
 <chapter2/images/BSS.png>
 
@@ -1154,14 +1174,14 @@ Overfull \hbox (78.8399pt too wide) in paragraph at lines 108--115
 [] 
  []
 
-[9
+[15
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 137--162
 
  []
 
-[10]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 163--187
 
  []
@@ -1171,35 +1191,35 @@ Overfull \hbox (3.14577pt too wide) in paragraph at lines 215--216
 []\TU/THSarabunNew(0)/bx/n/12 เนื่องจาก ว่า YouTube-8M นั้น มี จำนวน ข้อมูล ที่ เยอะ มาก ทำให้ ไม่ สามารถ ตรวจ สอบ ได้ ทั้งหมด ว่า ground-
  []
 
-) [11
+) [17
 
 ] (chapter2/ava.tex
 File: chapter2/images/AVA.png Graphic file (type bmp)
 <chapter2/images/AVA.png>
 File: chapter2/images/data_collection_ava.png Graphic file (type bmp)
 <chapter2/images/data_collection_ava.png>
- [12
+ [18
 
 
-] [13]
+] [19]
 File: chapter2/images/vocab.png Graphic file (type bmp)
 <chapter2/images/vocab.png>
- [14
+ [20
 
 ]
 File: chapter2/images/structure_ava.png Graphic file (type bmp)
 <chapter2/images/structure_ava.png>
- [15
+ [21
 
-]) [16] (chapter2/momentintime.tex
+]) [22] (chapter2/momentintime.tex
 File: chapter2/images/Example_of_class.png Graphic file (type bmp)
 <chapter2/images/Example_of_class.png>
- [17
+ [23
 
 ]
 File: chapter2/images/UI.png Graphic file (type bmp)
 <chapter2/images/UI.png>
- [18
+ [24
 
 ]
 File: chapter2/images/statistic_moment.png Graphic file (type bmp)
@@ -1211,14 +1231,14 @@ Overfull \hbox (8.32397pt too wide) in paragraph at lines 52--53
 []\TU/THSarabunNew(0)/bx/n/12 เริ่ม การ preprocess จาก แยก ภาพRGB ออก มา จาก วิดีโอ และ ทำการ เปลี่ยน ขนาด ของ ภาพ ให้ เป็น 340x256
  []
 
-[19
+[25
 
 ]
 Overfull \hbox (11.58846pt too wide) in paragraph at lines 91--92
 []\TU/THSarabunNew(0)/bx/n/12 จาก ภาพ จะ เห็น ได้ ว่า ผล ลัพท์ ที่ ดี สุด คือ การ ทำ ensemble(SVM) ซึ่ง เป็น รวม ของ โมเดล ReNet50-ImageNet,
  []
 
-[20]
+[26]
 File: chapter2/images/CAM.png Graphic file (type bmp)
 <chapter2/images/CAM.png>
 ) (chapter2/optical_flow.tex
@@ -1229,125 +1249,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 21--31
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--44
-
- []
-
-) [22
-
-] (chapter2/tracking.tex
-File: chapter2/images/track-concept.png Graphic file (type bmp)
-<chapter2/images/track-concept.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-[23
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
-
- []
-
-) (chapter2/2steamCNN.tex
+) [28] (chapter2/2steamCNN.tex
 File: chapter2/images/2steamCNN.png Graphic file (type bmp)
 <chapter2/images/2steamCNN.png>
 )
-Overfull \hbox (2.63611pt too wide) in paragraph at lines 8--27
+Overfull \hbox (2.63611pt too wide) in paragraph at lines 8--43
 []\TU/THSarabunNew(0)/bx/n/12 Two-Steam CNN [][][] เป็น วิธี การ หนึ่ง ใน การ ทำ video classification โดย จะ แบ่ง ออก เป็น สอง กระบวนการ
  []
 
-) (chapter3/chapter3.tex [24] [25]
+) (chapter3/chapter3.tex [29
+
+]
 บทที่ 3.
-[26
+[30
 
-] [27
+] [31
 
-] [28
+] [32
 
 ]
 File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
 <chapter3/images/Overview/HowItWorks.png>
- [29
+ [33
 
 ] (chapter3/labeler.tex
 File: chapter3/images/3_6/labelingToolOverview.png Graphic file (type bmp)
 <chapter3/images/3_6/labelingToolOverview.png>
- [30
+ [34
 
 ]
 File: chapter3/images/3_6/SelectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft.png>
- [31
+ [35
 
 ]
 File: chapter3/images/3_6/SelectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft_point.png>
- [32
+ [36
 
 ]
 File: chapter3/images/3_6/DetectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft.png>
- [33
+ [37
 
 ]
 File: chapter3/images/3_6/DetectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft_point.png>
- [34
+ [38
 
 ]
 File: chapter3/images/3_6/TrackDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft.png>
- [35
+ [39
 
 ]
 File: chapter3/images/3_6/TrackDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft_point.png>
- [36
+ [40
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft.png>
- [37
+ [41
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft_point.png>
- [38
+ [42
 
 ]
 File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
-) [39
+) [43
 
-]) (chapter4/chapter4.tex [40
+]) (chapter4/chapter4.tex [44
 
 ]
 บทที่ 4.
@@ -1356,43 +1336,43 @@ File: chapter4/images/Final_ui/Select.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Select.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 41 undefined on input line 8.
+LaTeX Warning: Reference `fig:' on page 45 undefined on input line 8.
 
-[41
+[45
 
 ]
 File: chapter4/images/Final_ui/Detect.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Detect.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 42 undefined on input line 26.
+LaTeX Warning: Reference `fig:' on page 46 undefined on input line 26.
 
-[42
+[46
 
 ]
 File: chapter4/images/Final_ui/Track.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Track.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 43 undefined on input line 41.
+LaTeX Warning: Reference `fig:' on page 47 undefined on input line 41.
 
-[43
+[47
 
 ]
 File: chapter4/images/Final_ui/Label.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Label.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 44 undefined on input line 58.
+LaTeX Warning: Reference `fig:' on page 48 undefined on input line 58.
 
-[44
+[48
 
 ]
 File: chapter4/images/Result/result_select3.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select3.jpg>
 File: chapter4/images/Result/result_select4.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select4.jpg>
- [45
+ [49
 
 ]
 File: chapter4/images/Result/result_select6.jpg Graphic file (type bmp)
@@ -1401,14 +1381,14 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 13.46844pt on input line 95.
 File: chapter4/images/Result/result_select7.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select7.jpg>
- [46
+ [50
 
 ]
 File: chapter4/images/Result/result_select.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select.jpg>
 File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select9.jpg>
-)) (thesis.bbl [47
+)) (thesis.bbl [51
 
 ]
 
@@ -1419,12 +1399,12 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 18.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 9.83997pt on input line 59.
-) [48
+) [52
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [48
+ (appendix/appendix1.tex [52
 
 
 ]
@@ -1432,83 +1412,83 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (appendix/dynamic_prop.tex
 File: appendix/images/uthai_dynamic_all.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_all.jpeg>
- [49
+ [53
 
 ]
 File: appendix/images/uthai_dynamic_rhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhy.jpeg>
- [50
+ [54
 
 ]
 File: appendix/images/uthai_dynamic_lhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhy.jpeg>
- [51
+ [55
 
 ]
 File: appendix/images/uthai_dynamic_rhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhr.jpeg>
- [52
+ [56
 
 ]
 File: appendix/images/uthai_dynamic_lhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhr.jpeg>
- [53
+ [57
 
 ]
 File: appendix/images/uthai_dynamic_rhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhp.jpeg>
- [54
+ [58
 
 ]
 File: appendix/images/uthai_dynamic_lhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhp.jpeg>
- [55
+ [59
 
 ]
 File: appendix/images/uthai_dynamic_rkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rkp.jpeg>
- [56
+ [60
 
 ]
 File: appendix/images/uthai_dynamic_lkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lkp.jpeg>
- [57
+ [61
 
 ]
 File: appendix/images/uthai_dynamic_rap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rap.jpeg>
- [58
+ [62
 
 ]
 File: appendix/images/uthai_dynamic_lap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lap.jpeg>
- [59
+ [63
 
 ]
 File: appendix/images/uthai_dynamic_rar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rar.jpeg>
- [60
+ [64
 
 ]
 File: appendix/images/uthai_dynamic_lar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lar.jpeg>
-)) (pages/vitea.tex [61
+)) (pages/vitea.tex [65
 
 ]
 File: pages/images/jirad.jpg Graphic file (type bmp)
 <pages/images/jirad.jpg>
- [62
+ [66
 
 
 ]
 File: pages/images/taa.jpg Graphic file (type bmp)
 <pages/images/taa.jpg>
- [63
+ [67
 
 ]
 File: pages/images/wuttipat.jpg Graphic file (type bmp)
 <pages/images/wuttipat.jpg>
-) [64
+) [68
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1517,7 +1497,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 08BF1EE312252E8748B946CF21AB7DCF.
+(rerunfilecheck)             Checksum: F9C298D1B0F7EC50DF604F0D62A6B1EE.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1531,12 +1511,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38172 strings out of 427669
- 760111 string characters out of 3149215
- 1036196 words of memory out of 3000000
+ 38178 strings out of 427669
+ 760212 string characters out of 3149215
+ 1037196 words of memory out of 3000000
  41668 multiletter control sequences out of 15000+200000
  536698 words of font info for 56 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,83p,1068b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,83p,1105b,675s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (78 pages, 1352972 bytes).
+Output written on thesis.xdv (82 pages, 1468872 bytes).
