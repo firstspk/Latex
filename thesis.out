@@ -13,27 +13,30 @@
 \BOOKMARK [1][-]{section.1.5}{ขั้นตอนการดำเนินงาน}{chapter.1}% 13
 \BOOKMARK [0][-]{chapter.2}{ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{}% 14
 \BOOKMARK [1][-]{section.2.1}{การวิเคราะห์ผลวิดีโอ}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.2}{Labeling\040tools}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.3}{Optical\040flow}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.4}{Two-Steam\040CNN}{chapter.2}% 18
-\BOOKMARK [0][-]{chapter.3}{ระเบียบวิธีวิจัย}{}% 19
-\BOOKMARK [1][-]{section.3.1}{ความต้องการของระบบ}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.1.1}{ความต้องการเชิงการใช้งาน \(Functional Requirements\)}{section.3.1}% 21
-\BOOKMARK [2][-]{subsection.3.1.2}{ความต้องการเชิงวิศวกรรม \(Non-Functional Requirements\)}{section.3.1}% 22
-\BOOKMARK [1][-]{section.3.2}{หน้าที่ความรับผิดชอบ}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{เครื่องมือที่ใช้ในงานวิจัย}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.4}{ภาษาที่ใช้ในการพัฒนาระบบ}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.5}{Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.6}{แผนการดำเนินงาน}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.7}{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.8}{การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.8.1}{เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{section.3.8}% 30
-\BOOKMARK [1][-]{section.3.9}{การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{chapter.3}% 31
-\BOOKMARK [0][-]{chapter.4}{ผลการดำเนินงาน}{}% 32
-\BOOKMARK [1][-]{section.4.1}{Labeling\040tool}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.1.1}{หน้าต่างแสดงผลของแอพพลิเคชั่น}{section.4.1}% 34
-\BOOKMARK [2][-]{subsection.4.1.2}{ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{section.4.1}% 35
-\BOOKMARK [0][-]{chapter*.41}{เอกสารอ้างอิง}{}% 36
-\BOOKMARK [0][-]{appendix.A}{ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{}% 37
-\BOOKMARK [1][-]{section.A.1}{ค่าคุณสมบัติทางพลศาสตร์}{appendix.A}% 38
-\BOOKMARK [0][-]{appendix*.68}{ประวัติผู้เขียน}{}% 39
+\BOOKMARK [1][-]{section.2.2}{เครื่องมือสำหรับการวิเคราะห์ผลวิดีโอ}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{Machine\040learning\040model}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.2}{เครื่องมือสำหรับสร้างชุดข้อมูล}{section.2.2}% 18
+\BOOKMARK [1][-]{section.2.3}{ทฤษฎีที่เกี่ยวข้อง}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.3.1}{Optical\040flow}{section.2.3}% 20
+\BOOKMARK [1][-]{section.2.4}{Two-Steam\040CNN}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter.3}{ระเบียบวิธีวิจัย}{}% 22
+\BOOKMARK [1][-]{section.3.1}{ความต้องการของระบบ}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.1.1}{ความต้องการเชิงการใช้งาน \(Functional Requirements\)}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.2}{ความต้องการเชิงวิศวกรรม \(Non-Functional Requirements\)}{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{หน้าที่ความรับผิดชอบ}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{เครื่องมือที่ใช้ในงานวิจัย}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.4}{ภาษาที่ใช้ในการพัฒนาระบบ}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.5}{Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.6}{แผนการดำเนินงาน}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.7}{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.8}{การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.8.1}{เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{section.3.8}% 33
+\BOOKMARK [1][-]{section.3.9}{การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{chapter.3}% 34
+\BOOKMARK [0][-]{chapter.4}{ผลการดำเนินงาน}{}% 35
+\BOOKMARK [1][-]{section.4.1}{Labeling\040tool}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.1.1}{หน้าต่างแสดงผลของแอพพลิเคชั่น}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.2}{ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{section.4.1}% 38
+\BOOKMARK [0][-]{chapter*.41}{เอกสารอ้างอิง}{}% 39
+\BOOKMARK [0][-]{appendix.A}{ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{}% 40
+\BOOKMARK [1][-]{section.A.1}{ค่าคุณสมบัติทางพลศาสตร์}{appendix.A}% 41
+\BOOKMARK [0][-]{appendix*.68}{ประวัติผู้เขียน}{}% 42
