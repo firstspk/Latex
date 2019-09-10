@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{I3D}
+Joao Carreira and Andrew Zisserman.
+\newblock Quo vadis, action recognition? a new model and the kinetics dataset,
+  2018.
+
+\bibitem{Inception}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions, 2014.
+
+\end{thebibliography}
