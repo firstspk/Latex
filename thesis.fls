@@ -337,6 +337,7 @@ INPUT pages\abbreviations.tex
 INPUT pages\abbreviations.tex
 INPUT chapter1\chapter1.tex
 INPUT chapter1\chapter1.tex
+INPUT chapter1\ganttchart.png
 INPUT chapter2\chapter2.tex
 INPUT chapter2\chapter2.tex
 INPUT chapter2\labeling_tool.tex

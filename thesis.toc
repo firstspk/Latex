@@ -11,38 +11,38 @@
 \contentsline {section}{\numberline {1.3}ประโยชน์ที่คาดว่าจะได้รับ}{1}{section.1.3}% 
 \contentsline {section}{\numberline {1.4}ขอบเขตการดำเนินงาน}{2}{section.1.4}% 
 \contentsline {section}{\numberline {1.5}ขั้นตอนการดำเนินงาน}{2}{section.1.5}% 
-\contentsline {chapter}{\numberline {2}ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Labeling tools}{3}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}ชุดข้อมูล}{5}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Optical flow}{20}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Tracking}{22}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Two-Steam CNN}{23}{section.2.5}% 
-\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{25}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{25}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (Functional Requirements)}{25}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}ความต้องการเชิงวิศวกรรม (Non-Functional Requirements)}{25}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}หน้าที่ความรับผิดชอบ}{26}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}เครื่องมือที่ใช้ในงานวิจัย}{26}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}ภาษาที่ใช้ในการพัฒนาระบบ}{27}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{27}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}แผนการดำเนินงาน}{27}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{28}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{29}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{29}{subsection.3.8.1}% 
-\contentsline {subsubsection}{\numberline {3.8.1.1}Select}{30}{subsubsection.3.8.1.1}% 
-\contentsline {subsubsection}{\numberline {3.8.1.2}Detect}{32}{subsubsection.3.8.1.2}% 
-\contentsline {subsubsection}{\numberline {3.8.1.3}Track}{34}{subsubsection.3.8.1.3}% 
-\contentsline {subsubsection}{\numberline {3.8.1.4}Action label}{36}{subsubsection.3.8.1.4}% 
-\contentsline {subsubsection}{\numberline {3.8.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{38}{subsubsection.3.8.1.5}% 
-\contentsline {section}{\numberline {3.9}การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{39}{section.3.9}% 
-\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{40}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Labeling tool}{40}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{40}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{44}{subsection.4.1.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{47}{chapter*.58}% 
+\contentsline {chapter}{\numberline {2}ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{4}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Labeling tools}{4}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}ชุดข้อมูล}{6}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Optical flow}{21}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Tracking}{23}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Two-Steam CNN}{24}{section.2.5}% 
+\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{26}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{26}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (Functional Requirements)}{26}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}ความต้องการเชิงวิศวกรรม (Non-Functional Requirements)}{26}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}หน้าที่ความรับผิดชอบ}{27}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}เครื่องมือที่ใช้ในงานวิจัย}{27}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}ภาษาที่ใช้ในการพัฒนาระบบ}{28}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{28}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}แผนการดำเนินงาน}{28}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{29}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{30}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{30}{subsection.3.8.1}% 
+\contentsline {subsubsection}{\numberline {3.8.1.1}Select}{31}{subsubsection.3.8.1.1}% 
+\contentsline {subsubsection}{\numberline {3.8.1.2}Detect}{33}{subsubsection.3.8.1.2}% 
+\contentsline {subsubsection}{\numberline {3.8.1.3}Track}{35}{subsubsection.3.8.1.3}% 
+\contentsline {subsubsection}{\numberline {3.8.1.4}Action label}{37}{subsubsection.3.8.1.4}% 
+\contentsline {subsubsection}{\numberline {3.8.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{39}{subsubsection.3.8.1.5}% 
+\contentsline {section}{\numberline {3.9}การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{40}{section.3.9}% 
+\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{41}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Labeling tool}{41}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{41}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{45}{subsection.4.1.2}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{48}{chapter*.59}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{48}{appendix.A}% 
-\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{48}{section.A.1}% 
-\contentsline {chapter}{ประวัติผู้เขียน}{61}{appendix*.85}% 
+\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{49}{appendix.A}% 
+\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{49}{section.A.1}% 
+\contentsline {chapter}{ประวัติผู้เขียน}{62}{appendix*.86}% 
 \contentsfinish 
