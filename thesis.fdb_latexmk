@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1568189902 "thesis.aux" "thesis.bbl" "thesis" 1568189916
+["bibtex thesis"] 1568193055 "thesis.aux" "thesis.bbl" "thesis" 1568193069
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "pages/reference.bib" 1568108353 517 59b7c4a74fd35c95223ca8d79c87e161 ""
-  "thesis.aux" 1568189907 27466 64e6cc4623e19cab3d9cd48ff432bca4 "xelatex"
+  "pages/reference.bib" 1568191489 2211 250aafd66a7721a87c31c605866f50b8 ""
+  "thesis.aux" 1568193061 27927 d6127aae55999ec4f746a7490b7078d6 "xelatex"
   (generated)
-  "thesis.blg"
   "thesis.bbl"
-["xdvipdfmx"] 1568189908 "thesis.xdv" "thesis.pdf" "thesis" 1568189916
-  "thesis.xdv" 1568189907 1196796 f084de4c38a92ae51058cbbe35f4d548 "xelatex"
+  "thesis.blg"
+["xdvipdfmx"] 1568193061 "thesis.xdv" "thesis.pdf" "thesis" 1568193070
+  "thesis.xdv" 1568193061 1226536 59713d5a97724f0ad1502eee7e79cf41 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1568189902 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568189916
+["xelatex"] 1568193056 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568193069
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -213,8 +213,8 @@
   "chapter2/reid.tex" 1568012881 2414 39b1a188d327674f7802be79a63f9955 ""
   "chapter2/tracking.tex" 1568098033 4728 fca613a6c8ffa3c16f66f384b7c685b2 ""
   "chapter2/video_analytics.tex" 1568107117 4188 04c60733f92186c01674cd115447662e ""
-  "chapter3/Experimental.tex" 1568184969 3513 60234bbf599eefd1449c8e02cea44411 ""
-  "chapter3/chapter3.tex" 1568189894 16166 b49334af9c738d0da6f99b7b55bb8e4d ""
+  "chapter3/Experimental.tex" 1568191490 3513 60234bbf599eefd1449c8e02cea44411 ""
+  "chapter3/chapter3.tex" 1568190871 16431 681427805612d48ed11cd8897c6392db ""
   "chapter3/images/3_6/ActionLabelDraft.png" 1567672857 31000 fb2fdf0964492851fdcfff9593174709 ""
   "chapter3/images/3_6/ActionLabelDraft_point.png" 1567681087 33613 84028c6a9e11b16a5ab8c1081b58daa5 ""
   "chapter3/images/3_6/DetectDraft.png" 1567672883 26140 6a1398ca40e39d9e6f6f09f307863812 ""
@@ -227,6 +227,7 @@
   "chapter3/images/3_6/labelingToolOverview.png" 1567587186 59038 b74db6046c704774939830ae2926b1cb ""
   "chapter3/images/Overview/HowItWorks.png" 1568003888 4875613 9b4b08cef606e3c5178d152fbc01926f ""
   "chapter3/labeler.tex" 1567952749 24123 6f288cfed6b3efd83cd18d1f2d019463 ""
+  "chapter3/track_experimental.tex" 1568193049 4415 f7956ddfc502888ebf1bd7f98ab8392d ""
   "chapter4/chapter4.tex" 1567699692 562 a9c9f5c270f549c7d240c069c09eeabe ""
   "chapter4/images/Final_ui/Detect.jpg" 1567752731 57427 17d3bbf665fa451fadd95030b90301b7 ""
   "chapter4/images/Final_ui/Label.jpg" 1567752736 63754 ce2dc9ae757e9612c6f88fcd2deacbf5 ""
@@ -249,18 +250,18 @@
   "pages/images/wuttipat.jpg" 1566532531 195489 11b8642b33fa18793a5745305cc50ecf ""
   "pages/symbols.tex" 1566532531 364 7f62296ba922976011d6b0897a158361 ""
   "pages/vitea.tex" 1566532531 4526 b74b0bb7c962708bda00cdded80f03d0 ""
-  "thesis.aux" 1568189907 27466 64e6cc4623e19cab3d9cd48ff432bca4 "xelatex"
-  "thesis.bbl" 1568189902 419 cca2ab47f719efaf2c85337c2d6aa228 "bibtex thesis"
-  "thesis.lof" 1568189907 7052 c6e8db9baebe96db055ba0153c2958ca "xelatex"
-  "thesis.lot" 1568189907 2922 73b62635c4f209d1a82bd67a1ec7d345 "xelatex"
-  "thesis.out" 1568189907 5092 6e68fffaf51b71bdd092fc6ce6f93350 "xelatex"
+  "thesis.aux" 1568193061 27927 d6127aae55999ec4f746a7490b7078d6 "xelatex"
+  "thesis.bbl" 1568193056 1481 a5fe826fe9c76e15223711f96ba37dbb "bibtex thesis"
+  "thesis.lof" 1568193061 7052 22c600568adc69d9aca10c86eb804491 "xelatex"
+  "thesis.lot" 1568193061 2922 c26fda4fc12bb703563d00040834d641 "xelatex"
+  "thesis.out" 1568193061 5342 a999188cc2a19052568bb1613f5e8570 "xelatex"
   "thesis.tex" 1568124792 1652 52f26725b4cb4dc3689b9ca35f606c41 ""
-  "thesis.toc" 1568189907 6474 a90fb713ac7c7dddc84195d70d107771 "xelatex"
+  "thesis.toc" 1568193061 6742 2aca73b28d43ec1381577b1428cfd979 "xelatex"
   (generated)
-  "thesis.out"
-  "thesis.lot"
-  "thesis.xdv"
-  "thesis.aux"
   "thesis.log"
   "thesis.lof"
+  "thesis.xdv"
+  "thesis.out"
+  "thesis.lot"
+  "thesis.aux"
   "thesis.toc"

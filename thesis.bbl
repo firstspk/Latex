@@ -1,9 +1,36 @@
 \begin{thebibliography}{1}
 
+\bibitem{AlignedReID}
+Optical flow.
+
 \bibitem{I3D}
 Joao Carreira and Andrew Zisserman.
 \newblock Quo vadis, action recognition? a new model and the kinetics dataset,
   2018.
+
+\bibitem{danelljan2014accurate}
+Martin Danelljan, Gustav H{\"a}ger, Fahad Khan, and Michael Felsberg.
+\newblock Accurate scale estimation for robust visual tracking.
+\newblock In {\em British Machine Vision Conference, Nottingham, September 1-5,
+  2014}. BMVA Press, 2014.
+
+\bibitem{farneback2003two}
+Gunnar Farneb{\"a}ck.
+\newblock Two-frame motion estimation based on polynomial expansion.
+\newblock In {\em Scandinavian conference on Image analysis}, pages 363--370.
+  Springer, 2003.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{luo2019alignedreid++}
+Hao Luo, Wei Jiang, Xuan Zhang, Xing Fan, Jingjing Qian, and Chi Zhang.
+\newblock Alignedreid++: Dynamically matching local information for person
+  re-identification.
+\newblock {\em Pattern Recognition}, 94:53--61, 2019.
 
 \bibitem{Inception}
 Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir

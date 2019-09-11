@@ -37,15 +37,16 @@
 \contentsline {subsubsection}{\numberline {3.8.1.4}Action label}{29}{subsubsection.3.8.1.4}% 
 \contentsline {subsubsection}{\numberline {3.8.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{31}{subsubsection.3.8.1.5}% 
 \contentsline {section}{\numberline {3.9}การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{32}{section.3.9}% 
-\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง}{32}{subsection.3.9.1}% 
-\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{33}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Labeling tool}{33}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{33}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{37}{subsection.4.1.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{40}{chapter*.39}% 
+\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิ์ภาพการทำงานของระบบทำนายตำแหน่งต่อไปของวัตถุในวิดีโอ}{32}{subsection.3.9.1}% 
+\contentsline {subsection}{\numberline {3.9.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง}{33}{subsection.3.9.2}% 
+\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{34}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Labeling tool}{34}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{34}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{38}{subsection.4.1.2}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{41}{chapter*.39}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{41}{appendix.A}% 
-\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{41}{section.A.1}% 
-\contentsline {chapter}{ประวัติผู้เขียน}{54}{appendix*.66}% 
+\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{42}{appendix.A}% 
+\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{42}{section.A.1}% 
+\contentsline {chapter}{ประวัติผู้เขียน}{55}{appendix*.66}% 
 \contentsfinish 
