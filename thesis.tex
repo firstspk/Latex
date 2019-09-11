@@ -1,0 +1,53 @@
+\documentclass{classes/fiboThesis}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{lscape}
+
+\begin{document}
+\title{Goggle : People Video Analytics and Deep Learning Platform}
+\titleTH{Goggle แพลตฟอร์มการเรียนรู้เชิงลึกและระบบวิเคราะห์การกระทำของมนุษย์}
+
+\author{นายปฐมพงศ์ สินธุ์งาม}
+\authorTwo{นายศุภกร เบญจวิกรัย}
+\authorThree{นายอุกฤษฎ์ เลิศวรรณาการ}
+
+\majoradvisor{ดร.วราสิณี ฉายแสงมงคล}
+\committeeOne{ดร.วราสิณี ฉายแสงมงคล}
+\committeeTwo{อ.บวรศักดิ์ สกุลเกื้อกูลสุข}
+\committeeThree{ดร.บุญฑริกา เกษมสันติธรรม}
+
+\academicyearTH{2562}
+
+\maketitle
+\frontmatter
+\maketitleinner
+\makeapproval
+\input{pages/abstract}
+\input{pages/acknowledgements}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\input{pages/symbols}
+\input{pages/abbreviations}
+
+\mainmatter
+\input{chapter1/chapter1}
+\input{chapter2/chapter2}
+\input{chapter3/chapter3}
+ \input{chapter4/chapter4}
+% \input{chapter5/chapter5}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{pages/reference}
+\addcontentsline{toc}{chapter}{เอกสารอ้างอิง}
+\begin{appendices}
+	\input{appendix/appendix1}
+	% \input{pages/appendix2}
+\end{appendices}
+
+\input{pages/vitea}
+
+\end{document}
