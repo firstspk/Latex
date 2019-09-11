@@ -1,0 +1,28 @@
+ในการทำปัญญาประดิษฐ์จะมีการใช้ library ที่เกี่ยวกับการเรียนรู้เชิงลึกที่ส่วนใหญ่นิยมนำมาใช้มีอยู่ 2 library  คือ tensorflow และ pytorch เพราะเนื่องจาก library เป็นแบบที่สามารถดาวน์โหลดแหล่งที่มาของโค็ดได้ ซึ่งเป็นการให้สิทธิเสรีแก่ผู้ที่จะนำไปใช้ และการใช้งานที่ง่ายต่อผู้ที่ทำงานเกี่ยวกับด้านปัญญาประดิษฐ์ โดยที่ความแต่ต่างของ tensorflow และ pytorch มีดังนี้
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		{ตวามแตกต่าง}&\multicolumn{2}{c|}{library}\\
+		\cline{2-3}
+		{}								& tensorflow					& pytorch				\\
+		\hline
+		framework							& theano						& torch				\\
+		\hline
+		ผู้พัฒนา							& google						& facebook			\\
+		\hline
+		graph ที่ได้							& static graph					& dynamic graph		\\
+		\hline
+		ด้านการใช้งาน						& ยากกว่า pytorch				& ง่ายกว่า tensorflow		\\
+		\hline
+		จำนวนแหล่งข้อมูล					& มากกว่า pytorch				& น้อยกว่า tensorflow		\\
+		\hline
+		ตัวช่วยแสดงผลของโมเดลปัญญาประดิษฐ์		& tensorboard					& ไม่มี				\\
+		\hline
+	\end{tabular}
+	\caption{ความแตกต่างของ tensorflow และ pytorch}
+	\label{tab: ความแตกต่างของ tensorflow และ pytorch}
+\end{table}
+
+จากตาราง \ref{tab: ความแตกต่างของ tensorflow และ pytorch}  static graph คือ graph ที่ได้หลักจากผ่านการคำนวณทั้งหมดของโมเดลปัญญาประดิษฐ์ ซึ่งไม่สามารถแก้ไขได้ แต่ dynamic graph นั้นสามารถที่จะปรับเปลี่ยนได้ตลอดเวลา ซึ่งทำให้สามารถนำมาปรับใช้กับข้อมูลหลากหลายแบบได้
