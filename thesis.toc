@@ -37,6 +37,7 @@
 \contentsline {subsubsection}{\numberline {3.8.1.4}Action label}{29}{subsubsection.3.8.1.4}% 
 \contentsline {subsubsection}{\numberline {3.8.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{31}{subsubsection.3.8.1.5}% 
 \contentsline {section}{\numberline {3.9}การออกแบบระบบวิเคราะห์การกระทำของมนุษย์}{32}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง}{32}{subsection.3.9.1}% 
 \contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{33}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Labeling tool}{33}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{33}{subsection.4.1.1}% 
