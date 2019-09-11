@@ -21,27 +21,27 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces ตัวอย่างข้อมูลภายในไฟล์ XML\relax }}{31}{figure.caption.30}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Select\relax }}{33}{figure.caption.31}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Detect\relax }}{34}{figure.caption.32}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Track\relax }}{35}{figure.caption.33}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Label\relax }}{36}{figure.caption.34}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces รูปผลลัพท์การแยกเฟรมที่มีมนุษย์อยู่และไม่มีมนุษย์อยู่ภายในเฟรม\relax }}{37}{figure.caption.35}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces รูปคีย์เฟรมที่ถูกตีกรอบสี่เหลี่ยมในส่วนที่มีมนุษย์อยู่\relax }}{37}{figure.caption.36}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces รูปผลลัพท์การทำงานของหน้าต่าง Track\relax }}{38}{figure.caption.37}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces รูปผลลัพท์การทำงานของหน้าต่าง Label\relax }}{39}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Select\relax }}{34}{figure.caption.31}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Detect\relax }}{35}{figure.caption.32}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Track\relax }}{36}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Label\relax }}{37}{figure.caption.34}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces รูปผลลัพท์การแยกเฟรมที่มีมนุษย์อยู่และไม่มีมนุษย์อยู่ภายในเฟรม\relax }}{38}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces รูปคีย์เฟรมที่ถูกตีกรอบสี่เหลี่ยมในส่วนที่มีมนุษย์อยู่\relax }}{38}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces รูปผลลัพท์การทำงานของหน้าต่าง Track\relax }}{39}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces รูปผลลัพท์การทำงานของหน้าต่าง Label\relax }}{40}{figure.caption.38}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {ก.1}{\ignorespaces ภาพแสดงช่วงล่างทั้งตัว\relax }}{41}{figure.caption.40}% 
-\contentsline {figure}{\numberline {ก.2}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Yaw\relax }}{42}{figure.caption.42}% 
-\contentsline {figure}{\numberline {ก.3}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Yaw\relax }}{43}{figure.caption.44}% 
-\contentsline {figure}{\numberline {ก.4}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Roll\relax }}{44}{figure.caption.46}% 
-\contentsline {figure}{\numberline {ก.5}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Roll\relax }}{45}{figure.caption.48}% 
-\contentsline {figure}{\numberline {ก.6}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Pitch\relax }}{46}{figure.caption.50}% 
-\contentsline {figure}{\numberline {ก.7}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Pitch\relax }}{47}{figure.caption.52}% 
-\contentsline {figure}{\numberline {ก.8}{\ignorespaces ภาพแสดงก้านต่อ Right Knee Pitch\relax }}{48}{figure.caption.54}% 
-\contentsline {figure}{\numberline {ก.9}{\ignorespaces ภาพแสดงก้านต่อ Left Knee Pitch\relax }}{49}{figure.caption.56}% 
-\contentsline {figure}{\numberline {ก.10}{\ignorespaces ภาพแสดงก้านต่อ Right Ankle Pitch\relax }}{50}{figure.caption.58}% 
-\contentsline {figure}{\numberline {ก.11}{\ignorespaces ภาพแสดงก้านต่อ Left Ankle Pitch\relax }}{51}{figure.caption.60}% 
-\contentsline {figure}{\numberline {ก.12}{\ignorespaces ภาพแสดงก้านต่อ Right Ankle Roll\relax }}{52}{figure.caption.62}% 
-\contentsline {figure}{\numberline {ก.13}{\ignorespaces ภาพแสดงก้านต่อ Left Ankle Roll\relax }}{53}{figure.caption.64}% 
+\contentsline {figure}{\numberline {ก.1}{\ignorespaces ภาพแสดงช่วงล่างทั้งตัว\relax }}{43}{figure.caption.40}% 
+\contentsline {figure}{\numberline {ก.2}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Yaw\relax }}{44}{figure.caption.42}% 
+\contentsline {figure}{\numberline {ก.3}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Yaw\relax }}{45}{figure.caption.44}% 
+\contentsline {figure}{\numberline {ก.4}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Roll\relax }}{46}{figure.caption.46}% 
+\contentsline {figure}{\numberline {ก.5}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Roll\relax }}{47}{figure.caption.48}% 
+\contentsline {figure}{\numberline {ก.6}{\ignorespaces ภาพแสดงก้านต่อ Right Hip Pitch\relax }}{48}{figure.caption.50}% 
+\contentsline {figure}{\numberline {ก.7}{\ignorespaces ภาพแสดงก้านต่อ Left Hip Pitch\relax }}{49}{figure.caption.52}% 
+\contentsline {figure}{\numberline {ก.8}{\ignorespaces ภาพแสดงก้านต่อ Right Knee Pitch\relax }}{50}{figure.caption.54}% 
+\contentsline {figure}{\numberline {ก.9}{\ignorespaces ภาพแสดงก้านต่อ Left Knee Pitch\relax }}{51}{figure.caption.56}% 
+\contentsline {figure}{\numberline {ก.10}{\ignorespaces ภาพแสดงก้านต่อ Right Ankle Pitch\relax }}{52}{figure.caption.58}% 
+\contentsline {figure}{\numberline {ก.11}{\ignorespaces ภาพแสดงก้านต่อ Left Ankle Pitch\relax }}{53}{figure.caption.60}% 
+\contentsline {figure}{\numberline {ก.12}{\ignorespaces ภาพแสดงก้านต่อ Right Ankle Roll\relax }}{54}{figure.caption.62}% 
+\contentsline {figure}{\numberline {ก.13}{\ignorespaces ภาพแสดงก้านต่อ Left Ankle Roll\relax }}{55}{figure.caption.64}% 
 \contentsfinish 
