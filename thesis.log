@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  12 SEP 2019 15:38
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  12 SEP 2019 15:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1296,7 +1296,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-[5]
+[5
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
@@ -1307,21 +1309,27 @@ Overfull \hbox (8.50133pt too wide) in paragraph at lines 54--55
 ะ ระดับ วิดีโอ ความ ยาว คงที่ จาก คุณลักษณะ
  []
 
-[8] [9] [10]
-Overfull \hbox (5.9726pt too wide) in paragraph at lines 185--186
+[8] [9
+
+] [10] [11
+
+]
+Overfull \hbox (5.9726pt too wide) in paragraph at lines 187--188
 []\TU/THSarabunNew(0)/m/n/12 แก้ ปัญหา เรื่อง การ เคลื่อนไหว ของ กล้อง(camera m
 otion) โดย การนำ ค่า เฉลี่ย ของ เวก เตอร์(vector)
  []
 
-[11])) [12] (chapter2/labeling_tool.tex
+[12])) [13
+
+] (chapter2/labeling_tool.tex
 File: chapter2/images/darklabel.png Graphic file (type bmp)
 <chapter2/images/darklabel.png>
- [13
+ [14
 
 ]
 File: chapter2/images/openlabel.png Graphic file (type bmp)
 <chapter2/images/openlabel.png>
-) [14
+) [15
 
 ] (chapter2/optical_flow.tex
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
@@ -1336,16 +1344,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
-[15
+[16
 
-]) [16] (chapter2/2steamCNN.tex
+]) [17] (chapter2/2steamCNN.tex
 File: chapter2/images/2steamCNN.png Graphic file (type bmp)
 <chapter2/images/2steamCNN.png>
-)) (chapter3/chapter3.tex [17
+)) (chapter3/chapter3.tex [18
 
 ]
 บทที่ 3.
-[18
+[19
 
 ]
 Overfull \hbox (3.17891pt too wide) in paragraph at lines 38--39
@@ -1354,14 +1362,14 @@ n/12 สร้าง และ ทดสอบ โมเดล ปัญญา �
 
  []
 
-[19
+[20
 
-] [20
+] [21
 
 ]
 File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
 <chapter3/images/Overview/HowItWorks.png>
- [21
+ [22
 
 ]
 Overfull \hbox (12.87189pt too wide) in paragraph at lines 110--110
@@ -1372,66 +1380,66 @@ Overfull \hbox (12.87189pt too wide) in paragraph at lines 110--110
 (chapter3/labeler.tex
 File: chapter3/images/3_6/labelingToolOverview.png Graphic file (type bmp)
 <chapter3/images/3_6/labelingToolOverview.png>
- [22
+ [23
 
 ]
 File: chapter3/images/3_6/SelectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft.png>
- [23
+ [24
 
 ]
 File: chapter3/images/3_6/SelectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft_point.png>
- [24
+ [25
 
 ]
 File: chapter3/images/3_6/DetectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft.png>
- [25
+ [26
 
 ]
 File: chapter3/images/3_6/DetectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft_point.png>
- [26
+ [27
 
 ]
 File: chapter3/images/3_6/TrackDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft.png>
- [27
+ [28
 
 ]
 File: chapter3/images/3_6/TrackDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft_point.png>
- [28
+ [29
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft.png>
- [29
+ [30
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft_point.png>
- [30
+ [31
 
 ]
 File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
-) [31
+) [32
 
 ]
-(chapter3/chapter3_object_detection.tex) [32
+(chapter3/chapter3_object_detection.tex) [33
 
-] (chapter3/track_experimental.tex) [33
+] (chapter3/track_experimental.tex) [34
 
-] (chapter3/experiment_reid.tex) [34
+] (chapter3/experiment_reid.tex) [35
 
-] (chapter3/Experimental.tex [35
+] (chapter3/Experimental.tex [36
 
 ]
-[36
+[37
 
-])) (chapter4/chapter4.tex [37
+])) (chapter4/chapter4.tex [38
 
 ]
 บทที่ 4.
@@ -1440,43 +1448,43 @@ File: chapter4/images/Final_ui/Select.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Select.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 38 undefined on input line 8.
+LaTeX Warning: Reference `fig:' on page 39 undefined on input line 8.
 
-[38
+[39
 
 ]
 File: chapter4/images/Final_ui/Detect.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Detect.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 39 undefined on input line 26.
+LaTeX Warning: Reference `fig:' on page 40 undefined on input line 26.
 
-[39
+[40
 
 ]
 File: chapter4/images/Final_ui/Track.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Track.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 40 undefined on input line 41.
+LaTeX Warning: Reference `fig:' on page 41 undefined on input line 41.
 
-[40
+[41
 
 ]
 File: chapter4/images/Final_ui/Label.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Label.jpg>
 
 
-LaTeX Warning: Reference `fig:' on page 41 undefined on input line 58.
+LaTeX Warning: Reference `fig:' on page 42 undefined on input line 58.
 
-[41
+[42
 
 ]
 File: chapter4/images/Result/result_select3.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select3.jpg>
 File: chapter4/images/Result/result_select4.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select4.jpg>
- [42
+ [43
 
 ]
 File: chapter4/images/Result/result_select6.jpg Graphic file (type bmp)
@@ -1485,14 +1493,14 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 13.46844pt on input line 95.
 File: chapter4/images/Result/result_select7.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select7.jpg>
- [43
+ [44
 
 ]
 File: chapter4/images/Result/result_select.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select.jpg>
 File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select9.jpg>
-) [44
+) [45
 
 ] (chapter4/object_detection.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--16
@@ -1532,12 +1540,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--21
 
 ))
 No file thesis.bbl.
-[45
+[46
 
-] [46]
+] [47]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [46
+ (appendix/appendix1.tex [47
 
 
 ]
@@ -1545,84 +1553,84 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (appendix/dynamic_prop.tex
 File: appendix/images/uthai_dynamic_all.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_all.jpeg>
- [47
+ [48
 
 ]
 File: appendix/images/uthai_dynamic_rhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhy.jpeg>
- [48
+ [49
 
 ]
 File: appendix/images/uthai_dynamic_lhy.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhy.jpeg>
- [49
+ [50
 
 ]
 File: appendix/images/uthai_dynamic_rhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhr.jpeg>
- [50
+ [51
 
 ]
 File: appendix/images/uthai_dynamic_lhr.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhr.jpeg>
- [51
+ [52
 
 ]
 File: appendix/images/uthai_dynamic_rhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rhp.jpeg>
- [52
+ [53
 
 ]
 File: appendix/images/uthai_dynamic_lhp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lhp.jpeg>
- [53
+ [54
 
 ]
 File: appendix/images/uthai_dynamic_rkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rkp.jpeg>
- [54
+ [55
 
 ]
 File: appendix/images/uthai_dynamic_lkp.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lkp.jpeg>
- [55
+ [56
 
 ]
 File: appendix/images/uthai_dynamic_rap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rap.jpeg>
 
-[56
+[57
 
 ]
 File: appendix/images/uthai_dynamic_lap.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lap.jpeg>
- [57
+ [58
 
 ]
 File: appendix/images/uthai_dynamic_rar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_rar.jpeg>
- [58
+ [59
 
 ]
 File: appendix/images/uthai_dynamic_lar.jpeg Graphic file (type bmp)
 <appendix/images/uthai_dynamic_lar.jpeg>
-)) (pages/vitea.tex [59
+)) (pages/vitea.tex [60
 
 ]
 File: pages/images/jirad.jpg Graphic file (type bmp)
 <pages/images/jirad.jpg>
- [60
+ [61
 
 
 ]
 File: pages/images/taa.jpg Graphic file (type bmp)
 <pages/images/taa.jpg>
- [61
+ [62
 
 ]
 File: pages/images/wuttipat.jpg Graphic file (type bmp)
 <pages/images/wuttipat.jpg>
-) [62
+) [63
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1648,6 +1656,6 @@ Here is how much of TeX's memory you used:
  41607 multiletter control sequences out of 15000+200000
  536754 words of font info for 63 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,83p,1110b,751s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,83p,1102b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (77 pages).
+Output written on thesis.pdf (78 pages).
