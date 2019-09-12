@@ -57,14 +57,17 @@
 \contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{49}{subsection.4.1.2}% 
 \contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{52}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{52}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{52}{subsection.4.2.2}% 
 \contentsline {section}{\numberline {4.3}ผลการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{52}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}ผลการทดสอบการระบุตัวตนของมนุษย์}{52}{section.4.4}% 
 \contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{52}{section.4.5}% 
 \contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{52}{subsection.4.5.1}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{53}{chapter*.50}% 
+\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{52}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{53}{subsection.4.5.3}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{54}{chapter*.50}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{54}{appendix.A}% 
-\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{54}{section.A.1}% 
-\contentsline {chapter}{ประวัติผู้เขียน}{67}{appendix*.77}% 
+\contentsline {chapter}{\numberline {ก}ข้อมูลเบื้องต้นของหุ่นยนต์ฮิวมานอยด์ UTHAI}{55}{appendix.A}% 
+\contentsline {section}{\numberline {ก.1}ค่าคุณสมบัติทางพลศาสตร์}{55}{section.A.1}% 
+\contentsline {chapter}{ประวัติผู้เขียน}{68}{appendix*.77}% 
 \contentsfinish 
