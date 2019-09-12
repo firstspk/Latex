@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1568261646 "thesis.aux" "thesis.bbl" "thesis" 1568261662
+["bibtex thesis"] 1568276182 "thesis.aux" "thesis.bbl" "thesis" 1568276198
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "pages/reference.bib" 1568191489 2211 250aafd66a7721a87c31c605866f50b8 ""
-  "thesis.aux" 1568261653 30326 7c2ae5d49c07e877b9455582511f1c88 "xelatex"
+  "thesis.aux" 1568276189 30433 fb8b344f8965f6355f329a548b55f974 "xelatex"
   (generated)
-  "thesis.blg"
   "thesis.bbl"
-["xdvipdfmx"] 1568261653 "thesis.xdv" "thesis.pdf" "thesis" 1568261662
-  "thesis.xdv" 1568261653 1300460 9dc5d59bda1c5054b71b4577dffcd99e "xelatex"
+  "thesis.blg"
+["xdvipdfmx"] 1568276190 "thesis.xdv" "thesis.pdf" "thesis" 1568276198
+  "thesis.xdv" 1568276189 1300848 135561bd63daa816a5547b62834277b5 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1568261647 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568261662
+["xelatex"] 1568276182 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568276198
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -198,11 +198,11 @@
   "appendix/images/uthai_dynamic_rhy.jpeg" 1566532530 171211 5a93eb003b48440a50ee784646acae85 ""
   "appendix/images/uthai_dynamic_rkp.jpeg" 1566532530 120762 4754543dc88c90e974be346095832556 ""
   "c:/Users/asus/Desktop/Latex/thesis.tex" 1568124792 1652 52f26725b4cb4dc3689b9ca35f606c41 ""
-  "chapter1/chapter1.tex" 1568189894 12583 95f6e2a770cf906717dd13125d67d24d ""
+  "chapter1/chapter1.tex" 1568275124 12502 0dd51e72a33bd2b36ffdfc6bffe4ef44 ""
   "chapter1/ganttchart.png" 1568091183 357508 a3ad66bc19cc10013fb01bacf49fb445 ""
   "chapter2/2steamCNN.tex" 1567579931 1301 2a2122347504a7a9dd179183b9ae61e1 ""
   "chapter2/action_label.tex" 1568107117 33323 80a5c52f8ca2faf6aeb9b221e9e3ecdf ""
-  "chapter2/chapter2.tex" 1568124922 2646 15c1a96aaef8d839eaec54732d0aa274 ""
+  "chapter2/chapter2.tex" 1568276173 3152 a4e04ba7f963e9b254a715008c5d0c19 ""
   "chapter2/images/2steamCNN.png" 1566964141 260871 4b1a1d1106b975d5ff12ebdde22180a5 ""
   "chapter2/images/darklabel.png" 1567076096 522656 fd3e965e5348a0f38bf2bb36e99caef8 ""
   "chapter2/images/openlabel.png" 1567076097 750475 858bc5ccc6149833faf1bb1d724e3cdc ""
@@ -254,18 +254,18 @@
   "pages/images/wuttipat.jpg" 1566532531 195489 11b8642b33fa18793a5745305cc50ecf ""
   "pages/symbols.tex" 1566532531 364 7f62296ba922976011d6b0897a158361 ""
   "pages/vitea.tex" 1566532531 4526 b74b0bb7c962708bda00cdded80f03d0 ""
-  "thesis.aux" 1568261653 30326 7c2ae5d49c07e877b9455582511f1c88 "xelatex"
-  "thesis.bbl" 1568261647 1481 a5fe826fe9c76e15223711f96ba37dbb "bibtex thesis"
-  "thesis.lof" 1568261653 7052 71341b76c8cea58c4d2e7fcd658f3dfb "xelatex"
-  "thesis.lot" 1568261653 2922 e892c0e0656b36c414ca70232fa8a165 "xelatex"
-  "thesis.out" 1568261653 7248 b59766406eac04940edabc7ddc048418 "xelatex"
+  "thesis.aux" 1568276189 30433 fb8b344f8965f6355f329a548b55f974 "xelatex"
+  "thesis.bbl" 1568276182 1481 a5fe826fe9c76e15223711f96ba37dbb "bibtex thesis"
+  "thesis.lof" 1568276189 7052 71341b76c8cea58c4d2e7fcd658f3dfb "xelatex"
+  "thesis.lot" 1568276189 2922 e892c0e0656b36c414ca70232fa8a165 "xelatex"
+  "thesis.out" 1568276189 7349 6de44c00c36cc1881b40c79a10c47dfb "xelatex"
   "thesis.tex" 1568124792 1652 52f26725b4cb4dc3689b9ca35f606c41 ""
-  "thesis.toc" 1568261653 8780 44d6380d149dd6576a999dde3091def6 "xelatex"
+  "thesis.toc" 1568276189 8887 859611d175cb39a370cb62fce31e593d "xelatex"
   (generated)
+  "thesis.log"
   "thesis.toc"
   "thesis.xdv"
   "thesis.lot"
-  "thesis.log"
   "thesis.out"
-  "thesis.lof"
   "thesis.aux"
+  "thesis.lof"
