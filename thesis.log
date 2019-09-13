@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  13 SEP 2019 12:57
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  13 SEP 2019 18:19
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1127,26 +1127,19 @@ File: chapter2/images/track-concept.png Graphic file (type bmp)
 
 ] [11] [12
 
-]
-Overfull \hbox (5.9726pt too wide) in paragraph at lines 256--257
-[]\TU/THSarabunNew(0)/bx/n/12 แก้ ปัญหา เรื่อง การ เคลื่อนไหว ของ กล้อง(camera motion) โดย การนำ ค่า เฉลี่ย ของ เวก เตอร์(vector)
- []
-
-
-Overfull \hbox (12.6441pt too wide) in paragraph at lines 261--263
-[]\TU/THSarabunNew(0)/bx/n/12 ใน งาน วิจัย นี้ มี การ ทดสอบ โมเดล ปัญญา ประดิษฐ์ หลาย อัน ซึ่ง โมเดล ปัญญา ประดิษฐ์ ที่ มี ประสิทธิภาพ
- []
-
-[13])) [14
-
-] (chapter2/ResNet.tex
+] [13])) (chapter2/ResNet.tex
 File: chapter2/images/example_resnet.png Graphic file (type bmp)
 <chapter2/images/example_resnet.png>
-) [15
+ [14
+
+]) [15
 
 ] (chapter2/I3D.tex
 File: chapter2/images/I3D.png Graphic file (type bmp)
 <chapter2/images/I3D.png>
+ [16
+
+]
 File: chapter2/images/inceptionModule.png Graphic file (type bmp)
 <chapter2/images/inceptionModule.png>
 
@@ -1154,7 +1147,9 @@ Overfull \hbox (41.61888pt too wide) in paragraph at lines 24--37
 [][] 
  []
 
-) [16] [17] (chapter2/labeling_tool.tex
+) [17
+
+] (chapter2/labeling_tool.tex
 File: chapter2/images/darklabel.png Graphic file (type bmp)
 <chapter2/images/darklabel.png>
  [18
@@ -1165,25 +1160,9 @@ File: chapter2/images/openlabel.png Graphic file (type bmp)
 ) [19
 
 ] (chapter2/optical_flow.tex
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 1.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 8.60997pt on input line 1.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 6.14998pt on input line 1.
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
 <chapter2/images/vector_optical.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-
- []
-
-[20
+ [20
 
 ])) (chapter3/chapter3.tex [21]
 บทที่ 3.
@@ -1361,13 +1340,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--21
 ] [50]
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew(0)/m/it' undefined
-(Font)              using `TU/THSarabunNew(0)/m/n' instead on input line 10.
+(Font)              using `TU/THSarabunNew(0)/m/n' instead on input line 9.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 21.
-) [51
+(Font)              scaled to size 14.75995pt on input line 17.
+[51
 
-] [52]
+]) [52]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
  [52
@@ -1394,12 +1373,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38054 strings out of 427669
- 756653 string characters out of 3149215
+ 38049 strings out of 427669
+ 756465 string characters out of 3149215
  1040196 words of memory out of 3000000
- 41571 multiletter control sequences out of 15000+200000
- 536690 words of font info for 55 fonts, out of 3000000 for 9000
+ 41569 multiletter control sequences out of 15000+200000
+ 536212 words of font info for 50 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,13n,77p,1128b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,13n,77p,952b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (66 pages, 1261468 bytes).
+Output written on thesis.xdv (66 pages, 1268292 bytes).

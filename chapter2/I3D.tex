@@ -10,17 +10,17 @@
     \caption{โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript{\cite{I3D}}}
     \label{fig:I3DArch}
 \end{figure}
-
+\clearpage
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.5\textwidth]{chapter2/images/inceptionModule.png}
     \caption{โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript{\cite{I3D}}}
     \label{fig:InceptionModule}
 \end{figure}
+
 ประสิทธิภาพของโมเดล I3D แบบ two-stream เมื่อเทียบกับ long-short term memory (LSTM),
-3D-convolution network, two-stream และ 3D-fused โดยใช้เครื่องมือในการวัดผลคือความแม่นยำจากการทำนายอันดับแรกสุด (Top@1 accuracy) 
-และความแม่นยำจากการทำนาย 5 อันดับแรก (Top@5 accuracy) ตามตารางที่ \ref{tab:I3DPerformance}
-\begin{table}[ht]
+3D-convolution network, two-stream และ 3D-fused โดยใช้เครื่องมือในการวัดผลคือ Top@1 accuracy ตามตารางที่ \ref{tab:I3DPerformance}
+\begin{table}[!ht]
     \begin{tabular}{|*{10}{c|}}
         \hline
         \multirow{2}{*}{Architecture} & \multicolumn{3}{c|}{UCF-101} & \multicolumn{3}{c|}{HMDB-51} & \multicolumn{3}{c|}{Kinetics}\\

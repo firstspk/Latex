@@ -1,7 +1,14 @@
 \begin{thebibliography}{10}
 
-\bibitem{AlignedReID}
+\bibitem{Optical_Flow}
 Optical flow.
+
+\bibitem{Baker:1998:BFP:980451.980860}
+Collin~F. Baker, Charles~J. Fillmore, and John~B. Lowe.
+\newblock The berkeley framenet project.
+\newblock In {\em Proceedings of the 17th International Conference on
+  Computational Linguistics - Volume 1}, COLING '98, pages 86--90, Stroudsburg,
+  PA, USA, 1998. Association for Computational Linguistics.
 
 \bibitem{caba2015activitynet}
 Fabian Caba~Heilbron, Victor Escorcia, Bernard Ghanem, and Juan Carlos~Niebles.
@@ -52,6 +59,12 @@ Shugao Ma, Sarah~Adel Bargal, Jianming Zhang, Leonid Sigal, and Stan Sclaroff.
   utilizing action images from the web.
 \newblock {\em Pattern Recognition}, 68:334--345, 2017.
 
+\bibitem{Schuler:2005:VBC:1104493}
+Karin~Kipper Schuler.
+\newblock {\em Verbnet: A Broad-coverage, Comprehensive Verb Lexicon}.
+\newblock PhD thesis, Philadelphia, PA, USA, 2005.
+\newblock AAI3179808.
+
 \bibitem{Inception}
 Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
   Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
@@ -68,5 +81,12 @@ Joe Yue-Hei~Ng, Matthew Hausknecht, Sudheendra Vijayanarasimhan, Oriol Vinyals,
 \newblock Beyond short snippets: Deep networks for video classification.
 \newblock In {\em Proceedings of the IEEE conference on computer vision and
   pattern recognition}, pages 4694--4702, 2015.
+
+\bibitem{Zaghouani:2010:RAP:1868720.1868756}
+Wajdi Zaghouani, Mona Diab, Aous Mansouri, Sameer Pradhan, and Martha Palmer.
+\newblock The revised arabic propbank.
+\newblock In {\em Proceedings of the Fourth Linguistic Annotation Workshop},
+  LAW IV '10, pages 222--226, Stroudsburg, PA, USA, 2010. Association for
+  Computational Linguistics.
 
 \end{thebibliography}
