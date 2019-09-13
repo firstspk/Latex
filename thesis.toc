@@ -14,57 +14,57 @@
 \contentsline {chapter}{\numberline {2}ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{4}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}การวิเคราะห์ผลวิดีโอ}{4}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}การตรวจจับวัตถุ}{4}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}การทำนายตำแหน่งถัดไปของวัตถุ}{7}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}การระบุตัวตนของบุคคล}{8}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}การจำแนกการกระทำ}{8}{subsection.2.1.4}% 
-\contentsline {section}{\numberline {2.2}เครื่องมือสำหรับการวิเคราะห์ผลวิดีโอ}{17}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}{17}{subsection.2.2.1}% 
-\contentsline {subsubsection}{\numberline {2.2.1.1}ResNet}{17}{subsubsection.2.2.1.1}% 
-\contentsline {subsubsection}{\numberline {2.2.1.2}Inflated 3D convolutional network}{18}{subsubsection.2.2.1.2}% 
-\contentsline {subsection}{\numberline {2.2.2}เครื่องมือสำหรับสร้างชุดข้อมูล}{20}{subsection.2.2.2}% 
-\contentsline {section}{\numberline {2.3}ทฤษฎีที่เกี่ยวข้อง}{22}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Optical flow}{22}{subsection.2.3.1}% 
-\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{24}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{24}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (Functional Requirements)}{24}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}ความต้องการเชิงวิศวกรรม (Non-Functional Requirements)}{24}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}หน้าที่ความรับผิดชอบ}{25}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}เครื่องมือที่ใช้ในงานวิจัย}{25}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}ภาษาที่ใช้ในการพัฒนาระบบ}{26}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{26}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}แผนการดำเนินงาน}{26}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{27}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{28}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{28}{subsection.3.8.1}% 
-\contentsline {subsubsection}{\numberline {3.8.1.1}Select}{29}{subsubsection.3.8.1.1}% 
-\contentsline {subsubsection}{\numberline {3.8.1.2}Detect}{31}{subsubsection.3.8.1.2}% 
-\contentsline {subsubsection}{\numberline {3.8.1.3}Track}{33}{subsubsection.3.8.1.3}% 
-\contentsline {subsubsection}{\numberline {3.8.1.4}Action label}{35}{subsubsection.3.8.1.4}% 
-\contentsline {subsubsection}{\numberline {3.8.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{37}{subsubsection.3.8.1.5}% 
-\contentsline {section}{\numberline {3.9}การออกแบบการทดสอบการตรวจจับวัตถุ}{38}{section.3.9}% 
-\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{38}{subsection.3.9.1}% 
-\contentsline {section}{\numberline {3.10}การออกแบบการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{39}{section.3.10}% 
-\contentsline {subsection}{\numberline {3.10.1}ทดสอบประสิทธิ์ภาพการทำงานของระบบทำนายตำแหน่งต่อไปของวัตถุในวิดีโอ}{39}{subsection.3.10.1}% 
-\contentsline {section}{\numberline {3.11}การออกแบบการทดสอบการระบุตัวตนของมนุษย์}{40}{section.3.11}% 
-\contentsline {subsection}{\numberline {3.11.1}ทดสอบประสิทธิ์ภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}{40}{subsection.3.11.1}% 
-\contentsline {section}{\numberline {3.12}การออกแบบการทดสอบการจดจำการกระทำของมนุษย์}{41}{section.3.12}% 
-\contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{41}{subsection.3.12.1}% 
-\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{42}{subsection.3.12.2}% 
-\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{43}{subsection.3.12.3}% 
-\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{44}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Labeling tool}{44}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{44}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{48}{subsection.4.1.2}% 
-\contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{51}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{51}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{51}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}ผลการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{51}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}ผลการทดสอบการระบุตัวตนของมนุษย์}{51}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{51}{section.4.5}% 
-\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{51}{subsection.4.5.1}% 
-\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{51}{subsection.4.5.2}% 
-\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{52}{subsection.4.5.3}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{54}{chapter*.47}% 
+\contentsline {subsection}{\numberline {2.1.2}การทำนายตำแหน่งถัดไปของวัตถุ}{5}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}การระบุตัวตนของบุคคล}{6}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}การจำแนกการกระทำ}{6}{subsection.2.1.4}% 
+\contentsline {section}{\numberline {2.2}เครื่องมือสำหรับการวิเคราะห์ผลวิดีโอ}{15}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}{15}{subsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.1.1}ResNet}{15}{subsubsection.2.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.2.1.2}Inflated 3D convolutional network}{16}{subsubsection.2.2.1.2}% 
+\contentsline {subsection}{\numberline {2.2.2}เครื่องมือสำหรับสร้างชุดข้อมูล}{18}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}ทฤษฎีที่เกี่ยวข้อง}{20}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Optical flow}{20}{subsection.2.3.1}% 
+\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{22}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{22}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (Functional Requirements)}{22}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}ความต้องการเชิงวิศวกรรม (Non-Functional Requirements)}{22}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}หน้าที่ความรับผิดชอบ}{23}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}เครื่องมือที่ใช้ในงานวิจัย}{23}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}ภาษาที่ใช้ในการพัฒนาระบบ}{24}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{24}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}แผนการดำเนินงาน}{24}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{25}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{26}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{26}{subsection.3.8.1}% 
+\contentsline {subsubsection}{\numberline {3.8.1.1}Select}{27}{subsubsection.3.8.1.1}% 
+\contentsline {subsubsection}{\numberline {3.8.1.2}Detect}{29}{subsubsection.3.8.1.2}% 
+\contentsline {subsubsection}{\numberline {3.8.1.3}Track}{31}{subsubsection.3.8.1.3}% 
+\contentsline {subsubsection}{\numberline {3.8.1.4}Action label}{33}{subsubsection.3.8.1.4}% 
+\contentsline {subsubsection}{\numberline {3.8.1.5}รายละเอียดข้อมูลภายในไฟล์ XML}{35}{subsubsection.3.8.1.5}% 
+\contentsline {section}{\numberline {3.9}การออกแบบการทดสอบการตรวจจับวัตถุ}{36}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{36}{subsection.3.9.1}% 
+\contentsline {section}{\numberline {3.10}การออกแบบการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{37}{section.3.10}% 
+\contentsline {subsection}{\numberline {3.10.1}ทดสอบประสิทธิ์ภาพการทำงานของระบบทำนายตำแหน่งต่อไปของวัตถุในวิดีโอ}{37}{subsection.3.10.1}% 
+\contentsline {section}{\numberline {3.11}การออกแบบการทดสอบการระบุตัวตนของมนุษย์}{38}{section.3.11}% 
+\contentsline {subsection}{\numberline {3.11.1}ทดสอบประสิทธิ์ภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}{38}{subsection.3.11.1}% 
+\contentsline {section}{\numberline {3.12}การออกแบบการทดสอบการจดจำการกระทำของมนุษย์}{39}{section.3.12}% 
+\contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{39}{subsection.3.12.1}% 
+\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{40}{subsection.3.12.2}% 
+\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{41}{subsection.3.12.3}% 
+\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{42}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Labeling tool}{42}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{42}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{46}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{49}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{49}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{49}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}ผลการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{49}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}ผลการทดสอบการระบุตัวตนของมนุษย์}{49}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{49}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{49}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{49}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{50}{subsection.4.5.3}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{52}{chapter*.47}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsfinish 

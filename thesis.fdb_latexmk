@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1568349630 "thesis.aux" "thesis.bbl" "thesis" 1568349642
+["bibtex thesis"] 1568353762 "thesis.aux" "thesis.bbl" "thesis" 1568354239
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "pages/reference.bib" 1568349418 4350 716816b66eaeddffc6d8589b2d12f887 ""
-  "thesis.aux" 1568349634 33532 265fe536810604ab652ffa5a3e9f063f "xelatex"
+  "thesis.aux" 1568354231 33610 9c8132ff428e230be1177cf09ac527bf "xelatex"
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["xdvipdfmx"] 1568349635 "thesis.xdv" "thesis.pdf" "thesis" 1568349642
-  "thesis.xdv" 1568349634 1272680 99651a30b0908295ed409ba67cded4f4 "xelatex"
+  "thesis.bbl"
+["xdvipdfmx"] 1568354232 "thesis.xdv" "thesis.pdf" "thesis" 1568354239
+  "thesis.xdv" 1568354231 1261468 4b50c638a5420cee997ecc065f291c99 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1568349630 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568349642
+["xelatex"] 1568354227 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568354239
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -187,7 +187,7 @@
   "chapter1/ganttchart.png" 1568091183 357508 a3ad66bc19cc10013fb01bacf49fb445 ""
   "chapter2/I3D.tex" 1568347009 4345 fafe1a794ac71df7ed4209c20349bd32 ""
   "chapter2/ResNet.tex" 1568184969 6229 385e9bd46c0cfb3a715c65a3430a8aea ""
-  "chapter2/action_label.tex" 1568349546 37695 29ff5ad7e5c3534c8ef7bae2eb99089b ""
+  "chapter2/action_label.tex" 1568354226 38430 dd4d7211fe4201b027ed46be56520fd7 ""
   "chapter2/chapter2.tex" 1568347107 3219 31365baa6e1b813109a967b5b151d585 ""
   "chapter2/images/I3D.png" 1568103830 128879 7b8b4d14ed607b5ebdd8cb8c81c278c1 ""
   "chapter2/images/darklabel.png" 1567076096 522656 fd3e965e5348a0f38bf2bb36e99caef8 ""
@@ -200,7 +200,7 @@
   "chapter2/optical_flow.tex" 1568098033 5227 baeee16ba7c4d77969a5706f56a6466b ""
   "chapter2/reid.tex" 1568286339 2312 6c23a05d6d720872f4e620ee4001aa58 ""
   "chapter2/tracking.tex" 1568346770 5099 7baaff9b8bcf5801f58aa768f6824581 ""
-  "chapter2/video_analytics.tex" 1568347271 6029 944edb418ea67f9db92ae2c60668305d ""
+  "chapter2/video_analytics.tex" 1568350073 3603 7e1fb5ce38d6bff10a67ae4980068310 ""
   "chapter3/Experimental.tex" 1568347267 12710 ab558bb34d7a015f1b1d80d6e33fde5b ""
   "chapter3/chapter3.tex" 1568347267 17494 e88e4314cb740a639cd9738a4360f371 ""
   "chapter3/chapter3_object_detection.tex" 1568347533 3774 f6b06f1f0d83c06d9edb3dd7684141db ""
@@ -238,18 +238,18 @@
   "pages/abstract.tex" 1567741229 1920 308001b5f72544a83a573fc98387a1db ""
   "pages/acknowledgements.tex" 1567398130 3903 6b1fafbf32e7765364713c5e43a9da09 ""
   "pages/symbols.tex" 1566532531 364 7f62296ba922976011d6b0897a158361 ""
-  "thesis.aux" 1568349634 33532 265fe536810604ab652ffa5a3e9f063f "xelatex"
-  "thesis.bbl" 1568349630 2981 9a958c7a0d6ee031149d16b0ff8a3ff3 "bibtex thesis"
-  "thesis.lof" 1568349634 5498 d90489632c3b30c46c05bc145c9d40f4 "xelatex"
-  "thesis.lot" 1568349634 2349 0702459c399c8a25f8d972abb2cfb53d "xelatex"
-  "thesis.out" 1568349634 10400 7307dfe7974a1e9b9d062942e7f0405a "xelatex"
+  "thesis.aux" 1568354231 33610 9c8132ff428e230be1177cf09ac527bf "xelatex"
+  "thesis.bbl" 1568353762 2981 9a958c7a0d6ee031149d16b0ff8a3ff3 "bibtex thesis"
+  "thesis.lof" 1568354231 5498 da428fa4b6d398ad0060da86d33b1bcc "xelatex"
+  "thesis.lot" 1568354231 2388 92199d28a8d4528345292e12daae11c5 "xelatex"
+  "thesis.out" 1568354231 10400 7307dfe7974a1e9b9d062942e7f0405a "xelatex"
   "thesis.tex" 1568349619 1656 07959a87add6a772315bf21a23891c34 ""
-  "thesis.toc" 1568349634 12290 4f70a29b7c4cab920f8124def252c609 "xelatex"
+  "thesis.toc" 1568354231 12290 35f55cd4e3285ac876162f16a44dce48 "xelatex"
   (generated)
-  "thesis.lof"
-  "thesis.toc"
   "thesis.out"
+  "thesis.xdv"
+  "thesis.log"
+  "thesis.lof"
   "thesis.lot"
   "thesis.aux"
-  "thesis.log"
-  "thesis.xdv"
+  "thesis.toc"
