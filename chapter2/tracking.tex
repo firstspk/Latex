@@ -1,30 +1,33 @@
-Tracking \footnote{Tracking,http://www.bmva.org/bmvc/2014/files/paper038.pdf} คือระบบที่ใช้สำหรับการติดตามการเคลื่อนไหวของวัตถุที่สนใจที่อยู่ในรูปภาพ นำมาใช้ในการแก้ปัญหาด้านการคำนวณของคอมพิวเตอร์ ทำให้โปรแกรมสามารถงานได้เร็วมากขึ้น
+การทำนายตำแหน่งถัดไปของวัตถุ\textsuperscript{\cite{danelljan2014accurate}} คือระบบที่ใช้สำหรับการติดตามการเคลื่อนไหวของวัตถุที่สนใจที่อยู่ในรูปภาพ 
+โดยใช้การคำนวณทางคณิตศาสตร์ และการประมวลผลภาพ (image processing) ทำให้การประมวลผลนั้นเร็วมากขึ้น
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=1\textwidth]{chapter2/images/track-concept.png}
-		\caption{Track concept}
-    	\label{fig:Track concept}
+		\caption{แนวคิดของระบบทำนายตำแหน่งถัดไปของวัตถุ}
+    	\label{fig:Track_concept}
 \end{figure}
 
-จากภาพ \ref{fig:Track concept} จะเป็นหลักการในการทำนายตำแหน่งต่อไป เริ่มจากการนำภาพมาแปลงให้อยู่ในรูปของฟูรีเย (fourier transform) และนำมาคูณกับ correlation filter ซึ่งเป็นฟิลเตอร์ที่ใช้สำหรับการหาความสัมพันธ์กับวัตถุในภาพ ต่อมาทำการอินเวอร์สฟูริเย (inverse fourier transform) เพื่อตรวจสอบว่าวัตถุในภาพนั้นอยู่ที่ตำแหน่งใด โดยมีการคำนวณเริ่มจากหา correlation filter ที่ดีที่สุดโดยใช้วิธี minimizing the sum of square errors ดังนี้
-\\
+จากรูปที่ \ref{fig:Track_concept} จะเป็นหลักการในการทำนายตำแหน่งต่อไป โดยการนำรูปมาผ่านกระบวนการแปลงฟูรีเยร์ (fourier transform)
+และนำมาคูณกับ correlation filter ซึ่งเป็นตัวกรองที่ใช้สำหรับการหาความสัมพันธ์กับวัตถุในภาพ จากนั้นทำการแปลงฟูรีเยร์ผกผัน (inverse fourier transform) 
+เพื่อตรวจสอบว่าวัตถุในภาพนั้นอยู่ที่ตำแหน่งใด โดยมีการคำนวณเริ่มจากการหา correlation filter ที่ดีที่สุดโดยใช้วิธีลดผลรวมของข้อผิดพลาดกำลังสองให้น้อยที่สุดดังนี้
+
 \begin{equation}
 \epsilon = \left \| \sum_{l = 1}^{d} h^{l} \star f^{l} - g \right \| + \lambda \sum_{l = 1}^{d}\left \| h^{l} \right \|^2
 \end{equation}
 โดยที่
 \begin{conditions}
  \epsilon     	&   ค่าความคลาดเคลื่อน 							\\
- d      		&  จำนวนมิติของผังคุณลักษณะ (feature map) ของภาพ 		\\   
+ d      		&  จำนวนมิติของผังคุณลักษณะ (feature map) ของภาพ  \\   
  h 			&  correlation filter								\\
-\star 			&  circular correlation								\\
+\star 			&  circular correlation							\\
  f			&  พื้นที่สี่เหลี่ยมของวัตถุที่สนใจที่ได้จากการทำผังคุณลักษณะ	\\
  g			&  ผลลัพธ์ correlation ที่ต้องการของ f					\\
  \lambda   		&  regularization term
 \end{conditions}
 
-เมื่อพิจารณาจากรูปภาพเดียวในกรณที่เวลา(t) เท่ากับ 1 จะสามารถจัดรูปสมการด้านบนได้ดังนี้ 
-\\
+เมื่อพิจารณาจากรูปภาพเดียวในกรณีที่เวลา ($t$) เท่ากับ 1 จะสามารถจัดรูปสมการด้านบนได้ดังนี้ 
+
 \begin{equation}
 H^{l} = \frac{\bar{G}F^{l}}{\sum_{k=1}^{d}\bar{F^{k}}F^{k} + \lambda}
 \end{equation}
@@ -41,20 +44,19 @@ B_{t} = (1-\eta )B_{t-1} + \eta \sum_{k=1}^{d}\bar{F_{t}^{k}}F_{t}^{k}
 \begin{conditions}
  H 		     	&   correlation filter								\\
  \eta      		&  อัตราการเรียนรู้						 		\\   
- \bar{G} 		&  คือ g ที่ทำการทำ complex conjugation				\\
+ \bar{G} 		&  คือ g ที่ผ่านการทำ complex conjugation				\\
  F			&  พื้นที่สี่เหลี่ยมของวัตถุที่สนใจที่ได้จากการทำผังคุณลักษณะ	\\
- \bar{F}		&   f ที่ทำการทำ complex conjugation					\\
+ \bar{F}		&   f ที่ผ่านการทำ complex conjugation					\\
  t 	  		&  เวลา
 \end{conditions}
-จากสมการที่ได้มาจะสามารถทำให้หาตำแหน่งต่อไปของวัตถุที่สนใจจากสมการต่อไปนี้
-\\
+จากสมการที่ได้มาจะสามารถทำให้หาตำแหน่งต่อไปของวัตถุที่สนใจได้ด้วยสมการต่อไปนี้
 \begin{equation}
 y = F^{-1}\left \{ \frac{\sum_{l = 1}^{d} \bar{A^{l}}Z^{l}}{B + \lambda} \right \}
 \end{equation}
 โดยที่
 \begin{conditions}
  y 		     	&   correlation score										\\
- F^{-1}    		&  การทำ inverse discrete fourier transform						\\   	
+ F^{-1}    		&  การแปลงฟูรีเยร์ผกผันแบบไม่ต่อเนื่อง (inverse discrete fourier transform)						\\   	
  Z	 		&  พื้นที่สี่เหลี่ยมของวัตถุที่สนใจที่ได้จากการหาผังคุณลักษณะของภาพใหม่	
 \end{conditions}
 โดยค่าของ $y$ ที่ได้ออกมาจะทำให้รู้ถึงตำแหน่งของวัตถุที่สนใจได้ ณ ตำแหน่งที่ $y$ มีค่าสูงสุด

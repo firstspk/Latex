@@ -61,28 +61,50 @@
 				\item คุณลักษณะระดับวิดีโอ : การแยกเวกเตอร์คุณลักษณะระดับวิดีโอจากคุณลักษณะระดับเฟรมซึ่งการทำแบบนี้ทำให้ได้ประโยชน์ 3 ข้อ 
 				คือโมเดลทั่วไปที่ไม่ใช่โครงข่ายประสาทเทียใสามารถนำไปใช้งานได้ ขนาดข้อมูลเล็กลง และเหมาะกับการนำไปสร้างโมเดล domain adaptive มากขึ้น
 			\end{enumerate}	
-		\item โมเดลปัญญาประดิษฐ์ % --> เติมตรงนี้ <---
+		\item โมเดลปัญญาประดิษฐ์ที่ใช้ในการทดสอบชุดข้อมูลแบบที่เป็นคุณลักษณะระดับเฟรม
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item one vs all logistic regression classifier + average pooling
+				\item Deep bag of frames (แนวคิดแบบเดียวกับ deep bag of words)
+				\item Long short-term memory (LSTM)
+			\end{enumerate}
+		\item โมเดลปัญญาประดิษฐ์ที่ใช้ในการทดสอบชุดข้อมูลแบบที่เป็นคุณลักษณะระดับวิดีโอ
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item Logistic regression
+				\item Support vector machine (SVM)
+				\item Mixture of Expert (MoE)
+			\end{enumerate}
 		\item เครื่องมือที่ใช้วัดผลสำหรับงานวิจัยนี้ คือ
-		\begin{enumerate}
-			\setlength\itemsep{-0.25em}
-			\item Mean Average Precision (mAP)
-			\item Hit@k
-			\item Precision at equal recall rate (PERR)
-		\end{enumerate}
-		\item ความสามารถของ Machine learning model ในปัจจุบัน
-		\begin{enumerate}
-			\setlength\itemsep{-0.25em}
-			\item 1 % --> เติมตรงนี้ <---
-			\item 2 % --> เติมตรงนี้ <---
-		\end{enumerate}
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item Mean Average Precision (mAP)
+				\item Hit@k (เหมือนกันกับ Top@k)
+				\item Precision at equal recall rate (PERR)
+			\end{enumerate}
+		\item ความสามารถของโมเดลปัญญาประดิษฐ์ในปัจจุบัน
+			\begin{table}[!ht]
+				\centering
+				\begin{tabular}{|c|c|c|c|c|}
+					\hline
+					{Input features} & {Modeling approach} & {mAP} & Hit@1 & PERR\\
+					\hline
+					\multirow{3}{*}{Frame-level} & Logistic + average & 11.0 & 50.8 & 42.2\\
+					& Deep bag of frames & 26.9 & 62.7 & 55.1\\
+					& LSTM & 26.6 & \textbf{64.5} & \textbf{57.3}\\
+					\hline
+					\multirow{3}{*}{Video-level} & SVM & 17.0 & 56.3 & 47.9\\
+					& Logistic regression & 28.1 & 60.5 & 53.0\\
+					& Mixture-of-2-experts & \textbf{30.0} & 63.3 & 55.8\\
+					\hline
+				\end{tabular}
+				\caption{ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลที่ใช้ในการทดสอบของ YouTube-8M}
+				\label{tab: youtube_youtube}
+			\end{table}
 		\item ปัญหาที่พบ
-		\begin{enumerate}
-		\item เนื่องจากว่า YouTube-8M นั้นมีจำนวนข้อมูลที่เยอะมาก ทำให้ไม่สามารถตรวจสอบได้ทั้งหมดว่า ground-truth ของแต่ละวิดีโอนั้นมีความถูกต้องมากน้อยขนาดไหน ทำให้อาจเกิดข้อผิดพลาดได้ (ปัจจุบัน ปี 2019 YouTube-8M ได้มีการตรวจสอบข้อมูลอีกครั้ง เพื่อเพิ่มประสิทธิภาพของชุดข้อมูลซึ่งทำให้ปัจจุบันจำนวนข้อมูล และจำนวน category นั้นจะลดน้อยลงจากข้อมูลที่ใช้อ้างอิงในบทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} ข้างต้นที่ได้กล่าวมา)
+			เนื่องจากว่า YouTube-8M นั้นมีจำนวนข้อมูลที่เยอะมาก ทำให้ไม่สามารถตรวจสอบได้ทั้งหมดว่า ground-truth ของแต่ละวิดีโอนั้นมีความถูกต้องมากน้อยขนาดไหน ทำให้อาจเกิดข้อผิดพลาดได้ (ปัจจุบัน ปี 2019 YouTube-8M ได้มีการตรวจสอบข้อมูลอีกครั้ง เพื่อเพิ่มประสิทธิภาพของชุดข้อมูลซึ่งทำให้ปัจจุบันจำนวนข้อมูล และจำนวน category นั้นจะลดน้อยลงจากข้อมูลที่ใช้อ้างอิงในบทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} ข้างต้นที่ได้กล่าวมา)
 	\end{enumerate}	
-
-	\end{enumerate}	
-	\end{enumerate}	
-
+\end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection*{AVA}	
 \begin{enumerate}
