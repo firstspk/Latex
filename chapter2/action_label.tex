@@ -82,7 +82,7 @@
 				\item Hit@k (เหมือนกันกับ Top@k)
 				\item Precision at equal recall rate (PERR)
 			\end{enumerate}
-		\item ความสามารถของโมเดลปัญญาประดิษฐ์ในปัจจุบัน
+		\item ความสามารถของโมเดลปัญญาประดิษฐ์ที่ใช้ชุดข้อมูลของ YouTube-8M ในการสร้างเทียบกับชุดข้อมูลสำหรับทดสอบของ YouTube-8M
 			\begin{table}[!ht]
 				\centering
 				\begin{tabular}{|c|c|c|c|c|}
@@ -101,8 +101,46 @@
 				\caption{ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลที่ใช้ในการทดสอบของ YouTube-8M}
 				\label{tab: youtube_youtube}
 			\end{table}
+			\item ความสามารถของโมเดลปัญญาประดิษฐ์ที่ใช้ชุดข้อมูลของ YouTube-8M ในการสร้างเทียบกับชุดข้อมูลสำหรับทดสอบของ Sports-1M
+			\begin{table}[!ht]
+				\centering
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					{Approach} & {mAP} & Hit@1 & PERR\\
+					\hline
+					Logistic regression & 58.0 & 60.1 & 79.6\\
+					Mixture-of-2-experts & 61.3 & 63.2 & 82.6\\
+					LSTM & 67.6 & 65.7 & 86.2\\
+					\hline
+					Hierarchical 3D convolutions\textsuperscript{\cite{karpathy2014large}} & - & 61.0 & 80.0\\
+					Stacked 3D convolutions\textsuperscript{\cite{yue2015beyond}} & - & 61.0 & 85.0\\
+					LSTM with optical flow and pixels\textsuperscript{\cite{tran2014c3d}} & - & \textbf{73.0} & \textbf{91.0}\\
+					\hline
+				\end{tabular}
+				\caption{ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลที่ใช้ในการทดสอบของ YouTube-8M}
+				\label{tab: youtube_youtube}
+			\end{table}
+		\item ความสามารถของโมเดลปัญญาประดิษฐ์ที่ใช้ชุดข้อมูลของ YouTube-8M ในการสร้างเทียบกับชุดข้อมูลสำหรับทดสอบของ ActivityNet
+			\begin{table}[!ht]
+				\centering
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					{Approach} & {mAP} & Hit@1 & Hit@5\\
+					\hline
+					Mixture-of-2-experts & \textbf{77.6} & \textbf{74.9} & \textbf{91.6}\\
+					LSTM & 57.9 & 63.4 & 81.0\\
+					\hline
+					Ma, Bargal et al.\textsuperscript{\cite{ma2017less}} & 53.8 & - & -\\
+					Heilbron et al.\textsuperscript{\cite{caba2015activitynet}} & 43.0 & - & -\\
+					\hline
+				\end{tabular}
+				\caption{ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลที่ใช้ในการทดสอบของ YouTube-8M}
+				\label{tab: youtube_youtube}
+			\end{table}
 		\item ปัญหาที่พบ
-			เนื่องจากว่า YouTube-8M นั้นมีจำนวนข้อมูลที่เยอะมาก ทำให้ไม่สามารถตรวจสอบได้ทั้งหมดว่า ground-truth ของแต่ละวิดีโอนั้นมีความถูกต้องมากน้อยขนาดไหน ทำให้อาจเกิดข้อผิดพลาดได้ (ปัจจุบัน ปี 2019 YouTube-8M ได้มีการตรวจสอบข้อมูลอีกครั้ง เพื่อเพิ่มประสิทธิภาพของชุดข้อมูลซึ่งทำให้ปัจจุบันจำนวนข้อมูล และจำนวน category นั้นจะลดน้อยลงจากข้อมูลที่ใช้อ้างอิงในบทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} ข้างต้นที่ได้กล่าวมา)
+			เนื่องจากว่า YouTube-8M นั้นมีจำนวนข้อมูลที่เยอะมาก ทำให้ไม่สามารถตรวจสอบความถูกต้องของชุดข้อมูลได้ทั้งหมดว่ามีความถูกต้องมากน้อยขนาดไหน 
+			ทำให้อาจเกิดข้อผิดพลาดได้ (ปัจจุบันปี 2019 YouTube-8M ได้มีการตรวจสอบข้อมูลอีกครั้ง เพื่อเพิ่มประสิทธิภาพของชุดข้อมูลซึ่งทำให้ปัจจุบันจำนวนข้อมูล 
+			และจำนวนหัวข้อลดน้อยลงจากข้อมูลที่ใช้อ้างอิงในบทความข้างต้นที่ได้กล่าวมา)
 	\end{enumerate}	
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
