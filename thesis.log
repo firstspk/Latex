@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  16 SEP 2019 16:36
-=======
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  16 SEP 2019 11:43
->>>>>>> 4b5b5b540ed259cf54bb1e19fc7be689acf93246
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  16 SEP 2019 16:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1415,12 +1411,17 @@ File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 
 ] (chapter3/track_experimental.tex) [37
 
-] (chapter3/experiment_reid.tex) [38
+] (chapter3/experiment_reid.tex
+Overfull \hbox (5.91136pt too wide) in paragraph at lines 5--6
+\TU/THSarabunNew(0)/m/n/12 ปัญญา ประดิษฐ์ ที่ ผ่าน การ train มา ด้วย ชุด ข้อมูล
+ อื่น ที่มา จาก แหล่ง ข้อมูล เดียวกัน โมเดล ปัญญา ประดิษฐ์ ResNet50
+ []
+
+) [38
 
 ] (chapter3/Experimental.tex [39
 
-]
-[40
+] [40
 
 ])) (chapter4/chapter4.tex [41
 
@@ -1491,17 +1492,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--16
  []
 
 )
-Overfull \hbox (4.97699pt too wide) in paragraph at lines 18--10
-<<<<<<< HEAD
-[]\TU/THSarabunNew(0)/bx/n/12 ข้อมูล ผล การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ สำหรับ การ ทำการ ตรวจ จับ ภาพ บุคคล หลัง จาก ทำการ ทดลอง 
-=======
+Overfull \hbox (4.97699pt too wide) in paragraph at lines 17--10
 []\TU/THSarabunNew(0)/m/n/12 ข้อมูล ผล การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ สำหรั
 บ การ ทำการ ตรวจ จับ ภาพ บุคคล หลัง จาก ทำการ ทดลอง 
->>>>>>> 4b5b5b540ed259cf54bb1e19fc7be689acf93246
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--10
+Underfull \hbox (badness 10000) in paragraph at lines 17--10
 
  []
 
@@ -1544,9 +1541,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E251CD178820188E186C4BF3B27F3129.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: E251CD178820188E186C4BF3B27F3129
+(rerunfilecheck)             After:  ACC6FC19A74986EAD205A2E5D785BF5B.
 
 LaTeX Warning: There were undefined references.
 
@@ -1564,8 +1567,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,13n,77p,926b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-<<<<<<< HEAD
-Output written on thesis.xdv (66 pages, 1269784 bytes).
-=======
 Output written on thesis.pdf (66 pages).
->>>>>>> 4b5b5b540ed259cf54bb1e19fc7be689acf93246
