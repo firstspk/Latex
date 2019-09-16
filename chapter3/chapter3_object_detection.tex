@@ -14,20 +14,19 @@
 	\begin{enumerate}
 		\item โมเดลปัญญาประดิษฐ์ ซึ่งได้แก่
 		\begin{enumerate}
-			\item Tiny YOLO
+			\item SSD Mobilenet v1 ppn
 			\item YOLOv3-tiny
-			\item SSD300	
+			\item YOLOv3-spp	
 			\item YOLOv3-320
-			\item YOLOv2 608x608
+			\item Faster rcnn inception v2
 		\end{enumerate}
 	\end{enumerate}
 \subsection*{ตัวแปรควบคุม}
 	\begin{enumerate}
-		\item ชุดข้อมูล : The validation split of AVA v2.1
+		\item ชุดข้อมูล : ชุดข้อมูลสำหรับทดสอบวัดผลที่ผู้วิจัยสร้างขึ้น (สุ่ม 20 เฟรมจากวิดีโอที่ผู้วิจัยใช้สำหรับสร้างชุดข้อมูล)
 	\end{enumerate}
 \subsection*{วิธีการทดลอง}
 	\begin{enumerate}
-		\item ดาว์นโหลดชุดข้อมูล The validation split of AVA v2.1
 		\item แบ่งชุดข้อมูลออกเป็น ชุดข้อมูลสำหรับทดสอบ และ ชุดข้อมูลที่มีคำตอบ
 			\begin{enumerate}
 				\item ชุดข้อมูลสำหรับทดสอบ ประกอบด้วย : ชื่อของวิดีโอ,เฟรม

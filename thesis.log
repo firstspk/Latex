@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  16 SEP 2019 16:34
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  16 SEP 2019 16:36
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1305,17 +1305,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--16
 
  []
 
-
-Overfull \hbox (4.97699pt too wide) in paragraph at lines 18--31
+)
+Overfull \hbox (4.97699pt too wide) in paragraph at lines 18--10
 []\TU/THSarabunNew(0)/bx/n/12 ข้อมูล ผล การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ สำหรับ การ ทำการ ตรวจ จับ ภาพ บุคคล หลัง จาก ทำการ ทดลอง 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--31
+Underfull \hbox (badness 10000) in paragraph at lines 18--10
 
  []
 
-) (chapter4/action_recognition.tex
+(chapter4/action_recognition.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--11
 
  []
@@ -1381,4 +1381,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,13n,77p,952b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (66 pages, 1268764 bytes).
+Output written on thesis.xdv (66 pages, 1269784 bytes).
