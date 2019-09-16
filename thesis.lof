@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 {\vskip -10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces แนวคิดของระบบทำนายตำแหน่งถัดไปของวัตถุ\relax }}{5}{figure.caption.13}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ResNet\relax }}{15}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ResNet\relax }}{14}{figure.caption.19}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript {\cite {I3D}}\relax }}{16}{figure.caption.22}% 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript {\cite {I3D}}\relax }}{17}{figure.caption.23}% 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces UI ของโปรแกรม DarkLabel\relax }}{18}{figure.caption.25}% 
