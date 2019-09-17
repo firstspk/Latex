@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 13:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 13:22
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1231,7 +1231,12 @@ File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 
 ] (chapter3/track_experimental.tex) [37
 
-] (chapter3/experiment_reid.tex) [38
+] (chapter3/experiment_reid.tex
+Overfull \hbox (5.91136pt too wide) in paragraph at lines 5--6
+\TU/THSarabunNew(0)/bx/n/12 ปัญญา ประดิษฐ์ ที่ ผ่าน การ train มา ด้วย ชุด ข้อมูล อื่น ที่มา จาก แหล่ง ข้อมูล เดียวกัน โมเดล ปัญญา ประดิษฐ์ ResNet50
+ []
+
+) [38
 
 ] (chapter3/Experimental.tex [39
 
@@ -1306,36 +1311,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--16
  []
 
 )
-Overfull \hbox (4.97699pt too wide) in paragraph at lines 18--10
+Overfull \hbox (4.97699pt too wide) in paragraph at lines 17--10
 []\TU/THSarabunNew(0)/bx/n/12 ข้อมูล ผล การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ สำหรับ การ ทำการ ตรวจ จับ ภาพ บุคคล หลัง จาก ทำการ ทดลอง 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--10
+Underfull \hbox (badness 10000) in paragraph at lines 17--10
 
  []
 
 [49
 
 ] (chapter4/tracking.tex) (chapter4/action_recognition.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--13
 
  []
 
 [50
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 12--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
@@ -1361,7 +1366,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7EEFBD993A5B48F6947B3BBED249C34E.
+(rerunfilecheck)             Checksum: F8122E841EBF00A09D1D764AD2253128.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1377,10 +1382,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
 Here is how much of TeX's memory you used:
  38053 strings out of 427669
  756529 string characters out of 3149215
- 1039196 words of memory out of 3000000
+ 1040196 words of memory out of 3000000
  41571 multiletter control sequences out of 15000+200000
  536212 words of font info for 50 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,952b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (67 pages, 1302880 bytes).
+Output written on thesis.xdv (67 pages, 1297904 bytes).
