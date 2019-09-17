@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 11:45
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 11:47
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1503,28 +1503,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--10
  []
 
 (chapter4/action_recognition.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
-)) (thesis.bbl [49
+[49
 
-] [50]
+])) (thesis.bbl [50]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 9.
  [51
