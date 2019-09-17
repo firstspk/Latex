@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 13:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 15:13
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1170,7 +1170,12 @@ File: chapter2/images/vector_optical.png Graphic file (type bmp)
 
 ] [23
 
-] [24
+]
+Overfull \hbox (0.3193pt too wide) in paragraph at lines 60--79
+[][] 
+ []
+
+[24
 
 ]
 File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
@@ -1231,12 +1236,7 @@ File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 
 ] (chapter3/track_experimental.tex) [37
 
-] (chapter3/experiment_reid.tex
-Overfull \hbox (5.91136pt too wide) in paragraph at lines 5--6
-\TU/THSarabunNew(0)/bx/n/12 ปัญญา ประดิษฐ์ ที่ ผ่าน การ train มา ด้วย ชุด ข้อมูล อื่น ที่มา จาก แหล่ง ข้อมูล เดียวกัน โมเดล ปัญญา ประดิษฐ์ ResNet50
- []
-
-) [38
+] (chapter3/experiment_reid.tex) [38
 
 ] (chapter3/Experimental.tex [39
 
@@ -1366,7 +1366,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F8122E841EBF00A09D1D764AD2253128.
+(rerunfilecheck)             Checksum: EC1821B39D017891A0447D609FE27585.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1388,4 +1388,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,952b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (67 pages, 1297904 bytes).
+Output written on thesis.xdv (67 pages, 1302316 bytes).
