@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  16 SEP 2019 16:48
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  17 SEP 2019 09:54
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1541,15 +1541,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: A1CB0B976D08DB0D6C17A2636AD407C2.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: E251CD178820188E186C4BF3B27F3129
-(rerunfilecheck)             After:  ACC6FC19A74986EAD205A2E5D785BF5B.
 
 LaTeX Warning: There were undefined references.
 

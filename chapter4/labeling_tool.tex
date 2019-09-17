@@ -66,18 +66,18 @@
 \end{enumerate}		
 
 \clearpage
-\subsection{ผลลัพท์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}
-\subsection*{ผลลัพท์การทำงานของหน้าต่าง Select}
+\subsection{ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}
+\subsection*{ผลลัพธ์การทำงานของหน้าต่าง Select}
 \begin{figure}[!ht]
   \centering
     \includegraphics[scale=0.6]{chapter4/images/Result/result_select3.jpg}
-    \caption{รูปผลลัพท์การแยกเฟรมที่มีมนุษย์อยู่และไม่มีมนุษย์อยู่ภายในเฟรม}
+    \caption{รูปผลลัพธ์การแยกเฟรมที่มีมนุษย์อยู่และไม่มีมนุษย์อยู่ภายในเฟรม}
     \label{fig:result_select}
 \end{figure}
 ขั้นตอนแรกแอพพลิเคชั่นจะสกัดแยกวิดิโอออกเป็นเฟรมทั้งหมด และ ทำการสุ่มคีย์เฟรมออกมาตามความถี่ที่ผู้ใช้ตั้งไว้ จากนั้นแอพพลิเคชั่นจะนำโมเดล yolo-v3 มาตรวจสอบว่าแต่ละคีย์เฟรมมีเฟรมใดบ้างที่มีมนุษย์อยู่ภายในเฟรม จากนั้นจะทำการแยกเฟรมที่มีมนุษย์อยู่ และ ไม่มีมนุษย์อยู่ ดังรูป \ref{fig:result_select}
 
 
-\subsection*{ผลลัพท์การทำงานของหน้าต่าง Detect}
+\subsection*{ผลลัพธ์การทำงานของหน้าต่าง Detect}
 \begin{figure}[!ht]
   \centering
     \includegraphics[scale=0.60]{chapter4/images/Result/result_select4.jpg}
@@ -87,7 +87,7 @@
 \clearpage
 แอพพลิเคชั่นจะนำคีย์เฟรมที่มนุษย์ที่ได้จากหน้าต่าง Select นำมาตีกรอบสี่เหลี่ยมในส่วนของเฟรมที่มีมนุษย์อยู่โดยสามารถใช้โหมดการทำงานแบบอัตโนมัติหรือแบบแก้ไขเองก็ได้ ซึ่งผลลัพธ์ที่ได้จะได้คีย์เฟรมที่มีกรอบสี่เหลี่ยม ดังรูป \ref{fig:result_detect} จากนั้นจะบันทึกข้อมูลในไฟล์ .txt 
 
-\subsection*{ผลลัพท์การทำงานของหน้าต่าง Track}
+\subsection*{ผลลัพธ์การทำงานของหน้าต่าง Track}
 \begin{figure}[!ht]
     \centering
    \begin{subfigure}[b]{0.4\linewidth}
@@ -99,13 +99,13 @@
       \includegraphics[width=\linewidth]{chapter4/images/Result/result_select7.jpg}
       \caption{ตัวอย่างไฟล์ XML}
     \end{subfigure}
-    \caption{รูปผลลัพท์การทำงานของหน้าต่าง Track}
+    \caption{รูปผลลัพธ์การทำงานของหน้าต่าง Track}
     \label{fig:result_track}
   \end{figure}
 แอพพลิเคชั่นจะนำคีย์เฟรมที่ถูกตีกรอบสี่เหลี่ยมจากหน้าต่าง Detect มาทำนายกรอบสี่เหลี่ยมในเฟรมที่เหลือระหว่างช่วงคีย์เฟรม ซึ่งผลลัพธ์ที่ได้จะได้เฟรมทุกเฟรมที่มีมนุษย์อยู่ จะถูกตีกรอบสี่เหลี่ยม ดังรูป \ref{fig:result_track} จากนั้นสามารถบันทึกข้อมูลออกเป็นไฟล์ XML ได้ดังรูป
 
 \clearpage
-\subsection*{ผลลัพท์การทำงานของหน้าต่าง Label}
+\subsection*{ผลลัพธ์การทำงานของหน้าต่าง Label}
 \begin{figure}[!ht]
     \centering
    \begin{subfigure}[b]{0.65\linewidth}
@@ -117,7 +117,7 @@
       \includegraphics[width=\linewidth]{chapter4/images/Result/result_select9.jpg}
       \caption{ตัวอย่างไฟล์ XML}
     \end{subfigure}
-    \caption{รูปผลลัพท์การทำงานของหน้าต่าง Label}
+    \caption{รูปผลลัพธ์การทำงานของหน้าต่าง Label}
     \label{fig:result_track}
   \end{figure}
 แอพพลิเคชั่นจะนำกรอบสี่เหลี่ยมของทุกเฟรมที่มีมนุษย์อยู่มาทำนายมนุษย์ในกรอบสี่เหลี่ยมนั้นกำลังมีการกระทำอะไรอยู่ โดยสามารถทำงานได้ทั้งโหมดอัตโนมัติหรือแบบแก้ไขเอง และสามารถบันทึกข้อมูลออกเป็นไฟล์ XML ได้ดังรูป
