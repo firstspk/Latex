@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1568701370 "thesis.aux" "thesis.bbl" "thesis" 1568701416
+["bibtex thesis"] 1568701603 "thesis.aux" "thesis.bbl" "thesis" 1568701615
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "pages/reference.bib" 1568373043 5836 9fb3d24bb84affa137bb75687b73d44c ""
-  "thesis.aux" 1568701375 34850 7339d7e72f8ac919e4f6bedf73acfbd7 "xelatex"
+  "thesis.aux" 1568701607 34850 7339d7e72f8ac919e4f6bedf73acfbd7 "xelatex"
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["xdvipdfmx"] 1568701376 "thesis.xdv" "thesis.pdf" "thesis" 1568701416
-  "thesis.xdv" 1568701375 1297904 c96060302c904173a8256e2b20eee826 "xelatex"
+  "thesis.bbl"
+["xdvipdfmx"] 1568701608 "thesis.xdv" "thesis.pdf" "thesis" 1568701616
+  "thesis.xdv" 1568701607 1297904 e94c460757c8b2b264fa711386cd2056 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1568701371 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568701416
+["xelatex"] 1568701603 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568701615
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -239,18 +239,18 @@
   "pages/abstract.tex" 1567741229 1920 308001b5f72544a83a573fc98387a1db ""
   "pages/acknowledgements.tex" 1567398130 3903 6b1fafbf32e7765364713c5e43a9da09 ""
   "pages/symbols.tex" 1566532531 364 7f62296ba922976011d6b0897a158361 ""
-  "thesis.aux" 1568701375 34850 7339d7e72f8ac919e4f6bedf73acfbd7 "xelatex"
-  "thesis.bbl" 1568701370 3894 2b127c2dc86a80d43d4752f0eeb7b4a3 "bibtex thesis"
-  "thesis.lof" 1568701375 5498 8bbdf384f1e922c102f3a79f63411632 "xelatex"
-  "thesis.lot" 1568701375 2785 d7570cd2c1ba4ad7d33054bd68ffe7d1 "xelatex"
-  "thesis.out" 1568701375 10438 b44a311cc91d8070c35ee4e4d8baacc5 "xelatex"
+  "thesis.aux" 1568701607 34850 7339d7e72f8ac919e4f6bedf73acfbd7 "xelatex"
+  "thesis.bbl" 1568701603 3894 2b127c2dc86a80d43d4752f0eeb7b4a3 "bibtex thesis"
+  "thesis.lof" 1568701607 5498 8bbdf384f1e922c102f3a79f63411632 "xelatex"
+  "thesis.lot" 1568701607 2785 d7570cd2c1ba4ad7d33054bd68ffe7d1 "xelatex"
+  "thesis.out" 1568701607 10438 b44a311cc91d8070c35ee4e4d8baacc5 "xelatex"
   "thesis.tex" 1568349619 1656 07959a87add6a772315bf21a23891c34 ""
-  "thesis.toc" 1568701375 12346 df842e6d2004f6ff7d2c3a8d484bfcda "xelatex"
+  "thesis.toc" 1568701607 12346 df842e6d2004f6ff7d2c3a8d484bfcda "xelatex"
   (generated)
-  "thesis.toc"
+  "thesis.aux"
   "thesis.log"
   "thesis.lot"
+  "thesis.xdv"
+  "thesis.toc"
   "thesis.lof"
   "thesis.out"
-  "thesis.aux"
-  "thesis.xdv"
