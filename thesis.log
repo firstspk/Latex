@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  18 SEP 2019 10:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  18 SEP 2019 11:25
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1009,6 +1009,9 @@ LaTeX Warning: Label `fig:result_track' multiply defined.
 
 LaTeX Warning: Label `tab:origina_detectEx' multiply defined.
 
+
+LaTeX Warning: Label `fig:result_track' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -1211,7 +1214,23 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 
  [6
 
-] (thesis.lof)
+] (thesis.lof
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
+(Font)              scaled to size 9.83997pt on input line 6.
+
+
+LaTeX Warning: Citation `I3D' on page ช undefined on input line 6.
+
+
+LaTeX Warning: Citation `I3D' on page ช undefined on input line 6.
+
+
+LaTeX Warning: Citation `I3D' on page ช undefined on input line 7.
+
+
+LaTeX Warning: Citation `I3D' on page ช undefined on input line 7.
+
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -1222,8 +1241,7 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- (pages/symbols.tex
-[8
+ (pages/symbols.tex [8
 
 
 ]
@@ -1278,14 +1296,47 @@ Overfull \hbox (53.3489pt too wide) in paragraph at lines 77--78
 
 
 ] (chapter2/tracking.tex
+
+LaTeX Warning: Citation `danelljan2014accurate' on page 5 undefined on input li
+ne 1.
+
 File: chapter2/images/track-concept.png Graphic file (type bmp)
 <chapter2/images/track-concept.png>
- [5
+[5
 
-])
-(chapter2/reid.tex) (chapter2/action_label.tex [6] [7] [8] [9] [10
+]) (chapter2/reid.tex) (chapter2/action_label.tex [6] [7]
+
+LaTeX Warning: Citation `karpathy2014large' on page 8 undefined on input line 1
+15.
+
+
+LaTeX Warning: Citation `yue2015beyond' on page 8 undefined on input line 116.
+
+
+LaTeX Warning: Citation `tran2014c3d' on page 8 undefined on input line 117.
+
+
+LaTeX Warning: Citation `ma2017less' on page 8 undefined on input line 133.
+
+
+LaTeX Warning: Citation `caba2015activitynet' on page 8 undefined on input line
+ 134.
+
+[8] [9] [10
 
 ] [11]
+
+LaTeX Warning: Citation `Schuler:2005:VBC:1104493' on page 12 undefined on inpu
+t line 243.
+
+
+LaTeX Warning: Citation `Zaghouani:2010:RAP:1868720.1868756' on page 12 undefin
+ed on input line 244.
+
+
+LaTeX Warning: Citation `Baker:1998:BFP:980451.980860' on page 12 undefined on 
+input line 245.
+
 [12
 
 ] [13])) (chapter2/ResNet.tex
@@ -1296,13 +1347,32 @@ File: chapter2/images/example_resnet.png Graphic file (type bmp)
 ]) [15
 
 ] (chapter2/I3D.tex
+
+LaTeX Warning: Citation `I3D' on page 16 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Inception' on page 16 undefined on input line 5.
+
 File: chapter2/images/I3D.png Graphic file (type bmp)
 <chapter2/images/I3D.png>
- [16
+
+LaTeX Warning: Citation `I3D' on page 16 undefined on input line 10.
+
+
+LaTeX Warning: Citation `I3D' on page 16 undefined on input line 10.
+
+[16
 
 ]
 File: chapter2/images/inceptionModule.png Graphic file (type bmp)
 <chapter2/images/inceptionModule.png>
+
+
+LaTeX Warning: Citation `I3D' on page 17 undefined on input line 17.
+
+
+LaTeX Warning: Citation `I3D' on page 17 undefined on input line 17.
+
 
 Overfull \hbox (41.61888pt too wide) in paragraph at lines 24--37
 [][] 
@@ -1321,12 +1391,19 @@ File: chapter2/images/openlabel.png Graphic file (type bmp)
 ) [19
 
 ] (chapter2/optical_flow.tex
+
+LaTeX Warning: Citation `Optical_Flow' on page 20 undefined on input line 1.
+
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
 <chapter2/images/vector_optical.png>
-
 [20
 
-])) (chapter3/chapter3.tex [21]
+]
+
+LaTeX Warning: Citation `farneback2003two' on page 21 undefined on input line 5
+7.
+
+)) (chapter3/chapter3.tex [21]
 บทที่ 3.
 [22
 
@@ -1507,16 +1584,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
-)) (thesis.bbl [51]
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 9.
- [52
-
-]) [53]
+))
+No file thesis.bbl.
+[51]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 47.
- [53
+ (appendix/appendix1.tex [51
 
+
+]
+ภาคผนวก ก.
+(appendix/object_detect_appendix.tex
+File: appendix/images/3.jpg Graphic file (type bmp)
+<appendix/images/3.jpg>
+File: appendix/images/5.jpg Graphic file (type bmp)
+<appendix/images/5.jpg>
+File: appendix/images/8.jpg Graphic file (type bmp)
+<appendix/images/8.jpg>
+File: appendix/images/17.jpg Graphic file (type bmp)
+<appendix/images/17.jpg>
+)) [52
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -1525,7 +1612,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 266A54EC5920622CFFD7DC3845C44863.
+(rerunfilecheck)             Checksum: 81B52ED9461BB08C8B0D2DE7F24EFBD1.
 
 
 LaTeX Warning: There were undefined references.
@@ -1536,12 +1623,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 38073 strings out of 427669
- 754215 string characters out of 3153072
+ 38080 strings out of 427669
+ 754405 string characters out of 3153072
  1041564 words of memory out of 3000000
- 41579 multiletter control sequences out of 15000+200000
+ 41576 multiletter control sequences out of 15000+200000
  536284 words of font info for 59 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,926b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (66 pages).
+Output written on thesis.pdf (65 pages).
