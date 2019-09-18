@@ -14,5 +14,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces ผลการทดสอบประสิทธิภาพของการตรวจจับกรอบสี่เหลี่ยมภายในวิดีโอ\relax }}{50}{table.caption.47}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล อ้างอิงข้อมูลจากเว็บไซต์ของ yolo\relax }}{49}{table.caption.47}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคลหลังจากทำการทดลอง\relax }}{49}{table.caption.48}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces ผลการทดสอบประสิทธิภาพของการตรวจจับกรอบสี่เหลี่ยมภายในวิดีโอ\relax }}{50}{table.caption.49}% 
 \contentsfinish 

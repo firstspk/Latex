@@ -1,10 +1,10 @@
-\contentsline {chapter}{บทคัดย่อ}{ค}{chapter*.1}% 
-\contentsline {chapter}{กิตติกรรมประกาศ}{ง}{chapter*.2}% 
-\contentsline {chapter}{สารบัญ}{จ}{chapter*.3}% 
-\contentsline {chapter}{รายการรูปภาพ}{ซ}{chapter*.7}% 
-\contentsline {chapter}{รายการตาราง}{ฌ}{chapter*.9}% 
-\contentsline {chapter}{รายการสัญลักษณ์}{ญ}{chapter*.10}% 
-\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฎ}{chapter*.11}% 
+\contentsline {chapter}{บทคัดย่อ}{ข}{chapter*.1}% 
+\contentsline {chapter}{กิตติกรรมประกาศ}{ค}{chapter*.2}% 
+\contentsline {chapter}{สารบัญ}{ง}{chapter*.3}% 
+\contentsline {chapter}{รายการรูปภาพ}{ช}{chapter*.7}% 
+\contentsline {chapter}{รายการตาราง}{ซ}{chapter*.9}% 
+\contentsline {chapter}{รายการสัญลักษณ์}{ฌ}{chapter*.10}% 
+\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ญ}{chapter*.11}% 
 \contentsline {chapter}{\numberline {1}บทนำ}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}{section.1.2}% 
@@ -56,7 +56,8 @@
 \contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{42}{subsection.4.1.1}% 
 \contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{46}{subsection.4.1.2}% 
 \contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{49}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{49}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{49}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{49}{subsection.4.2.2}% 
 \contentsline {section}{\numberline {4.3}ผลการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{50}{section.4.3}% 
 \contentsline {subsection}{\numberline {4.3.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{50}{subsection.4.3.1}% 
 \contentsline {subsection}{\numberline {4.3.2}ทดสอบประสิทธิภาพ และความเร็วในการประมวลผล}{50}{subsection.4.3.2}% 
@@ -65,7 +66,7 @@
 \contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{51}{subsection.4.5.1}% 
 \contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{51}{subsection.4.5.2}% 
 \contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{51}{subsection.4.5.3}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{53}{chapter*.48}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{53}{chapter*.50}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsfinish 
