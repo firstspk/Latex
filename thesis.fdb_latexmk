@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1568802899 "thesis.aux" "thesis.bbl" "thesis" 1568804853
+["bibtex thesis"] 1568802899 "thesis.aux" "thesis.bbl" "thesis" 1568862676
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "pages/reference.bib" 1568373043 5836 9fb3d24bb84affa137bb75687b73d44c ""
   "thesis.aux" 1568804845 43979 5976ea8c94acf185ab206e589ff643cb "xelatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["xdvipdfmx"] 1568804846 "thesis.xdv" "thesis.pdf" "thesis" 1568804854
+["xdvipdfmx"] 1568804846 "thesis.xdv" "thesis.pdf" "thesis" 1568862676
   "thesis.xdv" 1568804845 1354212 b43aeddffdf81ca5ae6f36f1f12d5321 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1568804841 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568804853
+["xelatex"] 1568804841 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1568862676
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -196,7 +196,7 @@
   "chapter2/images/openlabel.png" 1567076097 750475 858bc5ccc6149833faf1bb1d724e3cdc ""
   "chapter2/images/track-concept.png" 1567752724 77771 e9610930acb7f96579e23aeedb7c99db ""
   "chapter2/images/vector_optical.png" 1566964141 44268 be45ff833e8a4c192b90102168d9cd30 ""
-  "chapter2/labeling_tool.tex" 1568804840 6378 57823f6cd5531da8ea6ab8b8d2f4b7eb ""
+  "chapter2/labeling_tool.tex" 1568862673 6378 57823f6cd5531da8ea6ab8b8d2f4b7eb ""
   "chapter2/optical_flow.tex" 1568373551 5120 3f4fc0bf3542cb6b672b8c19fd178a54 ""
   "chapter2/reid.tex" 1568787606 2254 1c9bd51779bdd1477812351cb9c60a57 ""
   "chapter2/tracking.tex" 1568783943 5156 9e77bd4de822b59869cd8a037e1007a1 ""
@@ -255,9 +255,9 @@
   "thesis.toc" 1568804845 12577 a3711bdf0dfd8c5990013777344d1499 "xelatex"
   (generated)
   "thesis.xdv"
-  "thesis.lot"
-  "thesis.lof"
-  "thesis.log"
-  "thesis.aux"
-  "thesis.toc"
   "thesis.out"
+  "thesis.lof"
+  "thesis.lot"
+  "thesis.toc"
+  "thesis.aux"
+  "thesis.log"
