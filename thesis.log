@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  18 SEP 2019 18:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  19 SEP 2019 10:46
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -847,6 +847,12 @@ LaTeX Warning: Label `tab: youtube_youtube' multiply defined.
 
 LaTeX Warning: Label `fig:labeling_overview' multiply defined.
 
+
+LaTeX Warning: Label `tab:origina_detectEx' multiply defined.
+
+
+LaTeX Warning: Label `fig:result_track' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -1291,25 +1297,26 @@ File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select9.jpg>
 ) [48
 
-] (chapter4/object_detection.tex)
-Overfull \hbox (4.97699pt too wide) in paragraph at lines 18--10
+] (chapter4/object_detection.tex
+Overfull \hbox (4.97699pt too wide) in paragraph at lines 20--35
 []\TU/THSarabunNew(0)/bx/n/12 ข้อมูล ผล การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ สำหรับ การ ทำการ ตรวจ จับ ภาพ บุคคล หลัง จาก ทำการ ทดลอง
  []
 
-[49
+) [49
 
-] (chapter4/tracking.tex) (chapter4/evaluate_reid.tex
+] [50] (chapter4/tracking.tex) (chapter4/evaluate_reid.tex
 File: chapter4/images/o_0.jpg Graphic file (type bmp)
 <chapter4/images/o_0.jpg>
 File: chapter4/images/o_1.jpg Graphic file (type bmp)
 <chapter4/images/o_1.jpg>
+ [51
+
+]
 File: chapter4/images/first_0.jpg Graphic file (type bmp)
 <chapter4/images/first_0.jpg>
 File: chapter4/images/first_1.jpg Graphic file (type bmp)
 <chapter4/images/first_1.jpg>
- [50
-
-] [51] [52]
+ [52] [53]
 File: chapter4/images/fei_0.jpg Graphic file (type bmp)
 <chapter4/images/fei_0.jpg>
 File: chapter4/images/fei_1.jpg Graphic file (type bmp)
@@ -1334,22 +1341,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
-[53
+[54
 
-])) (thesis.bbl [54]
+])) (thesis.bbl [55]
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew(0)/m/it' undefined
 (Font)              using `TU/THSarabunNew(0)/m/n' instead on input line 9.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 17.
-[55
+[56
 
-]) [56]
+]) [57]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- [56
+ (appendix/appendix1.tex [57
 
+
+]
+ภาคผนวก ก.
+(appendix/object_detect_appendix.tex
+File: appendix/images/3.jpg Graphic file (type bmp)
+<appendix/images/3.jpg>
+File: appendix/images/5.jpg Graphic file (type bmp)
+<appendix/images/5.jpg>
+File: appendix/images/8.jpg Graphic file (type bmp)
+<appendix/images/8.jpg>
+File: appendix/images/17.jpg Graphic file (type bmp)
+<appendix/images/17.jpg>
+)) [58
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1358,7 +1378,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1CD8ACB3627458B9B27423D08E3EC147.
+(rerunfilecheck)             Checksum: A7898FE3491764A304BE52C9CE421033.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1369,12 +1389,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38107 strings out of 427669
- 757766 string characters out of 3149215
- 1039372 words of memory out of 3000000
- 41615 multiletter control sequences out of 15000+200000
+ 38132 strings out of 427669
+ 758278 string characters out of 3149215
+ 1036372 words of memory out of 3000000
+ 41628 multiletter control sequences out of 15000+200000
  536212 words of font info for 50 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,952b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (71 pages, 1354212 bytes).
+Output written on thesis.xdv (73 pages, 1403652 bytes).

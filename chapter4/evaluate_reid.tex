@@ -31,21 +31,23 @@
     \caption{ภาพตัวอย่างชุดข้อมูลสำหรับการทดลองครั้งที่ 1}
     \label{fig: ภาพตัวอย่างชุดข้อมูลสำหรับการทดลอง 1}
 \end{figure}
+
 \begin{table}[!ht]
     \centering
     \begin{tabular}{|c|c|}
-            \hline
-            {โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
-            \hline
-            ResNet50 Market1501	 			& 0.4308								\\
-            ResNet50 DukeMTMCReID			& 0.4827								\\
-            ResNet50 CUHK03				& 0.4914								\\
-            ResNet50 MSMT17				& 0.4668								\\
+        \hline
+        {โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
+        \hline
+        ResNet50 Market1501	 			& 0.4308								\\
+        ResNet50 DukeMTMCReID			& 0.4827								\\
+        ResNet50 CUHK03				& 0.4914								\\
+        ResNet50 MSMT17				& 0.4668								\\
         \hline
     \end{tabular}
     \caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 1}
     \label{tab: Original distant of image 1}
 \end{table}
+
 \begin{figure}[!ht]
     \centering
     \begin{subfigure}[b]{0.2\textwidth}
@@ -93,8 +95,8 @@
     \label{fig: ภาพตัวอย่างชุดข้อมูลสำหรับการทดลอง 3}
 \end{figure}
 \begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|}
+    \centering
+    \begin{tabular}{|c|c|}
 		\hline
 		{โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
 		\hline
@@ -103,8 +105,8 @@
 		ResNet50 CUHK03				& 0.3	134								\\
 		ResNet50 MSMT17				& 0.3968								\\
 	\hline
-\end{tabular}
-\caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 3}
-\label{tab: Original distant of image 3}
+    \end{tabular}
+    \caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 3}
+    \label{tab: Original distant of image 3}
 \end{table}
 ค่าความแม่นยำในการระบุบุคคลนั้นค่ายิ่งเข้าใกล้ 0 แสดงบุคคลใน 2 เฟรมนั้นเป็นบุคคลเดียวกัน จากการทดลองครั้งที่ 1 จะเป็นเฟรมที่ไม่ต่อเนื่องกัน การทดลองครั้งที่ 2 และ 3 นั้นจะเป็นเฟรมที่ต่อเนื่องกันมากขึ้นตามลำดับ ซึ่งจะแสดงให้เห็นว่าโมเดลปัญญาประดิษฐ์ที่สามารถให้ผลลัพท์ที่มีประสิทธิภาพต่อเนื่องมากที่สุดคือ ResNet50 Market1501
