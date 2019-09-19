@@ -1,19 +1,19 @@
 \subsection{ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการระบุตัวตนของบุคคล}
 ความแม่นยำของโมเดลปัญญาประดิษฐ์จากแหล่งที่มีมามีค่าดังตารางด้านล่างดังนี้
 \begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|}
-		\hline
-		{โมเดลปัญญาประดิษฐ์}&{rank1/mAP โดยใช้วิธีการทดสอบด้วย Global+DMLI}				\\
-		\hline
-		ResNet50 Market1501	 			& 91.0/77.6								\\
-		ResNet50 DukeMTMCReID			& 80.7/68.0								\\
-		ResNet50 CUHK03				& 60.9/59.7								\\
-		ResNet50 MSMT17				& 66.3/40.6								\\
-	\hline
-\end{tabular}
-\caption{ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์}
-\label{tab: Accuracy of model ReID}
+    \centering
+    \begin{tabular}{|c|c|}
+            \hline
+            {โมเดลปัญญาประดิษฐ์}&{rank1/mAP โดยใช้วิธีการทดสอบด้วย Global+DMLI}				\\
+            \hline
+            ResNet50 Market1501	 			& 91.0/77.6								\\
+            ResNet50 DukeMTMCReID			& 80.7/68.0								\\
+            ResNet50 CUHK03				& 60.9/59.7								\\
+            ResNet50 MSMT17				& 66.3/40.6								\\
+        \hline
+    \end{tabular}
+    \caption{ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์}
+    \label{tab: Accuracy of model ReID}
 \end{table}
 ต่อมานำโมเดลปัญญาประดิษฐ์แต่ละอันมาทดสอบกับตัวอย่างภาพชุดข้อมูลที่ทางคณะผู้วิจัยได้สร้างขึ้น โดยภาพชุดข้อมูลที่นำมาใช้จะผ่านการตรวจหาบุคคลภายในภาพด้วยโมเดลปัญญาประดิษฐ์ YoLo v3 320
 \begin{figure}[!ht]
@@ -32,19 +32,19 @@
     \label{fig: ภาพตัวอย่างชุดข้อมูลสำหรับการทดลอง 1}
 \end{figure}
 \begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|}
-		\hline
-		{โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
-		\hline
-		ResNet50 Market1501	 			& 0.4308								\\
-		ResNet50 DukeMTMCReID			& 0.4827								\\
-		ResNet50 CUHK03				& 0.4914								\\
-		ResNet50 MSMT17				& 0.4668								\\
-	\hline
-\end{tabular}
-\caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 1}
-\label{tab: Original distant of image 1}
+    \centering
+    \begin{tabular}{|c|c|}
+            \hline
+            {โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
+            \hline
+            ResNet50 Market1501	 			& 0.4308								\\
+            ResNet50 DukeMTMCReID			& 0.4827								\\
+            ResNet50 CUHK03				& 0.4914								\\
+            ResNet50 MSMT17				& 0.4668								\\
+        \hline
+    \end{tabular}
+    \caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 1}
+    \label{tab: Original distant of image 1}
 \end{table}
 \begin{figure}[!ht]
     \centering
@@ -62,19 +62,19 @@
     \label{fig: ภาพตัวอย่างชุดข้อมูลสำหรับการทดลอง 2}
 \end{figure}
 \begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|}
-		\hline
-		{โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
-		\hline
-		ResNet50 Market1501	 			& 0.3035								\\
-		ResNet50 DukeMTMCReID			& 0.3332								\\
-		ResNet50 CUHK03				& 0.3	042								\\
-		ResNet50 MSMT17				& 0.3684								\\
-	\hline
-\end{tabular}
-\caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 2}
-\label{tab: Original distant of image 2}
+    \centering
+    \begin{tabular}{|c|c|}
+            \hline
+            {โมเดลปัญญาประดิษฐ์}&{ค่าสำหรับการระบุบุคคล (Original distance)}							\\
+            \hline
+            ResNet50 Market1501	 			& 0.3035								\\
+            ResNet50 DukeMTMCReID			& 0.3332								\\
+            ResNet50 CUHK03				& 0.3	042								\\
+            ResNet50 MSMT17				& 0.3684								\\
+        \hline
+    \end{tabular}
+    \caption{ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 2}
+    \label{tab: Original distant of image 2}    
 \end{table}
 \clearpage
 \begin{figure}[!ht]

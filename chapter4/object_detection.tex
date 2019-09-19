@@ -1,29 +1,31 @@
 
 \subsection{ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}
- ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล อ้างอิงข้อมูลจากเว็บไซต์ของ yolo			\\
-\\
-\begin{tabular}{|c|c|c|}
+ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล อ้างอิงข้อมูลจากเว็บไซต์ของ YOLO
+\begin{table}[!ht]
+	\begin{tabular}{|c|c|c|}
 		\hline
-		{}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (0.5 IOU mAP)}			\\
+		{}&{ความเร็วต่อรูปภาพ (มิลลิวินาที)}&{ความแม่นยำ (0.5 IoU mAP)}			\\
 		\hline
 		SSD Mobilenet v1 ppn	 		& 26				& 20														\\
-		YOLOv3-320				& 22				& 51.5				\\	
-		YOLOv3-tiny				& 4.5				& 33.1				\\
-		YOLOv3-spp				& 50				& 60.6				\\	
-		Faster rcnn inceptrionv2		& 58				& 28		\\
+		YOLO-v3 320				& 22				& 51.5				\\	
+		YOLO-v3 tiny				& 4.5				& 33.1				\\
+		YOLO-v3 spp				& 50				& 60.6				\\	
+		Faster RCNN inceptrion v2		& 58				& 28		\\
 	\hline
-\end{tabular}
+	\end{tabular}
+\end{table}
 
 ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคลหลังจากทำการทดลอง
-\\\\
-\begin{tabular}{|c|c|c|}
+\begin{table}[!ht]
+	\begin{tabular}{|c|c|c|}
 		\hline 
-		{}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (0.5 IOU)}			\\
+		{}&{ความเร็วต่อรูปภาพ (มิลลิวินาที)}&{ความแม่นยำ (0.5 IoU mAP)}			\\
 		\hline
 		SSD Mobilenet v1 ppn	 					& 63 			& 37			\\
-		YOLOv3-320							& 65			& 64.9		\\
-		YOLOv3-tiny							& 17			& 44.4			\\
+		YOLO-v3 320							& 65			& 64.9		\\
+		YOLO-v3 tiny							& 17			& 44.4			\\
 		YOLOv3-spp							& 65			& 70.3			\\	
-		Faster rcnn inceptrionv2					& 981		& 42.5		\\
-	\hline
-\end{tabular}
+		Faster RCNN inceptrion v2					& 981		& 42.5		\\
+		\hline
+	\end{tabular}
+\end{table}

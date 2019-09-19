@@ -47,6 +47,12 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
@@ -63,8 +69,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
@@ -105,10 +109,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty
@@ -404,6 +404,14 @@ INPUT chapter4\object_detection.tex
 INPUT chapter4\object_detection.tex
 INPUT chapter4\tracking.tex
 INPUT chapter4\tracking.tex
+INPUT chapter4\evaluate_reid.tex
+INPUT chapter4\evaluate_reid.tex
+INPUT chapter4\images\o_0.jpg
+INPUT chapter4\images\o_1.jpg
+INPUT chapter4\images\first_0.jpg
+INPUT chapter4\images\first_1.jpg
+INPUT chapter4\images\fei_0.jpg
+INPUT chapter4\images\fei_1.jpg
 INPUT chapter4\action_recognition.tex
 INPUT chapter4\action_recognition.tex
 INPUT thesis.bbl
