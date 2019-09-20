@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  20 SEP 2019 11:10
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  20 SEP 2019 12:08
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1333,9 +1333,14 @@ File: chapter2/images/vector_optical.png Graphic file (type bmp)
 
 [20
 
-])) (chapter3/chapter3.tex [21]
+]) [21] (chapter2/IoU.tex
+File: chapter2/images/iou_equation.png Graphic file (type bmp)
+<chapter2/images/iou_equation.png>
+)) (chapter3/chapter3.tex [22
+
+]
 บทที่ 3.
-[22
+[23
 
 ]
 Overfull \hbox (3.17891pt too wide) in paragraph at lines 38--39
@@ -1344,19 +1349,19 @@ n/12 สร้าง และ ทดสอบ โมเดล ปัญญา �
 
  []
 
-[23
+[24
 
 ]
 Overfull \hbox (0.3193pt too wide) in paragraph at lines 60--79
 [][] 
  []
 
-[24
+[25
 
 ]
 File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
 <chapter3/images/Overview/HowItWorks.png>
- [25
+ [26
 
 ]
 Overfull \hbox (12.87189pt too wide) in paragraph at lines 108--108
@@ -1367,95 +1372,95 @@ Overfull \hbox (12.87189pt too wide) in paragraph at lines 108--108
 (chapter3/labeler.tex
 File: chapter3/images/3_6/labelingToolOverview.png Graphic file (type bmp)
 <chapter3/images/3_6/labelingToolOverview.png>
- [26
+ [27
 
 ]
 File: chapter3/images/3_6/SelectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft.png>
- [27
+ [28
 
 ]
 File: chapter3/images/3_6/SelectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft_point.png>
- [28
+ [29
 
 ]
 File: chapter3/images/3_6/DetectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft.png>
- [29
+ [30
 
 ]
 File: chapter3/images/3_6/DetectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft_point.png>
- [30
+ [31
 
 ]
 File: chapter3/images/3_6/TrackDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft.png>
- [31
+ [32
 
 ]
 File: chapter3/images/3_6/TrackDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft_point.png>
- [32
+ [33
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft.png>
- [33
+ [34
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft_point.png>
- [34
+ [35
 
 ]
 File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
-) [35
+) [36
 
 ]
-(chapter3/chapter3_object_detection.tex) [36
+(chapter3/chapter3_object_detection.tex) [37
 
-] (chapter3/track_experimental.tex) [37
+] (chapter3/track_experimental.tex) [38
 
-] (chapter3/experiment_reid.tex) [38
+] (chapter3/experiment_reid.tex) [39
 
-] (chapter3/Experimental.tex [39
+] (chapter3/Experimental.tex [40
 
 ]
-[40
+[41
 
-])) (chapter4/chapter4.tex [41
+])) (chapter4/chapter4.tex [42
 
 ]
 บทที่ 4.
 (chapter4/labeling_tool.tex
 File: chapter4/images/Final_ui/Select.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Select.jpg>
- [42
+ [43
 
 ]
 File: chapter4/images/Final_ui/Detect.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Detect.jpg>
- [43
+ [44
 
 ]
 File: chapter4/images/Final_ui/Track.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Track.jpg>
- [44
+ [45
 
 ]
 File: chapter4/images/Final_ui/Label.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Label.jpg>
- [45
+ [46
 
 ]
 File: chapter4/images/Result/result_select3.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select3.jpg>
 File: chapter4/images/Result/result_select4.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select4.jpg>
- [46
+ [47
 
 ]
 File: chapter4/images/Result/result_select6.jpg Graphic file (type bmp)
@@ -1464,17 +1469,17 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 13.46844pt on input line 97.
 File: chapter4/images/Result/result_select7.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select7.jpg>
- [47
+ [48
 
 ]
 File: chapter4/images/Result/result_select.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select.jpg>
 File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select9.jpg>
-) [48
+) [49
 
 ]
-(chapter4/object_detection.tex) [49
+(chapter4/object_detection.tex) [50
 
 ] (chapter4/tracking.tex)
 (chapter4/evaluate_reid.tex
@@ -1482,7 +1487,7 @@ File: chapter4/images/o_0.jpg Graphic file (type bmp)
 <chapter4/images/o_0.jpg>
 File: chapter4/images/o_1.jpg Graphic file (type bmp)
 <chapter4/images/o_1.jpg>
- [50
+ [51
 
 ]
 File: chapter4/images/first_0.jpg Graphic file (type bmp)
@@ -1493,7 +1498,7 @@ File: chapter4/images/fei_0.jpg Graphic file (type bmp)
 <chapter4/images/fei_0.jpg>
 File: chapter4/images/fei_1.jpg Graphic file (type bmp)
 <chapter4/images/fei_1.jpg>
-) [51] (chapter4/action_recognition.tex
+) [52] (chapter4/action_recognition.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
@@ -1503,15 +1508,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[52])) (thesis.bbl [53]
+[53])) (thesis.bbl [54]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 9.
- [54
+ [55
 
-]) [55]
+]) [56]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [55
+ (appendix/appendix1.tex [56
 
 
 ]
@@ -1525,7 +1530,7 @@ File: appendix/images/8.jpg Graphic file (type bmp)
 <appendix/images/8.jpg>
 File: appendix/images/17.jpg Graphic file (type bmp)
 <appendix/images/17.jpg>
-)) [56
+)) [57
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1534,7 +1539,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 096AA7196D164BD6C0DC4B85A4149C9C.
+(rerunfilecheck)             Checksum: 09B44BD306CA877278ABAE5497342637.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1542,12 +1547,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38154 strings out of 427669
- 756104 string characters out of 3153072
+ 38162 strings out of 427669
+ 756278 string characters out of 3153072
  1037740 words of memory out of 3000000
- 41638 multiletter control sequences out of 15000+200000
+ 41642 multiletter control sequences out of 15000+200000
  536284 words of font info for 59 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,926b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (71 pages).
+Output written on thesis.pdf (72 pages).
