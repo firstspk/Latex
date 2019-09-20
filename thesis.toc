@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {2.2.1}โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}{14}{subsection.2.2.1}% 
 \contentsline {subsubsection}{\numberline {2.2.1.1}ResNet}{14}{subsubsection.2.2.1.1}% 
 \contentsline {subsubsection}{\numberline {2.2.1.2}Inflated 3D convolutional network}{16}{subsubsection.2.2.1.2}% 
-\contentsline {subsection}{\numberline {2.2.2}เครื่องมือสำหรับสร้างชุดข้อมูล}{18}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}เครื่องมือกำกับคุณลักษณะ}{18}{subsection.2.2.2}% 
 \contentsline {section}{\numberline {2.3}ทฤษฎีที่เกี่ยวข้อง}{20}{section.2.3}% 
 \contentsline {subsection}{\numberline {2.3.1}Optical flow}{20}{subsection.2.3.1}% 
 \contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{22}{chapter.3}% 
