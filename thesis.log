@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  20 SEP 2019 10:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  20 SEP 2019 11:10
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1474,15 +1474,10 @@ File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 ) [48
 
 ]
-(chapter4/object_detection.tex
-Overfull \hbox (4.97699pt too wide) in paragraph at lines 27--41
-[]\TU/THSarabunNew(0)/m/n/12 ข้อมูล ผล การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ สำหรั
-บ การ ทำการ ตรวจ จับ ภาพ บุคคล หลัง จาก ทำการ ทดลอง
- []
+(chapter4/object_detection.tex) [49
 
-) [49
-
-] (chapter4/tracking.tex) (chapter4/evaluate_reid.tex
+] (chapter4/tracking.tex)
+(chapter4/evaluate_reid.tex
 File: chapter4/images/o_0.jpg Graphic file (type bmp)
 <chapter4/images/o_0.jpg>
 File: chapter4/images/o_1.jpg Graphic file (type bmp)
@@ -1494,13 +1489,11 @@ File: chapter4/images/first_0.jpg Graphic file (type bmp)
 <chapter4/images/first_0.jpg>
 File: chapter4/images/first_1.jpg Graphic file (type bmp)
 <chapter4/images/first_1.jpg>
- [51] [52]
 File: chapter4/images/fei_0.jpg Graphic file (type bmp)
 <chapter4/images/fei_0.jpg>
 File: chapter4/images/fei_1.jpg Graphic file (type bmp)
 <chapter4/images/fei_1.jpg>
-)
-(chapter4/action_recognition.tex
+) [51] (chapter4/action_recognition.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
@@ -1510,17 +1503,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[53
-
-])) (thesis.bbl [54]
+[52])) (thesis.bbl [53]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 9.
- [55
+ [54
 
-]) [56]
+]) [55]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [56
+ (appendix/appendix1.tex [55
 
 
 ]
@@ -1534,7 +1525,7 @@ File: appendix/images/8.jpg Graphic file (type bmp)
 <appendix/images/8.jpg>
 File: appendix/images/17.jpg Graphic file (type bmp)
 <appendix/images/17.jpg>
-)) [57
+)) [56
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1543,7 +1534,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F6A54D832D3EEBCC7F9D656D96A217B7.
+(rerunfilecheck)             Checksum: 096AA7196D164BD6C0DC4B85A4149C9C.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1559,4 +1550,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,926b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (72 pages).
+Output written on thesis.pdf (71 pages).
