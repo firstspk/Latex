@@ -16,12 +16,14 @@
 {\vskip -10pt}
 {\vskip -10pt}
 {\vskip -10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล อ้างอิงข้อมูลจากเว็บไซต์ของ yolo\relax }}{49}{table.caption.50}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคลหลังจากทำการทดลอง\relax }}{50}{table.caption.51}% 
-\contentsline {table}{\numberline {4.3}{\ignorespaces ผลการทดสอบประสิทธิภาพของการตรวจจับกรอบสี่เหลี่ยมภายในวิดีโอ\relax }}{51}{table.caption.52}% 
-\contentsline {table}{\numberline {4.4}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์\relax }}{52}{table.caption.53}% 
-\contentsline {table}{\numberline {4.5}{\ignorespaces ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 1\relax }}{52}{table.caption.55}% 
-\contentsline {table}{\numberline {4.6}{\ignorespaces ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 2\relax }}{53}{table.caption.57}% 
-\contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 3\relax }}{54}{table.caption.59}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคลหลังจากทำการทดลอง\relax }}{49}{table.caption.50}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces ผลการทดสอบประสิทธิภาพของการตรวจจับกรอบสี่เหลี่ยมภายในวิดีโอ\relax }}{50}{table.caption.51}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์\relax }}{51}{table.caption.52}% 
+\contentsline {table}{\numberline {4.4}{\ignorespaces ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 1\relax }}{51}{table.caption.54}% 
+\contentsline {table}{\numberline {4.5}{\ignorespaces ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 2\relax }}{52}{table.caption.56}% 
+\contentsline {table}{\numberline {4.6}{\ignorespaces ผลการทดสอบความแม่นยำสำหรับการระบุบุคคลของโมเดลปัญญาประดิษฐ์ครั้งที่ 3\relax }}{53}{table.caption.58}% 
+\contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์เทียบผลลัพธ์กับแหล่งอ้างอิง\relax }}{53}{table.caption.59}% 
+\contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ เมื่อใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{54}{table.caption.60}% 
+\contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{54}{table.caption.61}% 
 \addvspace {10\p@ }
 \contentsfinish 

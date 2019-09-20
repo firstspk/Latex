@@ -59,17 +59,17 @@
 \contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{49}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{49}{subsection.4.2.2}% 
 \contentsline {subsection}{\numberline {4.2.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{49}{subsection.4.2.3}% 
-\contentsline {section}{\numberline {4.3}ผลการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{51}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{51}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}ทดสอบประสิทธิภาพ และความเร็วในการประมวลผล}{51}{subsection.4.3.2}% 
-\contentsline {section}{\numberline {4.4}ผลการทดสอบระบบระบุตัวตนของมนุษย์}{52}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการระบุตัวตนของบุคคล}{52}{subsection.4.4.1}% 
-\contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{54}{section.4.5}% 
-\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{54}{subsection.4.5.1}% 
-\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{54}{subsection.4.5.2}% 
-\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{55}{subsection.4.5.3}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{57}{chapter*.60}% 
+\contentsline {section}{\numberline {4.3}ผลการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}{50}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{50}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}ทดสอบประสิทธิภาพ และความเร็วในการประมวลผล}{50}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}ผลการทดสอบระบบระบุตัวตนของมนุษย์}{51}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการระบุตัวตนของบุคคล}{51}{subsection.4.4.1}% 
+\contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{53}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{53}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{54}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{54}{subsection.4.5.3}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{56}{chapter*.62}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{58}{appendix.A}% 
+\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{57}{appendix.A}% 
 \contentsfinish 
