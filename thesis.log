@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  24 SEP 2019 11:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  24 SEP 2019 12:20
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1139,6 +1139,42 @@ LaTeX Warning: Label `tab: youtube_youtube' multiply defined.
 LaTeX Warning: Label `fig:labeling_overview' multiply defined.
 
 
+LaTeX Warning: Label `fig:ex_5' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ex_5' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex_6' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ex_6' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex_5' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ex_5' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex_6' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ex_6' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex_5' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ex_5' multiply defined.
+
+
+LaTeX Warning: Label `fig:ex_6' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ex_6' multiply defined.
+
+
 LaTeX Warning: Label `fig:result_track' multiply defined.
 
 )
@@ -1630,7 +1666,7 @@ File: chapter4/images/o_1.jpg Graphic file (type bmp)
 <chapter4/images/o_1.jpg>
  [51
 
-]
+] [52]
 File: chapter4/images/first_0.jpg Graphic file (type bmp)
 <chapter4/images/first_0.jpg>
 File: chapter4/images/first_1.jpg Graphic file (type bmp)
@@ -1639,7 +1675,26 @@ File: chapter4/images/fei_0.jpg Graphic file (type bmp)
 <chapter4/images/fei_0.jpg>
 File: chapter4/images/fei_1.jpg Graphic file (type bmp)
 <chapter4/images/fei_1.jpg>
-) [52] (chapter4/action_recognition.tex
+ [53
+
+]
+File: chapter4/images/first_3.jpg Graphic file (type bmp)
+<chapter4/images/first_3.jpg>
+File: chapter4/images/fei_3.jpg Graphic file (type bmp)
+<chapter4/images/fei_3.jpg>
+File: chapter4/images/first_4.jpg Graphic file (type bmp)
+<chapter4/images/first_4.jpg>
+File: chapter4/images/o_3.jpg Graphic file (type bmp)
+<chapter4/images/o_3.jpg>
+ [54
+
+]
+File: chapter4/images/fei_4.jpg Graphic file (type bmp)
+<chapter4/images/fei_4.jpg>
+File: chapter4/images/o_4.jpg Graphic file (type bmp)
+<chapter4/images/o_4.jpg>
+)
+(chapter4/action_recognition.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
@@ -1649,15 +1704,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[53])) (thesis.bbl [54]
+)) (thesis.bbl [55
+
+] [56]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 (Font)              scaled to size 14.75995pt on input line 9.
- [55
+ [57
 
-]) [56]
+]) [58]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [56
+ (appendix/appendix1.tex [58
 
 
 ]
@@ -1671,7 +1728,7 @@ File: appendix/images/8.jpg Graphic file (type bmp)
 <appendix/images/8.jpg>
 File: appendix/images/17.jpg Graphic file (type bmp)
 <appendix/images/17.jpg>
-)) [57
+)) [59
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1680,7 +1737,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 09B44BD306CA877278ABAE5497342637.
+(rerunfilecheck)             Checksum: CADC6C42B701ACEB3B431F7073E16D41.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1688,12 +1745,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38162 strings out of 427669
- 762362 string characters out of 3145155
+ 38192 strings out of 427669
+ 763175 string characters out of 3145155
  1037740 words of memory out of 3000000
- 41642 multiletter control sequences out of 15000+200000
+ 41666 multiletter control sequences out of 15000+200000
  536284 words of font info for 59 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,926b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (72 pages).
+Output written on thesis.pdf (74 pages).
