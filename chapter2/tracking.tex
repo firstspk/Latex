@@ -13,7 +13,7 @@
 เพื่อตรวจสอบว่าวัตถุในภาพนั้นอยู่ที่ตำแหน่งใด โดยมีการคำนวณเริ่มจากการหา correlation filter ที่ดีที่สุดโดยใช้วิธีลดผลรวมของข้อผิดพลาดกำลังสองให้น้อยที่สุดดังนี้
 
 \begin{equation}
-\epsilon = \left \| \sum_{l = 1}^{d} h^{l} \star f^{l} - g \right \| + \lambda \sum_{l = 1}^{d}\left \| h^{l} \right \|^2
+\epsilon = \left \| \sum_{l = 1}^{d} h^{l} \star f^{l} - g \right \|^2 + \lambda \sum_{l = 1}^{d}\left \| h^{l} \right \|^2
 \end{equation}
 โดยที่
 \begin{conditions}
