@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  26 SEP 2019 17:05
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  26 SEP 2019 17:45
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -991,8 +991,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ))
 (D:\latex\tex/latex/graphics\lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-No file thesis.aux.
+) (thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1082,6 +1081,7 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box88
 Package hyperref Info: Link coloring OFF on input line 7.
+
 (D:\latex\tex/latex/hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1093,6 +1093,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
+ (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
@@ -1194,24 +1195,33 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 
 
 ])
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [5
+[5
 
 
 ]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [6
+[6
 
 
 ]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- (pages/symbols.tex [7
+(pages/symbols.tex [7
 
 
 ]
@@ -1268,21 +1278,21 @@ Overfull \hbox (53.3489pt too wide) in paragraph at lines 77--78
 ] (chapter2/yolo.tex
 File: chapter2/images/yolo.jpg Graphic file (type bmp)
 <chapter2/images/yolo.jpg>
-) [5
+ [5
 
-]
+]) [6]
 (chapter2/tracking.tex
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 9.83997pt on input line 1.
 
 
-LaTeX Warning: Citation `danelljan2014accurate' on page 6 undefined on input li
+LaTeX Warning: Citation `danelljan2014accurate' on page 7 undefined on input li
 ne 1.
 
 File: chapter2/images/track-concept.png Graphic file (type bmp)
 <chapter2/images/track-concept.png>
 
-LaTeX Warning: Reference `fig:Track_concept' on page 6 undefined on input line 
+LaTeX Warning: Reference `fig:Track_concept' on page 7 undefined on input line 
 11.
 
 
@@ -1291,37 +1301,37 @@ Overfull \hbox (9.64119pt too wide) in paragraph at lines 11--14
 ต่อ ไป [feihong this way] โดย การนำ รูป มา ผ่าน กระบวนการ
  []
 
-[6
+[7
 
 ]) (chapter2/reid.tex
 
-LaTeX Warning: Citation `luo2019alignedreid++' on page 7 undefined on input lin
+LaTeX Warning: Citation `luo2019alignedreid++' on page 8 undefined on input lin
 e 1.
 
 File: chapter2/images/alignedreid.png Graphic file (type bmp)
 <chapter2/images/alignedreid.png>
-[7]) (chapter2/action_label.tex [8] [9] [10]
+[8]) (chapter2/action_label.tex [9] [10] [11]
 
-LaTeX Warning: Citation `karpathy2014large' on page 11 undefined on input line 
+LaTeX Warning: Citation `karpathy2014large' on page 12 undefined on input line 
 116.
 
 
-LaTeX Warning: Citation `yue2015beyond' on page 11 undefined on input line 117.
+LaTeX Warning: Citation `yue2015beyond' on page 12 undefined on input line 117.
 
 
 
-LaTeX Warning: Citation `tran2014c3d' on page 11 undefined on input line 118.
+LaTeX Warning: Citation `tran2014c3d' on page 12 undefined on input line 118.
 
 
-LaTeX Warning: Citation `ma2017less' on page 11 undefined on input line 134.
+LaTeX Warning: Citation `ma2017less' on page 12 undefined on input line 134.
 
 
-LaTeX Warning: Citation `caba2015activitynet' on page 11 undefined on input lin
+LaTeX Warning: Citation `caba2015activitynet' on page 12 undefined on input lin
 e 135.
 
-[11
+[12
 
-] [12
+] [13
 
 ]
 Overfull \hbox (9.91827pt too wide) in paragraph at lines 195--196
@@ -1335,75 +1345,75 @@ Overfull \hbox (0.91472pt too wide) in paragraph at lines 211--212
 ดตาม ตำแหน่ง ใน การ เชื่อม ระหว่าง เฟรม ปัจจุบัน
  []
 
-[13] [14]
+[14] [15]
 
-LaTeX Warning: Citation `monfort2019moments' on page 15 undefined on input line
+LaTeX Warning: Citation `monfort2019moments' on page 16 undefined on input line
  239.
 
 
-LaTeX Warning: Citation `Schuler:2005:VBC:1104493' on page 15 undefined on inpu
+LaTeX Warning: Citation `Schuler:2005:VBC:1104493' on page 16 undefined on inpu
 t line 250.
 
 
-LaTeX Warning: Citation `Zaghouani:2010:RAP:1868720.1868756' on page 15 undefin
+LaTeX Warning: Citation `Zaghouani:2010:RAP:1868720.1868756' on page 16 undefin
 ed on input line 251.
 
 
-LaTeX Warning: Citation `Baker:1998:BFP:980451.980860' on page 15 undefined on 
+LaTeX Warning: Citation `Baker:1998:BFP:980451.980860' on page 16 undefined on 
 input line 252.
 
-[15
+[16
 
-] [16] [17])) (chapter2/ResNet.tex
+] [17] [18])) (chapter2/ResNet.tex
 File: chapter2/images/example_resnet.png Graphic file (type bmp)
 <chapter2/images/example_resnet.png>
 
 
-LaTeX Warning: Reference `tab: Top-1 error of ImageNet' on page 18 undefined on
+LaTeX Warning: Reference `tab: Top-1 error of ImageNet' on page 19 undefined on
  input line 15.
 
-[18
+[19
 
 ]
 
-LaTeX Warning: Reference `tab: Top-1 error of ImageNet' on page 19 undefined on
+LaTeX Warning: Reference `tab: Top-1 error of ImageNet' on page 20 undefined on
  input line 34.
 
 
-LaTeX Warning: Reference `tab: หมวดหมู่ification error' on page 19 undefined on
+LaTeX Warning: Reference `tab: หมวดหมู่ification error' on page 20 undefined on
  input line 58.
 
-) [19
+) [20
 
 ] (chapter2/I3D.tex
 
-LaTeX Warning: Citation `I3D' on page 20 undefined on input line 3.
+LaTeX Warning: Citation `I3D' on page 21 undefined on input line 3.
 
 
-LaTeX Warning: Citation `Inception' on page 20 undefined on input line 5.
+LaTeX Warning: Citation `Inception' on page 21 undefined on input line 5.
 
 File: chapter2/images/I3D.png Graphic file (type bmp)
 <chapter2/images/I3D.png>
 
-LaTeX Warning: Citation `I3D' on page 20 undefined on input line 10.
+LaTeX Warning: Citation `I3D' on page 21 undefined on input line 10.
 
 
-LaTeX Warning: Citation `I3D' on page 20 undefined on input line 10.
+LaTeX Warning: Citation `I3D' on page 21 undefined on input line 10.
 
-[20
+[21
 
 ]
 File: chapter2/images/inceptionModule.png Graphic file (type bmp)
 <chapter2/images/inceptionModule.png>
 
 
-LaTeX Warning: Citation `I3D' on page 21 undefined on input line 17.
+LaTeX Warning: Citation `I3D' on page 22 undefined on input line 17.
 
 
-LaTeX Warning: Citation `I3D' on page 21 undefined on input line 17.
+LaTeX Warning: Citation `I3D' on page 22 undefined on input line 17.
 
 
-LaTeX Warning: Reference `tab:I3DPerformance' on page 21 undefined on input lin
+LaTeX Warning: Reference `tab:I3DPerformance' on page 22 undefined on input lin
 e 22.
 
 
@@ -1411,39 +1421,39 @@ Overfull \hbox (41.61888pt too wide) in paragraph at lines 24--37
 [][] 
  []
 
-) [21
+) [22
 
 ] (chapter2/labeling_tool.tex
 File: chapter2/images/darklabel.png Graphic file (type bmp)
 <chapter2/images/darklabel.png>
- [22
+ [23
 
 ]
 File: chapter2/images/openlabel.png Graphic file (type bmp)
 <chapter2/images/openlabel.png>
-) [23
+) [24
 
 ] (chapter2/optical_flow.tex
 
-LaTeX Warning: Citation `Optical_Flow' on page 24 undefined on input line 1.
+LaTeX Warning: Citation `Optical_Flow' on page 25 undefined on input line 1.
 
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
 <chapter2/images/vector_optical.png>
-[24
+[25
 
 ]
 
-LaTeX Warning: Citation `farneback2003two' on page 25 undefined on input line 5
+LaTeX Warning: Citation `farneback2003two' on page 26 undefined on input line 5
 7.
 
-) [25] (chapter2/IoU.tex
+) [26] (chapter2/IoU.tex
 File: chapter2/images/iou_equation.png Graphic file (type bmp)
 <chapter2/images/iou_equation.png>
-)) (chapter3/chapter3.tex [26
+)) (chapter3/chapter3.tex [27
 
 ]
 บทที่ 3.
-[27
+[28
 
 ]
 Overfull \hbox (3.17891pt too wide) in paragraph at lines 37--38
@@ -1452,19 +1462,19 @@ n/12 สร้าง และ ทดสอบ โมเดล ปัญญา �
 
  []
 
-[28
+[29
 
 ]
 Overfull \hbox (0.3193pt too wide) in paragraph at lines 59--78
 [][] 
  []
 
-[29
+[30
 
 ]
 File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
 <chapter3/images/Overview/HowItWorks.png>
- [30
+ [31
 
 ]
 Overfull \hbox (12.87189pt too wide) in paragraph at lines 107--107
@@ -1474,114 +1484,114 @@ Overfull \hbox (12.87189pt too wide) in paragraph at lines 107--107
 
 (chapter3/labeler.tex
 
-LaTeX Warning: Reference `fig:labeling_overview' on page 31 undefined on input 
+LaTeX Warning: Reference `fig:labeling_overview' on page 32 undefined on input 
 line 12.
 
 File: chapter3/images/3_6/labelingToolOverview.png Graphic file (type bmp)
 <chapter3/images/3_6/labelingToolOverview.png>
-[31
+[32
 
 ]
 
-LaTeX Warning: Reference `fig:SelectDraft' on page 32 undefined on input line 2
+LaTeX Warning: Reference `fig:SelectDraft' on page 33 undefined on input line 2
 8.
 
 File: chapter3/images/3_6/SelectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft.png>
-[32
+[33
 
 ]
 File: chapter3/images/3_6/SelectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/SelectDraft_point.png>
 
 
-LaTeX Warning: Reference `fig:SelectDraft_point' on page 33 undefined on input 
+LaTeX Warning: Reference `fig:SelectDraft_point' on page 34 undefined on input 
 line 43.
 
-[33
+[34
 
 ]
 
-LaTeX Warning: Reference `fig:DetectDraft' on page 34 undefined on input line 6
+LaTeX Warning: Reference `fig:DetectDraft' on page 35 undefined on input line 6
 2.
 
 File: chapter3/images/3_6/DetectDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft.png>
-[34
+[35
 
 ]
 File: chapter3/images/3_6/DetectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft_point.png>
 
 
-LaTeX Warning: Reference `fig:DelectDraft_point' on page 35 undefined on input 
+LaTeX Warning: Reference `fig:DelectDraft_point' on page 36 undefined on input 
 line 76.
 
-[35
+[36
 
 ]
 
-LaTeX Warning: Reference `fig:TrackDraft' on page 36 undefined on input line 93
+LaTeX Warning: Reference `fig:TrackDraft' on page 37 undefined on input line 93
 .
 
 File: chapter3/images/3_6/TrackDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft.png>
-[36
+[37
 
 ]
 File: chapter3/images/3_6/TrackDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/TrackDraft_point.png>
 
 
-LaTeX Warning: Reference `fig:TrackDraft_point' on page 37 undefined on input l
+LaTeX Warning: Reference `fig:TrackDraft_point' on page 38 undefined on input l
 ine 107.
 
-[37
+[38
 
 ]
 
-LaTeX Warning: Reference `fig:ActionLabelDraft' on page 38 undefined on input l
+LaTeX Warning: Reference `fig:ActionLabelDraft' on page 39 undefined on input l
 ine 124.
 
 File: chapter3/images/3_6/ActionLabelDraft.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft.png>
-[38
+[39
 
 ]
 File: chapter3/images/3_6/ActionLabelDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/ActionLabelDraft_point.png>
 
 
-LaTeX Warning: Reference `fig:TrackDraft_point' on page 39 undefined on input l
+LaTeX Warning: Reference `fig:TrackDraft_point' on page 40 undefined on input l
 ine 138.
 
 
-LaTeX Warning: Reference `sec:XMLInfo' on page 39 undefined on input line 149.
+LaTeX Warning: Reference `sec:XMLInfo' on page 40 undefined on input line 149.
 
-[39
+[40
 
 ]
 
-LaTeX Warning: Reference `fig:XMLFormat' on page 40 undefined on input line 156
+LaTeX Warning: Reference `fig:XMLFormat' on page 41 undefined on input line 156
 .
 
 File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
-) [40
+) [41
 
-] (chapter3/chapter3_object_detection.tex) [41
-
-]
-(chapter3/track_experimental.tex) [42
-
-] (chapter3/experiment_reid.tex) [43
+] (chapter3/chapter3_object_detection.tex) [42
 
 ]
-(chapter3/Experimental.tex [44
+(chapter3/track_experimental.tex) [43
 
-] [45
+] (chapter3/experiment_reid.tex) [44
 
-])) (chapter4/chapter4.tex [46
+]
+(chapter3/Experimental.tex [45
+
+] [46
+
+])) (chapter4/chapter4.tex [47
 
 ]
 บทที่ 4.
@@ -1590,72 +1600,72 @@ File: chapter4/images/Final_ui/Select.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Select.jpg>
 
 
-LaTeX Warning: Reference `fig:final_select' on page 47 undefined on input line 
+LaTeX Warning: Reference `fig:final_select' on page 48 undefined on input line 
 8.
 
 
-LaTeX Warning: Reference `fig:SelectDraft' on page 47 undefined on input line 8
+LaTeX Warning: Reference `fig:SelectDraft' on page 48 undefined on input line 8
 .
 
-[47
+[48
 
 ]
 File: chapter4/images/Final_ui/Detect.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Detect.jpg>
 
 
-LaTeX Warning: Reference `fig:final_detect' on page 48 undefined on input line 
+LaTeX Warning: Reference `fig:final_detect' on page 49 undefined on input line 
 26.
 
 
-LaTeX Warning: Reference `fig:DetectDraft' on page 48 undefined on input line 2
+LaTeX Warning: Reference `fig:DetectDraft' on page 49 undefined on input line 2
 6.
 
-[48
+[49
 
 ]
 File: chapter4/images/Final_ui/Track.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Track.jpg>
 
 
-LaTeX Warning: Reference `fig:final_track' on page 49 undefined on input line 4
+LaTeX Warning: Reference `fig:final_track' on page 50 undefined on input line 4
 1.
 
 
-LaTeX Warning: Reference `fig:TrackDraft' on page 49 undefined on input line 41
+LaTeX Warning: Reference `fig:TrackDraft' on page 50 undefined on input line 41
 .
 
-[49
+[50
 
 ]
 File: chapter4/images/Final_ui/Label.jpg Graphic file (type bmp)
 <chapter4/images/Final_ui/Label.jpg>
 
 
-LaTeX Warning: Reference `fig:final_label' on page 50 undefined on input line 5
+LaTeX Warning: Reference `fig:final_label' on page 51 undefined on input line 5
 8.
 
 
-LaTeX Warning: Reference `fig:ActionLabelDraft' on page 50 undefined on input l
+LaTeX Warning: Reference `fig:ActionLabelDraft' on page 51 undefined on input l
 ine 58.
 
-[50
+[51
 
 ]
 File: chapter4/images/Result/result_select3.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select3.jpg>
 
 
-LaTeX Warning: Reference `fig:result_select' on page 51 undefined on input line
+LaTeX Warning: Reference `fig:result_select' on page 52 undefined on input line
  78.
 
 File: chapter4/images/Result/result_select4.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select4.jpg>
-[51
+[52
 
 ]
 
-LaTeX Warning: Reference `fig:result_detect' on page 52 undefined on input line
+LaTeX Warning: Reference `fig:result_detect' on page 53 undefined on input line
  90.
 
 File: chapter4/images/Result/result_select6.jpg Graphic file (type bmp)
@@ -1665,14 +1675,14 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 File: chapter4/images/Result/result_select7.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select7.jpg>
 
-LaTeX Warning: Reference `fig:result_tracked' on page 52 undefined on input lin
+LaTeX Warning: Reference `fig:result_tracked' on page 53 undefined on input lin
 e 110.
 
 
-LaTeX Warning: Reference `fig:result_track_xml' on page 52 undefined on input l
+LaTeX Warning: Reference `fig:result_track_xml' on page 53 undefined on input l
 ine 110.
 
-[52
+[53
 
 ]
 File: chapter4/images/Result/result_select.jpg Graphic file (type bmp)
@@ -1681,29 +1691,29 @@ File: chapter4/images/Result/result_select9.jpg Graphic file (type bmp)
 <chapter4/images/Result/result_select9.jpg>
 
 
-LaTeX Warning: Reference `fig:result_label_xml' on page 53 undefined on input l
+LaTeX Warning: Reference `fig:result_label_xml' on page 54 undefined on input l
 ine 131.
-
-) [53
-
-] (chapter4/object_detection.tex
-
-LaTeX Warning: Reference `tab:trackEx' on page 54 undefined on input line 46.
 
 ) [54
 
+] (chapter4/object_detection.tex
+
+LaTeX Warning: Reference `tab:trackEx' on page 55 undefined on input line 46.
+
+) [55
+
 ] (chapter4/tracking.tex
 
-LaTeX Warning: Reference `tab:trackEx' on page 55 undefined on input line 35.
+LaTeX Warning: Reference `tab:trackEx' on page 56 undefined on input line 35.
 
 ) (chapter4/evaluate_reid.tex
 File: chapter4/images/o_0.jpg Graphic file (type bmp)
 <chapter4/images/o_0.jpg>
 File: chapter4/images/o_1.jpg Graphic file (type bmp)
 <chapter4/images/o_1.jpg>
- [55
+ [56
 
-] [56]
+] [57]
 File: chapter4/images/first_0.jpg Graphic file (type bmp)
 <chapter4/images/first_0.jpg>
 File: chapter4/images/first_1.jpg Graphic file (type bmp)
@@ -1712,7 +1722,7 @@ File: chapter4/images/fei_0.jpg Graphic file (type bmp)
 <chapter4/images/fei_0.jpg>
 File: chapter4/images/fei_1.jpg Graphic file (type bmp)
 <chapter4/images/fei_1.jpg>
- [57
+ [58
 
 ]
 File: chapter4/images/first_3.jpg Graphic file (type bmp)
@@ -1723,7 +1733,7 @@ File: chapter4/images/first_4.jpg Graphic file (type bmp)
 <chapter4/images/first_4.jpg>
 File: chapter4/images/o_3.jpg Graphic file (type bmp)
 <chapter4/images/o_3.jpg>
- [58
+ [59
 
 ]
 File: chapter4/images/fei_4.jpg Graphic file (type bmp)
@@ -1743,12 +1753,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
 ))
 No file thesis.bbl.
-[59
+[60
 
-] [60]
+] [61]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [60
+ (appendix/appendix1.tex [61
 
 
 ]
@@ -1762,7 +1772,7 @@ File: appendix/images/8.jpg Graphic file (type bmp)
 <appendix/images/8.jpg>
 File: appendix/images/17.jpg Graphic file (type bmp)
 <appendix/images/17.jpg>
-)) [61
+)) [62
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1777,7 +1787,7 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E
 (rerunfilecheck)             After:  CA4896096BC9C85DBDA7A64354AE4B31.
 
 LaTeX Warning: There were undefined references.
@@ -1788,12 +1798,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38156 strings out of 427669
- 756711 string characters out of 3153072
+ 38162 strings out of 427669
+ 756771 string characters out of 3153072
  1037740 words of memory out of 3000000
  41640 multiletter control sequences out of 15000+200000
  536284 words of font info for 59 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,14n,77p,955b,750s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (73 pages).
+Output written on thesis.pdf (74 pages).
