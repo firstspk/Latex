@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  27 SEP 2019 15:45
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  27 SEP 2019 16:39
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1258,19 +1258,19 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 
 ] (thesis.lof
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
-(Font)              scaled to size 9.83997pt on input line 14.
-
-
-LaTeX Warning: Citation `I3D' on page ซ undefined on input line 14.
-
-
-LaTeX Warning: Citation `I3D' on page ซ undefined on input line 14.
+(Font)              scaled to size 9.83997pt on input line 15.
 
 
 LaTeX Warning: Citation `I3D' on page ซ undefined on input line 15.
 
 
 LaTeX Warning: Citation `I3D' on page ซ undefined on input line 15.
+
+
+LaTeX Warning: Citation `I3D' on page ซ undefined on input line 16.
+
+
+LaTeX Warning: Citation `I3D' on page ซ undefined on input line 16.
 
 [8
 
@@ -1438,6 +1438,8 @@ File: chapter2/images/average_pooling.png Graphic file (type bmp)
 ]
 File: chapter2/images/fully-connected.png Graphic file (type bmp)
 <chapter2/images/fully-connected.png>
+File: chapter2/images/iou_equation.png Graphic file (type bmp)
+<chapter2/images/iou_equation.png>
 ) [21
 
 ] (chapter2/ResNet.tex
@@ -1526,38 +1528,34 @@ File: chapter2/images/vector_optical.png Graphic file (type bmp)
 LaTeX Warning: Citation `farneback2003two' on page 32 undefined on input line 5
 7.
 
-) [32] (chapter2/IoU.tex
-File: chapter2/images/iou_equation.png Graphic file (type bmp)
-<chapter2/images/iou_equation.png>
-)) (chapter3/chapter3.tex [33
-
-]
+) [32]) (chapter3/chapter3.tex
 บทที่ 3.
-[34
+[33
+
 
 ]
-Overfull \hbox (3.17891pt too wide) in paragraph at lines 37--38
+File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
+<chapter3/images/Overview/HowItWorks.png>
+ [34
+
+] [35]
+Overfull \hbox (3.17891pt too wide) in paragraph at lines 46--47
 [] [] \TU/THSarabunNew(0)/bx/n/12 อุกฤษฎ์ เลิศวรรณาการ[] \TU/THSarabunNew(0)/m/
 n/12 สร้าง และ ทดสอบ โมเดล ปัญญา ประดิษฐ์ สำหรับ จดจำ การก ระ ทำ มนุษย์ Resnet-
 
  []
 
-[35
-
-]
-Overfull \hbox (0.3193pt too wide) in paragraph at lines 59--78
-[][] 
- []
-
 [36
 
 ]
-File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
-<chapter3/images/Overview/HowItWorks.png>
- [37
+Overfull \hbox (0.3193pt too wide) in paragraph at lines 68--87
+[][] 
+ []
+
+[37
 
 ]
-Overfull \hbox (12.87189pt too wide) in paragraph at lines 107--107
+Overfull \hbox (12.87189pt too wide) in paragraph at lines 108--108
 |\TU/THSarabunNew(0)/bx/n/14.4 3.8 การ ออกแบบ หน้า ต่าง แอพ พลิ เคชั่ นข อง เคร
 ื่อง มือ สำหรับ กำกับ ข้อมูล ด้วย ปัญญา ประดิษฐ์| 
  []
@@ -1748,7 +1746,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2DBE0789A8AC5EF73D706BB86848524C.
+(rerunfilecheck)             Checksum: C6CD962941B62F2934E83D50BAC79829.
 
 
 LaTeX Warning: There were undefined references.
@@ -1759,8 +1757,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38254 strings out of 427669
- 758809 string characters out of 3153072
+ 38251 strings out of 427669
+ 758778 string characters out of 3153072
  1037740 words of memory out of 3000000
  41706 multiletter control sequences out of 15000+200000
  536284 words of font info for 59 fonts, out of 3000000 for 9000

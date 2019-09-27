@@ -8,9 +8,9 @@
 \contentsline {table}{\numberline {2.3}{\ignorespaces ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลสำหรับทดสอบของ ActivityNet\relax }}{12}{table.caption.19}% 
 \contentsline {table}{\numberline {2.4}{\ignorespaces ผลการทดลองของวิธีต่างๆบนคุณลักษณะระดับเฟรม\relax }}{15}{table.caption.20}% 
 \contentsline {table}{\numberline {2.5}{\ignorespaces ประสิทธิภาพของโมเดล Resnet50 I3D ที่ใช้ชุดข้อมูล Kinetics และ Moments in Time\relax }}{17}{table.caption.21}% 
-\contentsline {table}{\numberline {2.6}{\ignorespaces อัตราร้อยละของความผิดพลาดของชุดข้อมูลทดสอบ ImageNet\relax }}{22}{table.caption.29}% 
-\contentsline {table}{\numberline {2.7}{\ignorespaces ค่าความผิดพลาดที่ได้จากการทดลองจำนวนชั้นของโมเดลปัญญาประดิษฐ์ ResNet บนชุดของข้อมูล CIFAR-10\relax }}{23}{table.caption.30}% 
-\contentsline {table}{\numberline {2.8}{\ignorespaces ประสิทธิภาพของโมเดล I3D แบบ two-stream เมื่อใช้ข้อมูลจาก UCF-101, HMDB-51 และ Kinetics ในการสร้างและทดสอบด้วยเครื่องมือวัดผลแบบความแม่นยำจากการทำนายอันดับแรกสุด\relax }}{25}{table.caption.33}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces อัตราร้อยละของความผิดพลาดของชุดข้อมูลทดสอบ ImageNet\relax }}{22}{table.caption.30}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces ค่าความผิดพลาดที่ได้จากการทดลองจำนวนชั้นของโมเดลปัญญาประดิษฐ์ ResNet บนชุดของข้อมูล CIFAR-10\relax }}{23}{table.caption.31}% 
+\contentsline {table}{\numberline {2.8}{\ignorespaces ประสิทธิภาพของโมเดล I3D แบบ two-stream เมื่อใช้ข้อมูลจาก UCF-101, HMDB-51 และ Kinetics ในการสร้างและทดสอบด้วยเครื่องมือวัดผลแบบความแม่นยำจากการทำนายอันดับแรกสุด\relax }}{25}{table.caption.34}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 {\vskip -10pt}

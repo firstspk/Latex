@@ -4,6 +4,15 @@
 ซึ่งต้องมีระเบียบวิธีวิจัยอธิบายถึงขึ้นตอนการดำเนินงานตั้งแต่เริ่มศึกษาข้อมูลจนไปถึงสิ้นสุดกระบวนการวิจัย
 โดยใช้ภาษาไพธอน เป็นภาษาหลักในการเขียนโปรแกรม
 
+
+\clearpage
+\section{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.6\textwidth, height=0.9\textwidth]{chapter3/images/Overview/HowItWorks.png}
+    \caption{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}
+    \label{fig:labeling_overview}
+\end{figure}
 \section{ความต้องการของระบบ}
 \subsection{ความต้องการเชิงการใช้งาน (functional requirements)}
 \begin{enumerate}
@@ -95,34 +104,26 @@ syntax highlighting, auto-completion ฯลฯ และสามารถปร
 ในบทนี้ก็จะกล่าวถึงกระบวนการออกแบบและการดำเนินการตามแผนที่วางเอาไว้
 
 \clearpage
-\section{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}
-\begin{figure}[!ht]
-    \centering
-    \includegraphics[width=0.95\textwidth, height=1.25\textwidth]{chapter3/images/Overview/HowItWorks.png}
-    \caption{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}
-    \label{fig:labeling_overview}
-\end{figure}
-\clearpage
 
 \section{การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}
 \input{chapter3/labeler}
 \clearpage
 
 \section{การออกแบบการทดสอบการตรวจจับวัตถุ}
-\subsection{ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}
+\subsection{ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}
 \input{chapter3/chapter3_object_detection}
 \clearpage
 
 \section{การออกแบบการทดสอบการทำนายตำแหน่งต่อไปของมนุษย์}
-\subsection{ทดสอบประสิทธิ์ภาพการทำงานของระบบทำนายตำแหน่งต่อไปของวัตถุในวิดีโอ}
+\subsection{ทดสอบประสิทธิภาพการทำงานของระบบทำนายตำแหน่งต่อไปของวัตถุในวิดีโอ}
 \input{chapter3/track_experimental.tex}
 \clearpage
 
 \section{การออกแบบการทดสอบการระบุตัวตนของมนุษย์}
-\subsection{ทดสอบประสิทธิ์ภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}
+\subsection{ทดสอบประสิทธิภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}
 \input{chapter3/experiment_reid.tex}
 \clearpage
 
 \section{การออกแบบการทดสอบการจดจำการกระทำของมนุษย์}
-\subsection{ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}
+\subsection{ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}
 \input{chapter3/Experimental}
