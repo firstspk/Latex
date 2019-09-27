@@ -1,24 +1,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{6}{figure.caption.14}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces แนวคิดของระบบทำนายตำแหน่งถัดไปของวัตถุ\relax }}{7}{figure.caption.15}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces การแบ่งรูปออกเป็น 8 ส่วนของระบบระบุตัวตนของบุคคล\relax }}{9}{figure.caption.16}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ตัวอย่างโครงสร้างของ CNN\relax }}{19}{figure.caption.22}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ตัวอย่างเคอร์เนล \relax }}{19}{figure.caption.23}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ตัวอย่างการหาผังคุณลักษณะ \relax }}{20}{figure.caption.24}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces ตัวอย่างการทำ max pooling \relax }}{20}{figure.caption.25}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces ตัวอย่างการทำ average pooling \relax }}{20}{figure.caption.26}% 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces โครงสร้างของ fully-connected\relax }}{21}{figure.caption.27}% 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces ภาพแสดงการหา IOU ของกรอบสี่เหลี่ยมจริงของเฟรม และ กรอบสี่เหลี่ยมที่ทำนายขึ้นมา\relax }}{21}{figure.caption.28}% 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces ตัวอย่างการทำงานของ NMS\relax }}{22}{figure.caption.29}% 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces หลักการของ Residual block ของ ResNet\relax }}{23}{figure.caption.30}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces แนวคิดของระบบทำนายตำแหน่งถัดไปของวัตถุ\relax }}{6}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces การแบ่งรูปออกเป็น 8 ส่วนของระบบระบุตัวตนของบุคคล\relax }}{8}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ตัวอย่างโครงสร้างของ CNN\relax }}{18}{figure.caption.21}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ตัวอย่างเคอร์เนล \relax }}{18}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ตัวอย่างการหาผังคุณลักษณะ \relax }}{19}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ตัวอย่างการทำ max pooling \relax }}{19}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ตัวอย่างการทำ average pooling \relax }}{19}{figure.caption.25}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces โครงสร้างของ fully-connected\relax }}{20}{figure.caption.26}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces ภาพแสดงการหา IoU ของกรอบสี่เหลี่ยมจริงของเฟรม และ กรอบสี่เหลี่ยมที่ทำนายขึ้นมา\relax }}{20}{figure.caption.27}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ตัวอย่างการทำงานของ NMS\relax }}{21}{figure.caption.28}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces หลักการของ Residual block ของ ResNet\relax }}{22}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript {\cite {I3D}}\relax }}{24}{figure.caption.32}% 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript {\cite {I3D}}\relax }}{25}{figure.caption.33}% 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D\textsuperscript {\cite {I3D}}\relax }}{26}{figure.caption.34}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{27}{figure.caption.36}% 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{27}{figure.caption.37}% 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{28}{figure.caption.38}% 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ Faster RCNN\relax }}{29}{figure.caption.39}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{26}{figure.caption.35}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{26}{figure.caption.36}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{27}{figure.caption.37}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ Faster RCNN\relax }}{28}{figure.caption.38}% 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ SSD\relax }}{29}{figure.caption.39}% 
 \contentsline {figure}{\numberline {2.19}{\ignorespaces UI ของโปรแกรม DarkLabel\relax }}{30}{figure.caption.40}% 
 \contentsline {figure}{\numberline {2.20}{\ignorespaces UI ของโปรแกรม OpenLabeling\relax }}{31}{figure.caption.41}% 
 \contentsline {figure}{\numberline {2.21}{\ignorespaces ตัวอย่างการเคลื่อนที่ของลูกบอล\relax }}{32}{figure.caption.42}% 

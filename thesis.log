@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  27 SEP 2019 17:18
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  27 SEP 2019 18:05
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1002,9 +1002,6 @@ LaTeX Warning: Label `tab: youtube_youtube' multiply defined.
 LaTeX Warning: Label `fig:CNN architecture' multiply defined.
 
 
-LaTeX Warning: Label `fig:yolo' multiply defined.
-
-
 LaTeX Warning: Label `fig:labeling_overview' multiply defined.
 
 
@@ -1339,54 +1336,51 @@ Overfull \hbox (53.3489pt too wide) in paragraph at lines 77--78
 
 
 
-] (chapter2/yolo.tex
-File: chapter2/images/yolo.jpg Graphic file (type bmp)
-<chapter2/images/yolo.jpg>
- [5
+] (chapter2/yolo.tex) [5
 
-]) [6]
+]
 (chapter2/tracking.tex
 
-LaTeX Warning: Citation `danelljan2014accurate' on page 7 undefined on input li
+LaTeX Warning: Citation `danelljan2014accurate' on page 6 undefined on input li
 ne 1.
 
 File: chapter2/images/track-concept.png Graphic file (type bmp)
 <chapter2/images/track-concept.png>
-[7
+[6
 
 ]) (chapter2/reid.tex
 
-LaTeX Warning: Citation `luo2019alignedreid++' on page 8 undefined on input lin
+LaTeX Warning: Citation `luo2019alignedreid++' on page 7 undefined on input lin
 e 1.
 
 File: chapter2/images/alignedreid.png Graphic file (type bmp)
 <chapter2/images/alignedreid.png>
-[8]) (chapter2/action_label.tex [9] [10] [11]
+[7]) (chapter2/action_label.tex [8] [9] [10]
 
-LaTeX Warning: Citation `karpathy2014large' on page 12 undefined on input line 
+LaTeX Warning: Citation `karpathy2014large' on page 11 undefined on input line 
 116.
 
 
-LaTeX Warning: Citation `yue2015beyond' on page 12 undefined on input line 117.
+LaTeX Warning: Citation `yue2015beyond' on page 11 undefined on input line 117.
 
 
 
-LaTeX Warning: Citation `tran2014c3d' on page 12 undefined on input line 118.
+LaTeX Warning: Citation `tran2014c3d' on page 11 undefined on input line 118.
 
 
-LaTeX Warning: Citation `ma2017less' on page 12 undefined on input line 134.
+LaTeX Warning: Citation `ma2017less' on page 11 undefined on input line 134.
 
 
-LaTeX Warning: Citation `caba2015activitynet' on page 12 undefined on input lin
+LaTeX Warning: Citation `caba2015activitynet' on page 11 undefined on input lin
 e 135.
 
-[12
+[11
 
 ]
 
-LaTeX Warning: Citation `AVA' on page 13 undefined on input line 150.
+LaTeX Warning: Citation `AVA' on page 12 undefined on input line 150.
 
-[13
+[12
 
 ]
 Overfull \hbox (9.91827pt too wide) in paragraph at lines 195--196
@@ -1400,31 +1394,31 @@ Overfull \hbox (0.91472pt too wide) in paragraph at lines 211--212
 ดตาม ตำแหน่ง ใน การ เชื่อม ระหว่าง เฟรม ปัจจุบัน
  []
 
-[14] [15]
+[13] [14]
 
-LaTeX Warning: Citation `monfort2019moments' on page 16 undefined on input line
+LaTeX Warning: Citation `monfort2019moments' on page 15 undefined on input line
  239.
 
 
-LaTeX Warning: Citation `Schuler:2005:VBC:1104493' on page 16 undefined on inpu
+LaTeX Warning: Citation `Schuler:2005:VBC:1104493' on page 15 undefined on inpu
 t line 250.
 
 
-LaTeX Warning: Citation `Zaghouani:2010:RAP:1868720.1868756' on page 16 undefin
+LaTeX Warning: Citation `Zaghouani:2010:RAP:1868720.1868756' on page 15 undefin
 ed on input line 251.
 
 
-LaTeX Warning: Citation `Baker:1998:BFP:980451.980860' on page 16 undefined on 
+LaTeX Warning: Citation `Baker:1998:BFP:980451.980860' on page 15 undefined on 
 input line 252.
 
-[16
+[15
 
-] [17] [18])) (chapter2/cnn.tex
+] [16] [17])) (chapter2/cnn.tex
 File: chapter2/images/CNN.png Graphic file (type bmp)
 <chapter2/images/CNN.png>
 File: chapter2/images/kernel_3x3.png Graphic file (type bmp)
 <chapter2/images/kernel_3x3.png>
- [19
+ [18
 
 ]
 File: chapter2/images/feature_map.png Graphic file (type bmp)
@@ -1433,7 +1427,7 @@ File: chapter2/images/max_pooling.png Graphic file (type bmp)
 <chapter2/images/max_pooling.png>
 File: chapter2/images/average_pooling.png Graphic file (type bmp)
 <chapter2/images/average_pooling.png>
- [20
+ [19
 
 ]
 File: chapter2/images/fully-connected.png Graphic file (type bmp)
@@ -1442,49 +1436,49 @@ File: chapter2/images/iou_equation.png Graphic file (type bmp)
 <chapter2/images/iou_equation.png>
 File: chapter2/images/NMS.png Graphic file (type bmp)
 <chapter2/images/NMS.png>
-) [21
+) [20
 
-] [22] (chapter2/ResNet.tex
+] [21] (chapter2/ResNet.tex
 File: chapter2/images/example_resnet.png Graphic file (type bmp)
 <chapter2/images/example_resnet.png>
 
-[23
+[22
 
-]) [24
+]) [23
 
 ] (chapter2/I3D.tex
 
-LaTeX Warning: Citation `I3D' on page 25 undefined on input line 3.
+LaTeX Warning: Citation `I3D' on page 24 undefined on input line 3.
 
 
-LaTeX Warning: Citation `Inception' on page 25 undefined on input line 5.
+LaTeX Warning: Citation `Inception' on page 24 undefined on input line 5.
 
 File: chapter2/images/I3D.png Graphic file (type bmp)
 <chapter2/images/I3D.png>
 
-LaTeX Warning: Citation `I3D' on page 25 undefined on input line 10.
+LaTeX Warning: Citation `I3D' on page 24 undefined on input line 10.
 
 
-LaTeX Warning: Citation `I3D' on page 25 undefined on input line 10.
+LaTeX Warning: Citation `I3D' on page 24 undefined on input line 10.
 
-[25
+[24
 
 ]
 File: chapter2/images/inceptionModule.png Graphic file (type bmp)
 <chapter2/images/inceptionModule.png>
 
 
-LaTeX Warning: Citation `I3D' on page 26 undefined on input line 17.
+LaTeX Warning: Citation `I3D' on page 25 undefined on input line 17.
 
 
-LaTeX Warning: Citation `I3D' on page 26 undefined on input line 17.
+LaTeX Warning: Citation `I3D' on page 25 undefined on input line 17.
 
 
 Overfull \hbox (41.61888pt too wide) in paragraph at lines 24--37
 [][] 
  []
 
-) [26
+) [25
 
 ] (chapter2/yolo_model.tex
 File: chapter2/images/yolo.jpg Graphic file (type bmp)
@@ -1499,15 +1493,26 @@ File: chapter2/images/yolo_darknet.png Graphic file (type bmp)
 <chapter2/images/yolo_darknet.png>
 File: chapter2/images/yolo_spp.png Graphic file (type bmp)
 <chapter2/images/yolo_spp.png>
-) [27
+) [26
 
-] [28] (chapter2/faster-rcnn.tex
+] [27] (chapter2/faster-rcnn.tex
 File: chapter2/images/faster_rcnn.png Graphic file (type bmp)
 <chapter2/images/faster_rcnn.png>
-) [29
+) [28
 
 ]
-(chapter2/labeling_tool.tex
+(chapter2/ssd.tex
+File: chapter2/images/vgg.jpg Graphic file (type bmp)
+<chapter2/images/vgg.jpg>
+
+Overfull \hbox (13.66809pt too wide) in paragraph at lines 15--17
+\TU/THSarabunNew(0)/m/n/12 หลัง จาก ได้ ผลลัพธ์ เป็น หมวด หมู่ ของ กรอบ สี่เหลี
+่ยม และ ตำแหน่ง ของ กรอบ สี่เหลี่ยม จะ นำ ไป ผ่าน กระบวนการ
+ []
+
+) [29
+
+] (chapter2/labeling_tool.tex
 File: chapter2/images/darklabel.png Graphic file (type bmp)
 <chapter2/images/darklabel.png>
  [30
@@ -1747,15 +1752,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 0CD01083BF2952E7BD981B742DF5F004.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: C6CD962941B62F2934E83D50BAC79829
-(rerunfilecheck)             After:  2F77CB99C39E9B1247A392942C5C53FF.
 
 LaTeX Warning: There were undefined references.
 
@@ -1765,12 +1764,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38256 strings out of 427669
- 758876 string characters out of 3153072
+ 38264 strings out of 427669
+ 759005 string characters out of 3153072
  1037740 words of memory out of 3000000
- 41710 multiletter control sequences out of 15000+200000
+ 41714 multiletter control sequences out of 15000+200000
  536284 words of font info for 59 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,14n,77p,965b,750s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,77p,926b,750s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on thesis.pdf (84 pages).
