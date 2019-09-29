@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1569772819 "thesis.aux" "thesis.bbl" "thesis" 1569772834
+["bibtex thesis"] 1569772819 "thesis.aux" "thesis.bbl" "thesis" 1569773271
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "pages/reference.bib" 1569751187 7522 d6af1eb1c347cb4a5d21af5444eed661 ""
   "thesis.aux" 1569772825 63851 78088a15a42debeb1a0a6a4dbf283d98 "xelatex"
   (generated)
-  "thesis.blg"
   "thesis.bbl"
-["xdvipdfmx"] 1569772825 "thesis.xdv" "thesis.pdf" "thesis" 1569772835
+  "thesis.blg"
+["xdvipdfmx"] 1569772825 "thesis.xdv" "thesis.pdf" "thesis" 1569773271
   "thesis.xdv" 1569772825 1766248 75695f1d2291fe6df6f5c3e28c3ba126 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1569772819 "c:/Users/asus/Desktop/Latex-master/thesis.tex" "thesis.xdv" "thesis" 1569772834
+["xelatex"] 1569772819 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1569773271
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -196,13 +196,14 @@
   "appendix/images/8.jpg" 1569515118 165865 dcb345a7d498c4deac33fc2a81f72bf9 ""
   "appendix/object_detect_appendix.tex" 1569515118 909 953ff2058f9b538f09070923000c8e29 ""
   "c:/Users/asus/Desktop/Latex-master/thesis.tex" 1569568251 1638 64b5eab12595d227b52f14b43c800703 ""
+  "c:/Users/asus/Desktop/Latex/thesis.tex" 1569568251 1638 64b5eab12595d227b52f14b43c800703 ""
   "chapter1/chapter1.tex" 1569769689 12163 6cd8860909c67e49a2a3630e704b7cc8 ""
   "chapter1/ganttchart.png" 1569515118 357508 a3ad66bc19cc10013fb01bacf49fb445 ""
   "chapter2/I3D.tex" 1569767518 6494 c44ad5efcee5ba53c26dae4312891234 ""
   "chapter2/ResNet.tex" 1569658874 6531 2e1854ca1df29d501604ba9fa3b0f929 ""
   "chapter2/action_label.tex" 1569575669 4213 70ce6ba0bddf4d66679dc006b8e00c40 ""
   "chapter2/ava.tex" 1569657692 14274 6fcdd2908889fd0bf4b47b4fbf8b55d2 ""
-  "chapter2/chapter2.tex" 1569770268 3322 752a1f58c99482dd1495865140d7d1d0 ""
+  "chapter2/chapter2.tex" 1569773270 3322 752a1f58c99482dd1495865140d7d1d0 ""
   "chapter2/cnn.tex" 1569769851 12121 36b320803984daa3a005bf6a5d9f3d76 ""
   "chapter2/faster-rcnn.tex" 1569532040 3203 5a06bba386b3b408a8ac8390f945e757 ""
   "chapter2/images/CNN.png" 1569532040 71514 687f2a73a69ae43c4c1ba498f35569f0 ""
@@ -302,10 +303,10 @@
   "thesis.tex" 1569568251 1638 64b5eab12595d227b52f14b43c800703 ""
   "thesis.toc" 1569772825 13325 08f9a0dc4020e2188097b701a4931716 "xelatex"
   (generated)
-  "thesis.aux"
-  "thesis.toc"
   "thesis.out"
-  "thesis.lot"
   "thesis.log"
-  "thesis.xdv"
+  "thesis.aux"
+  "thesis.lot"
   "thesis.lof"
+  "thesis.xdv"
+  "thesis.toc"
