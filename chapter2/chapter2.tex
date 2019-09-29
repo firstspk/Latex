@@ -1,83 +1,57 @@
 % ************************** Thesis Chapter2 **********************************
 \clearpage
 \chapter{ทฤษฎี/การวิจัยที่เกี่ยวข้อง}
-การวิเคราะห์วิดีโอในปัจจุบันนั้นมีวิธีและเทคนิคมากมาย ผู้วิจัยจึงต้องศึกษาองค์ความรู้และงานวิจัยที่เกี่ยวข้องกับวัตถุประสงค์ของงาน 
-เพื่อศึกษาและใช้เป็นแนวทางในการประยุกต์สำหรับสร้างเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์ และโมเดลปัญญาประดิษฐ์สำหรับการจำแนกการกระทำของมนุษย์ 
+การประมวลผลวิดีโอในปัจจุบันนั้นมีวิธีการและเทคนิคมากมาย ผู้วิจัยจึงต้องศึกษาองค์ความรู้และงานวิจัยที่เกี่ยวข้องกับวัตถุประสงค์ของงาน 
+เพื่อศึกษาและใช้เป็นแนวทางในการประยุกต์สำหรับสร้างเครื่องมือกำกับข้อมูลด้วยปัญญาประดิษฐ์ และโมเดลปัญญาประดิษฐ์สำหรับการจำแนกการกระทำของมนุษย์ 
 ซึ่งหัวข้อที่ผู้วิจัยได้ไปศึกษามา มีดังต่อไปนี้
 \begin{enumerate}
 	\setlength\itemsep{-0.25em}
-	\item การวิเคราะห์ผลวิดีโอ
+	\item ทฤษฎีที่เกี่ยวข้อง
+	\begin{enumerate}
+		\item Convolutional neural network
+		\item Optical flow
+		\item โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้อง
+	\end{enumerate}
+	\item การะประมวลผลวิดีโอ
 	\begin{enumerate}	
 		\item การตรวจจับวัตถุ (object detection)
-		\item การทำนายตำแหน่งถัดไปของวัตถุ (object tracker)
+		\item การติดตามตำแหน่งของวัตถุ (object tracker)
 		\item การระบุตัวตนของบุคคล (person re-identification)
-		\item การจำแนกการกระทำ
+		\item การจำแนกการกระทำของมนุษย์ (human action classification)
 	\end{enumerate}
-	\setlength\itemsep{-0.25em}
-	\item เครื่องมือสำหรับการวิเคราะห์ผลวิดีโอ
-	\begin{enumerate}	
-		\item โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์
-		\item เครื่องมือกำกับคุณลักษณะ (labeling tool)
-	\end{enumerate}
-	\item ทฤษฎีที่เกี่ยวข้อง
-	\begin{enumerate}	
-		\item Optical flow
-		\item IoU
-	\end{enumerate}
+	\item โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์ (human action classification model)
+	\item เครื่องมือกำกับชุดข้อมูลภาพ
 \end{enumerate}
 
-\section{การวิเคราะห์ผลวิดีโอ}
-\input{chapter2/video_analytics}
+\clearpage
+\section{ทฤษฎีที่เกี่ยวข้อง}
 
-\section{เครื่องมือสำหรับการวิเคราะห์ผลวิดีโอ}
-\subsection{โมเดลปัญญาประดิษฐ์}
-
-\subsubsection*{CNN}
+\subsection{Convolutional Neural Network}
 \input{chapter2/cnn}
 \clearpage
 
-\subsubsection*{ResNet}
-\input{chapter2/ResNet}
-
-\clearpage
-\subsubsection*{Inflated 3D convolutional network}
-\input{chapter2/I3D}
-\clearpage
-
-\subsubsection*{YOLO}
-\input{chapter2/yolo_model}
-\clearpage
-
-\subsubsection*{Faster-RCNN}
-\input{chapter2/faster-rcnn}
-\clearpage
-
-
-\subsubsection*{SSD}
-\input{chapter2/ssd}
-\clearpage
-
-
-\subsection{เครื่องมือกำกับคุณลักษณะ}
-\input{chapter2/labeling_tool}
-
-
-
-\clearpage
-%\section{ชุดข้อมูล}
-%\input{chapter2/youtube_8m}
-%\clearpage
-%\input{chapter2/ava}
-%\clearpage
-%\input{chapter2/momentintime}
-
-\section{ทฤษฎีที่เกี่ยวข้อง}
 \subsection{Optical flow}
 \input{chapter2/optical_flow}
 \clearpage
-%\subsection{Intersection Over Union (IoU)}
-%\input{chapter2/IoU}
 
+\subsection{โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้อง}
+\input{chapter2/relate_model}
 
+\section{การประมวลผลวิดีโอ}
+\input{chapter2/video_analytics}
+\clearpage
 
+\section{ชุดข้อมูลสำหรับการประมวลผลวิดีโอ}
+\input{chapter2/intro_vdo_dataset}
+\clearpage
 
+\section{โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}
+\subsection{ResNet}
+\input{chapter2/ResNet}
+\clearpage
+\subsection{Inflated 3D convolutional network}
+\input{chapter2/I3D}
+\clearpage
+
+\subsection{เครื่องมือกำกับคุณลักษณะ}
+\input{chapter2/labeling_tool}

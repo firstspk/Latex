@@ -33,6 +33,7 @@
 \RequirePackage{ifthen} %% สำหรับใช้ if-else
 \usepackage[center]{caption}
 \usepackage{array}
+\usepackage{amsfonts}
 \newenvironment{conditions}
   {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
   {\end{tabular}\par\vspace{\belowdisplayskip}}

@@ -1,221 +1,239 @@
-\subsubsection*{Youtube-8M}
-YouTube-8M คือชุดข้อมูลวิดีโอที่เป็น multi-label ที่มีจำนวนวิดีโอเยอะที่สุด ซึ่งมีจำนวนมากถึง 8 ล้านวิดีโอ(ในปี 2016) โดยมีจุดมุ่งหมายหลักในการอธิบายธีมหลักของวิดีโอด้วยคำสั้นๆ เช่น ถ้าวิดีโอนั้นเป็นวิดีโอที่มี มนุษย์กำลังปั่นจักรยานบนถนนดินกับหน้าผา ชุดข้อมูลนี้จะอธิบายวิดีโอนี้ว่า mountain biking ซึ่งทำให้ YouTube-8M แตกต่างจากชุดข้อมูลวิดีโออื่นๆส่วนใหญ่ที่จะเน้น action หรือ activity ของมนุษย์ ซึ่งข้อมูลเชิงสถิติจะเป็นดังตารางที่ 1
-
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=1\textwidth]{chapter2/images/youtube-8m.png}
-		\caption{ตัวอย่าง catagories ต่างๆของ YouTube-8M}
-    	\label{fig:youtube-8m}
-\end{figure}
-
-\begin{table}[!ht]
-\begin{tabular}{|c|c|c|c|}
-		\hline
-		{Number of video}&{Class of video}&{Avg. length of each video(s.)}&{Avg. class of video}				\\
-		\hline
-		8,264,650		& 4800		& 229.6		& 1.8											\\
-		\hline
-	\end{tabular}
-	\caption{ข้อมูลเชิงสถิติของ YouTube-8M}
-	\label{tab: ข้อมูลเชิงสถิติของ YouTube-8M}
-\end{table}
-
-\subsubsection*{1. วิธีการรวบรวมข้อมูล}
-การเก็บข้อมูลของ YouTube-8M นั้นใช้เครื่องมือที่ชื่อว่า YouTube annotation system ในการเก็บรวบรวมข้อมูลโดยอาศัยผังความรู้(knowledge graph)ของ Google ในการค้นหาและรวบรวมข้อมูลในฐานข้อมูลของ YouTube
+YouTube-8M คือชุดข้อมูลวิดีโอที่มีจำนวนวิดีโอเยอะที่สุดถึง 8 ล้านวิดีโอ (พ.ศ. 2559) โดยมีจุดมุ่งหมายหลักในการจำแนกสาระสำคัญของวิดีโอ (video theme) 
+ด้วยคำสั้นๆ เช่น ถ้าวิดีโอนั้นมีมนุษย์กำลังปั่นจักรยานบนถนนดินริมหน้าผาชุดข้อมูลนี้จะกำกับวิดีโอนี้ว่า mountain biking ซึ่งทำให้ YouTube-8M 
+แตกต่างจากชุดข้อมูลวิดีโออื่นๆส่วนใหญ่ที่จะเน้นการกระทำ หรือกิจกรรมของมนุษย์ ซึ่งข้อมูลโดยสรุปของชุดข้อมูลมีดังนี้
 \begin{enumerate}
-	\setlength\itemsep{-0.25em}
-	\item กฏในการรวบรวมข้อมูลดังนี้
+	\item {รายละเอียดของชุดข้อมูล}
 	\begin{enumerate}
 		\setlength\itemsep{-0.25em}
-		\item ทุกๆ หัวข้อต้องเป็นรูปธรรม
-		\item ในแต่ละหัวข้อต้องมีจำนวนวิดีโอไม่น้อยกว่า 200 วิดีโอ
-		\item ความยาวของวิดีโอต้องอยู่ระหว่าง 120 - 500 วินาที
-	\end{enumerate}
-หลังจากได้กฏในการรวบรวมข้อมูลแล้ว ขั้นตอนต่อไปคือการสร้างคำศัพท์(vocabulary)ที่ใช้ในการค้นหาข้อมูลวิดีโอจากใน YouTube 
-	\item ขั้นตอนในการสร้างคำศัพท์มีดังนี้
-	\begin{enumerate}
-		\setlength\itemsep{-0.25em}
-		\item กำหนด whitelist หัวข้อที่เป็นรูปธรรมมา 25 ชนิด เช่น game เป็นต้น
-		\item กำหนด blacklist หัวข้อที่คิดว่าไม่เป็นรูปธรรมไว้ เช่น software เป็นต้น
-		\item รวบรวมหัวข้อที่มีอยู่ใน whitelist อย่างน้อย 1 หัวข้อ และต้องไม่มีอยู่ใน blacklist ซึ่งจะทำให้ได้หัวข้อที่ต้องการมาประมาณ 50,000 หัวข้อ
-		\item จากนั้นใช้ผู้ประเมินจำนวน 3 คน ในการคัดหัวข้อที่คิดว่าเป็นรูปธรรม และสามารถจดจำหรือเข้าใจได้ง่ายโดยไม่ต้องเชี่ยวชาญในด้านนั้นๆ ซึ่งผู้ประเมิน ก็จะมีคำถามว่า “ มันยากขนาดไหนถึงจะระบุได้ว่ามีหัวข้อดังกล่าวอยู่ในรูปหรือวิดีโอ โดยใช้เพียงแค่การมองรูปภาพเท่านั้น? ” โดยแบ่งเป็นระดับดังนี้
+		\item เป้าหมายของชุดข้อมูล : เพื่อจำแนกสาระสำคัญของวิดีโอ
+		\item จำนวนของวิดีโอ : 8,264,650 วิดีโอ
+		\item ความยาวเฉลี่ยของแต่ละวิดีโอ : 229.6 วินาที
+		\item จำนวนของหมวดหมู่ของคำกำกับคุณลักษณะ : 4,800 หมวดหมู่
+		\item กฏในการรวบรวมวิดีโอดังนี้
 		\begin{enumerate}
 			\setlength\itemsep{-0.25em}
-			\item บุคคลทั่วไปสามารถเข้าใจได้
-			\item บุคคลทั่วไปที่ผ่านการอ่านบทความที่เกี่ยวข้องมาแล้วสามารถเข้าใจได้
-			\item ต้องเชี่ยญในด้านใดซักด้านจึงจะเข้าใจได้
-			\item เป็นไปไม่ได้ ถ้าไม่มีความรู้ที่ไม่ได้เป็นรูปธรรม
-			\item ไม่เป็นรูปธรรม
+			\item ทุกๆคำกำกับต้องเป็นรูปธรรม
+			\item ในแต่ละคำกำกับต้องมีจำนวนวิดีโอไม่น้อยกว่า 200 วิดีโอ
+			\item ความยาวของวิดีโอต้องอยู่ระหว่าง 120 - 500 วินาที
 		\end{enumerate}
-		\item หลังจากคำถามข้างบนและการให้คะแนน จะทำการเก็บไว้เฉพาะหัวข้อที่มีคะแนนเฉลี่ยมากที่สุดอยู่ที่ประมาณ 2.5 คะแนนเท่านั้น
-		\item ทำให้สุดท้ายเหลือเพียงประมาณ 10,000 หัวข้อที่สามารถใช้ได้
-		\item หลังจากได้หัวข้อที่คิดว่าเป็นรูปธรรมแล้วก็นำไปค้นหาและรวบรวมด้วย YouTube annotation system โดยมีขั้นตอนดังนี้
+		หลังจากได้กฏในการรวบรวมวิดีโอแล้ว ขั้นตอนต่อไปคือการสร้างคำศัพท์ที่ใช้ในการค้นหาข้อมูลวิดีโอจากใน YouTube 
+		\item ขั้นตอนในการสร้างคำศัพท์มีดังนี้
 		\begin{enumerate}
 			\setlength\itemsep{-0.25em}
-			\item สุ่มเลือกวิดีโอมา 10 ล้านวิดีโอ พร้อมกับหัวข้อของวิดีโอ โดยใช้กฏที่กำหนดไว้ เอาหัวข้อที่มีจำนวนวิดีโอน้อยกว่า 200 วิดีโอออก
-			\item ทำให้เหลือจำนวนวิดีโออยู่ 8,264,650 วิดีโอ
-			\item แยกออกเป็น 3 ส่วน Train set, Validate set และ Test set ในอัตราส่วน 70:20:10 ตามลำดับ
+			\item กำหนดบัญชีขาว (whitelist) ของคำกำกับที่เป็นรูปธรรมมา 25 ชนิด เช่น กีฬา เป็นต้น
+			\item กำหนดบัญชีดำ (blacklist) ของคำกำกับที่คิดว่าไม่เป็นรูปธรรมไว้ เช่น software เป็นต้น
+			\item รวบรวมคำกำกับที่มีอยู่ในรายการที่อนุญาตอย่างน้อย 1 คำ และต้องไม่มีอยู่ในบัญชีดำ ซึ่งจะทำให้ได้คำกำกับที่ต้องการมาประมาณ 50,000 คำ
+			\item จากนั้นใช้ผู้ประเมินจำนวน 3 คน ในการคัดคำกำกับที่คิดว่าเป็นรูปธรรม และสามารถจดจำหรือเข้าใจได้ง่ายโดยไม่ต้องเชี่ยวชาญในด้านนั้นๆ 
+			ซึ่งผู้ประเมิน ก็จะมีคำถามว่า “มันยากขนาดไหนถึงจะระบุได้ว่ามีคำกำกับดังกล่าวอยู่ในรูปหรือวิดีโอ โดยใช้เพียงแค่การมองเท่านั้น?” โดยแบ่งเป็นระดับดังนี้
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item บุคคลทั่วไปสามารถเข้าใจได้
+				\item บุคคลทั่วไปที่ผ่านการอ่านบทความที่เกี่ยวข้องมาแล้วสามารถเข้าใจได้
+				\item ต้องเชี่ยวชาญในด้านใดซักด้านจึงจะเข้าใจได้
+				\item เป็นไปไม่ได้ ถ้าไม่มีความรู้ที่ไม่ได้เป็นรูปธรรม
+				\item ไม่เป็นรูปธรรม
+			\end{enumerate}
+			\item หลังจากคำถามข้างบนและการให้คะแนน จะทำการเก็บไว้เฉพาะคำกำกับที่มีคะแนนเฉลี่ยมากที่สุดอยู่ที่ประมาณ 2.5 คะแนนหรือต่ำกว่าเท่านั้น
+			\item ทำให้สุดท้ายเหลือเพียงประมาณ 10,000 คำที่สามารถใช้ได้
+			\item หลังจากได้คำกำกับที่คิดว่าเป็นรูปธรรมแล้วก็นำไปค้นหาและรวบรวมด้วย YouTube annotation system โดยมีขั้นตอนดังนี้										
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item สุ่มเลือกวิดีโอมา 10 ล้านวิดีโอพร้อมกับคำกำกับของวิดีโอ โดยใช้กฏที่กำหนดไว้
+				\item ทำให้เหลือจำนวนวิดีโออยู่ 8,264,650 วิดีโอ
+				\item แยกออกเป็น 3 ส่วนคือ ชุดข้อมูลสำหรับสร้างโมเดล (train set) ชุดข้อมูลสำหรับตรวจคำตอบ (validate set) และชุดข้อมูลสำหรับทดสอบ (test set) ในอัตราส่วน 70:20:10 ตามลำดับ
+			\end{enumerate}
 		\end{enumerate}
 	\end{enumerate}
-\end{enumerate}
-
-เนื่องจากชุดข้อมูลนี้มีขนาดมากกว่า 100 Terabytes และมีความยาวรวมประมาณ 500,000 ชั่วโมง ทำให้การจะใช้คอมพิวเตอร์ทั่วไปเปิดอาจจะใช้เวลานานถึง 50 ปี ทำให้ Google ทำการลดขนาดของข้อมูลลงโดยมีขั้นตอนดังนี้
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=1\textwidth]{chapter2/images/decrease_data.png}
-		\caption{ขั้นตอนกระบวนการการลดขนาดของชุดข้อมูลให้สามารถใช้งานได้ง่ายยิ่งขึ้น}
-    	\label{fig:decrease_data}
-\end{figure}
-
-
-
-
-\subsubsection*{2. การทดลองและวิเคราะห์ผล}
-ในบทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} นั้นได้นำเสนอวิธีการในการจัดการข้อมูลซึ่งแบ่งเป็น 2 รูปแบบตามลักษณะของข้อมูลที่ใช้ และอัลกอริทึมหรือเทคนิคที่ใช้ในการสร้างโมเดล ดังนี้
-\begin{enumerate}
-	\setlength\itemsep{-0.25em}
-	\item คุณลักษณะระดับเฟรม (Frame-level feature)
+	\item {โมเดลปัญญาประดิษฐ์}
 	\begin{enumerate}
 		\setlength\itemsep{-0.25em}
-		\item Frame-Level Models and Average Pooling
-		\\ อันดับแรกเนื่องจากว่าชุดข้อมูลนี้ไม่มีการระบุหัวข้อในระดับเฟรม จึงใช้วิธีการนำหัวข้อในระดับวิดีโอ มากำหนดให้กับทุกๆเฟรมในวิดีโอแทน จากนั้นสุ่มเฟรมมา 20 เฟรมในแต่ละวิดีโอ ทำให้มีเฟรมถึง 120 ล้านเฟรม ซึ่งในแต่ละหัวข้อ $e$ ทำให้มี $(x_{i}, y_{i}^{e})$ 120 ล้านคู่ โดยที่ $x_{i} \epsilon  R^{1024}$ คือ คุณลักษณะที่ได้มาจาก hidden layer สุดท้ายก่อนจะเป็น fully connected และ $y_{i}^{e} \epsilon  0,1$ คือหัวข้อสำหรับหัวข้อ $e$ ของตัวอย่างที่ $i^{th}$ แล้วสร้างโมเดลทั้งหมด 4,800 โมเดลที่เป็นโมเดลแบบ one vs all classifier และเป็นอิสระต่อกันสำหรับแต่ละหัวข้อ และเนื่องจากการประเมินผลนั้นมีพื้นฐานมาจากหัวข้อในระดับวิดีโอ ทำให้ต้องทำการรวมความน่าจะเป็นของแต่ละหัวข้อในระดับเฟรมไปเป็นความน่าจะเป็นในระดับวิดีโอ โดยใช้การเฉลี่ยค่าความน่าจะเป็นทั้งหมดในหัวข้อนั้นๆ และใช้ average pooling เพื่อลดผลจากการตรวจจับความผิดปกติและความโดดเด่นของข้อมูลของแต่ละหัวข้อภายในวิดีโอ
+		\item การเตรียมข้อมูล
+			\begin{enumerate}  
+				\item คุณลักษณะระดับเฟรม : การลดขนาดของข้อมูล เนื่องจากมีข้อมูลที่มีขนาดใหญ่ทำให้ใช้เวลาในการประมวลผลนาน ซึ่งกระบวนการนี้จะมีการลดความเร็วเฟรมต่อวินาที 
+				เวกเตอร์ของคุณลักษณะ (feature vector) และแปลงข้อมูลจาก 32 บิท ให้เป็น 8 บิท
+				\item คุณลักษณะระดับวิดีโอ : การแยกเวกเตอร์คุณลักษณะระดับวิดีโอจากคุณลักษณะระดับเฟรมซึ่งการทำแบบนี้ทำให้ได้ประโยชน์ 3 ข้อ 
+				คือโมเดลทั่วไปที่ไม่ใช่โครงข่ายประสาทเทียใสามารถนำไปใช้งานได้ ขนาดข้อมูลเล็กลง และเหมาะกับการนำไปสร้างโมเดลในขอบเขตอื่นมากขึ้น
+			\end{enumerate}	
+		\item โมเดลปัญญาประดิษฐ์ที่ใช้ในการทดสอบชุดข้อมูลแบบที่เป็นคุณลักษณะระดับเฟรม
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item one vs all logistic regression classifier + average pooling\\ 
+				สร้างโมเดลปัญญาประดิษฐ์ของทุกคำกำกับแยกกัน จะได้โมเดลปัญญาประดิษฐ์ 4800 โมเดล ซึ่งในการทำนายผลจะใช้การเฉลี่ยความน่าจะเป็น (probability) ของแต่ละคำกำกับจากทุกๆเฟรมในวิดีโอ
+				โดยคำกำกับที่มีความน่าจะเป็นมากที่สุดจะเป็นคำตอบของการทำนาย โดยมีสมการคำนวณความน่าจะเป็นเฉลี่ยของแต่ละคำกำกับดังนี้
+				\begin{equation}
+					p_v(e|X_{1:F_v}^v) = \frac{1}{F_v} \sum_{j=1}^{F_v}p(e|X^v_j)
+				\end{equation}
+				โดยที่
+				\begin{conditions}
+					v      		&  วิดีโอที่ใช้ในการทำนายผล  \\   
+					e 			&  คำกำกับ								\\
+					F_v 		&  จำนวนเฟรมสูงสุดของวิดีโอ v	\\
+					p_v(e|X_{1:F_v}^v)     	&  ความน่าจะเป็นของคำกำกับ e บนวิดีโอ v	\\
+				\end{conditions}
+				\item Deep bag of frames\\
+				มีหลักการเหมือนกับ deep bag of words\textsuperscript{\cite{liu20172}} คือการแยกคุณลักษณะของเฟรม (extract frame feature) 
+				ที่โมเดลคิดว่าสำคัญออกมาทำนายผล ซึ่งโครงสร้างโมเดลปัญญาประดิษฐ์เป็นดังนี้ดังรูปที่ \ref{fig:dbof} โดยที่จะสุ่มหยิบ 20 เฟรมของวิดีโอมาผ่าน RELU activation function
+				จากนั้นทำการ batch normalization ก่อนจะใช้ max pooling ในการรวมคุณลักษณะที่ได้ให้เป็นคุณลักษณะระดับวิดีโอ สุดท้ายใช้ softmax layer ในการจำแนกว่าเป็นคำกำกับใด
+				\begin{figure}[!ht]
+					\centering
+					\includegraphics[width=0.4\textwidth]{chapter2/images/DBoF.png}
+					\caption{โครงสร้างโมเดลปัญญาประดิษฐ์ของ deep bag of frames}
+					\label{fig:dbof}
+				\end{figure}
+				\item Long short-term memory (LSTM)\\
+				โมเดล LSTM ที่ใช้ในบทความนี้นั้นมีการอ้างอิงโครงสร้างมาจากบทความ "Beyond Short Snippets: Deep Networks for Video Classification"\textsuperscript{\cite{yue2015beyond}}
+				ซึ่งมีโครงสร้างดังรูปที่ \ref{fig:lstm_full}
+				\begin{figure}[!ht]
+					\centering
+					\includegraphics[width=0.6\textwidth]{chapter2/images/lstm_full.png}
+					\caption{โครงสร้าง LSTM ที่ใช้การอ้างอิงในบทความนี้}
+					\label{fig:lstm_full}
+				\end{figure}
+				แต่เนื่องจากข้อมูลของ YouTube-8M นั้นไม่สามารถเข้าถึงเฟรมวิดีโอดิบ (raw video frame) ได้จึงทำให้สามารถใช้ได้เพียงชั้นของ LSTM และ softmax เท่านั้น
+				ซึ่งจากผลการทดลองพบว่า การใช้ LSTM 2 ชั้นที่มี hidden unit 1024 หน่วย นั้นมีประสิทธิภาพมากที่สุด
+			\end{enumerate}
+		\item โมเดลปัญญาประดิษฐ์ที่ใช้ในการทดสอบชุดข้อมูลแบบที่เป็นคุณลักษณะระดับวิดีโอ
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item Logistic regression\\
+				สร้างโมเดลปัญญาประดิษฐ์ของทุกคำกำกับแยกกัน จะได้โมเดลปัญญาประดิษฐ์ 4800 โมเดล โดยที่พารามิเตอร์ $\Theta$ (parameter) ของแต่ละโมเดลหาได้จาก
+				\begin{equation}
+					\sum_{i=1}^{N}L(y_{i,e}, \sigma(w_eX_i))
+				\end{equation}
+				\begin{equation}
+					L(y_{i,e}, \sigma(w_eX_i)) = y_{i,e}log(\sigma(w_eX_i)) + (1-y_{i,e})log(1-\sigma(w_eX_i))
+				\end{equation}
+				\begin{equation}
+					p(e|X) = \sigma(w_e^TX_i) 
+				\end{equation}
+				\begin{equation}
+					\sigma(z) = \frac{1}{1+exp^{(-z)}}
+				\end{equation}
+				โดยที่
+				\begin{conditions}
+					N & จำนวนวิดีโอทั้งหมด\\
+					X & คุณลักษณะระดับวิดีโอ\\
+					y_{i,e} & คำตอบของคำกำกับ e ในวิดีโอที่ i\\
+					w_e & weight ของคำกำกับ e\\
+					p(e|X) & ความน่าจะเป็นของคำกำกับ e ของคุณลักษณะระดับวิดีโอ X
+				\end{conditions}
+				\item Support vector machine (SVM)
+				สร้างโมเดลปัญญาประดิษฐ์ของทุกคำกำกับแยกกัน ทำให้จะได้โมเดล SVM 4800 โมเดล โดยได้ใช้ค่า -1 ถึง 1 ในการแสดงถึงคำกำกับด้านลบ (negative label) และคำกำกับค้านบวก (positive label) ตามลำดับ
+				และใช้ hinge loss ในการคำนวณหา loss (L) ซึ่งสมการจะเป็นดังนี้
+				\begin{equation}
+					L(y,\widehat{y}) = max(0,b-(2y-1)\widehat{y}))
+				\end{equation}
+				โดยที่
+				\begin{conditions}
+					y & คือคำตอบของการทำนาย โดยสามารถเป็น 0 หรือ 1 เท่านั้น\\
+					\widehat{y} & คำผลการทำนายโดยจะมีค่าอยู่ในช่วง -1 ถึง 1\\
+					b & Hinge-loss พารามิเตอร์
+				\end{conditions}
+				\item Mixture of Expert (MoE)
+				Mixture of experts ที่ถูกนำมาใช้ในการอ้างอิงในบทความนี้นั้นมาจากบทความ "Hierarchical mixtures of experts and the EM algorithm"\textsuperscript{\cite{jordan1994hierarchical}}
+				โดยการทำนายความน่าจะเป็นว่าคำกำกับ e ในวิดีโอ X ด้วยสมการ 
+				\begin{equation}
+					p(e|X) = \sum_{h \in H_e} p(h|X)\sigma (u_hX)
+				\end{equation}
+				ซึ่ง $p(h|X)$ สามารถเขียนได้ในรูปสมการดังนี้
+				\begin{equation}
+					p(h|X) = \frac{exp(w_hX)}{1+\sum_{h'\in H_e} exp(w_h'X)}
+				\end{equation}
+				โดยที่
+				\begin{conditions}
+					H_e & hidden state หรือ expert ของโมเดล\\
+					X & วิดีโอที่ใช้ในการทำนายผล\\
+					u_h & logistic weight ของ expert $h$\\
+					w_h & softmax weight ของ expert $h$\\
+					p(h|X) & $|H_e| + 1$ ที่ผ่าน softmax function
+				\end{conditions}
+				ให้ชุดข้อมูลสำหรับใช้ในการสร้างโมเดล $(x_i, g_i)_{i=1...N} $ โดยที่ $x_i$ คือเวกเตอร์คุณลักษณะ (feature vector) $g_i$ คือคำตอบของการทำนายซึ่งสามารถเป็นได้เพียง 0 และ 1 เท่านั้น 
+				และ N คือจำนวนวิดีโอสูงสุด ซึ่งสมการ log-loss ระหว่างผลการทำนายกับคำตอบของการทำนายคือ
+				\begin{equation}
+					L(p,g)=-glogp-(1-g)log(1-p)
+				\end{equation}
+				ซึ่งสามารถเขียนในรูปอนุพันธ์ของ softmax weight และ logistic weight ได้ดังนี้
+				\begin{equation}
+					\frac{\partial L[p_{y|x,g}]}{\partial w_h} = x \frac{p_{h|x}(p_{y|h,x}-p_{y|x})(P_{y|x}-g)}{p_{y|x}(1-p_{y|x})}
+				\end{equation}
+				\begin{equation}
+					\frac{\partial L[p_{y|x,g}]}{\partial u_h} = x \frac{p_{h|x}p_{y|h,x}(1-p_{y|x})(P_{y|x}-g)}{p_{y|x}(1-p_{y|x})}
+				\end{equation}
+			\end{enumerate}
+		\item เครื่องมือที่ใช้วัดผลสำหรับงานวิจัยนี้ คือ
+			\begin{enumerate}
+				\setlength\itemsep{-0.25em}
+				\item Mean Average Precision (mAP)
+				ในแต่ละคำกำกับได้ทำการปัดคะแนนให้อยู่ในช่วง $10^{-4}$ แล้วเรียงลำดับคะแนนทั้งหมดที่ไม่ใช่ 0 จากนั้นให้ค่า $\tau$ เป็นค่าแบ่งเกณฑ์ (threshold)
+				โดยที่มี $P(\tau)$ คือ precision และ $R(\tau)$ คือ recall ซึ่งหาได้จาก
+				\begin{equation}
+					P(\tau) = \frac{\sum_{t \in T}\mathbb{I}(y_t\geq \tau )g_t}{\sum_{t \in T}\mathbb{I}(y_t\geq \tau )}
+				\end{equation}
+				\begin{equation}
+					R(\tau) = \frac{\sum_{t \in T}\mathbb{I}(y_t\geq \tau )g_t}{\sum_{t \in T}g_t}
+				\end{equation}
+				โดยที่
+				\begin{conditions}
+					y_t & ค่าความน่าจะเป็นในการทำนาย ซึ่งมีค่าอยู่ในช่วง 0 ถึง 1 \\
+					g_t & คำตอบของการทำนาย โดยจะมีค่าเป็นได้แค่ 0 และ 1 เท่านั้น\\
+					\mathbb{I}(y_t\geq \tau) & ฟังก์ชั่นซึ่งจะมีค่าเป็น 1 ถ้าหาก $y_t$ มีค่ามากกว่า $\tau$ นอกเหนือจากนั้นจะมีค่าเป็น 0
+				\end{conditions}
+				สามารถหา average precision ได้จากสมการนี้ 
+				\begin{equation}
+					AP = \sum_{j=1}^{10000}P(\tau_j)[R(\tau_j)-R(\tau_j+1)]
+				\end{equation}
+				โดยที่ $\tau = \frac{j}{10000}$
+				\item Hit@k\\
+				เหมือนกันกับ Top@k คือการจัดลำดับความน่าจะเป็นของแต่ละคำกำกับจำนวน k อันดับแรก ถ้าหากมีคำกำกับที่ถูกต้องอยู่ในลำดับเหล่านั้น จะถือว่าการทำนายถูกต้อง 
+				ซึ่งสามารถเขียนเป็นสมการได้ดังนี้
+				\begin{equation}
+					\frac{1}{|V|}\sum_{v\in V}V_{e\in G_v}\mathbb{I}(rank_{v,e} \leq k)
+				\end{equation}
+				โดยที่
+				\begin{conditions}
+					V & วิดีโอที่ใช้ในการทดสอบทั้งหมด\\
+					G_v & คำตอบของวิดีโอ v\\
+					rank_{v,e} & อันดับของคำตอบที่ถูกต้อง e ของวิดีโอ v ที่ได้จากการทำนาย\\
+					k & อันดับที่ใช้เป็นเกณฑ์
+				\end{conditions}
+				\item Precision at equal recall rate (PERR)\\
+				สำหรับแต่ละวิดีโอจะดูความแม่นยำของผลการทำนาย k อันดับแรก โดยที่ k คือจำนวนคำตอบทั้งหมดของวิดีโอนั้น จากนั้นเฉลี่ยค่าเหล่านั้นด้วยจำนวนวิดีโอทั้งหมด
+				สามารถเขียนได้ในรูปสมการดังนี้ โดยใช้ตัวแปรเดียวกันกับของ Hit@k
+				\begin{equation}
+					\frac{1}{|V :|G_v|>0|}\sum_{v\in V:|G_v|>0}\left [\frac{1}{|G_v|}\sum_{e\in G_v}\mathbb{I}(rank_{v,e} \leq |G_v|) \right ]
+				\end{equation}
+			\end{enumerate}
+		\item ประสิทธิภาพของโมเดลปัญญาประดิษฐ์ที่ใช้ชุดข้อมูลของ YouTube-8M ในการสร้างเทียบกับชุดข้อมูลสำหรับทดสอบของ YouTube-8M
+			\begin{table}[!ht]
+				\centering
+				\begin{tabular}{|c|c|c|c|c|}
+					\hline
+					{Input features} & {Modeling approach} & {mAP} & Hit@1 & PERR\\
+					\hline
+					\multirow{3}{*}{Frame-level} & Logistic + average & 11.0 & 50.8 & 42.2\\
+					& Deep bag of frames & 26.9 & 62.7 & 55.1\\
+					& LSTM & 26.6 & \textbf{64.5} & \textbf{57.3}\\
+					\hline
+					\multirow{3}{*}{Video-level} & SVM & 17.0 & 56.3 & 47.9\\
+					& Logistic regression & 28.1 & 60.5 & 53.0\\
+					& Mixture-of-2-experts & \textbf{30.0} & 63.3 & 55.8\\
+					\hline
+				\end{tabular}
+				\caption{ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลสำหรับทดสอบของ YouTube-8M}
+				\label{tab: youtube_youtube}
+			\end{table}
+			\clearpage
+		\item โมเดลปัญญาประดิษฐ์ที่ใช้ชุดข้อมูลของ YouTube-8M ในการสร้างแล้วปรับโมเดลด้วยชุดข้อมูลของ Sports-1M เมื่อนำไปทดสอบกับชุดข้อมูลของ Sports-1M 
+		พบว่าประสิทธิภาพเมื่อทดสอบด้วย Hit@1 และ Hit@5 สูงสุดอยู่ที่ 65.7\% และ 86.2\% ตามลำดับ ซึ่งใกล้เคียงกับสถิติสูงสุดในตอนนั้นที่ทำไว้ 73.0\% และ 91.0\% (พ.ศ. 2559) 
+		โดยที่ใช้เพียงคุณลักษณะจากการเตรียมข้อมูลไว้แล้ว เมื่อเทียบกับสถิติเก่าที่มีการใช้ optical flow เข้ามาช่วย จึงเป็นการพิสูจน์ให้เห็นว่าจำนวนข้อมูลนั้นมีผลต่อการพัฒนาโมเดลปัญญาประดิษฐ์
+			
+		\item โมเดลปัญญาประดิษฐ์ที่ใช้ชุดข้อมูลของ YouTube-8M ในการสร้างแล้วปรับโมเดลด้วยชุดข้อมูลของ ActivityNet เมื่อนำไปทดสอบกับชุดข้อมูลของ ActivityNet 
+		พบว่าประสิทธิภาพเมื่อทดสอบด้วย mAP สูงสุดอยู่ที่ 77.6\% ในขณะที่สถิติเดิมทำไว้เพียง 53.8\% เป็นการพิสูจน์ว่าชุดข้อมูลนี้นั้นมีความครอบคลุม (generalize) 
+		พอที่จะนำไปใช้กับงานประเภทนี้ในหมวดอื่นๆ เนื่องจากว่าจำนวนข้อมูลที่มีขนาดใหญ่และมีความหลากหลาย
 		
-		\item Deep Bag of Frames (DBoF) Pooling
-		\begin{figure}[!ht]
-			\centering
-			\includegraphics[width=0.5\textwidth]{chapter2/images/DBoF.png}
-				\caption{โครงสร้างของโมเดล DBoF}
-    			\label{fig:DBoF}
-		\end{figure}
-		\\ หลักการคล้ายๆกับ Deep Bag of Words โดยที่จะสุ่มเฟรม มา k เฟรม โดยที่แต่ละเฟรมเป็น N dimension input มาผ่าน fully connected ที่มี M units (M > N) และใช้ RELU activations แล้วทำ batch normalization ก่อนจะนำมารวมด้วย max pooling โดยที่ทั้งโครงข่ายใช้ Stochastic  Gradient Descent(SGD) 
-		\clearpage
-		\item Long short-term memory(LSTM)
-		\\ ในบทความ {YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} นี้ได้ใช้ LSTM แบบเดียวกับของ Beyond Short Snippets: Deep Networks for Video Classification \footnote{AVA,https://arxiv.org/pdf/1705.08421.pdf} แต่เนื่องจาก YouTube-8M นั้นผ่านการทำ preprocess มาแล้วทำให้ไม่สามารถใช้ raw video frame ได้ จึงทำได้เฉพาะ LSTM และ softmax layer เท่านั้น ตามรูปที่ \ref{fig:BSS}
-		\begin{figure}[!ht]
-			\centering
-			\includegraphics[width=1\textwidth]{chapter2/images/BSS.png}
-			\caption{(ซ้าย) โครงสร้างจาก Beyond Short Snippets: Deep Networks for Video Classification, (ขวา) ส่วนที่สามารถใช้งานกับ YouTube-8M ได้}
-    		\label{fig:BSS}
-		\end{figure}
-	\end{enumerate}
-	\item คุณลักษณะระดับวิดีโอ (Video-level feature)
-	\begin{enumerate}
-		\setlength\itemsep{-0.25em}
-		\item Video-level representation 
-		\\ ในบทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf}นี้ได้สำรวจวิธีการแยกเวกเตอร์คุณลักษณะระดับวิดีโอความยาวคงที่จากคุณลักษณะระดับเฟรมซึ่งการทำแบบนี้ทำให้ได้ประโยชน์ 3 ข้อ คือ 1) โมเดลทั่วไปที่ไม่ใช่ neural network สามารถนำไปใช้งานได้  2) ขนาดข้อมูลเล็กลง  3) เหมาะกับการนำไปสร้างโมเดล domain adaptive มากขึ้น
-		\begin{enumerate}
-			\setlength\itemsep{-0.25em}
-			\item First, Second order and ordinal statistic
-			\\ จากคุณลักษณะในระดับเฟรม $x_{1:F_{v}}^{v}$ โดยที่ $x_{j}^{v}$ คือคุณลักษณะระดับเฟรมในเฟรมที่ $j$ ของวิดีโอ $v$ และ $F_{v}$ คือจำนวนเฟรมทั้งหมดของวิดีโอ $v$ ทำการหาค่าเฉลี่ย $\mu_{v}$ และส่วนเบี่ยงเบนมาตรฐาน $\sigma_{v}$ พร้อมทั้งดึง ordinal statistics 5 อันดับแรกของแต่ละ dimension K ออกมา $Top_{k}(x^{v}(j)_{1:F_{v}})$ จะทำให้ได้เวคเตอร์คุณลักษณะ(feature-vector) $\varphi_{1:F_{v}}^{v}$ ของวิดีโอเป็นดังนี้ \\
-			\centerline{$\varphi_{1:F_{v}}^{v} = \begin{bmatrix}
-								\mu_{1:F_{v}}^{v}\\ 
-								\sigma_{1:F_{v}}^{v}\\ 
-								Top_{k}(x^{v}(j)_{1:F_{v}})
-								\end{bmatrix}$}
-			\item Feature normalization \\
-			ก่อนที่จะทำการสร้าง one vs all classifiers แต่ละตัวนั้นได้ทำ normalization เวกเตอร์คุณลักษณะ $\varphi_{1:F_{v}}^{v}$ จากนั้นนำค่าเฉลี่ย $\mu_{v}$ ออกแล้วใช้ PCA ในการลด มิติของข้อมูล ซึ่งการทำแบบนี้นั้นทำให้การสร้างโมเดลเป็นไปได้เร็วขึ้น
-		\end{enumerate}
-		โดยการสร้างโมเดลด้วย video-level presentation นั้น บทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} นี้ได้หยิบมาทดสอบ 3 อัลกอริทึม
-		\item Model training algorithm approaches 
-		\begin{enumerate}
-			\setlength\itemsep{-0.25em}
-			\item Logistic Regression
-			\item Hinge Loss
-			\item Mixture of Experts (MoE)
-		\end{enumerate}
-		\item Evaluation metrics
-		\begin{enumerate}
-			\setlength\itemsep{-0.25em}
-			\item Mean Average Precision (mAP)
-			\item Hit@k
-			\item Precision at equal recall rate (PERR)
-		\end{enumerate}
-	\end{enumerate}
-	\item Results
-	\begin{enumerate}
-		\setlength\itemsep{-0.25em}
-		\item Baseline on YouTube-8M dataset
-\begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|c|c|c|}
-		\hline
-		{Inpute Features}&{Modeling Approach}&{mAP}&{Hit@1}&{(PERR)}\\
-		\hline
-		Frame-level, $(x_{1:F_{v}}^{v})$	& Logistic + Average		& 11.0		& 50.8		& 42.2					\\
-		Frame-level, $(x_{1:F_{v}}^{v})$	& Deep Bag of Frames	& 26.9		& 62.7		& 55.1					\\
-		Frame-level, $(x_{1:F_{v}}^{v})$	& LSTM				& 26.6		& 64.5		& 57.3					\\
-		\hline
-		Video-level, $\mu$					& Hinge loss					& 26.6		& 64.5		& 57.3				\\
-		Video-level, $\mu$					& Logistic Regression				& 26.6		& 64.5		& 57.3				\\
-		Video-level, $\mu$					& Mixture-of-2-Expert				& 26.6		& 64.5		& 57.3				\\
-		Video-level, $\mu ; \sigma ; Top_{5} $	& Mixture-of-2-Expert				& 26.6		& 64.5		& 57.3				\\
-		\hline
-	\end{tabular}
-	\caption{ประสิทธิภาพของโมเดลที่สร้างจาก YouTube-8M ด้วยวิธีต่างๆตามหัวข้อที่ 1 และ 2 โดยแถวที่ 1 คือ frame-level โมเดลและแถวที่ 2 คือ video-level โมเดล}
-	\label{tab: ประสิทธิภาพของโมเดลที่สร้างจาก YouTube-8M}
-\end{table}
-\\
-		จากตารางที่ \ref{tab: ประสิทธิภาพของโมเดลที่สร้างจาก YouTube-8M} จะเห็นว่าการทำ video-level features จากการหาค่าเฉลี่ยของ frame-level features แล้วสร้างโมเดลด้วย Hinge loss หรือ โมเดล Logistic Regression นั้นสามารถเพิ่มประสิทธิภาพได้ไม่น้อย และจากการทดลองทำให้เห็นว่า LSTM ที่มีความลึก 2 layers นั้นสามารถทำให้ผลลัพธ์เป็น state-of-the-art ในขณะนั้นได้ เนื่องจากในขณะที่ DBoF นั้นไม่ได้สนใจลำดับของเฟรม แต่ LSTM ใช้ state information เพื่อคงลำดับของเฟรมเอาไว้
-\\
-\\
-		 LSTM นั้นดีที่สุดยกเว้น mAP, เนื่องจาก one-vs-all binary MoE classifier นั้นมีประสิทธิภาพดีกว่า, LSTM สามารถเพิ่มประสิทธิภาพบน Hit@1 และ PERR ได้เนื่องจากความสามารถในการเรียนรู้ความสัมพันธ์ระยะยาวในโดเมนของเวลา
-		\clearpage
-		\item Transfer learning video-level presentation from YouTube-8M to Sports-1M dataset
-\begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|c|c|}
-		\hline
-		{Approach}&{mAP}&{Hit@1}&{(Hit@1)}\\
-		\hline
-		Logistic Regression ($\mu$)					& 58.0		& 60.1		& 79.6					\\
-		Mixture-of-2-Expert ($\mu$)					& 59.1		& 61.5		& 80.4					\\
-		Mixture-of-2-Expert ([$\mu ; \sigma ; Top_{5}$		& 61.3		& 63.2		& 82.6					\\
-		LSTM									& 66.7		& 64.9		& 85.6					\\
-		+Pretrained on YT-8M							& 67.6		& 65.7		& 86.2					\\
-		\hline
-		Hierarchical 3D Convolution						& -			& 61.0		& 80.0					\\
-		Stacked 3D Convolutions						& -			& 61.0		& 85.0					\\
-		LSTM with Optical Flow and Pixels				& -			& 73.0		& 91.0					\\
-		\hline
-	\end{tabular}
-	\caption{ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล Sports-1M โดยใช้ video-level presentation}
-	\label{tab: transfer learning}
-\end{table}
-\\
-		จากตารางที่  \ref{tab: transfer learning} จะเห็นว่าโมเดล LSTM ที่ถูก pretrained จาก YouTube-8M นั้นมีประสิทธิภาพที่ดีกว่า ยกเว้น LSTM with Optical Flow and Pixels ที่มีการใช้ข้อมูลการเคลื่อนไหว(optical flow) ในการสร้างโมเดลด้วย
-\\
-		
-		\item Transfer learning video-level presentation from YouTube-8M to ActivityNet dataset
-\begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|c|c|}
-		\hline
-		{Approach}&{mAP}&{Hit@1}&{(Hit@1)}\\
-		\hline
-		Mixture-of-2-Expert ($\mu$)					& 69.1		& 68.7		& 85.4					\\
-		+Pretrained PCA on YT-8M						& 74.1		& 72.5		& 89.3					\\
-		Mixture-of-2-Expert ([$\mu ; \sigma ; Top_{5}$		& NO			& 74.2		& 72.3					\\
-		+Pretrained PCA on YT-8M						& 77.6		& 74.9		& 91.6					\\
-		LSTM									& 57.9		& 63.4		& 81.0					\\
-		+Pretrained on YT-8M							& 75.6		& 74.2		& 92.4					\\
-		\hline
-		Ma, Bargal et al.								& 53.8		& -			& -						\\
-		Heilbron et al.								& 43.0		& -			& -						\\
-		\hline
-	\end{tabular}
-	\caption{ประสิทธิภาพของโมเดลเมื่อถูก transfer learning ด้วยชุดข้อมูล ActivityNet โดยใช้ video-level presentation}
-	\label{tab: transfer learning ActivityNet}
-\end{table}
-\\
-		จากตารางที่ \ref{tab: transfer learning ActivityNet} จะเห็นว่าโมเดลที่ถูก pretrained จาก YouTube-8M นั้นมีประสิทธิภาพที่ดีขึ้นมากเมื่อเทียบกับ benchmark ก่อนหน้า
-	\end{enumerate}
+		\item ปัญหาที่พบ\\
+		เนื่องจากว่า YouTube-8M นั้นมีจำนวนข้อมูลที่เยอะมาก ทำให้ไม่สามารถตรวจสอบความถูกต้องของชุดข้อมูลได้ทั้งหมดว่ามีความถูกต้องมากน้อยขนาดไหน 
+		ทำให้อาจเกิดข้อผิดพลาดได้ (ปัจจุบันปี 2019 YouTube-8M ได้มีการตรวจสอบข้อมูลอีกครั้ง เพื่อเพิ่มประสิทธิภาพของชุดข้อมูลซึ่งทำให้ปัจจุบันจำนวนข้อมูล 
+		และจำนวนคำกำกับลดน้อยลงจากข้อมูลที่ใช้อ้างอิงในบทความข้างต้นที่ได้กล่าวมา)
+	\end{enumerate}	
 \end{enumerate}
-
-\subsubsection*{3. ปัญหาที่พบ}
-เนื่องจากว่า YouTube-8M นั้นมีจำนวนข้อมูลที่เยอะมาก ทำให้ไม่สามารถตรวจสอบได้ทั้งหมดว่า ground-truth ของแต่ละวิดีโอนั้นมีความถูกต้องมากน้อยขนาดไหน ทำให้อาจเกิดข้อผิดพลาดได้ (ปัจจุบัน ปี 2019 YouTube-8M ได้มีการตรวจสอบข้อมูลอีกครั้ง เพื่อเพิ่มประสิทธิภาพของชุดข้อมูลซึ่งทำให้ปัจจุบันจำนวนข้อมูล และจำนวน category นั้นจะลดน้อยลงจากข้อมูลที่ใช้อ้างอิงในบทความ \footnote{YouTube-8M,https://arxiv.org/pdf/1609.08675.pdf} ข้างต้นที่ได้กล่าวมา)
-
-
-
-
-
-
