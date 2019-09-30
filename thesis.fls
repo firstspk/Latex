@@ -1,6 +1,6 @@
-PWD c:\Users\asus\Desktop\Latex-master
+PWD c:\Users\asus\Desktop\Latex
 INPUT C:\Users\asus\AppData\Local\MiKTeX\2.9\miktex\data\le\xetex\xelatex.fmt
-INPUT c:\Users\asus\Desktop\Latex-master\thesis.tex
+INPUT c:\Users\asus\Desktop\Latex\thesis.tex
 OUTPUT thesis.log
 INPUT classes\fiboThesis.cls
 INPUT classes\fiboThesis.cls
@@ -349,7 +349,7 @@ INPUT pages\abbreviations.tex
 INPUT pages\abbreviations.tex
 INPUT chapter1\chapter1.tex
 INPUT chapter1\chapter1.tex
-INPUT chapter1\ganttchart.png
+INPUT chapter1\gantt_chart.jpg
 INPUT chapter2\chapter2.tex
 INPUT chapter2\chapter2.tex
 INPUT chapter2\cnn.tex

@@ -13,7 +13,7 @@
 \BOOKMARK [1][-]{section.1.5}{ขั้นตอนการดำเนินงาน}{chapter.1}% 13
 \BOOKMARK [0][-]{chapter.2}{ทฤษฎี/การวิจัยที่เกี่ยวข้อง}{}% 14
 \BOOKMARK [1][-]{section.2.1}{ทฤษฎีที่เกี่ยวข้อง}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.1.1}{Convolutional\040Neural\040Network}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{Convolutional\040neural\040network}{section.2.1}% 16
 \BOOKMARK [2][-]{subsection.2.1.2}{Optical\040flow}{section.2.1}% 17
 \BOOKMARK [2][-]{subsection.2.1.3}{โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้อง}{section.2.1}% 18
 \BOOKMARK [1][-]{section.2.2}{การประมวลผลวิดีโอ}{chapter.2}% 19
@@ -27,16 +27,16 @@
 \BOOKMARK [2][-]{subsection.2.4.2}{Inflated\0403D\040convolutional\040network}{section.2.4}% 27
 \BOOKMARK [2][-]{subsection.2.4.3}{เครื่องมือกำกับคุณลักษณะ}{section.2.4}% 28
 \BOOKMARK [0][-]{chapter.3}{ระเบียบวิธีวิจัย}{}% 29
-\BOOKMARK [1][-]{section.3.1}{ภาพรวมระบบของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.2}{ความต้องการของระบบ}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.2.1}{ความต้องการเชิงการใช้งาน \(functional requirements\)}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.2}{ความต้องการเชิงวิศวกรรม \(non-functional requirements\)}{section.3.2}% 33
+\BOOKMARK [1][-]{section.3.1}{ความต้องการของระบบ}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.1.1}{ความต้องการเชิงการใช้งาน \(functional requirements\)}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.2}{ความต้องการเชิงวิศวกรรม \(non-functional requirements\)}{section.3.1}% 32
+\BOOKMARK [1][-]{section.3.2}{ภาพรวมระบบของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{chapter.3}% 33
 \BOOKMARK [1][-]{section.3.3}{หน้าที่ความรับผิดชอบ}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.4}{เครื่องมือที่ใช้ในงานวิจัย}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.5}{ภาษาที่ใช้ในการพัฒนาระบบ}{chapter.3}% 36
 \BOOKMARK [1][-]{section.3.6}{Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.7}{แผนการดำเนินงาน}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.8}{การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.8}{การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{chapter.3}% 39
 \BOOKMARK [2][-]{subsection.3.8.1}{เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{section.3.8}% 40
 \BOOKMARK [1][-]{section.3.9}{การออกแบบการทดสอบการตรวจจับวัตถุ}{chapter.3}% 41
 \BOOKMARK [2][-]{subsection.3.9.1}{ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{section.3.9}% 42

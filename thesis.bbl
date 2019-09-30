@@ -1,7 +1,41 @@
 \begin{thebibliography}{10}
 
+\bibitem{activation}
+Activation functions : Sigmoid, relu, leaky relu and softmax basics for neural
+  networks and deep learning.
+
+\bibitem{cnn}
+Convolutional neural network (cnn).
+
+\bibitem{dark}
+Darklabel1.3-image labeling and annotation tool.
+
+\bibitem{Inception}
+Going deeper with convolutions.
+
+\bibitem{IOU}
+Intersection over union (iou) for object detection.
+
+\bibitem{object_detect}
+Object detection (part 1).
+
+\bibitem{nms}
+Object detection (part 2).
+
+\bibitem{open}
+Openlabeling: open-source image and video labeler.
+
 \bibitem{Optical_Flow}
 Optical flow.
+
+\bibitem{fully}
+Understanding of convolutional neural network (cnn) — deep learning.
+
+\bibitem{vgg}
+Vgg16 – convolutional network for classification and detection.
+
+\bibitem{AVA}
+A video dataset of spatio-temporally localized atomic visual actions.
 
 \bibitem{ali2006object}
 Ahmad Ali and Sikander~Majid Mirza.
@@ -41,13 +75,6 @@ Gunnar Farneb{\"a}ck.
 \newblock In {\em Scandinavian conference on Image analysis}, pages 363--370.
   Springer, 2003.
 
-\bibitem{AVA}
-Chunhui Gu, Chen Sun, David~A. Ross, Carl Vondrick, Caroline Pantofaru, Yeqing
-  Li, Sudheendra Vijayanarasimhan, George Toderici, Susanna Ricco, Rahul
-  Sukthankar, Cordelia Schmid, and Jitendra Malik.
-\newblock A video dataset of spatio-temporally localized atomic visual actions,
-  2017.
-
 \bibitem{he2016deep}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
 \newblock Deep residual learning for image recognition.
@@ -70,6 +97,11 @@ Andrej Karpathy, George Toderici, Sanketh Shetty, Thomas Leung, Rahul
 Yu~Kong and Yun Fu.
 \newblock Human action recognition and prediction: A survey.
 \newblock {\em arXiv preprint arXiv:1806.11230}, 2018.
+
+\bibitem{actioness}
+Luc Van~Gool Limin~Wang, Yu Qiao Xiaoou~Tang.
+\newblock Actionness estimation using hybrid fully convolutional networks.
+\newblock {\em https://arxiv.org/pdf/1604.07279.pdf}, 2016.
 
 \bibitem{liu20172}
 Xiaobin Liu, Shiliang Zhang, Tiejun Huang, and Qi~Tian.
@@ -96,21 +128,37 @@ Mathew Monfort, Alex Andonian, Bolei Zhou, Kandan Ramakrishnan, Sarah~Adel
 \newblock {\em IEEE transactions on pattern analysis and machine intelligence},
   2019.
 
+\bibitem{yolov3}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em arXiv}, 2018.
+
 \bibitem{Schuler:2005:VBC:1104493}
 Karin~Kipper Schuler.
 \newblock {\em Verbnet: A Broad-coverage, Comprehensive Verb Lexicon}.
 \newblock PhD thesis, Philadelphia, PA, USA, 2005.
 \newblock AAI3179808.
 
-\bibitem{Inception}
-Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
-  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
-\newblock Going deeper with convolutions, 2014.
+\bibitem{faster}
+Ross Shaoqing~Ren, Kaiming~He and Jian Sun.
+\newblock Faster r-cnn: Towards real-time objectdetection with region proposal
+  networks.
+\newblock {\em arXiv}, (0), 2016.
 
 \bibitem{tran2014c3d}
 Du~Tran, Lubomir~D Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri.
 \newblock C3d: generic features for video analysis.
 \newblock {\em CoRR, abs/1412.0767}, 2(7):8, 2014.
+
+\bibitem{act}
+Vittorio Ferrari Cordelia~Schmid Vicky~Kalogeiton, Philippe~Weinzaepfel.
+\newblock Action tubelet detector for spatio-temporal action localization.
+\newblock {\em https://arxiv.org/pdf/1705.01861.pdf}, 2017.
+
+\bibitem{peng}
+Cordelia~Schmid Xiaojiang~Peng.
+\newblock Multi-region two-stream r-cnn for action detection.
+\newblock {\em https://hal.inria.fr/hal-01349107v1/document}, 2016.
 
 \bibitem{yue2015beyond}
 Joe Yue-Hei~Ng, Matthew Hausknecht, Sudheendra Vijayanarasimhan, Oriol Vinyals,

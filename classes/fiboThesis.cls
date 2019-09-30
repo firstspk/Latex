@@ -345,9 +345,6 @@
 			{\makebox[4cm]{\leavevmode\xleaders\hbox{.}\hfill\kern0pt}} & {อาจารย์ที่ปรึกษาวิทยานิพนธ์} \\ 
 			(\@majoradvisor) & {} \\
 			{} & {} \\% \vspace*{0.5em} & \\
-			{\makebox[4cm]{\leavevmode\xleaders\hbox{.}\hfill\kern0pt}} & {อาจารย์ที่ปรึกษาวิทยานิพนธ์} \\ 
-			(\@coadvisor) & {} \\
-			{} & {} \\% \vspace*{0.5em} & \\
 			{\makebox[4cm]{\leavevmode\xleaders\hbox{.}\hfill\kern0pt}} & {กรรมการสอบวิทยานิพนธ์} \\ 
 			(\@committeeTwo) & {} \\
 			{} & {} \\% \vspace*{0.5em} & \\
