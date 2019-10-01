@@ -27,18 +27,32 @@ Warning--entry type for "Dark" isn't style-file defined
 --line 105 of file pages/reference.bib
 Warning--entry type for "Optical_Flow" isn't style-file defined
 --line 145 of file pages/reference.bib
+Warning--I didn't find a database entry for "average_pooling"
+Warning--I didn't find a database entry for "iou_pic"
+Warning--I didn't find a database entry for "nms_pic"
+Warning--I didn't find a database entry for "yolo"
+Warning--I didn't find a database entry for "ssd_yolo_pic"
+Warning--I didn't find a database entry for "tiny_pic"
+Warning--I didn't find a database entry for "darknet_pic"
+Warning--I didn't find a database entry for "spp_pic"
+Warning--I didn't find a database entry for "faster_pic"
+Warning--I didn't find a database entry for "liu2016ssd"
+Warning--I didn't find a database entry for "object_detection"
+Warning--I didn't find a database entry for "correlation_filter"
+Warning--I didn't find a database entry for "abu2016youtube"
+Warning--I didn't find a database entry for "szegedy2015going"
 Warning--to sort, need author or key in cnn
-Warning--to sort, need author or key in Optical_Flow
-Warning--to sort, need author or key in vgg
-Warning--to sort, need author or key in object_detect
+Warning--to sort, need author or key in activation
 Warning--to sort, need author or key in nms
+Warning--to sort, need author or key in optical_flow
+Warning--to sort, need author or key in vgg
 Warning--to sort, need author or key in AVA
-Warning--to sort, need author or key in Inception
 Warning--to sort, need author or key in dark
 Warning--to sort, need author or key in open
 Warning--to sort, need author or key in IOU
-Warning--to sort, need author or key in activation
+Warning--to sort, need author or key in object_detect
 Warning--to sort, need author or key in fully
+Warning--to sort, need author or key in Inception
 Warning--empty school in Schuler:2005:VBC:1104493
 Warning--there's a number but no volume in faster
-(There were 27 warnings)
+(There were 41 warnings)

@@ -359,6 +359,12 @@ INPUT chapter2\images\kernel_ex.png
 INPUT chapter2\images\input_ex.png
 INPUT chapter2\images\feature_map.png
 INPUT chapter2\images\max_pooling.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
 INPUT chapter2\images\average_pooling.png
 INPUT chapter2\images\iou_equation.png
 INPUT chapter2\images\NMS.png
