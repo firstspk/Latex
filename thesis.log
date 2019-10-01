@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  1 OCT 2019 15:16
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  1 OCT 2019 15:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1797,52 +1797,52 @@ File: chapter4/images/o_4.jpg Graphic file (type bmp)
 (chapter4/action_recognition.tex)) (thesis.bbl [71
 
 ] [72]
-Underfull \hbox (badness 5302) in paragraph at lines 4--6
-[]\TU/THSarabunNew(0)/m/n/12 Achraf KHAZR, \TU/THSarabunNew(0)/bx/n/12 Faster R
-CNN Object detection\TU/THSarabunNew(0)/m/n/12 [Online], Available : []$[][][][
-][] [] [] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/THSarabunNe
-w(0)/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-[]\TU/THSarabunNew(0)/m/n/12 Yi,Zhang,Yongliang,Shen, \TU/THSarabunNew(0)/bx/n/
-12 An improved tiny-yolov3 pedestrian detection algo-
- []
-
-[73
-
-] [74]
-
-LaTeX Warning: Command \^ invalid in math mode on input line 101.
-
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\TU/THSarabunNew(0)/m/n/12 Adrian Rosebrock, 2016,\TU/THSarabunNew(0)/bx/n/12
  Intersection over Union for object detec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 \TU/THSarabunNew(0)/bx/n/12 tion\TU/THSarabunNew(0)/m/n/12 [Online],Available :
  []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][
 ][] [] [][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][]$[]\TU/THSarabunNew(0)/m/n/12 , [2019,September,
 
  []
 
-) [76]
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\TU/THSarabunNew(0)/m/n/12 Yi,Zhang,Yongliang,Shen, \TU/THSarabunNew(0)/bx/n/
+12 An improved tiny-yolov3 pedestrian detection algo-
+ []
+
+[73
+
+]
+Underfull \hbox (badness 5302) in paragraph at lines 44--46
+[]\TU/THSarabunNew(0)/m/n/12 Achraf KHAZR, \TU/THSarabunNew(0)/bx/n/12 Faster R
+CNN Object detection\TU/THSarabunNew(0)/m/n/12 [Online], Available : []$[][][][
+][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/THSarabunNe
+w(0)/m/n/12 ,
+ []
+
+[74]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 84.
+
+[75]) [76]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
  (appendix/appendix1.tex [76
@@ -1876,10 +1876,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38432 strings out of 427669
- 767624 string characters out of 3145155
+ 38431 strings out of 427669
+ 767611 string characters out of 3145155
  1038102 words of memory out of 3000000
- 41847 multiletter control sequences out of 15000+200000
+ 41846 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,926b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
