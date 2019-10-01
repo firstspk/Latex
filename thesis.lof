@@ -17,7 +17,7 @@
 \contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ SSD}}{14}{figure.caption.26}% 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces แนวคิดของระบบติดตามการเคลื่อนไหวของวัตถุ}}{16}{figure.caption.27}% 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces การแบ่งภาพออกเป็น 8 ส่วนของระบบระบุตัวตนของบุคคล\relax }}{17}{figure.caption.28}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces ตัวอย่างการประยุกต์ใช้งานระบบจำแนกการกระทำมนุษย์}}{19}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces ตัวอย่างการประยุกต์ใช้งานระบบจำแนกการกระทำมนุษย์\textsuperscript {\cite {kong2018human}}\relax }}{19}{figure.caption.29}% 
 \contentsline {figure}{\numberline {2.16}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ deep bag of frames\relax }}{22}{figure.caption.30}% 
 \contentsline {figure}{\numberline {2.17}{\ignorespaces โครงสร้าง LSTM ที่ใช้การอ้างอิงในบทความนี้\relax }}{22}{figure.caption.31}% 
 \contentsline {figure}{\numberline {2.18}{\ignorespaces หลักการของ Residual block ของ ResNet\relax }}{33}{figure.caption.35}% 

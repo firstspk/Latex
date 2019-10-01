@@ -22,7 +22,7 @@ Kalman Filterand Fast Means Shift Algorithms"\textsuperscript{\cite{ali2006objec
 โดยที่
 \begin{conditions}
  \epsilon     	&   ค่าความคลาดเคลื่อน 							\\
- d      		&  จำนวนมิติของผังคุณลักษณะ (feature map) ของภาพ  \\   
+ d      		&  จำนวนมิติของผังคุณลักษณะของภาพ  \\   
  h 			&  correlation filter								\\
 \star 			&  circular correlation							\\
  f			&  พื้นที่สี่เหลี่ยมของวัตถุที่สนใจที่ได้จากการทำผังคุณลักษณะ	\\
@@ -45,6 +45,7 @@ A_{t}^{l} = (1-\eta )A_{t-1}^{l} + \eta \bar{G_{t}}F_{t}^{l}
 B_{t} = (1-\eta )B_{t-1} + \eta \sum_{k=1}^{d}\bar{F_{t}^{k}}F_{t}^{k}
 \end{equation}
 \clearpage
+\noindent
 โดยที่
 \begin{conditions}
  H 		     	&   correlation filter								\\

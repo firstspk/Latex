@@ -4,7 +4,7 @@
 \contentsline {chapter}{รายการรูปภาพ}{ซ}{chapter*.7}% 
 \contentsline {chapter}{รายการตาราง}{ญ}{chapter*.10}% 
 \contentsline {chapter}{รายการสัญลักษณ์}{ฎ}{chapter*.11}% 
-\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฏ}{chapter*.12}% 
+\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฐ}{chapter*.12}% 
 \contentsline {chapter}{\numberline {1}บทนำ}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}{section.1.2}% 
@@ -35,9 +35,9 @@
 \contentsline {section}{\numberline {3.3}หน้าที่ความรับผิดชอบ}{41}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}เครื่องมือที่ใช้ในงานวิจัย}{41}{section.3.4}% 
 \contentsline {section}{\numberline {3.5}ภาษาที่ใช้ในการพัฒนาระบบ}{42}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Program library ที่ใช้ในการพัฒนาระบบและแอพพลิเคชั่น}{42}{section.3.6}% 
+\contentsline {section}{\numberline {3.6}Program library ที่ใช้ในการพัฒนาระบบและแอปพลิเคชัน}{42}{section.3.6}% 
 \contentsline {section}{\numberline {3.7}แผนการดำเนินงาน}{42}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอพพลิเคชั่นของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{43}{section.3.8}% 
+\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอปพลิเคชันของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{43}{section.3.8}% 
 \contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{43}{subsection.3.8.1}% 
 \contentsline {subsubsection}{\numberline {3.8.1.1}Select}{44}{subsubsection.3.8.1.1}% 
 \contentsline {subsubsection}{\numberline {3.8.1.2}Detect}{46}{subsubsection.3.8.1.2}% 
@@ -52,12 +52,12 @@
 \contentsline {subsection}{\numberline {3.11.1}ทดสอบประสิทธิภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}{55}{subsection.3.11.1}% 
 \contentsline {section}{\numberline {3.12}การออกแบบการทดสอบการจดจำการกระทำของมนุษย์}{56}{section.3.12}% 
 \contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{56}{subsection.3.12.1}% 
-\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกสร้างด้วย AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{57}{subsection.3.12.2}% 
-\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิ์ภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{58}{subsection.3.12.3}% 
+\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกสร้างด้วย AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{57}{subsection.3.12.2}% 
+\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{58}{subsection.3.12.3}% 
 \contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{59}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}เครื่องมือกำกับคุณลักษณะ}{59}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอพพลิเคชั่น}{59}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอพพลิเคชั่น}{63}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอปพลิเคชัน}{59}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอปพลิเคชัน}{63}{subsection.4.1.2}% 
 \contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{66}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{66}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}ผลทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{66}{subsection.4.2.2}% 
@@ -66,10 +66,10 @@
 \contentsline {subsection}{\numberline {4.3.2}ผลทดสอบประสิทธิภาพ และความเร็วในการประมวลผล}{67}{subsection.4.3.2}% 
 \contentsline {section}{\numberline {4.4}ผลการทดสอบระบบระบุตัวตนของมนุษย์}{68}{section.4.4}% 
 \contentsline {subsection}{\numberline {4.4.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการระบุตัวตนของบุคคล}{68}{subsection.4.4.1}% 
-\contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{71}{section.4.5}% 
-\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{71}{subsection.4.5.1}% 
-\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{71}{subsection.4.5.2}% 
-\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{71}{subsection.4.5.3}% 
+\contentsline {section}{\numberline {4.5}ผลการทดสอบการจดจำการกระทำของมนุษย์}{72}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{72}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{72}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{72}{subsection.4.5.3}% 
 \contentsline {chapter}{เอกสารอ้างอิง}{76}{chapter*.80}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
