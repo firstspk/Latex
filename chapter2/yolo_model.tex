@@ -1,11 +1,11 @@
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\textwidth]{chapter2/images/yolo.jpg}
-    \caption{กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO}
+    \caption[กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO]{กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\textsuperscript{\cite{yolo}}}
     \label{fig:yolo}
 \end{figure}
 
-โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\textsuperscript{\cite{yolov3}} เป็นโครงสร้างที่มีความเร็วในการประมวลผลถึง 45 เฟรมต่อวินาที ทำให้สามารถประมวลผลแบบเรียลไทม์ได้ นอกจากนั้นยังมีความแม่นยำ mAP 
+โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\textsuperscript{\cite{yolo}} เป็นโครงสร้างที่มีความเร็วในการประมวลผลถึง 45 เฟรมต่อวินาที ทำให้สามารถประมวลผลแบบเรียลไทม์ได้ นอกจากนั้นยังมีความแม่นยำ mAP 
 มากกว่าโมเดลสำหรับตรวจจับวัตถุอื่นๆถึง 2 เท่า ซึ่งเหตุผลที่โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO เร็วกว่าโมเดลปัญญาประดิษฐ์ตัวอื่นๆ เนื่องจาก
 การตรวจจับวัตถุในวิธีการก่อนหน้าจะใช้วิธีทำนายกรอบสี่เหลี่ยมก่อน แล้วจึงค่อยนำกรอบสี่เหลี่ยมไปทำนายว่าเป็นหมวดหมู่อะไร ซึ่ง YOLO มีวิธีการที่ต่างออกไป คือ 
 ทำนายตำแหน่งของกรอบสี่เหลี่ยมและทำนายว่าเป็นหมวดหมู่อะไรพร้อมกัน โดยใช้โครงข่ายประสาทแบบคอนโวลูชัน ด้วยแนวคิดนี้จึงเป็นที่มาของชื่อ YOLO 
@@ -14,7 +14,7 @@
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\textwidth]{chapter2/images/yolo_architecture.jpg}
-    \caption{โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO}
+    \caption[โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO]{โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO\textsuperscript{\cite{ssd_yolo_pic}}}
     \label{fig:yolo_architecture}
 \end{figure}
 
@@ -36,19 +36,19 @@
     \begin{subfigure}[b]{0.2\textwidth}
         \centering
         \includegraphics[width=\textwidth]{chapter2/images/yolo_tiny.jpg}
-	 \caption{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3 tiny}
+	 \caption[โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3 tiny]{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3 tiny\textsuperscript{\cite{tiny_pic}}}
         \label{fig:tiny}
     \end{subfigure}
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{chapter2/images/yolo_darknet.png}
-	 \caption{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3}
+	 \caption[โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3]{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3\textsuperscript{\cite{darknet_pic}}}
        \label{fig:darknet}
     \end{subfigure}
     \begin{subfigure}[b]{0.5\textwidth}
         \centering
         \includegraphics[width=\textwidth]{chapter2/images/yolo_spp.png}
-	 \caption{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3 spp}
+	 \caption[โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3 spp]{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO-v3 spp\textsuperscript{\cite{spp_pic}}}
        \label{fig:spp}
     \end{subfigure}
     \caption{โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO}
