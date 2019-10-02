@@ -3,8 +3,9 @@
 \contentsline {chapter}{สารบัญ}{จ}{chapter*.3}% 
 \contentsline {chapter}{รายการรูปภาพ}{ซ}{chapter*.7}% 
 \contentsline {chapter}{รายการตาราง}{ญ}{chapter*.10}% 
-\contentsline {chapter}{รายการสัญลักษณ์}{ฎ}{chapter*.11}% 
-\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฐ}{chapter*.12}% 
+\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฎ}{chapter*.11}% 
+\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฏ}{chapter*.12}% 
+\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฐ}{chapter*.13}% 
 \contentsline {chapter}{\numberline {1}บทนำ}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}{section.1.2}% 
@@ -16,7 +17,6 @@
 \contentsline {subsection}{\numberline {2.1.1}Convolutional neural network}{5}{subsection.2.1.1}% 
 \contentsline {subsection}{\numberline {2.1.2}Optical flow}{9}{subsection.2.1.2}% 
 \contentsline {subsection}{\numberline {2.1.3}โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้อง}{11}{subsection.2.1.3}% 
-\contentsline {subsubsection}{\numberline {2.1.3.1}YOLO}{11}{subsubsection.2.1.3.1}% 
 \contentsline {section}{\numberline {2.2}การประมวลผลวิดีโอ}{14}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}การตรวจจับวัตถุ}{14}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}ระบบติดตามการเคลื่อนไหวของวัตถุ}{15}{subsection.2.2.2}% 
@@ -70,7 +70,7 @@
 \contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{72}{subsection.4.5.1}% 
 \contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{72}{subsection.4.5.2}% 
 \contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{72}{subsection.4.5.3}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{76}{chapter*.80}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{76}{chapter*.81}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{77}{appendix.A}% 

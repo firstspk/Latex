@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  1 OCT 2019 18:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  1 OCT 2019 20:43
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1415,47 +1415,52 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 \openout8 = `thesis.lot'.
 
 
-(pages/symbols.tex [10
+(pages/abbreviations.tex [10
 
 
 ]
-Overfull \hbox (3.46233pt too wide) in alignment at lines 4--9
+Overfull \hbox (54.68172pt too wide) in alignment at lines 4--36
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--10
+Underfull \hbox (badness 10000) in paragraph at lines 3--37
 
  []
 
-) (pages/abbreviations.tex [11
+[11
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\TU/THSarabunNew(0)/m/n/12 Amazon mechanical turk
- []
-
-
-Overfull \hbox (54.68172pt too wide) in alignment at lines 4--76
+Overfull \hbox (54.68172pt too wide) in alignment at lines 41--73
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--77
+Underfull \hbox (badness 10000) in paragraph at lines 40--74
 
  []
 
-) [12
+[12
 
 
 
 ]
-Overfull \vbox (635.04672pt too high) has occurred while \output is active []
+Overfull \hbox (54.68172pt too wide) in alignment at lines 78--88
+[][] 
+ []
 
 
-[13] (chapter1/chapter1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 77--89
+
+ []
+
+) [13
+
+
+
+] (chapter1/chapter1.tex
 บทที่ 1.
 [1
 
@@ -1890,24 +1895,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: F5F25D455E8BA881256D83786A9478A4.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 767C562DA857E87F1CFC0242D9D73771
-(rerunfilecheck)             After:  90D0BFF65B0A4D4CE424F40434A545F5.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38431 strings out of 427669
- 767611 string characters out of 3145155
- 1044102 words of memory out of 3000000
+ 38429 strings out of 427669
+ 767581 string characters out of 3145155
+ 1038102 words of memory out of 3000000
  41846 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
