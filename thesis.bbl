@@ -12,11 +12,14 @@ Nwankpa, Chigozie and Ijomah, Winifred and Gachagan, Anthony and Marshall, Steph
 \bibitem{iou_pic}
 Adrian Rosebrock,2016,\textbf{Intersection over Union for object detection}[Online],Available : \url{https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/}, [2019,September,18].
 
+\bibitem{auc_roc}
+Sarang Narkhede, 2018, \textbf{Understanding AUC - ROC Curve} Available : \url{https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5}, [2019,September,25].
+
 \bibitem{nms}
-Rasmus Rothe, Matthieu Guillaumin, Luc Van Gool,\textbf{Non-Maximum Suppression for Object Detection}[Online], Available : \url{http://www.vision.ee.ethz.ch/publications/papers/proceedings/eth_biwi_01126.pdf}, [2019,September,18]
+Rasmus Rothe, Matthieu Guillaumin, Luc Van Gool,\textbf{Non-Maximum Suppression for Object Detection}[Online], Available : \url{http://www.vision.ee.ethz.ch/publications/papers/proceedings/eth_biwi_01126.pdf}, [2019,September,18].
 
 \bibitem{nms_pic}
-Tommy Huang,\textbf{Machine / Deep Learning: Object Detection Non-Maximum Suppression (NMS)}[Online] , Available : \url{http://wow.in.th/Y2x9} [2019,September,18]
+Tommy Huang,\textbf{Machine / Deep Learning: Object Detection Non-Maximum Suppression (NMS)}[Online] , Available : \url{http://wow.in.th/Y2x9} [2019,September,18].
 
 \bibitem{optical_flow}
 OpenCV, \textbf{Optical Flow} [Online], Available : \url{https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html}, [2019,August,17].
@@ -25,7 +28,7 @@ OpenCV, \textbf{Optical Flow} [Online], Available : \url{https://docs.opencv.org
 Farneb{\"a}ck, Gunnar, 2003, \textbf{Two-frame motion estimation based on polynomial expansion}, Scandinavian conference on Image analysis, [2003], pages 363-370.
 
 \bibitem{yolo}
-joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi , 2016 ,\textbf{You Only Look Once: Unified, Real-Time Object Detection} , vol.5
+joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi , 2016 ,\textbf{You Only Look Once: Unified, Real-Time Object Detection} , vol.5.
 
 \bibitem{ssd_yolo_pic}
 Sik-Ho Tsang, 2018, \textbf{Review: SSD — Single Shot Detector (Object Detection)}[Online], Available : 
@@ -67,6 +70,9 @@ Vishnu's Homepage, 2013, \textbf{Correlation Filtering Theory} [Online], Availab
 
 \bibitem{luo2019alignedreid++}
 Luo, Hao and Jiang, Wei and Zhang, Xuan and Fan, Xing and Qian, Jingjing and Zhang, Chi, 2019, \textbf{AlignedReID++: Dynamically matching local information for person re-identification}, Pattern Recognition, [2019], vol.94, pages 53-61.
+
+\bibitem{zhang2017alignedreid}
+Zhang, Xuan and Luo, Hao and Fan, Xing and Xiang, Weilai and Sun, Yixiao and Xiao, Qiqi and Jiang, Wei and Zhang, Chi and Sun, Jian, 2017, \textbf{Alignedreid: Surpassing human-level performance in person re-identification}, arXiv preprint arXiv:1711.08184, [2018,January,31]
 
 \bibitem{ma2017less}
 Ma, Shugao and Bargal, Sarah Adel and Zhang, Jianming and Sigal, Leonid and Sclaroff, Stan, 2017, \textbf{Do less and achieve more: Training cnns for action recognition utilizing action images from the web}, Pattern Recognition, [2017], vol.68, pages 334-345.
