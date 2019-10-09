@@ -49,7 +49,7 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces รูปคีย์เฟรมที่ถูกตีกรอบสี่เหลี่ยมในส่วนที่มีมนุษย์อยู่\relax }}{65}{figure.caption.61}% 
 \contentsline {figure}{\numberline {4.7}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Track\relax }}{66}{figure.caption.62}% 
 \contentsline {figure}{\numberline {4.8}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Label\relax }}{67}{figure.caption.63}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces กราฟแสดงการเปรียบระหว่างการระบุว่าเป็นบุคคลเดียวกันกับไม่เป็นบุคคลเดียวกัน โดยพื้นที่ใต้กราฟที่เป็นสีเขียวจะหมายถึงการระบุว่าเป็นบุคคลเดียวกัน ในขณะที่พื้นที่ใต้กราฟสีแดงหมายถึงการระบุว่าไม่เป็นบุคคลเดียวกัน และแกน x คือค่า original distace ส่วนของแกน y จำนวนคู่ของภาพ \relax }}{70}{figure.caption.67}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces กราฟแสดงการเปรียบระหว่างการระบุว่าเป็นบุคคลเดียวกันกับไม่เป็นบุคคลเดียวกัน โดยพื้นที่ใต้กราฟที่เป็นสีเขียวจะหมายถึงการระบุว่าเป็นบุคคลเดียวกัน ในขณะที่พื้นที่ใต้กราฟสีแดงหมายถึงการระบุว่าไม่เป็นบุคคลเดียวกัน และแกน x คือค่า aligned distace ส่วนของแกน y จำนวนคู่ของภาพ \relax }}{70}{figure.caption.67}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
 \contentsline {figure}{\numberline {ก.1}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Track\relax }}{77}{figure.caption.73}% 
