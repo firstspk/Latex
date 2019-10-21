@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  9 OCT 2019 17:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  21 OCT 2019 10:49
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1859,7 +1859,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 45464F8A417020D38EA86969214626BF.
+(rerunfilecheck)             Checksum: 4BB6F2D4C1FD6AABAE8AEB3B405D3EB6.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1867,10 +1867,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38391 strings out of 427669
- 766695 string characters out of 3145155
- 1039102 words of memory out of 3000000
- 41812 multiletter control sequences out of 15000+200000
+ 38392 strings out of 427669
+ 766724 string characters out of 3145155
+ 1038102 words of memory out of 3000000
+ 41813 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,926b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
