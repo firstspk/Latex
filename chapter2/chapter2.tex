@@ -4,22 +4,36 @@
 การประมวลผลวิดีโอในปัจจุบันนั้นมีวิธีการและเทคนิคมากมาย ผู้วิจัยจึงต้องศึกษาองค์ความรู้และงานวิจัยที่เกี่ยวข้องกับวัตถุประสงค์ของงาน 
 เพื่อศึกษาและใช้เป็นแนวทางในการประยุกต์สำหรับสร้างเครื่องมือกำกับข้อมูลด้วยปัญญาประดิษฐ์ และโมเดลปัญญาประดิษฐ์สำหรับการจำแนกการกระทำของมนุษย์ 
 ซึ่งหัวข้อที่ผู้วิจัยได้ไปศึกษามา มีดังต่อไปนี้
-\begin{enumerate}
+\begin{enumerate}[label*=2.1.]
 	\setlength\itemsep{-0.25em}
-	\item ทฤษฎีที่เกี่ยวข้อง
-	\begin{enumerate}
+	\item ทฤษฎีพื้นฐาน
+	\begin{enumerate}[label*=\arabic*.]
 		\item Convolutional neural network
 		\item Optical flow
 		\item โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้องกับงานวิจัย
 	\end{enumerate}
+\end{enumerate}
+\begin{enumerate}[label*=2.2.]
 	\item การประมวลผลวิดีโอ
-	\begin{enumerate}	
+	\begin{enumerate}[label*=\arabic*.]
 		\item การตรวจจับวัตถุ (object detection)
 		\item การติดตามตำแหน่งของวัตถุ (object tracker)
 		\item การระบุตัวตนของบุคคล (person re-identification)
 		\item การจำแนกการกระทำของมนุษย์ (action classification)
 	\end{enumerate}
+\end{enumerate}
+\begin{enumerate}[label*=2.3.]
+	\item ชุดข้อมูลสำหรับการประมวลผลวิดีโอ
+	\begin{enumerate}[label*=\arabic*.]
+		\item ชุดข้อมูล YouTube-8M
+		\item ชุดข้อมูล Atomic visual action (AVA)
+		\item ชุดข้อมูล Moments in Time
+	\end{enumerate}
+\end{enumerate}
+\begin{enumerate}[label*=2.4.]
 	\item โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์
+\end{enumerate}
+\begin{enumerate}[label*=2.5.]
 	\item เครื่องมือกำกับชุดข้อมูลภาพ
 \end{enumerate}
 \clearpage
@@ -33,7 +47,7 @@
 \input{chapter2/optical_flow}
 \clearpage
 
-\subsection{โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้อง}
+\subsection{โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้องกับงานวิจัย}
 \input{chapter2/relate_model}
 
 \section{การประมวลผลวิดีโอ}
@@ -52,5 +66,5 @@
 \input{chapter2/I3D}
 \clearpage
 
-\subsection{เครื่องมือกำกับคุณลักษณะ}
+\section{เครื่องมือกำกับคุณลักษณะ}
 \input{chapter2/labeling_tool}

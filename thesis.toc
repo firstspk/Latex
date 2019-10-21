@@ -16,13 +16,13 @@
 \contentsline {section}{\numberline {2.1}ทฤษฎีที่เกี่ยวข้อง}{5}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}Convolutional neural network}{5}{subsection.2.1.1}% 
 \contentsline {subsection}{\numberline {2.1.2}Optical flow}{10}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้อง}{12}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.3}โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้องกับงานวิจัย}{12}{subsection.2.1.3}% 
 \contentsline {section}{\numberline {2.2}การประมวลผลวิดีโอ}{15}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}การตรวจจับวัตถุ}{15}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}ระบบติดตามการเคลื่อนไหวของวัตถุ}{16}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}การติดตามการเคลื่อนไหวของวัตถุ}{16}{subsection.2.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.2.1}Kalman filter}{17}{subsubsection.2.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.3}ระบบระบุตัวตนของบุคคล}{22}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}ระบบจำแนกการกระทำของมนุษย์}{24}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.3}การระบุตัวตนของบุคคล}{22}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}การจำแนกการกระทำของมนุษย์}{24}{subsection.2.2.4}% 
 \contentsline {section}{\numberline {2.3}ชุดข้อมูลสำหรับการประมวลผลวิดีโอ}{25}{section.2.3}% 
 \contentsline {subsection}{\numberline {2.3.1}ชุดข้อมูล YouTube-8M}{25}{subsection.2.3.1}% 
 \contentsline {subsection}{\numberline {2.3.2}ชุดข้อมูล Atomic visual action (AVA)}{32}{subsection.2.3.2}% 
@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {2.4}โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}{38}{section.2.4}% 
 \contentsline {subsection}{\numberline {2.4.1}ResNet}{38}{subsection.2.4.1}% 
 \contentsline {subsection}{\numberline {2.4.2}Inflated 3D convolutional network}{40}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}เครื่องมือกำกับคุณลักษณะ}{42}{subsection.2.4.3}% 
+\contentsline {section}{\numberline {2.5}เครื่องมือกำกับคุณลักษณะ}{42}{section.2.5}% 
 \contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{44}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{44}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (functional requirements)}{44}{subsection.3.1.1}% 
