@@ -63,6 +63,11 @@ Joao Carreira and Andrew Zisserman.
 \newblock Quo vadis, action recognition? a new model and the kinetics dataset,
   2018.
 
+\bibitem{chen2015experimental}
+Zhe Chen, Zhibin Hong, and Dacheng Tao.
+\newblock An experimental survey on correlation filter-based tracking.
+\newblock {\em arXiv preprint arXiv:1509.05520}, 2015.
+
 \bibitem{danelljan2014accurate}
 Martin Danelljan, Gustav H{\"a}ger, Fahad Khan, and Michael Felsberg.
 \newblock Accurate scale estimation for robust visual tracking.

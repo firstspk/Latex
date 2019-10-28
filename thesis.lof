@@ -17,7 +17,7 @@
 \contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ Faster RCNN}}{14}{figure.caption.27}% 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ SSD}}{15}{figure.caption.28}% 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ kalman filter\relax }}{17}{figure.caption.29}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ correlation filter\relax }}{19}{figure.caption.30}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ correlation filter}}{20}{figure.caption.30}% 
 \contentsline {figure}{\numberline {2.16}{\ignorespaces การแบ่งภาพออกเป็น 8 ส่วนของระบบระบุตัวตนของบุคคล\relax }}{22}{figure.caption.31}% 
 \contentsline {figure}{\numberline {2.17}{\ignorespaces ตัวอย่างการประยุกต์ใช้งานระบบจำแนกการกระทำมนุษย์\textsuperscript {\cite {kong2018human}}\relax }}{24}{figure.caption.32}% 
 \contentsline {figure}{\numberline {2.18}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ deep bag of frames\relax }}{27}{figure.caption.33}% 

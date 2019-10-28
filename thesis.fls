@@ -393,8 +393,8 @@ INPUT chapter2\yolo.tex
 INPUT chapter2\yolo.tex
 INPUT chapter2\tracking.tex
 INPUT chapter2\tracking.tex
-INPUT chapter2\images\kalmanProcess.png
-INPUT chapter2\images\CorrelationTrack.png
+INPUT chapter2\images\kalman_workflow.png
+INPUT chapter2\images\correlation_marked.png
 INPUT chapter2\reid.tex
 INPUT chapter2\reid.tex
 INPUT chapter2\images\alignedreid.png
