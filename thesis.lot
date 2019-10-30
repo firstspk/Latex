@@ -17,6 +17,8 @@
 \contentsline {table}{\numberline {4.4}{\ignorespaces ผลการทดสอบค่า AUC ของโมเดลปัญญาประดิษฐ์\relax }}{74}{table.caption.69}% 
 \contentsline {table}{\numberline {4.5}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์เทียบผลลัพธ์กับแหล่งอ้างอิง\relax }}{75}{table.caption.70}% 
 \contentsline {table}{\numberline {4.6}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ เมื่อใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{75}{table.caption.71}% 
-\contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{75}{table.caption.72}% 
+\contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{76}{table.caption.72}% 
+\contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{76}{table.caption.73}% 
+\contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{76}{table.caption.74}% 
 \addvspace {10\p@ }
 \contentsfinish 
