@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  30 OCT 2019 16:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  30 OCT 2019 18:14
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1785,19 +1785,10 @@ File: chapter4/images/graph_msmt.png Graphic file (type bmp)
 ]) [74
 
 ] (chapter4/action_recognition.tex
-Overfull \hbox (55.5719pt too wide) in paragraph at lines 38--46
- [][] 
- []
-
 [75
 
 ]
-Overfull \hbox (55.5719pt too wide) in paragraph at lines 53--60
- [][] 
- []
-
-
-Overfull \hbox (131.98418pt too wide) in paragraph at lines 67--78
+Overfull \hbox (41.93205pt too wide) in paragraph at lines 67--78
  [][] 
  []
 

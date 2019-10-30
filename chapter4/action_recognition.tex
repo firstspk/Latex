@@ -35,12 +35,12 @@
 ในส่วนนี้จะเป็นการทดสอบโดยใช้โครงสร้างโมเดลปัญญาประดิษฐ์เป็น ResNet50 โดยจะมีการใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นซึ่งเป็นชุดข้อมูลทดสอบเดียวกับที่ทางผู้วิจัยใช้ในการทดสอบโมเดลปัญญาประดิษฐ์ AVA มาใช้ในการทำสอบครั้งนี้ด้วย โดยชุดข้อมูลที่นำมาใช้สำหรับการสร้างโมเดลปัญญาประดิษฐ์จะมีอยู่ 2 ชุดข้อมูล ซึ่งได้แก่ goggle dataset v1 และ goggle dataset v2 ชุดข้อมูลทั้งสองอันนี้จะแตกต่างกันตรงที่ goggle dataset v2 นั้นเป็นชุดข้อมูลเกิดจากการที่ทางผู้วิจัยได้เข้าไปลบในส่วนที่มีการกำกับข้อมูลภาพผิดและมีการสุ่มตัวอย่างของข้อมูลออกมาเพื่อลดโอกาสที่จะเกิด overfitting ของข้อมูล โดยจำนวนชุดข้อมูลของ goggle dataset v1 ที่ใช้สำหรับการสร้างโมเดลจะมี 213,061 ภาพ และในส่วนของ goggle dataset v2 จะมีจำนวนชุดข้อมูล 120,177 ภาพ
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|c|c|c|c|}
+	\begin{tabular}{|c|c|c|}
 			\hline
-			{ชุดข้อมูล}&{โครงสร้างโมเดลปัญญาประดิษฐ์}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (PASCAL mAP)}			\\
+			{ชุดข้อมูล}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (PASCAL mAP)}			\\
 			\hline
-			goggle dataset v1 	& ResNet50			& 2.78			& 14.40				\\
-			goggle dataset v2	& ResNet50			& 2.52			& 16.08				\\
+			goggle dataset v1 ResNet50			& 2.78			& 14.40				\\
+			goggle dataset v2 ResNet50			& 2.52			& 16.08				\\
 			\hline
 	\end{tabular}
 \caption{ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}
@@ -50,29 +50,29 @@
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|c|c|c|c|}
+	\begin{tabular}{|c|c|c|}
 			\hline
-			{ชุดข้อมูล}&{โครงสร้างโมเดลปัญญาประดิษฐ์}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (PASCAL mAP)}			\\
+			{}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (PASCAL mAP)}			\\
 			\hline
-			goggle dataset v2	& ResNet50-ImageNet			& 2.51			& 35.52				\\
+			ResNet50-ImageNet			& 2.51			& 35.52				\\
 			\hline
 	\end{tabular}
 \caption{ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}
 \label{tab: Test PASCAL mAP of dataset created by the researcher and pretrain weight imagenet}
 \end{table}
-จากตาราง \ref{tab: Test PASCAL mAP of dataset created by the researcher and pretrain weight imagenet} เมื่อทางผู้วิจัยได้นำ weight ของ ImageNet มาช่วยในการสร้างโมเดลทำให้ประสิทธิภาพของโมเดลที่ได้ออกมานั้นสูงขึ้นมากเมื่อเทียบกับการทดสอบโมเดลปัญญาประดิษฐ์ของผู้วิจัยก่อนหน้านี้ ต่อมาจะนำโมเดลปัญญาประดิษฐ์ในรอบนี้มาสร้างใหม่อีกครั้งโดยจะเพิ่มในส่วนของการทำ scaling ข้อมูลก่อนได้แก่การทำ normalization , centering และการทำ standardize
+จากตาราง \ref{tab: Test PASCAL mAP of dataset created by the researcher and pretrain weight imagenet} เมื่อทางผู้วิจัยได้นำ weight ของ ImageNet มาช่วยในการสร้างโมเดลทำให้ประสิทธิภาพของโมเดลที่ได้ออกมานั้นสูงขึ้นมากเมื่อเทียบกับการทดสอบโมเดลปัญญาประดิษฐ์ของผู้วิจัยก่อนหน้านี้ ต่อมาจะนำโมเดลปัญญาประดิษฐ์ในรอบนี้มาสร้างใหม่อีกครั้งโดยใช้ชุดข้อมูล goggle dataset v2 และจะเพิ่มในส่วนของการทำ scaling ข้อมูลก่อนได้แก่การทำ normalization , centering และการทำ standardize
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|c|c|c|c|}
+	\begin{tabular}{|c|c|c|}
 			\hline
-			{ชุดข้อมูล}&{โครงสร้างโมเดลปัญญาประดิษฐ์}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (PASCAL mAP)}			\\
+			{}&{ความเร็วต่อรูปภาพ(มิลลิวินาที)}&{ความแม่นยำ (PASCAL mAP)}			\\
 			\hline
-			goggle dataset v2	& ResNet50-ImageNet	 Normalization				& 2.51			& 33.89				\\
-			goggle dataset v2	& ResNet50-ImageNet	 Centering Featurewise		& 2.40			& 35.88				\\
-			goggle dataset v2	& ResNet50-ImageNet	 Centering Samplewise		& 2.49			& 36.93				\\
-			goggle dataset v2	& ResNet50-ImageNet	 Standardize Featurewise		& 2.48			& 30.59				\\
-			goggle dataset v2	& ResNet50-ImageNet	 Standardize Samplewise		& 2.49			& 33.30				\\
+			ResNet50-ImageNet	 Normalization				& 2.51			& 33.89				\\
+			ResNet50-ImageNet	 Centering Featurewise		& 2.40			& 35.88				\\
+			ResNet50-ImageNet	 Centering Samplewise		& 2.49			& 36.93				\\
+			ResNet50-ImageNet	 Standardize Featurewise		& 2.48			& 30.59				\\
+			ResNet50-ImageNet	 Standardize Samplewise		& 2.49			& 33.30				\\
 			\hline
 	\end{tabular}
 \caption{ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}
