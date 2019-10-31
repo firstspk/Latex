@@ -21,7 +21,5 @@
 \contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{77}{table.caption.75}% 
 \contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{77}{table.caption.76}% 
 \addvspace {10\p@ }
-{\vskip -10pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces ตารางเปรียบเทียบหุ่นยนต์ฮิวมานอยด์ UTHAI และหุ่นยนต์ open source ตัวอื่นๆ\relax }}{82}{table.caption.77}% 
 \addvspace {10\p@ }
 \contentsfinish 
