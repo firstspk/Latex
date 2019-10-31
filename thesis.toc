@@ -50,6 +50,7 @@
 \contentsline {section}{\numberline {3.11}การออกแบบการทดสอบการระบุตัวตนของมนุษย์}{60}{section.3.11}% 
 \contentsline {subsection}{\numberline {3.11.1}ทดสอบประสิทธิภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}{60}{subsection.3.11.1}% 
 \contentsline {section}{\numberline {3.12}การออกแบบการทดสอบการจำแนกการกระทำของมนุษย์}{61}{section.3.12}% 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่ถูกสร้างด้วยชุดข้อมูลของ AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{61}{subsection.3.12.1}% 
 \contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่เคยถูกสร้างด้วยชุดข้อมูลของ AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{62}{subsection.3.12.2}% 
 \contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{63}{subsection.3.12.3}% 
@@ -57,6 +58,14 @@
 \contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{65}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}เครื่องมือกำกับคุณลักษณะ}{65}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอปพลิเคชัน}{65}{subsection.4.1.1}% 
+=======
+\contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{61}{subsection.3.12.1}% 
+\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกสร้างด้วย AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{62}{subsection.3.12.2}% 
+\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{63}{subsection.3.12.3}% 
+\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{64}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}เครื่องมือกำกับคุณลักษณะ}{64}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอปพลิเคชัน}{64}{subsection.4.1.1}% 
+>>>>>>> 66c485a5fbd29b0bad73c81491a535602f897e33
 \contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอปพลิเคชัน}{69}{subsection.4.1.2}% 
 \contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{72}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{72}{subsection.4.2.1}% 
@@ -70,8 +79,19 @@
 \contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{76}{subsection.4.5.1}% 
 \contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกสร้างผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{76}{subsection.4.5.2}% 
 \contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{76}{subsection.4.5.3}% 
+<<<<<<< HEAD
 \contentsline {chapter}{เอกสารอ้างอิง}{81}{chapter*.77}% 
+=======
+\contentsline {chapter}{\numberline {5}การอภิปรายผล สรุปผลงานวิจัย และข้อเสนอแนะ}{79}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}การอภิปรายผล}{79}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{79}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}ชุดข้อมูล}{79}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}โมเดลปัญญาประดิษฐ์}{79}{subsection.5.1.3}% 
+\contentsline {section}{\numberline {5.2}สรุปผลงานวิจัย}{79}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{79}{section.5.3}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{83}{chapter*.77}% 
+>>>>>>> 66c485a5fbd29b0bad73c81491a535602f897e33
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{82}{appendix.A}% 
+\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{84}{appendix.A}% 
 \contentsfinish 

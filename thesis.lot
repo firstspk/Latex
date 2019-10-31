@@ -22,5 +22,9 @@
 \contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{77}{table.caption.74}% 
 \contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{77}{table.caption.75}% 
 \contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{77}{table.caption.76}% 
+<<<<<<< HEAD
+=======
+\addvspace {10\p@ }
+>>>>>>> 66c485a5fbd29b0bad73c81491a535602f897e33
 \addvspace {10\p@ }
 \contentsfinish 
