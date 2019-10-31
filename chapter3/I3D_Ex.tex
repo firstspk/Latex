@@ -1,0 +1,42 @@
+\subsection*{สิ่งที่ใช้ในการวัดผล}
+	\begin{enumerate}
+		\setlength\itemsep{-0.25em}
+		\item PASCAL mAP
+		\item Top@1 accuracy
+		\item Top@3 accuracy
+	\end{enumerate}
+\subsection*{สมมติฐาน}
+ผู้วิจัยได้ตั้งสมมติฐานว่า โมเดลปัญญาประดิษฐ์ I3D ที่ถูกสร้างด้วยชุดข้อมูลแบบ optical flow จะมีความแม่นยำสูงกว่าโมเดลปัญญาประดิษฐ์ที่ถูกสร้างด้วยชุดข้อมูลแบบปกติ
+\subsection*{ตัวแปรควบคุม}
+	\begin{enumerate}
+		\setlength\itemsep{-0.25em}
+		\item ชุดข้อมูล : ชุดข้อมูลที่ผู้วิจัยสร้างด้วยเครื่องมือกำกับคุณลักษณะ
+		\item โมเดลปัญญาประดิษฐ์ : I3D
+	\end{enumerate}
+\subsection*{วิธีการทดลอง}
+	\begin{enumerate}
+		\setlength\itemsep{-0.25em}
+		\item แบ่งชุดข้อมูลทั้งหมดในแต่ละการกระทำให้เป็นชุด ชุดละ 20 - 40 เฟรม 
+        \item แบ่งชุดข้อมูลออกเป็น ชุดข้อมูลสำหรับสร้างโมเดลปัญญาประดิษฐ์ ชุดข้อมูลสำหรับทดสอบ และชุดข้อมูลที่มีคำกำกับเพื่อเป็นคำตอบ โดยจะมีรายละเอียดดังนี้
+            \begin{table}[!ht]
+                \centering
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    Label & Train set & Validation set & Test set\\
+                    \hline
+                    Play phone & 705 & 191 & 96\\
+                    Eat & 825 & 165 & 83\\
+                    Sit & 775 & 206 & 104\\
+                    Sleep & 299 & 96 & 48\\
+                    Stand & 426 & 108 & 54\\
+                    Walk & 261 & 75 & 38\\
+                    \hline
+                \end{tabular}
+                \caption{ตารางแสดงจำนวนชุดของข้อมูลที่ใช้ในการทดลองนี้}
+                \label{tab: I3D_datasetInfo}
+            \end{table}
+        \item สร้างโมเดลด้วยโครงสร้าง I3D และชุดข้อมูลที่ผู้วิจัยสร้างด้วยเครื่องมือกำกับคุณลักษณะทั้งแบบปกติและแบบ optical flow จากนั้นทดสอบและบันทึกผล 
+		\item ปรับเปลี่ยนพารามิเตอร์บางตัวของโมเดลเพื่อเปรียบเทียบประสิทธิภาพ
+		\item เปรียบเทียบผลลัพธ์ของโมเดล
+\end{enumerate}
+\clearpage
