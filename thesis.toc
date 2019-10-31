@@ -1,11 +1,11 @@
 \contentsline {chapter}{บทคัดย่อ}{ค}{chapter*.1}% 
 \contentsline {chapter}{กิตติกรรมประกาศ}{ง}{chapter*.2}% 
 \contentsline {chapter}{สารบัญ}{จ}{chapter*.3}% 
-\contentsline {chapter}{รายการรูปภาพ}{ซ}{chapter*.7}% 
-\contentsline {chapter}{รายการตาราง}{ญ}{chapter*.10}% 
-\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฎ}{chapter*.11}% 
+\contentsline {chapter}{รายการรูปภาพ}{ฌ}{chapter*.8}% 
+\contentsline {chapter}{รายการตาราง}{ฎ}{chapter*.11}% 
 \contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฏ}{chapter*.12}% 
 \contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฐ}{chapter*.13}% 
+\contentsline {chapter}{ประมวลศัพท์และตัวย่อ}{ฑ}{chapter*.14}% 
 \contentsline {chapter}{\numberline {1}บทนำ}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}{section.1.2}% 
@@ -69,8 +69,13 @@
 \contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่าน AVA เทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{76}{subsection.4.5.1}% 
 \contentsline {subsection}{\numberline {4.5.2}ผลการทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกสร้างผ่าน AVA และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{76}{subsection.4.5.2}% 
 \contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ที่เคยถูกเทรนด์ผ่านชุดข้อมูลสำหรับการเทรนด์ที่ผู้วิจัยสร้างขึ้น และ ใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้น ในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{76}{subsection.4.5.3}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{82}{chapter*.76}% 
+\contentsline {chapter}{\numberline {5}การอภิปรายผล สรุปผลการทดลอง และข้อเสนอแนะ}{79}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}การอภิปรายผล}{79}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{79}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}การออกแบบโปรแกรมด้วย ROS}{80}{subsection.5.1.2}% 
+\contentsline {section}{\numberline {5.2}การออกแบบระบบพื้นฐาน}{81}{section.5.2}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{86}{chapter*.78}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{83}{appendix.A}% 
+\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{87}{appendix.A}% 
 \contentsfinish 

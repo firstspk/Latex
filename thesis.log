@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  31 OCT 2019 11:41
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  31 OCT 2019 13:21
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1376,27 +1376,29 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 
 ] [6
 
+] [7
+
 ])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [7
+ [8
 
-] (thesis.lof [8
+] (thesis.lof [9
 
 
 ])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [9
+ [10
 
 ] (thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
 
-(pages/abbreviations.tex [10
+(pages/abbreviations.tex [11
 
 
 ]
@@ -1409,7 +1411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--37
 
  []
 
-[11
+[12
 
 
 
@@ -1423,7 +1425,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--75
 
  []
 
-[12
+[13
 
 
 
@@ -1437,7 +1439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--90
 
  []
 
-) [13
+) [14
 
 
 
@@ -1819,7 +1821,124 @@ Overfull \hbox (41.93205pt too wide) in paragraph at lines 67--78
  [][] 
  []
 
-[77])) (thesis.bbl [78]
+[77])) (chapter5/chapter5.tex [78]
+บทที่ 5.
+(chapter5/ai_tool.tex
+Overfull \hbox (8.3423pt too wide) in paragraph at lines 1--3
+[]\TU/THSarabunNew(0)/m/n/12 เครื่อง มือ กำกับ คุณลักษณะ ด้วย ปัญญา ประดิษฐ์ สา
+มารถ ทำงาน ได้ ครอบคลุม ความ ต้องการ ของ ระบบ ทั้งหมด
+ []
+
+) [79
+
+] [80
+
+] (chapter5/platform.tex) [81
+
+] (chapter5/overview.tex
+Underfull \hbox (badness 1127) in paragraph at lines 11--11
+[]|\TU/THSarabunNew(0)/m/n/12 ใช้ ใน งาน วิจัย หลาย ด้าน
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 12--13
+[]|\TU/THSarabunNew(0)/m/n/12 เพื่อ การ ศึกษา และ วิจัย
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/THSarabunNew(0)/m/n/12 ARM CortexM3
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 19--19
+[]|\TU/THSarabunNew(0)/m/n/12 NAO qi 2.0 (Linux-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\TU/THSarabunNew(0)/m/n/12 กล้อง stereo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\TU/THSarabunNew(0)/m/n/12 ,ไมโครโฟน,force
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 21--21
+[]|\TU/THSarabunNew(0)/m/n/12 IMU 9 DoF,กล้อง เลนส์
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/THSarabunNew(0)/m/n/12 3-axis gyro, 3-axis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/THSarabunNew(0)/m/n/12 accelerome-
+ []
+
+
+Overfull \hbox (3.57265pt too wide) in paragraph at lines 22--22
+\TU/THSarabunNew(0)/m/n/12 ter,กล้อง,ไมโครโฟน,force
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/THSarabunNew(0)/m/n/12 กล้อง,ไมโครโฟน, IMU,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/THSarabunNew(0)/m/n/12 Infrared Sensor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]|\TU/THSarabunNew(0)/m/n/12 Force Sensor(3FRS/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/THSarabunNew(0)/m/n/12 foot), IMU 9 DoF,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/THSarabunNew(0)/m/n/12 Aluminum alloy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/THSarabunNew(0)/m/n/12 (AI6082) Stainless
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 26--27
+[]|\TU/THSarabunNew(0)/m/n/12 3D-printed PLA, car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/THSarabunNew(0)/m/n/12 bonfiber, Aluminum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\TU/THSarabunNew(0)/m/n/12 แหล่ง พลังงาน ภายนอก
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\TU/THSarabunNew(0)/m/n/12 แหล่ง พลังงาน ภายนอก
+ []
+
+[82
+
+
+])) (thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\TU/THSarabunNew(0)/m/n/12 Adrian Rosebrock, 2016,\TU/THSarabunNew(0)/bx/n/12
  Intersection over Union for object detec-
@@ -1859,7 +1978,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 12 An improved tiny-yolov3 pedestrian detection algo-
  []
 
-[79
+[83
+
 
 ]
 Underfull \hbox (badness 5302) in paragraph at lines 47--49
@@ -1875,14 +1995,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 w(0)/m/n/12 ,
  []
 
-[80]
+[84]
 
 LaTeX Warning: Command \^ invalid in math mode on input line 93.
 
-[81]) [82]
+[85]) [86]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [82
+ (appendix/appendix1.tex [86
 
 
 ]
@@ -1896,7 +2016,7 @@ File: appendix/images/8.jpg Graphic file (type bmp)
 <appendix/images/8.jpg>
 File: appendix/images/17.jpg Graphic file (type bmp)
 <appendix/images/17.jpg>
-)) [83
+)) [87
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -1905,7 +2025,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D84C31F9998ADDD8581A2BE52EF9FE02.
+(rerunfilecheck)             Checksum: 9345AE8D993D5A6D4419DE8D18D56771.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1913,12 +2033,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38837 strings out of 427242
- 776880 string characters out of 3141499
+ 38857 strings out of 427242
+ 777180 string characters out of 3141499
  1054440 words of memory out of 3000000
- 42689 multiletter control sequences out of 15000+200000
+ 42696 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,18n,83p,1292b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (99 pages).
+Output written on thesis.pdf (104 pages).
