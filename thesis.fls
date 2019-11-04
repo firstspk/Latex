@@ -482,6 +482,14 @@ INPUT chapter5\dataset.tex
 INPUT chapter5\dataset.tex
 INPUT chapter5\ResNet50.tex
 INPUT chapter5\ResNet50.tex
+INPUT chapter5\ai_tool_summary.tex
+INPUT chapter5\ai_tool_summary.tex
+INPUT chapter5\model_resnet_summary.tex
+INPUT chapter5\model_resnet_summary.tex
+INPUT chapter5\ai_tool_suggestion.tex
+INPUT chapter5\ai_tool_suggestion.tex
+INPUT chapter5\model_resnet_suggestion.tex
+INPUT chapter5\model_resnet_suggestion.tex
 INPUT thesis.bbl
 INPUT thesis.bbl
 INPUT appendix\appendix1.tex
