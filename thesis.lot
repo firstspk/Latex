@@ -22,6 +22,10 @@
 \contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{78}{table.caption.75}% 
 \contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{78}{table.caption.76}% 
 \contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{78}{table.caption.77}% 
+\contentsline {table}{\numberline {4.10}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบภาพสีปกติ\relax }}{79}{table.caption.78}% 
+\contentsline {table}{\numberline {4.11}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{80}{table.caption.79}% 
+\contentsline {table}{\numberline {4.12}{\ignorespaces เปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{80}{table.caption.80}% 
+\contentsline {table}{\numberline {4.13}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{80}{table.caption.81}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
