@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  1 NOV 2019 14:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  4 NOV 2019 11:43
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1812,9 +1812,9 @@ Overfull \hbox (8.3423pt too wide) in paragraph at lines 1--3
 มารถ ทำงาน ได้ ครอบคลุม ความ ต้องการ ของ ระบบ ทั้งหมด
  []
 
-) (chapter5/dataset.tex) (chapter5/ResNet50.tex)) (thesis.bbl [80
+) (chapter5/dataset.tex) (chapter5/ResNet50.tex) [80
 
-] [81]
+]) (thesis.bbl [81]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\TU/THSarabunNew(0)/m/n/12 Adrian Rosebrock, 2016,\TU/THSarabunNew(0)/bx/n/12
  Intersection over Union for object detec-
