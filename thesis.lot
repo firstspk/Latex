@@ -21,12 +21,13 @@
 \contentsline {table}{\numberline {4.5}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์เทียบผลลัพธ์กับแหล่งอ้างอิง\relax }}{78}{table.caption.76}% 
 \contentsline {table}{\numberline {4.6}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ เมื่อใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{78}{table.caption.77}% 
 \contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{79}{table.caption.78}% 
-\contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{79}{table.caption.79}% 
-\contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{79}{table.caption.80}% 
-\contentsline {table}{\numberline {4.10}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบภาพสีปกติ\relax }}{80}{table.caption.81}% 
-\contentsline {table}{\numberline {4.11}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{81}{table.caption.82}% 
-\contentsline {table}{\numberline {4.12}{\ignorespaces เปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{81}{table.caption.83}% 
-\contentsline {table}{\numberline {4.13}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{82}{table.caption.84}% 
+\contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{80}{table.caption.79}% 
+\contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{80}{table.caption.80}% 
+\contentsline {table}{\numberline {4.10}{\ignorespaces โมเดลปัญญาประดิษฐ์ ResNet50-ImageNet Centering Samplewise วัดค่า average precision (AP) ของแต่ละหมวดหมู่\relax }}{81}{table.caption.81}% 
+\contentsline {table}{\numberline {4.11}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบภาพสีปกติ\relax }}{82}{table.caption.82}% 
+\contentsline {table}{\numberline {4.12}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{82}{table.caption.83}% 
+\contentsline {table}{\numberline {4.13}{\ignorespaces เปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{82}{table.caption.84}% 
+\contentsline {table}{\numberline {4.14}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{83}{table.caption.85}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
