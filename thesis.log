@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 NOV 2019 17:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 NOV 2019 17:27
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1424,16 +1424,6 @@ File: chapter2/images/openlabel.png Graphic file (type bmp)
 
 ]
 บทที่ 3.
-
-Overfull \hbox (9.63863pt too wide) in paragraph at lines 9--10
-[]\TU/THSarabunNew(0)/bx/n/12 เครื่อง มือ กำกับ คุณลักษณะ ด้วย ปัญญา ประดิษฐ์ ต้อง สามารถ ตัด วิดีโอ ช่วง เวลา ที่ ไม่มี มนุษย์ อยู่ ออก ได้ อัตโนมัติ
- []
-
-
-Overfull \hbox (3.11473pt too wide) in paragraph at lines 14--16
-[]\TU/THSarabunNew(0)/bx/n/12 เครื่อง มือ กำกับ คุณลักษณะ ด้วย ปัญญา ประดิษฐ์ สามารถ นำ วิดีโอ มา วิเคราะห์ ข้อมูล การก ระ ทำ และ ตำแหน่ง
- []
-
 [47
 
 ]
@@ -1675,4 +1665,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,1253b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (110 pages, 2289360 bytes).
+Output written on thesis.xdv (110 pages, 2291608 bytes).
