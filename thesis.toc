@@ -93,14 +93,15 @@
 \contentsline {subsection}{\numberline {5.1.2}ชุดข้อมูล}{86}{subsection.5.1.2}% 
 \contentsline {subsection}{\numberline {5.1.3}โมเดลปัญญาประดิษฐ์}{86}{subsection.5.1.3}% 
 \contentsline {subsubsection}{\numberline {5.1.3.1}การสร้างโมเดลปัญญาประดิษฐ์ด้วยโครงสร้าง ResNet50}{86}{subsubsection.5.1.3.1}% 
+\contentsline {subsubsection}{\numberline {5.1.3.2}การสร้างโมเดลปัญญาประดิษฐ์ด้วยโครงสร้าง I3D}{87}{subsubsection.5.1.3.2}% 
 \contentsline {section}{\numberline {5.2}สรุปผลงานวิจัย}{87}{section.5.2}% 
 \contentsline {subsection}{\numberline {5.2.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{87}{subsection.5.2.1}% 
 \contentsline {subsection}{\numberline {5.2.2}โมเดลปัญญาประดิษฐ์}{87}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{87}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{87}{subsection.5.3.1}% 
+\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{88}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{88}{subsection.5.3.1}% 
 \contentsline {subsection}{\numberline {5.3.2}โมเดลปัญญาประดิษฐ์}{88}{subsection.5.3.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{92}{chapter*.87}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{91}{chapter*.87}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{93}{appendix.A}% 
+\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{92}{appendix.A}% 
 \contentsfinish 

@@ -485,6 +485,8 @@ INPUT chapter5\dataset.tex
 INPUT chapter5\dataset.tex
 INPUT chapter5\ResNet50.tex
 INPUT chapter5\ResNet50.tex
+INPUT chapter5\I3D.tex
+INPUT chapter5\I3D.tex
 INPUT chapter5\ai_tool_summary.tex
 INPUT chapter5\ai_tool_summary.tex
 INPUT chapter5\model_resnet_summary.tex
