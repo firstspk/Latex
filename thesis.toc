@@ -23,83 +23,83 @@
 \contentsline {subsubsection}{\numberline {2.1.1.6}Area under the curve (AUC) - Receiver Operating Characteristics Curve (ROC)}{8}{subsubsection.2.1.1.6}% 
 \contentsline {subsubsection}{\numberline {2.1.1.7}Non Maximum Suppression (NMS)}{9}{subsubsection.2.1.1.7}% 
 \contentsline {subsubsection}{\numberline {2.1.1.8}Optimization algorithm}{9}{subsubsection.2.1.1.8}% 
-\contentsline {subsection}{\numberline {2.1.2}Optical flow}{11}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้องกับงานวิจัย}{13}{subsection.2.1.3}% 
-\contentsline {section}{\numberline {2.2}การประมวลผลวิดีโอ}{16}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}การตรวจจับวัตถุ}{16}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}การติดตามการเคลื่อนไหวของวัตถุ}{18}{subsection.2.2.2}% 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Kalman filter}{18}{subsubsection.2.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.3}การระบุตัวตนของบุคคล}{23}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}การจำแนกการกระทำของมนุษย์}{25}{subsection.2.2.4}% 
-\contentsline {section}{\numberline {2.3}ชุดข้อมูลสำหรับการประมวลผลวิดีโอ}{26}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}ชุดข้อมูล YouTube-8M}{26}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}ชุดข้อมูล Atomic visual action (AVA)}{33}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}ชุดข้อมูล Moments in Time}{36}{subsection.2.3.3}% 
-\contentsline {section}{\numberline {2.4}โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}{39}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}ResNet}{39}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Inflated 3D convolutional network}{41}{subsection.2.4.2}% 
-\contentsline {section}{\numberline {2.5}เครื่องมือกำกับคุณลักษณะ}{43}{section.2.5}% 
-\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{45}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{45}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (functional requirements)}{45}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}ความต้องการเชิงวิศวกรรม (non-functional requirements)}{45}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}ภาพรวมระบบของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{46}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}หน้าที่ความรับผิดชอบ}{47}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}เครื่องมือที่ใช้ในงานวิจัย}{47}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}ภาษาที่ใช้ในการพัฒนาระบบ}{48}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Program library ที่ใช้ในการพัฒนาระบบและแอปพลิเคชัน}{48}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}แผนการดำเนินงาน}{48}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอปพลิเคชันของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{49}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{49}{subsection.3.8.1}% 
-\contentsline {section}{\numberline {3.9}การออกแบบการทดสอบการตรวจจับวัตถุ}{59}{section.3.9}% 
-\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{59}{subsection.3.9.1}% 
-\contentsline {section}{\numberline {3.10}การออกแบบการทดสอบการติดตามการเคลื่อนไหวตำแหน่งต่อไปของมนุษย์}{60}{section.3.10}% 
-\contentsline {subsection}{\numberline {3.10.1}ทดสอบประสิทธิภาพการทำงานของระบบการติดตามการเคลื่อนไหวตำแหน่งต่อไปของวัตถุในวิดีโอ}{60}{subsection.3.10.1}% 
-\contentsline {section}{\numberline {3.11}การออกแบบการทดสอบการระบุตัวตนของมนุษย์}{61}{section.3.11}% 
-\contentsline {subsection}{\numberline {3.11.1}ทดสอบประสิทธิภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}{61}{subsection.3.11.1}% 
-\contentsline {section}{\numberline {3.12}การออกแบบการทดสอบการจำแนกการกระทำของมนุษย์}{62}{section.3.12}% 
-\contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Faster RCNN ResNet101 ที่ถูกสร้างด้วยชุดข้อมูลของ AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{62}{subsection.3.12.1}% 
-\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Faster RCNN ResNet101 ที่เคยถูกสร้างด้วยชุดข้อมูลของ AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{63}{subsection.3.12.2}% 
-\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ ResNet50 ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{64}{subsection.3.12.3}% 
-\contentsline {subsection}{\numberline {3.12.4}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ I3D สร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น โดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบ}{65}{subsection.3.12.4}% 
-\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{66}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}เครื่องมือกำกับคุณลักษณะ}{66}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอปพลิเคชัน}{66}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอปพลิเคชัน}{71}{subsection.4.1.2}% 
-\contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{74}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{74}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}ผลทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{74}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}ผลการทดสอบระบบติดตามตำแหน่งของมนุษย์}{75}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{75}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}ผลทดสอบประสิทธิภาพ และความเร็วในการประมวลผล}{75}{subsection.4.3.2}% 
-\contentsline {section}{\numberline {4.4}ผลการทดสอบระบบระบุตัวตนของมนุษย์}{76}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการระบุตัวตนของบุคคล}{76}{subsection.4.4.1}% 
-\contentsline {section}{\numberline {4.5}ผลการทดสอบการจำแนกการกระทำของมนุษย์}{78}{section.4.5}% 
-\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่ถูกสร้างด้วยชุดข้อมูลของ AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{78}{subsection.4.5.1}% 
-\contentsline {subsection}{\numberline {4.5.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่เคยถูกสร้างด้วยชุดข้อมูลของ AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{78}{subsection.4.5.2}% 
-\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{79}{subsection.4.5.3}% 
-\contentsline {subsubsection}{\numberline {4.5.3.1}การทดสอบสร้างโมเดลปัญญาประดิษฐ์ ResNet50 จากชุดข้อมูล goggle dataset v1 และ goggle dataset v2}{79}{subsubsection.4.5.3.1}% 
-\contentsline {subsubsection}{\numberline {4.5.3.2}การทดสอบสร้างโมเดลปัญญาประดิษฐ์ ResNet50 จากชุดข้อมูล goggle dataset v2 โดยใช้ weight ของ ImageNet}{80}{subsubsection.4.5.3.2}% 
-\contentsline {subsubsection}{\numberline {4.5.3.3}การทดสอบสร้างโมเดลปัญญาประดิษฐ์ ResNet50-ImageNet จากชุดข้อมูล goggle dataset v2 ด้วยวิธีการทำ scaling}{80}{subsubsection.4.5.3.3}% 
-\contentsline {subsubsection}{\numberline {4.5.3.4}การทดสอบ average preicision (AP) ของโมเดลปัญญาประดิษฐ์ ResNet50-ImageNet Centering Samplewise}{81}{subsubsection.4.5.3.4}% 
-\contentsline {subsection}{\numberline {4.5.4}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ I3D สร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น โดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบ}{81}{subsection.4.5.4}% 
-\contentsline {subsubsection}{\numberline {4.5.4.1}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลที่เป็นแบบภาพสีปกติ}{81}{subsubsection.4.5.4.1}% 
-\contentsline {subsubsection}{\numberline {4.5.4.2}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลที่เป็นแบบ optical flow}{83}{subsubsection.4.5.4.2}% 
-\contentsline {subsubsection}{\numberline {4.5.4.3}ตารางแสดงการเปรียบเทียบค่า average precision (AP) ของทุกการกระทำของแต่ละโมเดล}{83}{subsubsection.4.5.4.3}% 
-\contentsline {subsubsection}{\numberline {4.5.4.4}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลทั้งสองแบบ (RGB + OF)}{83}{subsubsection.4.5.4.4}% 
-\contentsline {chapter}{\numberline {5}การอภิปรายผล สรุปผลงานวิจัย และข้อเสนอแนะ}{85}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}การอภิปรายผล}{85}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{85}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}ชุดข้อมูล}{85}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}โมเดลปัญญาประดิษฐ์}{85}{subsection.5.1.3}% 
-\contentsline {section}{\numberline {5.2}สรุปผลงานวิจัย}{86}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{86}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}โมเดลปัญญาประดิษฐ์}{86}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{86}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{86}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}โมเดลปัญญาประดิษฐ์}{87}{subsection.5.3.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{90}{chapter*.86}% 
+\contentsline {subsection}{\numberline {2.1.2}Optical flow}{13}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}โมเดลปัญญาประดิษฐ์สำหรับตรวจจับวัตถุที่เกี่ยวข้องกับงานวิจัย}{15}{subsection.2.1.3}% 
+\contentsline {section}{\numberline {2.2}การประมวลผลวิดีโอ}{18}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}การตรวจจับวัตถุ}{18}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}การติดตามการเคลื่อนไหวของวัตถุ}{20}{subsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.2.1}Kalman filter}{20}{subsubsection.2.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.3}การระบุตัวตนของบุคคล}{25}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}การจำแนกการกระทำของมนุษย์}{27}{subsection.2.2.4}% 
+\contentsline {section}{\numberline {2.3}ชุดข้อมูลสำหรับการประมวลผลวิดีโอ}{28}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}ชุดข้อมูล YouTube-8M}{28}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}ชุดข้อมูล Atomic visual action (AVA)}{35}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}ชุดข้อมูล Moments in Time}{38}{subsection.2.3.3}% 
+\contentsline {section}{\numberline {2.4}โมเดลปัญญาประดิษฐ์สำหรับจำแนกการกระทำมนุษย์}{41}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}ResNet}{41}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Inflated 3D convolutional network}{43}{subsection.2.4.2}% 
+\contentsline {section}{\numberline {2.5}เครื่องมือกำกับคุณลักษณะ}{45}{section.2.5}% 
+\contentsline {chapter}{\numberline {3}ระเบียบวิธีวิจัย}{47}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}ความต้องการของระบบ}{47}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}ความต้องการเชิงการใช้งาน (functional requirements)}{47}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}ความต้องการเชิงวิศวกรรม (non-functional requirements)}{47}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}ภาพรวมระบบของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{48}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}หน้าที่ความรับผิดชอบ}{49}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}เครื่องมือที่ใช้ในงานวิจัย}{49}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}ภาษาที่ใช้ในการพัฒนาระบบ}{50}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Program library ที่ใช้ในการพัฒนาระบบและแอปพลิเคชัน}{50}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}แผนการดำเนินงาน}{50}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอปพลิเคชันของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{51}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{51}{subsection.3.8.1}% 
+\contentsline {section}{\numberline {3.9}การออกแบบการทดสอบการตรวจจับวัตถุ}{61}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{61}{subsection.3.9.1}% 
+\contentsline {section}{\numberline {3.10}การออกแบบการทดสอบการติดตามการเคลื่อนไหวตำแหน่งต่อไปของมนุษย์}{62}{section.3.10}% 
+\contentsline {subsection}{\numberline {3.10.1}ทดสอบประสิทธิภาพการทำงานของระบบการติดตามการเคลื่อนไหวตำแหน่งต่อไปของวัตถุในวิดีโอ}{62}{subsection.3.10.1}% 
+\contentsline {section}{\numberline {3.11}การออกแบบการทดสอบการระบุตัวตนของมนุษย์}{63}{section.3.11}% 
+\contentsline {subsection}{\numberline {3.11.1}ทดสอบประสิทธิภาพการทำงานของระบบระบุตัวตนของบุคคลภายในภาพ}{63}{subsection.3.11.1}% 
+\contentsline {section}{\numberline {3.12}การออกแบบการทดสอบการจำแนกการกระทำของมนุษย์}{64}{section.3.12}% 
+\contentsline {subsection}{\numberline {3.12.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Faster RCNN ResNet101 ที่ถูกสร้างด้วยชุดข้อมูลของ AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{64}{subsection.3.12.1}% 
+\contentsline {subsection}{\numberline {3.12.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Faster RCNN ResNet101 ที่เคยถูกสร้างด้วยชุดข้อมูลของ AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{65}{subsection.3.12.2}% 
+\contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ ResNet50 ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{66}{subsection.3.12.3}% 
+\contentsline {subsection}{\numberline {3.12.4}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ I3D สร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น โดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบ}{67}{subsection.3.12.4}% 
+\contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{68}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}เครื่องมือกำกับคุณลักษณะ}{68}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอปพลิเคชัน}{68}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอปพลิเคชัน}{73}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{76}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{76}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}ผลทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{76}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}ผลการทดสอบระบบติดตามตำแหน่งของมนุษย์}{77}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{77}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}ผลทดสอบประสิทธิภาพ และความเร็วในการประมวลผล}{77}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}ผลการทดสอบระบบระบุตัวตนของมนุษย์}{78}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการระบุตัวตนของบุคคล}{78}{subsection.4.4.1}% 
+\contentsline {section}{\numberline {4.5}ผลการทดสอบการจำแนกการกระทำของมนุษย์}{80}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่ถูกสร้างด้วยชุดข้อมูลของ AVA โดยใช้ชุดข้อมูลของ AVA ในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง ได้ผลการทดลองดังตารางต่อไปนี้}{80}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่เคยถูกสร้างด้วยชุดข้อมูลของ AVA และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{80}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ Resnet50 ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์การทดสอบก่อนหน้า}{81}{subsection.4.5.3}% 
+\contentsline {subsubsection}{\numberline {4.5.3.1}การทดสอบสร้างโมเดลปัญญาประดิษฐ์ ResNet50 จากชุดข้อมูล goggle dataset v1 และ goggle dataset v2}{81}{subsubsection.4.5.3.1}% 
+\contentsline {subsubsection}{\numberline {4.5.3.2}การทดสอบสร้างโมเดลปัญญาประดิษฐ์ ResNet50 จากชุดข้อมูล goggle dataset v2 โดยใช้ weight ของ ImageNet}{82}{subsubsection.4.5.3.2}% 
+\contentsline {subsubsection}{\numberline {4.5.3.3}การทดสอบสร้างโมเดลปัญญาประดิษฐ์ ResNet50-ImageNet จากชุดข้อมูล goggle dataset v2 ด้วยวิธีการทำ scaling}{82}{subsubsection.4.5.3.3}% 
+\contentsline {subsubsection}{\numberline {4.5.3.4}การทดสอบ average preicision (AP) ของโมเดลปัญญาประดิษฐ์ ResNet50-ImageNet Centering Samplewise}{83}{subsubsection.4.5.3.4}% 
+\contentsline {subsection}{\numberline {4.5.4}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ I3D สร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น โดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบ}{83}{subsection.4.5.4}% 
+\contentsline {subsubsection}{\numberline {4.5.4.1}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลที่เป็นแบบภาพสีปกติ}{84}{subsubsection.4.5.4.1}% 
+\contentsline {subsubsection}{\numberline {4.5.4.2}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลที่เป็นแบบ optical flow}{84}{subsubsection.4.5.4.2}% 
+\contentsline {subsubsection}{\numberline {4.5.4.3}ตารางแสดงการเปรียบเทียบค่า average precision (AP) ของทุกการกระทำของแต่ละโมเดล}{84}{subsubsection.4.5.4.3}% 
+\contentsline {subsubsection}{\numberline {4.5.4.4}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลทั้งสองแบบ (RGB + optical flow)}{84}{subsubsection.4.5.4.4}% 
+\contentsline {chapter}{\numberline {5}การอภิปรายผล สรุปผลงานวิจัย และข้อเสนอแนะ}{86}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}การอภิปรายผล}{86}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{86}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}ชุดข้อมูล}{86}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}โมเดลปัญญาประดิษฐ์}{86}{subsection.5.1.3}% 
+\contentsline {section}{\numberline {5.2}สรุปผลงานวิจัย}{87}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{87}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}โมเดลปัญญาประดิษฐ์}{87}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{87}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{87}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}โมเดลปัญญาประดิษฐ์}{88}{subsection.5.3.2}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{91}{chapter*.87}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{91}{appendix.A}% 
+\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{92}{appendix.A}% 
 \contentsfinish 

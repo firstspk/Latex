@@ -165,18 +165,28 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 	\end{conditions}
 	สมการแรกนั้นคือสมการการปรับเมทริกซ์ weight ในขณะที่สมการที่สองคือสมการปรับค่าอคติ ซึ่งตั้งสองสมการนั้นจะมีอัตราการเรียนรู้เป็นตัวกำหนดอัตราการเปลี่ยนแปลง จากรูปที่ \ref{fig:gd_explain}
 	จุดสีแดงหมายถึงกรณีที่ weight มีค่าน้อยกว่าค่าที่เหมาะสมในจุดที่ม่วง จากรูปจะเห็นว่าความชัน ณ จุดสีแดงมีค่าเป็นลบทำให้เมื่อนำไปใส่ในสมการแล้วจะทำให้มีการปรับ weight ให้เพิ่มขึ้น 
-	ในทางตรงกันข้ามที่จุดสีน้ำเงินจะมีความชันเป็นบวกทำให้มีการปรับ weight ให้น้อยลง ซึ่งการปรับแต่ละครั้งจะมีระยะก้าวกว้างขนาดไหนจะขึ้นอยู่กับอัตร่การเรียนรู้ที่ได้กำหนดไว้ก่อนหน้านี้ 
-	\begin{figure}[!ht]
-		\centering
-		\includegraphics[width=0.3\textwidth]{chapter2/images/gd_explain.png}
-			\caption{กราฟสำหรับอธิบายการทำงานของ gradient descent}
-			\label{fig:gd_explain}
-	\end{figure} 
+	ในทางตรงกันข้ามที่จุดสีน้ำเงินจะมีความชันเป็นบวกทำให้มีการปรับ weight ให้น้อยลง ซึ่งการปรับแต่ละครั้งจะมีระยะก้าวกว้างขนาดไหนจะขึ้นอยู่กับอัตราการเรียนรู้ดังตัวอย่างในรูปที่ \ref{fig:learning_rate}
+	\begin{figure}
+		\begin{subfigure}[!ht]{0.5\textwidth}
+			\centering
+			\includegraphics[width=0.5\textwidth]{chapter2/images/gd_explain.png}
+				\caption{กราฟสำหรับอธิบายการทำงานของ gradient descent}
+				\label{fig:gd_explain}
+		\end{subfigure}
+		\begin{subfigure}[!ht]{0.5\textwidth}
+			\centering
+			\includegraphics[width=0.85\textwidth]{chapter2/images/learning_rate.png}
+				\caption{ตัวอย่างผลลัพธ์ของการปรับค่าอัตราการเรียนรู้ที่ต่างกัน}
+				\label{fig:learning_rate}
+		\end{subfigure}
+	\end{figure}
+	
 	ข้อเสียของ gradient descent คือจะทำการปรับค่าพารามิเตอร์หลังจากทำการคำนวณจนครบทุกข้อมูลในชุดข้อมูลที่ใช้ในการสร้างแล้วเท่านั้น ทำให้เกิดปัญญาหน่วยความจำไม่เพียงพอเมื่อชุดข้อมูลมีขนาดที่ใหญ่มาก
 	จึงทำให้เกิดเทคนิคที่เรียกว่า stochastic gradient descent (SGD) กล่าวคือถ้าหาก gradient descent ทำการคำนวณจนครบทุกข้อมูลจึงจะมีการปรับพารามิเตอร์ stochastic gradient descent 
 	จะคำนวณเพียงข้อมูลหนึ่งตัวหรือเป็นชุดของข้อมูล (subset) ซึ่งหากใช้เป็นชุดของข้อมูลจะเรียกว่า minibatch stochastic gradient descent การทำแบบนี้จะทำให้ลดการใช้หน่วยความจำลง 
 	และทำให้การสร้างโมเดลนั้นทำได้เร็วขึ้นกว่าการใช้ gradient descent
-	\item Momentum หรือ gradient descent with momentum คืออัลกอริทึมที่จะเร่งความเร็วในการปรับลดค่าจาก cost function โดยใช้สิ่งที่เรียกว่า moving average โดยสามารถหาได้จากสมการดังนี้
+	\item Momentum หรือ gradient descent with momentum มีการทำงานเหมือนกับ gradient descent แต่จะมีการเร่งความเร็วในการปรับลดค่าจาก cost function โดยใช้สิ่งที่เรียกว่าค่าเฉลี่ยเคลื่อนที่
+	(moving average) เพื่อลบข้อมูลรบกวน โดยสามารถหาได้จากสมการดังนี้
 	\begin{equation}
 		V_{dW} = \beta V_{dW} + (1 - \beta)dW
 	\end{equation}
@@ -184,4 +194,65 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 		V_{db} = \beta V_{db} + (1 - \beta)db
 	\end{equation}
 	โดยที่
+	\begin{conditions}
+		V_{dW}	&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
+		\beta	&	พารามิเตอร์ของ moving average (ค่าคงที่ momentum)\\
+		dW		&	อนุพันธ์ของเมทริกซ์ weight\\
+		V_{db}	&	moving average ของอนุพันธ์ของค่าอคติ\\
+		db		&	อนุพันธ์ของค่าอคติ
+	\end{conditions}
+	ในการสร้างโมเดลปัญญาประดิษฐ์นั้นมีเป้าหมายถึงคือการหา cost function ที่เหมาะสมเพื่อให้ได้ค่าความผิดพลาดน้อยที่สุด หากดูจากรูปที่ \ref{fig:momentum_explain} 
+	gradient descent จะเป็นไปตามเส้นสีแดง ในขณะที่ momentum จะเป็นเส้นสีเขียว และจุดสีม่วงคือจุดที่มีค่าความผิดพลาดน้อยที่สุด จะเห็นว่า gradient descent แกว่งมากในแกน y 
+	แต่มีการเคลื่อนที่ในแกน x เพียงเล็กน้อย วิธีแก้คือทำให้การแกว่งในแกน y น้อยลง นั่นทำให้มีการใช้ค่าเฉลี่ยเคลื่อนที่เข้ามาช่วย ทำให้สมการปรับ weight และค่าอคติเปลี่ยนเป็นดังสมการด้านล่าง
+	\begin{equation}
+		W = W - \alpha V_{dW}
+	\end{equation}
+	\begin{equation}
+		b = b - \alpha V_{db}
+	\end{equation}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{chapter2/images/momentum_explain.png}
+			\caption{เปรียบเทียบการทำงานของ gradient descent กับ Momentum}
+			\label{fig:momentum_explain}
+	\end{figure} 
+	\item RMS Prop หรือ root-mean-square propagation ซึ่งมีความคล้ายคลึงกับ Momentum หากดูจากรูปที่ \ref{fig:momentum_explain} กำหนดให้แกน y เป็นค่าอคติ แกน x คือ weight
+	และเส้นสีเขียวเป็นของ RMS Prop ในขณะที่ momentum ใช้ค่าเฉลี่ยเคลื่อนที่ในการลดการแกว่งในแนวแกน y RMS Prop จะใช้ค่าเฉลี่ยกำลังสองมาหารเพื่อลดการแกว่งในแกน y ซึ่งทำให้ต้องมีค่าคงที่ $\epsilon$
+	เพื่อไม่ให้เกิดเหตุการณ์หารด้วยศูนย์ ซึ่งสมการปรับ weight และค่าอคติจะเป็นดังนี้
+	\begin{equation}
+		W = W - \alpha \frac{dW}{\sqrt{S_{dW}} + \epsilon}
+	\end{equation}
+	\begin{equation}
+		b = b - \alpha \frac{db}{\sqrt{S_{db}} + \epsilon}
+	\end{equation}
+	โดยที่ $S_{dW}$ และ $S_{db}$ สามารถหาได้จากสมการที่ \ref{equa:s_w} และ \ref{equa:s_b} ตามลำดับ
+	\begin{equation}
+		S_{dW} = \beta S_{dW} + (1 - \beta) dW^2
+		\label{equa:s_w}
+	\end{equation}\begin{equation}
+		S_{db} = \beta S_{db} + (1 - \beta) db^2
+		\label{equa:s_b}
+	\end{equation}
+	\item Adam หรือ Adaptive momentum เป็นอัลกอริทึมที่นำเทคนิคของ momentum และ RMS Prop มารวมกัน ทำให้อัลกอริทึมนี้มีประสิทธิภาพที่สูงและมีความเร็วในการปรับพารามิเตอร์ของโมเดลได้เร็ว 
+	ซึ่งได้มีการใช้เทคนิค error correction เพื่อแก้ปัญหา cold start หมายถึงปัญหาที่ในช่วงแรกๆนั้นพารามิเตอร์ของ momentum และ RMS Prop นั้นมีค่าห่างจากค่าจริงมากเกินไปทำให้การปรับพารามิเตอร์เกิดขึ้นช้าเกินไป
+	โดยสมการ error correction ของทั้ง momentum และ RMS Prop คือ
+	\begin{equation}
+		V^{correction}_{dW} = \frac{V_{dW}}{1 - \beta_1}
+	\end{equation}
+	\begin{equation}
+		V^{correction}_{db} = \frac{V_{db}}{1 - \beta_1}
+	\end{equation}
+	\begin{equation}
+		S^{correction}_{dW} = \frac{S_{dW}}{1 - \beta_2}
+	\end{equation}
+	\begin{equation}
+		S^{correction}_{db} = \frac{S_{db}}{1 - \beta_2}
+	\end{equation}
+	และสมการปรับ weight และค่าอคติของอัลกอริทึมนี้จะเป็นดังสมการด้านล่างนี้ 
+	\begin{equation}
+		W = W - \alpha \frac{V^{correction}_{dW}}{\sqrt{S^{correction}_{dW}} + \epsilon}
+	\end{equation}
+	\begin{equation}
+		b = b - \alpha \frac{V^{correction}_{db}}{\sqrt{S^{correction}_{db}} + \epsilon}
+	\end{equation}
 \end{enumerate}

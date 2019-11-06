@@ -370,6 +370,8 @@ INPUT chapter2\auc.tex
 INPUT chapter2\images\auc_roc.png
 INPUT chapter2\images\NMS.png
 INPUT chapter2\images\gd_explain.png
+INPUT chapter2\images\learning_rate.png
+INPUT chapter2\images\momentum_explain.png
 INPUT chapter2\optical_flow.tex
 INPUT chapter2\optical_flow.tex
 INPUT chapter2\images\vector_optical.png
