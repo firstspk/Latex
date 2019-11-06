@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 NOV 2019 14:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 NOV 2019 14:49
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1672,12 +1672,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38443 strings out of 427669
- 764853 string characters out of 3149215
+ 38444 strings out of 427669
+ 764868 string characters out of 3149215
  1036734 words of memory out of 3000000
- 41845 multiletter control sequences out of 15000+200000
+ 41846 multiletter control sequences out of 15000+200000
  538995 words of font info for 62 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,1253b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (110 pages, 2257488 bytes).
+Output written on thesis.xdv (110 pages, 2261900 bytes).

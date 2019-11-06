@@ -10,6 +10,7 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces ภาพแสดงการหา IoU ด้วยการใช้คำตอบจริงของการทำนายและกรอบสี่เหลี่ยมที่ได้จากการทำนาย}}{8}{figure.caption.22}% 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces AUC - ROC Curve}}{8}{figure.caption.23}% 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces ตัวอย่างการทำงานของ NMS}}{9}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces รูปสำหรับอธิบายการทำงานของ gradient descent\relax }}{10}{figure.caption.25}% 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces เปรียบเทียบการทำงานของ gradient descent กับ Momentum\relax }}{11}{figure.caption.26}% 
 \contentsline {figure}{\numberline {2.10}{\ignorespaces ตัวอย่าง optical flow ของการเคลื่อนที่ของลูกบอล}}{13}{figure.caption.27}% 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO}}{15}{figure.caption.28}% 
