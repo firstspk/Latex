@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 NOV 2019 17:18
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  6 NOV 2019 17:20
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1444,7 +1444,7 @@ File: chapter3/images/Overview/HowItWorks.png Graphic file (type bmp)
 ] [49
 
 ]
-Overfull \hbox (0.3193pt too wide) in paragraph at lines 67--88
+Overfull \hbox (0.3193pt too wide) in paragraph at lines 69--90
 [][] 
  []
 
@@ -1675,4 +1675,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,1253b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (110 pages, 2288016 bytes).
+Output written on thesis.xdv (110 pages, 2289360 bytes).
