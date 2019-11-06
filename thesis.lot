@@ -26,8 +26,9 @@
 \contentsline {table}{\numberline {4.10}{\ignorespaces โมเดลปัญญาประดิษฐ์ ResNet50-ImageNet Centering Samplewise วัดค่า average precision (AP) ของแต่ละหมวดหมู่\relax }}{83}{table.caption.82}% 
 \contentsline {table}{\numberline {4.11}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบภาพสีปกติ\relax }}{84}{table.caption.83}% 
 \contentsline {table}{\numberline {4.12}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{84}{table.caption.84}% 
-\contentsline {table}{\numberline {4.13}{\ignorespaces เปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{84}{table.caption.85}% 
+\contentsline {table}{\numberline {4.13}{\ignorespaces ตารางเปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{84}{table.caption.85}% 
 \contentsline {table}{\numberline {4.14}{\ignorespaces ผลการทดสอบความแม่นยำเมื่อนำโมเดลแบบภาพสีปกติ และ optical flow มาใช้ร่วมกัน\relax }}{85}{table.caption.86}% 
+\contentsline {table}{\numberline {4.15}{\ignorespaces ตารางเปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{85}{table.caption.87}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
