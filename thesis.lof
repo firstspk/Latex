@@ -1,61 +1,66 @@
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces แผนการดำเนินงาน\relax }}{3}{figure.caption.16}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces แผนการดำเนินงาน\relax }}{3}{figure.caption.17}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces ตัวอย่างโครงสร้างของ CNN ที่ใช้ในการจำแนกหมวดหมู่ของวัตถุ}}{5}{figure.caption.17}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ตัวอย่างเคอร์เนล และภาพที่ใช้ในการประมวลผล\relax }}{5}{figure.caption.18}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ตัวอย่างการหาผังคุณลักษณะ}}{6}{figure.caption.19}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ตัวอย่างการใช้ max pooling และ average pooling กับภาพ\relax }}{6}{figure.caption.20}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ภาพแสดงการหา IoU ด้วยการใช้คำตอบจริงของการทำนายและกรอบสี่เหลี่ยมที่ได้จากการทำนาย}}{8}{figure.caption.22}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces AUC - ROC Curve}}{8}{figure.caption.23}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces ตัวอย่างการทำงานของ NMS}}{9}{figure.caption.24}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces รูปสำหรับอธิบายการทำงานของ gradient descent\relax }}{10}{figure.caption.25}% 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces เปรียบเทียบการทำงานของ gradient descent กับ Momentum\relax }}{11}{figure.caption.26}% 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces ตัวอย่าง optical flow ของการเคลื่อนที่ของลูกบอล}}{13}{figure.caption.27}% 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO}}{15}{figure.caption.28}% 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO}}{15}{figure.caption.29}% 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{16}{figure.caption.30}% 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ Faster RCNN}}{17}{figure.caption.31}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ SSD}}{18}{figure.caption.32}% 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ kalman filter\relax }}{20}{figure.caption.33}% 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ correlation filter}}{23}{figure.caption.34}% 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces การแบ่งภาพออกเป็น 8 ส่วนของระบบระบุตัวตนของบุคคล\relax }}{25}{figure.caption.35}% 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces ตัวอย่างการประยุกต์ใช้งานระบบจำแนกการกระทำมนุษย์\textsuperscript {\cite {kong2018human}}\relax }}{27}{figure.caption.36}% 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ deep bag of frames\relax }}{30}{figure.caption.37}% 
-\contentsline {figure}{\numberline {2.21}{\ignorespaces โครงสร้าง LSTM ที่ใช้การอ้างอิงในบทความนี้\relax }}{30}{figure.caption.38}% 
-\contentsline {figure}{\numberline {2.22}{\ignorespaces หลักการของ Residual block ของ ResNet\relax }}{41}{figure.caption.42}% 
-\contentsline {figure}{\numberline {2.23}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D}}{43}{figure.caption.45}% 
-\contentsline {figure}{\numberline {2.24}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D}}{43}{figure.caption.46}% 
-\contentsline {figure}{\numberline {2.25}{\ignorespaces หน้าต่างการทำงานของโปรแกรม DarkLabel\relax }}{45}{figure.caption.48}% 
-\contentsline {figure}{\numberline {2.26}{\ignorespaces หน้าต่างการทำงานของโปรแกรม OpenLabeling\relax }}{46}{figure.caption.49}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ตัวอย่างโครงสร้างของ CNN ที่ใช้ในการจำแนกหมวดหมู่ของวัตถุ}}{5}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ตัวอย่างเคอร์เนล และภาพที่ใช้ในการประมวลผล\relax }}{5}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ตัวอย่างการหาผังคุณลักษณะ}}{6}{figure.caption.20}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ตัวอย่างการใช้ max pooling และ average pooling กับภาพ\relax }}{6}{figure.caption.21}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ภาพแสดงการหา IoU ด้วยการใช้คำตอบจริงของการทำนายและกรอบสี่เหลี่ยมที่ได้จากการทำนาย}}{8}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces AUC - ROC Curve}}{8}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ตัวอย่างการทำงานของ NMS}}{9}{figure.caption.25}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces รูปสำหรับอธิบายการทำงานของ gradient descent\relax }}{10}{figure.caption.26}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces เปรียบเทียบการทำงานของ gradient descent กับ Momentum\relax }}{11}{figure.caption.27}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ตัวอย่าง optical flow ของการเคลื่อนที่ของลูกบอล}}{13}{figure.caption.28}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces กระบวนการทำงานของโครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO}}{15}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ YOLO}}{15}{figure.caption.30}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ YOLO\relax }}{16}{figure.caption.31}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ของ Faster RCNN}}{17}{figure.caption.32}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces โครงสร้างทั่วไปของโมเดลปัญญาประดิษฐ์ SSD}}{18}{figure.caption.33}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ kalman filter\relax }}{20}{figure.caption.34}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces ผังการทำงานของระบบติดตามการเคลื่อนไหวของวัตถุแบบ correlation filter}}{23}{figure.caption.35}% 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces การแบ่งภาพออกเป็น 8 ส่วนของระบบระบุตัวตนของบุคคล\relax }}{25}{figure.caption.36}% 
+\contentsline {figure}{\numberline {2.19}{\ignorespaces ตัวอย่างการประยุกต์ใช้งานระบบจำแนกการกระทำมนุษย์\textsuperscript {\cite {kong2018human}}\relax }}{27}{figure.caption.37}% 
+\contentsline {figure}{\numberline {2.20}{\ignorespaces โครงสร้างโมเดลปัญญาประดิษฐ์ของ deep bag of frames\relax }}{30}{figure.caption.38}% 
+\contentsline {figure}{\numberline {2.21}{\ignorespaces โครงสร้าง LSTM ที่ใช้การอ้างอิงในบทความนี้\relax }}{30}{figure.caption.39}% 
+\contentsline {figure}{\numberline {2.22}{\ignorespaces หลักการของ Residual block ของ ResNet\relax }}{41}{figure.caption.43}% 
+\contentsline {figure}{\numberline {2.23}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D}}{43}{figure.caption.46}% 
+\contentsline {figure}{\numberline {2.24}{\ignorespaces โครงสร้างของโมเดลปัญญาประดิษฐ์ I3D}}{43}{figure.caption.47}% 
+\contentsline {figure}{\numberline {2.25}{\ignorespaces หน้าต่างการทำงานของโปรแกรม DarkLabel\relax }}{45}{figure.caption.49}% 
+\contentsline {figure}{\numberline {2.26}{\ignorespaces หน้าต่างการทำงานของโปรแกรม OpenLabeling\relax }}{46}{figure.caption.50}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces ภาพรวมระบบของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์\relax }}{48}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces กระบวนการหลักของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{51}{figure.caption.51}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces หน้าต่าง Select ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{52}{figure.caption.52}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Select\relax }}{53}{figure.caption.53}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces หน้าต่าง Detect ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{54}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Detect\relax }}{55}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces หน้าต่าง Track ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{56}{figure.caption.56}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Track\relax }}{57}{figure.caption.57}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces หน้าต่าง Label ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{58}{figure.caption.58}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Label\relax }}{59}{figure.caption.59}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces ตัวอย่างข้อมูลภายในไฟล์ xml\relax }}{60}{figure.caption.60}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ภาพรวมระบบของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์\relax }}{48}{figure.caption.51}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces กระบวนการหลักของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{51}{figure.caption.52}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces หน้าต่าง Select ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{52}{figure.caption.53}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Select\relax }}{53}{figure.caption.54}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces หน้าต่าง Detect ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{54}{figure.caption.55}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Detect\relax }}{55}{figure.caption.56}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces หน้าต่าง Track ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{56}{figure.caption.57}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Track\relax }}{57}{figure.caption.58}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces หน้าต่าง Label ของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์\relax }}{58}{figure.caption.59}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces ตำแหน่งของแต่ละวิดเจ็ตในหน้าต่าง Label\relax }}{59}{figure.caption.60}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces ตัวอย่างข้อมูลภายในไฟล์ xml\relax }}{60}{figure.caption.61}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Select\relax }}{68}{figure.caption.63}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Detect\relax }}{69}{figure.caption.64}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Detect\relax }}{70}{figure.caption.65}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Track\relax }}{71}{figure.caption.66}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Label\relax }}{72}{figure.caption.67}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces รูปผลลัพธ์การแยกเฟรมที่มีมนุษย์อยู่และไม่มีมนุษย์อยู่ภายในเฟรม\relax }}{73}{figure.caption.68}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces รูปคีย์เฟรมที่ถูกตีกรอบสี่เหลี่ยมในส่วนที่มีมนุษย์อยู่\relax }}{73}{figure.caption.69}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Track\relax }}{74}{figure.caption.70}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Label\relax }}{75}{figure.caption.71}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces กราฟแสดงการเปรียบระหว่างการระบุว่าเป็นบุคคลเดียวกันกับไม่เป็นบุคคลเดียวกัน โดยพื้นที่ใต้กราฟที่เป็นสีเขียวจะหมายถึงการระบุว่าเป็นบุคคลเดียวกัน ในขณะที่พื้นที่ใต้กราฟสีแดงหมายถึงการระบุว่าไม่เป็นบุคคลเดียวกัน และแกน x คือค่า aligned distace ส่วนของแกน y จำนวนคู่ของภาพ \relax }}{78}{figure.caption.75}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Select\relax }}{68}{figure.caption.64}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Detect\relax }}{69}{figure.caption.65}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Detect\relax }}{70}{figure.caption.66}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Track\relax }}{71}{figure.caption.67}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces รูปหน้าต่างแสดงผลของหน้าต่าง Label\relax }}{72}{figure.caption.68}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces รูปผลลัพธ์การแยกเฟรมที่มีมนุษย์อยู่และไม่มีมนุษย์อยู่ภายในเฟรม\relax }}{73}{figure.caption.69}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces รูปคีย์เฟรมที่ถูกตีกรอบสี่เหลี่ยมในส่วนที่มีมนุษย์อยู่\relax }}{73}{figure.caption.70}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Track\relax }}{74}{figure.caption.71}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Label\relax }}{75}{figure.caption.72}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces กราฟแสดงการเปรียบระหว่างการระบุว่าเป็นบุคคลเดียวกันกับไม่เป็นบุคคลเดียวกัน โดยพื้นที่ใต้กราฟที่เป็นสีเขียวจะหมายถึงการระบุว่าเป็นบุคคลเดียวกัน ในขณะที่พื้นที่ใต้กราฟสีแดงหมายถึงการระบุว่าไม่เป็นบุคคลเดียวกัน และแกน x คือค่า aligned distace ส่วนของแกน y จำนวนคู่ของภาพ \relax }}{78}{figure.caption.76}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {figure}{\numberline {ก.1}{\ignorespaces รูปผลลัพธ์การทำงานของหน้าต่าง Track\relax }}{93}{figure.caption.89}% 
+\contentsline {figure}{\numberline {ก.1}{\ignorespaces ตัวอย่างชุดข้อมูลสำหรับการทดสอบโมเดลปัญญาประดิษฐ์ในการตรวจจับภาพบุคค\relax }}{93}{figure.caption.90}% 
+\contentsline {figure}{\numberline {ก.2}{\ignorespaces ตัวอย่างชุดข้อมูลในหมวดหมู่การตอบรับโทรศัพท์\relax }}{94}{figure.caption.91}% 
+\contentsline {figure}{\numberline {ก.3}{\ignorespaces ตัวอย่างชุดข้อมูลในหมวดหมู่การกิน\relax }}{95}{figure.caption.92}% 
+\contentsline {figure}{\numberline {ก.4}{\ignorespaces ตัวอย่างชุดข้อมูลในหมวดหมู่การกิน\relax }}{96}{figure.caption.93}% 
+\contentsline {figure}{\numberline {ก.5}{\ignorespaces ตัวอย่างชุดข้อมูลในหมวดหมู่การนอน\relax }}{97}{figure.caption.94}% 
+\contentsline {figure}{\numberline {ก.6}{\ignorespaces ตัวอย่างชุดข้อมูลในหมวดหมู่การยืน\relax }}{98}{figure.caption.95}% 
 \contentsfinish 
