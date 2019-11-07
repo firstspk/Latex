@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  7 NOV 2019 16:37
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  7 NOV 2019 16:47
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1501,7 +1501,7 @@ File: chapter2/images/CNN.png Graphic file (type bmp)
 File: chapter2/images/kernel_ex.png Graphic file (type bmp)
 <chapter2/images/kernel_ex.png>
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 13.46844pt on input line 20.
+(Font)              scaled to size 13.46844pt on input line 19.
 File: chapter2/images/input_ex.png Graphic file (type bmp)
 <chapter2/images/input_ex.png>
  [5
@@ -1517,9 +1517,9 @@ File: chapter2/images/average_pooling.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
-(Font)              scaled to size 9.83997pt on input line 67.
+(Font)              scaled to size 9.83997pt on input line 66.
 
-Overfull \hbox (14.449pt too wide) in paragraph at lines 99--110
+Overfull \hbox (14.449pt too wide) in paragraph at lines 98--109
  [][] 
  []
 
@@ -1542,7 +1542,7 @@ File: chapter2/images/gd_explain.png Graphic file (type bmp)
 File: chapter2/images/learning_rate.png Graphic file (type bmp)
 <chapter2/images/learning_rate.png>
 
-Overfull \hbox (2.12544pt too wide) in paragraph at lines 170--182
+Overfull \hbox (2.12544pt too wide) in paragraph at lines 169--181
 []$[]$ $[]$ 
  []
 
@@ -2087,7 +2087,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
 Here is how much of TeX's memory you used:
  39206 strings out of 427242
  789414 string characters out of 3141499
- 1053440 words of memory out of 3000000
+ 1052440 words of memory out of 3000000
  42979 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
