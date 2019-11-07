@@ -7,7 +7,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces ตัวอย่างเคอร์เนล และภาพที่ใช้ในการประมวลผล\relax }}{5}{figure.caption.19}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces ตัวอย่างการหาผังคุณลักษณะ}}{6}{figure.caption.20}% 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces ตัวอย่างการใช้ max pooling และ average pooling กับภาพ\relax }}{6}{figure.caption.21}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ภาพแสดงการหา IoU ด้วยการใช้คำตอบจริงของการทำนายและกรอบสี่เหลี่ยมที่ได้จากการทำนาย}}{8}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ภาพแสดงการหา IoU ด้วยการใช้กรอบสี่เหลี่ยมซึ่งเป็นคำตอบจริงและกรอบสี่เหลี่ยมที่ได้จากการทำนาย}}{8}{figure.caption.23}% 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces AUC - ROC Curve}}{8}{figure.caption.24}% 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces ตัวอย่างการทำงานของ NMS}}{9}{figure.caption.25}% 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces รูปสำหรับอธิบายการทำงานของ gradient descent\relax }}{10}{figure.caption.26}% 
