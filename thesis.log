@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  7 NOV 2019 12:15
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  7 NOV 2019 13:43
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2045,15 +2045,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 (thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 2EA1A2941E402939BA8699088BB9560D.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: AE7BBFFCB0A3ED600172F0CE5CB8919B
-(rerunfilecheck)             After:  2EA1A2941E402939BA8699088BB9560D.
 
 LaTeX Warning: There were multiply-defined labels.
 
