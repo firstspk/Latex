@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  8 NOV 2019 17:11
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  8 NOV 2019 17:18
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1696,6 +1696,12 @@ Overfull \hbox (0.3193pt too wide) in paragraph at lines 69--90
 [51
 
 ]
+Overfull \hbox (7.96295pt too wide) in paragraph at lines 104--111
+\TU/THSarabunNew(0)/m/n/12 ระบบ วิเคราะห์ วิดีโอ เพื่อ ใช้ ใน การ ออกแบบ และ สร
+้าง ระบบ วิเคราะห์ การก ระ ทำ ของ มนุษย์ ใน วิดีโอ ให้ มี ประสิทธิภาพ
+ []
+
+
 Overfull \hbox (4.67126pt too wide) in paragraph at lines 111--111
 |\TU/THSarabunNew(0)/bx/n/14.4 3.8 การ ออกแบบ หน้าต่าง แอปพลิเคชัน ของ เครื่อง 
 มือ กำกับ คุณลักษณะ ด้วย ปัญญา ประดิษฐ์| 
