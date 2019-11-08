@@ -146,10 +146,10 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 \subsubsection{Optimization algorithm}
 ในขั้นตอนการสร้างโมเดลปัญญาประดิษฐ์นั้นสิ่งที่สำคัญคือ การลดความผิดพลาด (error) หรือค่าคอสท์ (cost) นั่นทำให้ต้องมีเครื่องมือสำหรับปรับพารามิเตอร์ของโมเดลเพื่อให้มีความผิดพลาดน้อยที่สุด
 นั่นทำให้มีการคิดค้น optimization algorithm ต่างๆขึ้นมา ตัวอย่างเช่น gradient descent (GD), Momentum, RMS Prop และ Adam เป็นต้น
-ซึ่งเมทริกซ์ weight มักจะสุ่มค่าในตอนต้น แล้วใช้ optimization algorithm ในการลดค่าคอสท์ที่ได้จาก cost funtion พร้อมทั้งหาเมทริกซ์ weight และค่าอคติ (bias) ที่ดีที่สุด
+ซึ่งเมทริกซ์ weight มักจะสุ่มค่าในตอนต้น แล้วใช้ optimization algorithm ในการลดค่าคอสท์ที่ได้จาก cost funtion พร้อมทั้งหาเมทริกซ์ weight และเมทริกซ์ค่าอคติ (bias) ที่ดีที่สุด
 โดยจากตัวอย่างที่ยกไปก่อนหน้านี้แต่ละอัลกอริทึมนั้นมีรายละเอียดดังนี้
 \begin{enumerate}
-	\item Gradient descent (GD) เป็นอัลกอริทึมที่จะทำการปรับเมทริกซ์ weight และค่าอคติของทุกข้อมูลที่ใช้ในการสร้างโมเดล โดยจะมีสมการดังนี้
+	\item Gradient descent (GD) เป็นอัลกอริทึมที่จะทำการปรับเมทริกซ์ weight และเมทริกซ์ค่าอคติของทุกข้อมูลที่ใช้ในการสร้างโมเดล โดยจะมีสมการดังนี้
 	\begin{equation}
 		W = W - \alpha \frac{\partial J(W)}{\partial W}
 	\end{equation}
@@ -161,9 +161,9 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 		W & เมทริกซ์ weight\\
 		\alpha & อัตราการเรียนรู้ (learning rate)\\
 		J & cost function\\
-		b & ค่าอคติ
+		b & เมทริกซ์ค่าอคติ
 	\end{conditions}
-	สมการแรกนั้นคือสมการการปรับเมทริกซ์ weight ในขณะที่สมการที่สองคือสมการปรับค่าอคติ ซึ่งทั้งสองสมการนั้นจะมีอัตราการเรียนรู้เป็นตัวกำหนดอัตราการเปลี่ยนแปลง จากรูปที่ \ref{fig:gd_explain} จุดสีแดงหมายถึงกรณีที่ weight มีค่าน้อยกว่าค่าที่เหมาะสมในจุดสีม่วง จากรูปจะเห็นว่าความชัน ณ จุดสีแดงเมื่อเทียบกับจุดสีม่วง มีค่าเป็นลบทำให้เมื่อนำไปใส่ในสมการแล้วจะทำให้มีการปรับ weight ให้เพิ่มขึ้น ในทางตรงกันข้ามที่จุดสีน้ำเงินเมื่อเทียบกับจุดสีม่วงจะมีความชันเป็นบวกทำให้มีการปรับ weight ให้น้อยลง  ซึ่งการปรับแต่ละครั้งจะมีระยะก้าวกว้างขนาดไหนจะขึ้นอยู่กับอัตราการเรียนรู้ดังตัวอย่างในรูปที่ \ref{fig:learning_rate}
+	สมการแรกนั้นคือสมการการปรับเมทริกซ์ weight ในขณะที่สมการที่สองคือสมการปรับเมทริกซ์ค่าอคติ ซึ่งทั้งสองสมการนั้นจะมีอัตราการเรียนรู้เป็นตัวกำหนดอัตราการเปลี่ยนแปลง จากรูปที่ \ref{fig:gd_explain} จุดสีแดงหมายถึงกรณีที่ weight มีค่าน้อยกว่าค่าที่เหมาะสมในจุดสีม่วง จากรูปจะเห็นว่าความชัน ณ จุดสีแดงเมื่อเทียบกับจุดสีม่วง มีค่าเป็นลบทำให้เมื่อนำไปใส่ในสมการแล้วจะทำให้มีการปรับ weight ให้เพิ่มขึ้น ในทางตรงกันข้ามที่จุดสีน้ำเงินเมื่อเทียบกับจุดสีม่วงจะมีความชันเป็นบวกทำให้มีการปรับ weight ให้น้อยลง  ซึ่งการปรับแต่ละครั้งจะมีระยะก้าวกว้างขนาดไหนจะขึ้นอยู่กับอัตราการเรียนรู้ดังตัวอย่างในรูปที่ \ref{fig:learning_rate}
 	\begin{figure}
 		\begin{subfigure}[!ht]{0.5\textwidth}
 			\centering
@@ -197,34 +197,41 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 		V_{dW}	&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
 		\beta	&	พารามิเตอร์ของ moving average (ค่าคงที่ momentum)\\
 		dW		&	อนุพันธ์ของเมทริกซ์ weight\\
-		V_{db}	&	moving average ของอนุพันธ์ของค่าอคติ\\
-		db		&	อนุพันธ์ของค่าอคติ
+		V_{db}	&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		db		&	อนุพันธ์ของเมทริกซ์ค่าอคติ
 	\end{conditions}
 	ในการสร้างโมเดลปัญญาประดิษฐ์นั้นมีเป้าหมายถึงคือการหา cost function ที่เหมาะสมเพื่อให้ได้ค่าความผิดพลาดน้อยที่สุด หากดูจากรูปที่ \ref{fig:momentum_explain} 
 	gradient descent จะเป็นไปตามเส้นสีแดง ในขณะที่ momentum จะเป็นเส้นสีเขียว และจุดสีม่วงคือจุดที่มีค่าความผิดพลาดน้อยที่สุด จะเห็นว่า gradient descent แกว่งมากในแกน y 
-	แต่มีการเคลื่อนที่ในแกน x เพียงเล็กน้อย วิธีแก้คือทำให้การแกว่งในแกน y น้อยลง นั่นทำให้มีการใช้ค่าเฉลี่ยเคลื่อนที่เข้ามาช่วย ทำให้สมการปรับ weight และค่าอคติเปลี่ยนเป็นดังสมการด้านล่าง
+	แต่มีการเคลื่อนที่ในแกน x เพียงเล็กน้อย วิธีแก้คือทำให้การแกว่งในแกน y น้อยลง นั่นทำให้มีการใช้ค่าเฉลี่ยเคลื่อนที่เข้ามาช่วย ทำให้สมการปรับ weight และเมทริกซ์ค่าอคติเปลี่ยนเป็นดังสมการด้านล่าง
 	\begin{equation}
 		W = W - \alpha V_{dW}
 	\end{equation}
 	\begin{equation}
 		b = b - \alpha V_{db}
 	\end{equation}
+	\begin{conditions}
+		V_{dW}	&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
+		\alpha	&	อัตราการเรียนรู้\\
+		W		&	เมทริกซ์ weight\\
+		V_{db}	&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		b		&	เมทริกซ์ค่าอคติ
+	\end{conditions}
 	\begin{figure}[!ht]
 		\centering
 		\includegraphics[width=0.7\textwidth]{chapter2/images/momentum_explain.png}
 			\caption{เปรียบเทียบการทำงานของ gradient descent กับ Momentum}
 			\label{fig:momentum_explain}
 	\end{figure} 
-	\item RMS Prop หรือ root-mean-square propagation ซึ่งมีความคล้ายคลึงกับ Momentum หากดูจากรูปที่ \ref{fig:momentum_explain} กำหนดให้แกน y เป็นค่าอคติ แกน x คือ weight
-	และเส้นสีเขียวเป็นของ RMS Prop ในขณะที่ momentum ใช้ค่าเฉลี่ยเคลื่อนที่ในการลดการแกว่งในแนวแกน y RMS Prop จะใช้ค่าเฉลี่ยกำลังสองมาหารเพื่อลดการแกว่งในแกน y ซึ่งทำให้ต้องมีค่าคงที่ $\epsilon$
-	เพื่อไม่ให้เกิดเหตุการณ์หารด้วยศูนย์ ซึ่งสมการปรับ weight และค่าอคติจะเป็นดังนี้
+	\item RMS Prop หรือ root-mean-square propagation ซึ่งมีความคล้ายคลึงกับ Momentum หากดูจากรูปที่ \ref{fig:momentum_explain} กำหนดให้แกน y เป็นเมทริกซ์ค่าอคติ แกน x คือ weight
+	และเส้นสีเขียวเป็นของ RMS Prop ในขณะที่ momentum ใช้ค่าเฉลี่ยเคลื่อนที่ในการลดการแกว่งในแนวแกน y RMS Prop จะใช้ค่าเฉลี่ยรากที่สองของเมทริกซ์กำลังสองมาหารเพื่อลดการแกว่งในแกน y ซึ่งทำให้ต้องมีค่าคงที่ $\epsilon$
+	เพื่อไม่ให้เกิดเหตุการณ์หารด้วยศูนย์ ซึ่งสมการปรับ weight และเมทริกซ์ค่าอคติจะเป็นดังนี้
 	\begin{equation}
 		W = W - \alpha \frac{dW}{\sqrt{S_{dW}} + \epsilon}
 	\end{equation}
 	\begin{equation}
 		b = b - \alpha \frac{db}{\sqrt{S_{db}} + \epsilon}
 	\end{equation}
-	โดยที่ $S_{dW}$ และ $S_{db}$ สามารถหาได้จากสมการที่ \ref{equa:s_w} และ \ref{equa:s_b} ตามลำดับ
+	ซึ่ง $S_{dW}$ และ $S_{db}$ สามารถหาได้จากสมการที่ \ref{equa:s_w} และ \ref{equa:s_b} ตามลำดับ
 	\begin{equation}
 		S_{dW} = \beta S_{dW} + (1 - \beta) dW^2
 		\label{equa:s_w}
@@ -232,6 +239,18 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 		S_{db} = \beta S_{db} + (1 - \beta) db^2
 		\label{equa:s_b}
 	\end{equation}
+	โดยที่
+	\begin{conditions}
+		S_{dW}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ weight \\
+		S_{db}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ค่าอคติกำลังสอง\\
+		\beta		&	พารามิเตอร์ของสมการค่าเฉลี่ยรากที่สองของอนุพันธ์\\
+		\epsilon	&	ค่าคงที่สำหรับป้องกันการเกิดการหารด้วยศูนย์\\
+		V_{dW}		&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
+		V_{db}		&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		\alpha		&	อัตราการเรียนรู้\\
+		W			&	เมทริกซ์ weight\\
+		b			&	เมทริกซ์ค่าอคติ
+	\end{conditions}
 	\item Adam หรือ Adaptive momentum เป็นอัลกอริทึมที่นำเทคนิคของ momentum และ RMS Prop มารวมกัน ทำให้อัลกอริทึมนี้มีประสิทธิภาพที่สูงและมีความเร็วในการปรับพารามิเตอร์ของโมเดลได้เร็ว 
 	ซึ่งได้มีการใช้เทคนิค error correction เพื่อแก้ปัญหา cold start หมายถึงปัญหาที่ในช่วงแรกๆนั้นพารามิเตอร์ของ momentum และ RMS Prop นั้นมีค่าห่างจากค่าจริงมากเกินไปทำให้การปรับพารามิเตอร์เกิดขึ้นช้าเกินไป
 	โดยสมการ error correction ของทั้ง momentum และ RMS Prop คือ
@@ -247,11 +266,24 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 	\begin{equation}
 		S^{correction}_{db} = \frac{S_{db}}{1 - \beta_2}
 	\end{equation}
-	และสมการปรับ weight และค่าอคติของอัลกอริทึมนี้จะเป็นดังสมการด้านล่างนี้ 
+	และสมการปรับ weight และเมทริกซ์ค่าอคติของอัลกอริทึมนี้จะเป็นดังสมการด้านล่างนี้ 
 	\begin{equation}
 		W = W - \alpha \frac{V^{correction}_{dW}}{\sqrt{S^{correction}_{dW}} + \epsilon}
 	\end{equation}
 	\begin{equation}
 		b = b - \alpha \frac{V^{correction}_{db}}{\sqrt{S^{correction}_{db}} + \epsilon}
 	\end{equation}
+	โดยที่
+	\begin{conditions}
+		V^{correction}_{dW}		&	moving average ของอนุพันธ์ของเมทริกซ์ weight ที่ผ่านการทำ error correction\\
+		V^{correction}_{db}		&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ ที่ผ่านการทำ error correction\\
+		S^{correction}_{dW}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ weight กำลังสอง ที่ผ่านการทำ error correction\\
+		S^{correction}_{db}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ค่าอคติกำลังสอง ที่ผ่านการทำ error correction\\
+		\beta_1					&	พารามิเตอร์ของ moving average\\
+		\beta_2					&	พารามิเตอร์ของสมการค่าเฉลี่ยรากที่สองของอนุพันธ์เมทริซ์กำลังสอง\\
+		\alpha					&	อัตราการเรียนรู้\\
+		\epsilon				&	ค่าคงที่สำหรับป้องกันการเกิดการหารด้วยศูนย์\\
+		W						&	เมทริกซ์ weight\\
+		b						&	เมทริกซ์ค่าอคติ
+	\end{conditions}
 \end{enumerate}
