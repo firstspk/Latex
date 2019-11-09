@@ -18,35 +18,94 @@
 \end{table}
 \\
 ต่อมานำโมเดลปัญญาประดิษฐ์แต่ละอันมาทดสอบกับตัวอย่างภาพชุดข้อมูลที่ทางคณะผู้วิจัยได้สร้างขึ้น โดยภาพชุดข้อมูลที่นำมาใช้จะผ่านการตรวจหาบุคคลภายในภาพด้วยโมเดลปัญญาประดิษฐ์ YOLO-v3 spp นำภาพชุดข้อมูลที่ผ่านการตรวจหาบุคคลภายในภาพเข้าระบบการระบุตัวตนของบุคคล โดยจะให้ผลลัพธ์ออกมาเป็นค่า AUC และกราฟที่แสดงการเปรียบเทียบระหว่างการระบุว่าเป็นบุคคลเดียวกันไม่เป็นบุคคลเดียวกันตามรูปที่ \ref{fig: กราฟแสดงการเปรียบระหว่างการระบุว่าเป็นบุคคลเดียวกันกับไม่เป็นบุคคลเดียวกัน}
-
 \begin{figure}[!ht]
     \centering
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapter4/images/graph_market.png}
-	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล Market1501}
-        \label{fig:graph_market}
+        \includegraphics[width=\textwidth]{chapter4/images/graph_market_o.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล Market1501 ของหมวดหมู่ผู้วิจัยบุคคลที่ 1}
+        \label{fig:graph_marke_o}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapter4/images/graph_dukemtmc.png}
-	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล DukeMTMCReID}
-        \label{fig:graph_dukemtmc}
+        \includegraphics[width=\textwidth]{chapter4/images/graph_dukemtmc_o.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล DukeMTMCReID ของหมวดหมู่ผู้วิจัยบุคคลที่ 1}
+        \label{fig:graph_dukemtmc_o}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapter4/images/graph_cuhk.png}
-	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล CUHK03}
-        \label{fig:graph_cuhk}
+        \includegraphics[width=\textwidth]{chapter4/images/graph_cuhk_o.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล CUHK03 ของหมวดหมู่ผู้วิจัยบุคคลที่ 1}
+        \label{fig:graph_cuhk_o}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapter4/images/graph_msmt.png}
-	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล MSMT17}
-        \label{fig:graph_msmt}
+        \includegraphics[width=\textwidth]{chapter4/images/graph_msmt_o.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล MSMT17 ของหมวดหมู่ผู้วิจัยบุคคลที่ 1}
+        \label{fig:graph_msmt_o}
+    \end{subfigure}
+    \hfill
+\end{figure}
+\begin{figure}[!ht]\ContinuedFloat
+	\begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_market_fei.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล Market1501 ของหมวดหมู่ผู้วิจัยบุคคลที่ 2}
+        \label{fig:graph_market_fei}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_dukemtmc_fei.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล DukeMTMCReID ของหมวดหมู่ผู้วิจัยบุคคลที่ 2}
+        \label{fig:graph_dukemtmc_fei}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_cuhk_fei.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล CUHK03 ของหมวดหมู่ผู้วิจัยบุคคลที่ 2}
+        \label{fig:graph_cuhk_fei}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_msmt_fei.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล MSMT17 ของหมวดหมู่ผู้วิจัยบุคคลที่ 2}
+        \label{fig:graph_msmt_fei}
+    \end{subfigure}
+    \hfill
+\end{figure}
+\begin{figure}[!ht]\ContinuedFloat
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_market_first.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล Market1501 ของหมวดหมู่ผู้วิจัยบุคคลที่ 3}
+        \label{fig:graph_market_first}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_dukemtmc_first.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล DukeMTMCReID ของหมวดหมู่ผู้วิจัยบุคคลที่ 3}
+        \label{fig:graph_dukemtmc_first}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_cuhk_first.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล CUHK03 ของหมวดหมู่ผู้วิจัยบุคคลที่ 3}
+        \label{fig:graph_cuhk_first}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{chapter4/images/graph_msmt_first.png}
+	\caption{กราฟของโมเดลปัญญาประดิษฐ์ที่ผ่านการสร้างด้วยชุดข้อมูล MSMT17 ของหมวดหมู่ผู้วิจัยบุคคลที่ 3}
+        \label{fig:graph_msmt_first}
     \end{subfigure}
     \hfill
     \caption{กราฟแสดงการเปรียบระหว่างการระบุว่าเป็นบุคคลเดียวกันกับไม่เป็นบุคคลเดียวกัน โดยพื้นที่ใต้กราฟที่เป็นสีเขียวจะหมายถึงการระบุว่าเป็นบุคคลเดียวกัน ในขณะที่พื้นที่ใต้กราฟสีแดงหมายถึงการระบุว่าไม่เป็นบุคคลเดียวกัน และแกน x คือค่า aligned distace ส่วนของแกน y จำนวนคู่ของภาพ  }
@@ -59,10 +118,10 @@
             \hline
             {โมเดลปัญญาประดิษฐ์}&{AUC}											\\
             \hline
-            ResNet50 Market1501	 		& 0.91								\\
-            ResNet50 DukeMTMCReID		& 0.96								\\
-            ResNet50 CUHK03				& 0.97								\\
-            ResNet50 MSMT17				& 0.94								\\
+            ResNet50 Market1501	 		& 0.96								\\
+            ResNet50 DukeMTMCReID		& 0.98								\\
+            ResNet50 CUHK03				& 0.99								\\
+            ResNet50 MSMT17				& 0.93								\\
         \hline
     \end{tabular}
     \caption{ผลการทดสอบค่า AUC ของโมเดลปัญญาประดิษฐ์}
