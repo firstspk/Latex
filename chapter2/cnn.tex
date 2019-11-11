@@ -194,10 +194,10 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 	\end{equation}
 	โดยที่
 	\begin{conditions}
-		V_{dW}	&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
-		\beta	&	พารามิเตอร์ของ moving average (ค่าคงที่ momentum)\\
+		V_{dW}	&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ weight\\
+		\beta	&	พารามิเตอร์ของค่าเฉลี่ยเคลื่อนที่ (ค่าคงที่ momentum)\\
 		dW		&	อนุพันธ์ของเมทริกซ์ weight\\
-		V_{db}	&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		V_{db}	&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
 		db		&	อนุพันธ์ของเมทริกซ์ค่าอคติ
 	\end{conditions}
 	ในการสร้างโมเดลปัญญาประดิษฐ์นั้นมีเป้าหมายถึงคือการหา cost function ที่เหมาะสมเพื่อให้ได้ค่าความผิดพลาดน้อยที่สุด หากดูจากรูปที่ \ref{fig:momentum_explain} 
@@ -210,10 +210,10 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 		b = b - \alpha V_{db}
 	\end{equation}
 	\begin{conditions}
-		V_{dW}	&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
+		V_{dW}	&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ weight\\
 		\alpha	&	อัตราการเรียนรู้\\
 		W		&	เมทริกซ์ weight\\
-		V_{db}	&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		V_{db}	&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
 		b		&	เมทริกซ์ค่าอคติ
 	\end{conditions}
 	\begin{figure}[!ht]
@@ -241,12 +241,12 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 	\end{equation}
 	โดยที่
 	\begin{conditions}
-		S_{dW}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ weight \\
-		S_{db}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ค่าอคติกำลังสอง\\
-		\beta		&	พารามิเตอร์ของสมการค่าเฉลี่ยรากที่สองของอนุพันธ์\\
+		S_{dW}		&	ค่าเฉลี่ยกำลังสองของอนุพันธ์ของเมทริกซ์ weight \\
+		S_{db}		&	ค่าเฉลี่ยกำลังสองของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		\beta		&	พารามิเตอร์ของสมการค่าเฉลี่ยกำลังสองของอนุพันธ์\\
 		\epsilon	&	ค่าคงที่สำหรับป้องกันการเกิดการหารด้วยศูนย์\\
-		V_{dW}		&	moving average ของอนุพันธ์ของเมทริกซ์ weight\\
-		V_{db}		&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
+		V_{dW}		&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ weight\\
+		V_{db}		&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ค่าอคติ\\
 		\alpha		&	อัตราการเรียนรู้\\
 		W			&	เมทริกซ์ weight\\
 		b			&	เมทริกซ์ค่าอคติ
@@ -275,11 +275,11 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 	\end{equation}
 	โดยที่
 	\begin{conditions}
-		V^{correction}_{dW}		&	moving average ของอนุพันธ์ของเมทริกซ์ weight ที่ผ่านการทำ error correction\\
-		V^{correction}_{db}		&	moving average ของอนุพันธ์ของเมทริกซ์ค่าอคติ ที่ผ่านการทำ error correction\\
-		S^{correction}_{dW}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ weight กำลังสอง ที่ผ่านการทำ error correction\\
-		S^{correction}_{db}		&	ค่าเฉลี่ยรากที่สองของอนุพันธ์ของเมทริกซ์ค่าอคติกำลังสอง ที่ผ่านการทำ error correction\\
-		\beta_1					&	พารามิเตอร์ของ moving average\\
+		V^{correction}_{dW}		&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ weight ที่ผ่านการทำ error correction\\
+		V^{correction}_{db}		&	ค่าเฉลี่ยเคลื่อนที่ของอนุพันธ์ของเมทริกซ์ค่าอคติ ที่ผ่านการทำ error correction\\
+		S^{correction}_{dW}		&	ค่าเฉลี่ยกำลังสองของอนุพันธ์ของเมทริกซ์ weight ที่ผ่านการทำ error correction\\
+		S^{correction}_{db}		&	ค่าเฉลี่ยกำลังสองของอนุพันธ์ของเมทริกซ์ค่าอคติ ที่ผ่านการทำ error correction\\
+		\beta_1					&	พารามิเตอร์ของค่าเฉลี่ยเคลื่อนที่\\
 		\beta_2					&	พารามิเตอร์ของสมการค่าเฉลี่ยรากที่สองของอนุพันธ์เมทริซ์กำลังสอง\\
 		\alpha					&	อัตราการเรียนรู้\\
 		\epsilon				&	ค่าคงที่สำหรับป้องกันการเกิดการหารด้วยศูนย์\\
