@@ -223,7 +223,7 @@ Non Maximum Suppression\textsuperscript{\cite{nms}} คือ อัลกอร
 			\label{fig:momentum_explain}
 	\end{figure} 
 	\item RMS Prop หรือ root-mean-square propagation ซึ่งมีความคล้ายคลึงกับ Momentum หากดูจากรูปที่ \ref{fig:momentum_explain} กำหนดให้แกน y เป็นเมทริกซ์ค่าอคติ แกน x คือ weight
-	และเส้นสีเขียวเป็นของ RMS Prop ในขณะที่ momentum ใช้ค่าเฉลี่ยเคลื่อนที่ในการลดการแกว่งในแนวแกน y RMS Prop จะใช้ค่าเฉลี่ยรากที่สองของเมทริกซ์กำลังสองมาหารเพื่อลดการแกว่งในแกน y ซึ่งทำให้ต้องมีค่าคงที่ $\epsilon$
+	และเส้นสีเขียวเป็นของ RMS Prop ในขณะที่ momentum ใช้ค่าเฉลี่ยเคลื่อนที่ในการลดการแกว่งในแนวแกน y RMS Prop จะใช้ค่าเฉลี่ยกำลังสองมาหารเพื่อลดการแกว่งในแกน y ซึ่งทำให้ต้องมีค่าคงที่ $\epsilon$
 	เพื่อไม่ให้เกิดเหตุการณ์หารด้วยศูนย์ ซึ่งสมการปรับ weight และเมทริกซ์ค่าอคติจะเป็นดังนี้
 	\begin{equation}
 		W = W - \alpha \frac{dW}{\sqrt{S_{dW}} + \epsilon}

@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis"] 1573446256 "thesis.aux" "thesis.bbl" "thesis" 1573461220
+["bibtex thesis"] 1573446256 "thesis.aux" "thesis.bbl" "thesis" 1573461332
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "pages/reference.bib" 1572951444 10939 69b5075874904deec7bd1236548ec771 ""
-  "thesis.aux" 1573461208 83457 1a1b33bcb638b8ecbac00f5e11fda236 "xelatex"
+  "thesis.aux" 1573461321 83457 1a1b33bcb638b8ecbac00f5e11fda236 "xelatex"
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["xdvipdfmx"] 1573461209 "thesis.xdv" "thesis.pdf" "thesis" 1573461220
-  "thesis.xdv" 1573461208 2378836 4bb02f8b89b33bad0e9bdf617a4dea10 "xelatex"
+  "thesis.bbl"
+["xdvipdfmx"] 1573461322 "thesis.xdv" "thesis.pdf" "thesis" 1573461332
+  "thesis.xdv" 1573461321 2378596 a66aad0f8ceea2313ba6dd8225a5ae66 "xelatex"
   (generated)
   "thesis.pdf"
-["xelatex"] 1573461200 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1573461220
+["xelatex"] 1573461314 "c:/Users/asus/Desktop/Latex/thesis.tex" "thesis.xdv" "thesis" 1573461332
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136747054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -245,7 +245,7 @@
   "chapter2/auc.tex" 1573182930 2580 8704873a833cd410c202650a84a89d8f ""
   "chapter2/ava.tex" 1572951444 14328 870e578796e927bc2d9b97fa4b8c85ab ""
   "chapter2/chapter2.tex" 1572951444 4043 467cf75a548dd2ca94b933b147047ad1 ""
-  "chapter2/cnn.tex" 1573461199 29862 03b37cdbb334d9d1c25c4c1d3d10923e ""
+  "chapter2/cnn.tex" 1573461313 29802 9e7d5598887ff55e914217fffe62c6aa ""
   "chapter2/faster-rcnn.tex" 1572951444 3217 6f15974255336770eb02cf2162b3b721 ""
   "chapter2/images/CNN.png" 1572951444 71514 687f2a73a69ae43c4c1ba498f35569f0 ""
   "chapter2/images/DBoF.png" 1572951444 40534 fc807003d0e8774b08deead5471097e2 ""
@@ -352,18 +352,18 @@
   "pages/abbreviations.tex" 1572951444 6539 61bba02a7b3fae507534802bdc603b22 ""
   "pages/abstract.tex" 1572951444 2357 2a874744cebf99ea271ee9b57244faae ""
   "pages/acknowledgements.tex" 1572951444 3903 6b1fafbf32e7765364713c5e43a9da09 ""
-  "thesis.aux" 1573461208 83457 1a1b33bcb638b8ecbac00f5e11fda236 "xelatex"
+  "thesis.aux" 1573461321 83457 1a1b33bcb638b8ecbac00f5e11fda236 "xelatex"
   "thesis.bbl" 1573446256 6859 371a5386340527a0a941d2c4cd67f0f4 "bibtex thesis"
-  "thesis.lof" 1573461208 12544 bd55fd73ef99194a16b56176ee624e3e "xelatex"
-  "thesis.lot" 1573461208 7235 bec26c845c2388e2a0f93cf8accf43e0 "xelatex"
-  "thesis.out" 1573461208 14369 8fe555ab6769d460adb50f44ded7250a "xelatex"
+  "thesis.lof" 1573461321 12544 bd55fd73ef99194a16b56176ee624e3e "xelatex"
+  "thesis.lot" 1573461321 7235 bec26c845c2388e2a0f93cf8accf43e0 "xelatex"
+  "thesis.out" 1573461321 14369 8fe555ab6769d460adb50f44ded7250a "xelatex"
   "thesis.tex" 1572951444 1690 13066e9aadcca810ff0f0b3362e6f107 ""
-  "thesis.toc" 1573461208 19674 4ac574817ddefe75a983723f9b081ec5 "xelatex"
+  "thesis.toc" 1573461321 19674 4ac574817ddefe75a983723f9b081ec5 "xelatex"
   (generated)
-  "thesis.toc"
-  "thesis.lof"
-  "thesis.xdv"
-  "thesis.aux"
   "thesis.lot"
   "thesis.out"
+  "thesis.aux"
+  "thesis.xdv"
+  "thesis.toc"
+  "thesis.lof"
   "thesis.log"
