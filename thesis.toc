@@ -47,9 +47,9 @@
 \contentsline {section}{\numberline {3.3}หน้าที่ความรับผิดชอบ}{50}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}เครื่องมือที่ใช้ในงานวิจัย}{50}{section.3.4}% 
 \contentsline {section}{\numberline {3.5}ภาษาที่ใช้ในการพัฒนาระบบ}{51}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Program library ที่ใช้ในการพัฒนาระบบและแอปพลิเคชัน}{51}{section.3.6}% 
+\contentsline {section}{\numberline {3.6}Program library ที่ใช้ในการพัฒนาระบบและเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{51}{section.3.6}% 
 \contentsline {section}{\numberline {3.7}แผนการดำเนินงาน}{51}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างแอปพลิเคชันของเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{52}{section.3.8}% 
+\contentsline {section}{\numberline {3.8}การออกแบบหน้าต่างเครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{52}{section.3.8}% 
 \contentsline {subsection}{\numberline {3.8.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{52}{subsection.3.8.1}% 
 \contentsline {section}{\numberline {3.9}การออกแบบการทดสอบการตรวจจับวัตถุ}{62}{section.3.9}% 
 \contentsline {subsection}{\numberline {3.9.1}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{62}{subsection.3.9.1}% 
@@ -63,9 +63,9 @@
 \contentsline {subsection}{\numberline {3.12.3}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ ResNet50 ที่ถูกสร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น และใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบและเทียบผลลัพธ์กับแหล่งอ้างอิง}{67}{subsection.3.12.3}% 
 \contentsline {subsection}{\numberline {3.12.4}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ I3D สร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น โดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบ}{68}{subsection.3.12.4}% 
 \contentsline {chapter}{\numberline {4}ผลการดำเนินงาน}{69}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}เครื่องมือกำกับคุณลักษณะ}{69}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของแอปพลิเคชัน}{69}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของแอปพลิเคชัน}{74}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.1}เครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{69}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}หน้าต่างแสดงผลของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{69}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}ผลลัพธ์การทำงานในแต่ละหน้าต่างของเครื่องมือสำหรับกำกับข้อมูลด้วยปัญญาประดิษฐ์}{74}{subsection.4.1.2}% 
 \contentsline {section}{\numberline {4.2}ผลการทดลองการตรวจจับวัตถุ}{77}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}ข้อมูลรายละเอียดประกอบการทดสอบ}{77}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}ผลทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล}{77}{subsection.4.2.2}% 
@@ -100,8 +100,8 @@
 \contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{90}{section.5.3}% 
 \contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{90}{subsection.5.3.1}% 
 \contentsline {subsection}{\numberline {5.3.2}โมเดลปัญญาประดิษฐ์}{90}{subsection.5.3.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{93}{chapter*.91}% 
+\contentsline {chapter}{เอกสารอ้างอิง}{90}{Item.403}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{94}{appendix.A}% 
+\contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{91}{appendix.A}% 
 \contentsfinish 
