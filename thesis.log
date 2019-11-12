@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  12 NOV 2019 11:17
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  12 NOV 2019 11:20
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1414,17 +1414,7 @@ Overfull \hbox (16.98836pt too wide) in paragraph at lines 62--62
 
  [8
 
-] (thesis.lof
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
-(Font)              scaled to size 9.83997pt on input line 24.
-
-
-LaTeX Warning: Citation `kong2018human' on page ฌ undefined on input line 24.
-
-
-LaTeX Warning: Citation `kong2018human' on page ฌ undefined on input line 24.
-
-[9
+] (thesis.lof [9
 
 
 ] [10
@@ -1442,7 +1432,8 @@ LaTeX Warning: Citation `kong2018human' on page ฌ undefined on input line 24.
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- (pages/abbreviations.tex [13
+ (pages/abbreviations.tex
+[13
 
 ]
 Overfull \hbox (54.68172pt too wide) in alignment at lines 4--36
@@ -1505,59 +1496,28 @@ File: chapter1/gantt_chart.jpg Graphic file (type bmp)
 
 
 ] (chapter2/cnn.tex
-
-LaTeX Warning: Citation `cnn' on page 5 undefined on input line 1.
-
 File: chapter2/images/CNN.png Graphic file (type bmp)
 <chapter2/images/CNN.png>
-
-LaTeX Warning: Citation `cnn' on page 5 undefined on input line 8.
-
-
-LaTeX Warning: Citation `cnn' on page 5 undefined on input line 8.
-
 File: chapter2/images/kernel_ex.png Graphic file (type bmp)
 <chapter2/images/kernel_ex.png>
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 13.46844pt on input line 20.
 File: chapter2/images/input_ex.png Graphic file (type bmp)
 <chapter2/images/input_ex.png>
-[5
+ [5
 
 ]
 File: chapter2/images/feature_map.png Graphic file (type bmp)
 <chapter2/images/feature_map.png>
-
-
-LaTeX Warning: Citation `cnn' on page 6 undefined on input line 40.
-
-
-LaTeX Warning: Citation `cnn' on page 6 undefined on input line 40.
-
 File: chapter2/images/max_pooling.png Graphic file (type bmp)
 <chapter2/images/max_pooling.png>
-
-LaTeX Warning: Citation `cnn' on page 6 undefined on input line 53.
-
-
-LaTeX Warning: Citation `cnn' on page 6 undefined on input line 53.
-
 File: chapter2/images/average_pooling.png Graphic file (type bmp)
 <chapter2/images/average_pooling.png>
-
-LaTeX Warning: Citation `average_pooling' on page 6 undefined on input line 59.
-
-
-
-LaTeX Warning: Citation `average_pooling' on page 6 undefined on input line 59.
-
-
-[6
+ [6
 
 ]
-
-LaTeX Warning: Citation `activation' on page 7 undefined on input line 67.
-
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
+(Font)              scaled to size 9.83997pt on input line 67.
 
 Overfull \hbox (14.449pt too wide) in paragraph at lines 99--110
  [][] 
@@ -1568,40 +1528,15 @@ Overfull \hbox (14.449pt too wide) in paragraph at lines 99--110
 ]
 File: chapter2/images/iou_equation.png Graphic file (type bmp)
 <chapter2/images/iou_equation.png>
-
-
-LaTeX Warning: Citation `iou_pic' on page 8 undefined on input line 119.
-
-
-LaTeX Warning: Citation `iou_pic' on page 8 undefined on input line 119.
-
-(chapter2/auc.tex
-
-LaTeX Warning: Citation `auc_roc' on page 8 undefined on input line 1.
-
+ (chapter2/auc.tex
 File: chapter2/images/auc_roc.png Graphic file (type bmp)
 <chapter2/images/auc_roc.png>
-
-LaTeX Warning: Citation `auc_roc' on page 8 undefined on input line 6.
-
-
-LaTeX Warning: Citation `auc_roc' on page 8 undefined on input line 6.
-
-[8
+ [8
 
 ])
-
-LaTeX Warning: Citation `nms' on page 9 undefined on input line 138.
-
 File: chapter2/images/NMS.png Graphic file (type bmp)
 <chapter2/images/NMS.png>
-
-LaTeX Warning: Citation `nms_pic' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `nms_pic' on page 9 undefined on input line 142.
-
-[9]
+ [9]
 File: chapter2/images/gd_explain.png Graphic file (type bmp)
 <chapter2/images/gd_explain.png>
 File: chapter2/images/learning_rate.png Graphic file (type bmp)
@@ -1615,153 +1550,56 @@ Overfull \hbox (2.12544pt too wide) in paragraph at lines 168--180
 File: chapter2/images/momentum_explain.png Graphic file (type bmp)
 <chapter2/images/momentum_explain.png>
  [11] [12]) [13] (chapter2/optical_flow.tex
-
-LaTeX Warning: Citation `optical_flow' on page 14 undefined on input line 1.
-
 File: chapter2/images/vector_optical.png Graphic file (type bmp)
 <chapter2/images/vector_optical.png>
+ [14
 
-LaTeX Warning: Citation `optical_flow' on page 14 undefined on input line 7.
-
-
-LaTeX Warning: Citation `optical_flow' on page 14 undefined on input line 7.
-
-[14
-
-]
-
-LaTeX Warning: Citation `farneback2003two' on page 15 undefined on input line 5
-7.
-
-) [15] (chapter2/relate_model.tex (chapter2/yolo_model.tex
+]) [15]
+(chapter2/relate_model.tex (chapter2/yolo_model.tex
 File: chapter2/images/yolo.jpg Graphic file (type bmp)
 <chapter2/images/yolo.jpg>
-
-
-LaTeX Warning: Citation `yolo' on page 16 undefined on input line 4.
-
-
-LaTeX Warning: Citation `yolo' on page 16 undefined on input line 4.
-
-
-LaTeX Warning: Citation `yolo' on page 16 undefined on input line 8.
-
 File: chapter2/images/yolo_architecture.jpg Graphic file (type bmp)
 <chapter2/images/yolo_architecture.jpg>
-
-LaTeX Warning: Citation `ssd_yolo_pic' on page 16 undefined on input line 17.
-
-
-LaTeX Warning: Citation `ssd_yolo_pic' on page 16 undefined on input line 17.
-
-[16
+ [16
 
 ]
 File: chapter2/images/yolo_tiny.jpg Graphic file (type bmp)
 <chapter2/images/yolo_tiny.jpg>
-
-
-LaTeX Warning: Citation `tiny_pic' on page 17 undefined on input line 39.
-
-
-LaTeX Warning: Citation `tiny_pic' on page 17 undefined on input line 39.
-
 File: chapter2/images/yolo_darknet.png Graphic file (type bmp)
 <chapter2/images/yolo_darknet.png>
-
-LaTeX Warning: Citation `darknet_pic' on page 17 undefined on input line 45.
-
-
-LaTeX Warning: Citation `darknet_pic' on page 17 undefined on input line 45.
-
 File: chapter2/images/yolo_spp.png Graphic file (type bmp)
 <chapter2/images/yolo_spp.png>
-
-LaTeX Warning: Citation `spp_pic' on page 17 undefined on input line 51.
-
-
-LaTeX Warning: Citation `spp_pic' on page 17 undefined on input line 51.
-
 ) [17
 
-] (chapter2/faster-rcnn.tex
+]
+(chapter2/faster-rcnn.tex
 File: chapter2/images/faster_rcnn.png Graphic file (type bmp)
 <chapter2/images/faster_rcnn.png>
-
-
-LaTeX Warning: Citation `faster_pic' on page 18 undefined on input line 4.
-
-
-LaTeX Warning: Citation `faster_pic' on page 18 undefined on input line 4.
-
-
-LaTeX Warning: Citation `faster' on page 18 undefined on input line 7.
-
-
-LaTeX Warning: Citation `faster' on page 18 undefined on input line 18.
-
 ) [18
 
 ] (chapter2/ssd.tex
 File: chapter2/images/vgg.jpg Graphic file (type bmp)
 <chapter2/images/vgg.jpg>
+))
+(chapter2/video_analytics.tex (chapter2/yolo.tex [19
 
-
-LaTeX Warning: Citation `ssd_yolo_pic' on page 19 undefined on input line 4.
-
-
-LaTeX Warning: Citation `ssd_yolo_pic' on page 19 undefined on input line 4.
-
-
-LaTeX Warning: Citation `liu2016ssd' on page 19 undefined on input line 8.
-
-
-LaTeX Warning: Citation `vgg' on page 19 undefined on input line 12.
-
-)) (chapter2/video_analytics.tex (chapter2/yolo.tex
-
-LaTeX Warning: Citation `object_detection' on page 19 undefined on input line 1
-.
-
-[19
-
-]) [20] (chapter2/tracking.tex
-
-LaTeX Warning: Citation `danelljan2014accurate' on page 21 undefined on input l
-ine 1.
-
+]) [20]
+(chapter2/tracking.tex
 File: chapter2/images/kalman_workflow.png Graphic file (type bmp)
 <chapter2/images/kalman_workflow.png>
-[21
+ [21
 
 ] [22
 
 ] [23]
 File: chapter2/images/correlation_marked.png Graphic file (type bmp)
 <chapter2/images/correlation_marked.png>
-
-
-LaTeX Warning: Citation `chen2015experimental' on page 24 undefined on input li
-ne 139.
-
-
-LaTeX Warning: Citation `chen2015experimental' on page 24 undefined on input li
-ne 139.
-
-[24]
+ [24]
 Overfull \hbox (35.61292pt too wide) in paragraph at lines 170--175
 [] 
  []
 
 ) [25] (chapter2/reid.tex
-
-LaTeX Warning: Citation `luo2019alignedreid++' on page 26 undefined on input li
-ne 1.
-
-
-LaTeX Warning: Citation `zhang2017alignedreid' on page 26 undefined on input li
-ne 1.
-
 File: chapter2/images/alignedreid.png Graphic file (type bmp)
 <chapter2/images/alignedreid.png>
 
@@ -1773,104 +1611,35 @@ Overfull \hbox (2.68924pt too wide) in paragraph at lines 25--27
 [26
 
 ]) [27] (chapter2/action_label.tex
-
-LaTeX Warning: Citation `ma2017less' on page 28 undefined on input line 1.
-
-
-Overfull \hbox (3.52869pt too wide) in paragraph at lines 1--4
+Overfull \hbox (7.80907pt too wide) in paragraph at lines 1--4
 []\TU/THSarabunNew(0)/m/n/12 ระบบ จำแนก การก ระ ทำ ของ มนุษย์$[]$เป็น หัวข้อ ที
 ่ มี การ ให้ ความ สนใจ อย่าง มาก สำหรับ การ ทำ ระบบ ประมวล
  []
 
 File: chapter2/images/video_analytics_ex.png Graphic file (type bmp)
 <chapter2/images/video_analytics_ex.png>
-
-LaTeX Warning: Citation `kong2018human' on page 28 undefined on input line 8.
-
-
-LaTeX Warning: Citation `kong2018human' on page 28 undefined on input line 8.
-
-
-LaTeX Warning: Citation `karpathy2014large' on page 28 undefined on input line 
-14.
-
 )) [28
 
-] (chapter2/intro_vdo_dataset.tex (chapter2/youtube_8m.tex
-
-LaTeX Warning: Citation `abu2016youtube' on page 29 undefined on input line 1.
-
-[29
+] (chapter2/intro_vdo_dataset.tex (chapter2/youtube_8m.tex [29
 
 ]
-
-LaTeX Warning: Citation `liu20172' on page 30 undefined on input line 74.
-
 File: chapter2/images/DBoF.png Graphic file (type bmp)
 <chapter2/images/DBoF.png>
-
-LaTeX Warning: Citation `yue2015beyond' on page 30 undefined on input line 84.
-
 File: chapter2/images/lstm_full.png Graphic file (type bmp)
 <chapter2/images/lstm_full.png>
-[30] [31]
-
-LaTeX Warning: Citation `jordan1994hierarchical' on page 32 undefined on input 
-line 134.
-
-[32]
+ [30]
+[31] [32]
 Overfull \hbox (39.574pt too wide) in paragraph at lines 186--190
 [] 
  []
 
 [33] [34
 
-]
+]) [35
 
-LaTeX Warning: Citation `caba2015activitynet' on page 35 undefined on input lin
-e 241.
+] (chapter2/ava.tex [36
 
-
-Overfull \hbox (0.81955pt too wide) in paragraph at lines 241--244
-\TU/THSarabunNew(0)/m/n/12 ของ ActivityNet$[]$ เมื่อ นำ ไป ทดสอบ กับ ชุด ข้อมูล
- ของ ActivityNet พบ ว่า ประสิทธิภาพ เมื่อ ทดสอบ
- []
-
-) [35
-
-] (chapter2/ava.tex
-
-LaTeX Warning: Citation `ava' on page 36 undefined on input line 1.
-
-[36
-
-]
-
-LaTeX Warning: Citation `actioness' on page 37 undefined on input line 55.
-
-
-LaTeX Warning: Citation `peng' on page 37 undefined on input line 60.
-
-
-LaTeX Warning: Citation `act' on page 37 undefined on input line 66.
-
-[37]) [38] (chapter2/momentintime.tex
-
-LaTeX Warning: Citation `monfort2019moments' on page 39 undefined on input line
- 1.
-
-
-LaTeX Warning: Citation `Schuler:2005:VBC:1104493' on page 39 undefined on inpu
-t line 15.
-
-
-LaTeX Warning: Citation `Zaghouani:2010:RAP:1868720.1868756' on page 39 undefin
-ed on input line 16.
-
-
-LaTeX Warning: Citation `Baker:1998:BFP:980451.980860' on page 39 undefined on 
-input line 17.
-
+] [37]) [38] (chapter2/momentintime.tex
 [39
 
 ]
@@ -1882,10 +1651,6 @@ Overfull \hbox (11.26144pt too wide) in paragraph at lines 80--83
 [40
 
 ])) [41] (chapter2/ResNet.tex
-
-LaTeX Warning: Citation `he2016deep' on page 42 undefined on input line 2.
-
-
 Overfull \hbox (0.28778pt too wide) in paragraph at lines 1--5
 \TU/THSarabunNew(0)/m/n/12 เยอะ ตาม ไป ด้วย แต่ การ ที่ คุณลักษณะ ของ ข้อมูล เย
 อะ ไม่ ได้ หมายความ ว่า โมเดล ปัญญา ประดิษฐ์ จะ ให้ ประสิทธิภาพ
@@ -1898,30 +1663,11 @@ File: chapter2/images/example_resnet.png Graphic file (type bmp)
 ]) [43
 
 ] (chapter2/I3D.tex
-
-LaTeX Warning: Citation `I3D' on page 44 undefined on input line 2.
-
-
-LaTeX Warning: Citation `szegedy2015going' on page 44 undefined on input line 4
-.
-
 File: chapter2/images/I3D.png Graphic file (type bmp)
 <chapter2/images/I3D.png>
-
-LaTeX Warning: Citation `I3D' on page 44 undefined on input line 9.
-
-
-LaTeX Warning: Citation `I3D' on page 44 undefined on input line 9.
-
 File: chapter2/images/inceptionModule.png Graphic file (type bmp)
 <chapter2/images/inceptionModule.png>
-
-LaTeX Warning: Citation `I3D' on page 44 undefined on input line 15.
-
-
-LaTeX Warning: Citation `I3D' on page 44 undefined on input line 15.
-
-[44
+ [44
 
 ]
 Overfull \hbox (41.61888pt too wide) in paragraph at lines 28--41
@@ -1931,17 +1677,11 @@ Overfull \hbox (41.61888pt too wide) in paragraph at lines 28--41
 ) [45
 
 ] (chapter2/labeling_tool.tex
-
-LaTeX Warning: Citation `dark' on page 46 undefined on input line 3.
-
 File: chapter2/images/darklabel.png Graphic file (type bmp)
 <chapter2/images/darklabel.png>
-[46
+ [46
 
 ]
-
-LaTeX Warning: Citation `open' on page 47 undefined on input line 22.
-
 File: chapter2/images/openlabel.png Graphic file (type bmp)
 <chapter2/images/openlabel.png>
 )) (chapter3/chapter3.tex [47
@@ -2180,11 +1920,70 @@ Overfull \hbox (8.3423pt too wide) in paragraph at lines 1--3
 ])
 (chapter5/ai_tool_summary.tex) (chapter5/model_resnet_summary.tex)
 (chapter5/ai_tool_suggestion.tex [89]) (chapter5/model_resnet_suggestion.tex))
-No file thesis.bbl.
-[90]
+(thesis.bbl [90]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\TU/THSarabunNew(0)/m/n/12 Adrian Rosebrock, 2016,\TU/THSarabunNew(0)/bx/n/12
+ Intersection over Union for object detec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+\TU/THSarabunNew(0)/bx/n/12 tion\TU/THSarabunNew(0)/m/n/12 [Online],Available :
+ []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][
+][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]$[]\TU/THSarabunNew(0)/m/n/12 , [2019,September,
+
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 16--17
+[]\TU/THSarabunNew(0)/m/n/12 Sarang Narkhede, 2018, \TU/THSarabunNew(0)/bx/n/12
+ Understanding AUC - ROC Curve \TU/THSarabunNew(0)/m/n/12 Available : []$[][][]
+[][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/THSarabunNew(
+0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]\TU/THSarabunNew(0)/m/n/12 Yi,Zhang,Yongliang,Shen, \TU/THSarabunNew(0)/bx/n/
+12 An improved tiny-yolov3 pedestrian detection algo-
+ []
+
+[91
+
+]
+Underfull \hbox (badness 5302) in paragraph at lines 47--49
+[]\TU/THSarabunNew(0)/m/n/12 Achraf KHAZR, \TU/THSarabunNew(0)/bx/n/12 Faster R
+CNN Object detection\TU/THSarabunNew(0)/m/n/12 [Online], Available : []$[][][][
+][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/THSarabunNe
+w(0)/m/n/12 ,
+ []
+
+[92]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 93.
+
+[93]) [94]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [90
+ (appendix/appendix1.tex [94
 
 
 ]
@@ -2210,9 +2009,9 @@ File: appendix/answer_phone/000_CXS0_D0_001792.jpg Graphic file (type bmp)
 <appendix/answer_phone/000_CXS0_D0_001792.jpg>
 File: appendix/answer_phone/000_CXS0_D0_001793.jpg Graphic file (type bmp)
 <appendix/answer_phone/000_CXS0_D0_001793.jpg>
- [91
+ [95
 
-] [92]
+] [96]
 File: appendix/eat/000_CXS1_D0_000455.jpg Graphic file (type bmp)
 <appendix/eat/000_CXS1_D0_000455.jpg>
 File: appendix/eat/000_CXS1_D0_001035.jpg Graphic file (type bmp)
@@ -2225,7 +2024,7 @@ File: appendix/eat/001_CXS1_D0_001110.jpg Graphic file (type bmp)
 <appendix/eat/001_CXS1_D0_001110.jpg>
 File: appendix/eat/001_CXS1_D0_001397.jpg Graphic file (type bmp)
 <appendix/eat/001_CXS1_D0_001397.jpg>
- [93
+ [97
 
 ]
 File: appendix/sit/000_CXS0_D0_003661.jpg Graphic file (type bmp)
@@ -2240,7 +2039,7 @@ File: appendix/sit/000_CXS0_D0_005760.jpg Graphic file (type bmp)
 <appendix/sit/000_CXS0_D0_005760.jpg>
 File: appendix/sit/000_CXS0_D0_006295.jpg Graphic file (type bmp)
 <appendix/sit/000_CXS0_D0_006295.jpg>
- [94
+ [98
 
 ]
 File: appendix/sleep/000_CXS0_D0_000043.jpg Graphic file (type bmp)
@@ -2255,7 +2054,7 @@ File: appendix/sleep/000_CXS0_D0_000073.jpg Graphic file (type bmp)
 <appendix/sleep/000_CXS0_D0_000073.jpg>
 File: appendix/sleep/002_CXS0_D0_000647.jpg Graphic file (type bmp)
 <appendix/sleep/002_CXS0_D0_000647.jpg>
- [95
+ [99
 
 ]
 File: appendix/stand/000_CXS0_D0_001005.jpg Graphic file (type bmp)
@@ -2270,7 +2069,7 @@ File: appendix/stand/000_CXS0_D0_000001.jpg Graphic file (type bmp)
 <appendix/stand/000_CXS0_D0_000001.jpg>
 File: appendix/stand/000_CXS0_D0_000922.jpg Graphic file (type bmp)
 <appendix/stand/000_CXS0_D0_000922.jpg>
- [96
+ [100
 
 ]
 File: appendix/walk/000_CXS0_D0_000568.jpg Graphic file (type bmp)
@@ -2285,7 +2084,7 @@ File: appendix/walk/000_CXS0_D0_000900.jpg Graphic file (type bmp)
 <appendix/walk/000_CXS0_D0_000900.jpg>
 File: appendix/walk/000_CXS0_D0_000963.jpg Graphic file (type bmp)
 <appendix/walk/000_CXS0_D0_000963.jpg>
- [97
+ [101
 
 ]
 File: appendix/unknown/000_CXS0_D0_000149.jpg Graphic file (type bmp)
@@ -2297,7 +2096,7 @@ File: appendix/unknown/000_CXS0_D0_001794.jpg Graphic file (type bmp)
 File: appendix/unknown/001_CXS2_D1_001979.jpg Graphic file (type bmp)
 <appendix/unknown/001_CXS2_D1_001979.jpg>
 ))
-[98
+[102
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -2306,10 +2105,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F8A639F3A15B9B9ACC07BDF795350A42.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 3D552738489A3AC66837A89B7A5A899B.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2317,12 +2113,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 39234 strings out of 427242
- 791335 string characters out of 3141499
- 1052440 words of memory out of 3000000
- 43000 multiletter control sequences out of 15000+200000
- 539067 words of font info for 71 fonts, out of 3000000 for 9000
+ 39284 strings out of 427242
+ 792036 string characters out of 3141499
+ 1053440 words of memory out of 3000000
+ 43046 multiletter control sequences out of 15000+200000
+ 539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,18n,83p,1481b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (117 pages).
+Output written on thesis.pdf (121 pages).
