@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  12 NOV 2019 11:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7200 64-bit) (preloaded format=xelatex 2019.10.30)  12 NOV 2019 15:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1746,7 +1746,13 @@ File: chapter3/images/3_6/DetectDraft.png Graphic file (type bmp)
 ]
 File: chapter3/images/3_6/DetectDraft_point.png Graphic file (type bmp)
 <chapter3/images/3_6/DetectDraft_point.png>
- [56
+
+Overfull \hbox (5.99295pt too wide) in paragraph at lines 81--82
+[]\TU/THSarabunNew(0)/m/n/12 หมายเลข 5 คือ หน้าต่าง สำหรับ แสดง ผล เฟรม ที่ เลื
+อก จาก กล่อง คีย์ เฟรม หมายเลข 4 หรือ แถบ เลื่อน หมายเลข
+ []
+
+[56
 
 ]
 File: chapter3/images/3_6/TrackDraft.png Graphic file (type bmp)
@@ -1773,23 +1779,24 @@ File: chapter3/images/3_6/XMLFormat.png Graphic file (type bmp)
 <chapter3/images/3_6/XMLFormat.png>
 ) [61
 
-]
-(chapter3/chapter3_object_detection.tex) [62
+] (chapter3/chapter3_object_detection.tex)
+[62
 
 ] (chapter3/track_experimental.tex) [63
 
-] (chapter3/experiment_reid.tex) [64
+] (chapter3/experiment_reid.tex)
+[64
 
 ] (chapter3/Experimental.tex [65
 
-]
-[66
+] [66
 
 ]) [67
 
 ] (chapter3/I3D_Ex.tex [68
 
-])) (chapter4/chapter4.tex
+]))
+(chapter4/chapter4.tex
 บทที่ 4.
 (chapter4/labeling_tool.tex
 File: chapter4/images/New_Final_ui/Select.png Graphic file (type bmp)
