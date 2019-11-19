@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  13 NOV 2019 16:16
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  19 NOV 2019 11:56
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1893,11 +1893,13 @@ Overfull \hbox (0.16644pt too wide) in paragraph at lines 99--99
 ดล ปัญญา ประดิษฐ์ ResNet50-ImageNet Cen-
  []
 
+File: chapter4/images/confusion_matrix.png Graphic file (type bmp)
+<chapter4/images/confusion_matrix.png>
 (chapter4/I3D_eval.tex [85
 
 ] [86
 
-]))) (chapter5/chapter5.tex [87]
+]))) (chapter5/chapter5.tex [87] [88]
 บทที่ 5.
 (chapter5/ai_tool.tex
 Overfull \hbox (8.3423pt too wide) in paragraph at lines 1--3
@@ -1905,12 +1907,12 @@ Overfull \hbox (8.3423pt too wide) in paragraph at lines 1--3
 มารถ ทำงาน ได้ ครอบคลุม ความ ต้องการ ของ ระบบ ทั้งหมด
  []
 
-) (chapter5/dataset.tex) (chapter5/ResNet50.tex) (chapter5/I3D.tex [88
+) (chapter5/dataset.tex) (chapter5/ResNet50.tex) (chapter5/I3D.tex [89
 
 ])
 (chapter5/ai_tool_summary.tex) (chapter5/model_resnet_summary.tex)
-(chapter5/ai_tool_suggestion.tex [89]) (chapter5/model_resnet_suggestion.tex))
-(thesis.bbl [90]
+(chapter5/ai_tool_suggestion.tex [90]) (chapter5/model_resnet_suggestion.tex))
+(thesis.bbl [91]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\TU/THSarabunNew(0)/m/n/12 Adrian Rosebrock, 2016,\TU/THSarabunNew(0)/bx/n/12
  Intersection over Union for object detec-
@@ -1950,7 +1952,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 12 An improved tiny-yolov3 pedestrian detection algo-
  []
 
-[91
+[92
 
 ]
 Underfull \hbox (badness 5302) in paragraph at lines 47--49
@@ -1966,14 +1968,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 w(0)/m/n/12 ,
  []
 
-[92]
+[93]
 
 LaTeX Warning: Command \^ invalid in math mode on input line 93.
 
-[93]) [94]
+[94]) [95]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 30.6023pt on input line 46.
- (appendix/appendix1.tex [94
+ (appendix/appendix1.tex [95
 
 
 ]
@@ -1999,9 +2001,9 @@ File: appendix/answer_phone/000_CXS0_D0_001792.jpg Graphic file (type bmp)
 <appendix/answer_phone/000_CXS0_D0_001792.jpg>
 File: appendix/answer_phone/000_CXS0_D0_001793.jpg Graphic file (type bmp)
 <appendix/answer_phone/000_CXS0_D0_001793.jpg>
- [95
+ [96
 
-] [96]
+] [97]
 File: appendix/eat/000_CXS1_D0_000455.jpg Graphic file (type bmp)
 <appendix/eat/000_CXS1_D0_000455.jpg>
 File: appendix/eat/000_CXS1_D0_001035.jpg Graphic file (type bmp)
@@ -2014,7 +2016,7 @@ File: appendix/eat/001_CXS1_D0_001110.jpg Graphic file (type bmp)
 <appendix/eat/001_CXS1_D0_001110.jpg>
 File: appendix/eat/001_CXS1_D0_001397.jpg Graphic file (type bmp)
 <appendix/eat/001_CXS1_D0_001397.jpg>
- [97
+ [98
 
 ]
 File: appendix/sit/000_CXS0_D0_003661.jpg Graphic file (type bmp)
@@ -2029,7 +2031,7 @@ File: appendix/sit/000_CXS0_D0_005760.jpg Graphic file (type bmp)
 <appendix/sit/000_CXS0_D0_005760.jpg>
 File: appendix/sit/000_CXS0_D0_006295.jpg Graphic file (type bmp)
 <appendix/sit/000_CXS0_D0_006295.jpg>
- [98
+ [99
 
 ]
 File: appendix/sleep/000_CXS0_D0_000043.jpg Graphic file (type bmp)
@@ -2044,7 +2046,7 @@ File: appendix/sleep/000_CXS0_D0_000073.jpg Graphic file (type bmp)
 <appendix/sleep/000_CXS0_D0_000073.jpg>
 File: appendix/sleep/002_CXS0_D0_000647.jpg Graphic file (type bmp)
 <appendix/sleep/002_CXS0_D0_000647.jpg>
- [99
+ [100
 
 ]
 File: appendix/stand/000_CXS0_D0_001005.jpg Graphic file (type bmp)
@@ -2059,7 +2061,7 @@ File: appendix/stand/000_CXS0_D0_000001.jpg Graphic file (type bmp)
 <appendix/stand/000_CXS0_D0_000001.jpg>
 File: appendix/stand/000_CXS0_D0_000922.jpg Graphic file (type bmp)
 <appendix/stand/000_CXS0_D0_000922.jpg>
- [100
+ [101
 
 ]
 File: appendix/walk/000_CXS0_D0_000568.jpg Graphic file (type bmp)
@@ -2074,7 +2076,7 @@ File: appendix/walk/000_CXS0_D0_000900.jpg Graphic file (type bmp)
 <appendix/walk/000_CXS0_D0_000900.jpg>
 File: appendix/walk/000_CXS0_D0_000963.jpg Graphic file (type bmp)
 <appendix/walk/000_CXS0_D0_000963.jpg>
- [101
+ [102
 
 ]
 File: appendix/unknown/000_CXS0_D0_000149.jpg Graphic file (type bmp)
@@ -2086,7 +2088,7 @@ File: appendix/unknown/000_CXS0_D0_001794.jpg Graphic file (type bmp)
 File: appendix/unknown/001_CXS2_D1_001979.jpg Graphic file (type bmp)
 <appendix/unknown/001_CXS2_D1_001979.jpg>
 ))
-[102
+[103
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
@@ -2095,7 +2097,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BD8951E5881EA3D98BE4AA6CB58AF6A2.
+(rerunfilecheck)             Checksum: E3F42DC2D8927A8C351B8F7E3682FB5D.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2103,12 +2105,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 38696 strings out of 427669
- 776562 string characters out of 3145155
- 1038102 words of memory out of 3000000
- 42025 multiletter control sequences out of 15000+200000
+ 38701 strings out of 427669
+ 776773 string characters out of 3145155
+ 1041102 words of memory out of 3000000
+ 42029 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,1481b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (121 pages).
+Output written on thesis.pdf (122 pages).

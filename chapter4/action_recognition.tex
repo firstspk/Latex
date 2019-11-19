@@ -115,6 +115,13 @@
 \label{tab: ResNet50-ImageNet Centering Samplewise average precision}
 \end{table}
 
-จากตาราง \ref{tab: ResNet50-ImageNet Centering Samplewise average precision} จะเห็นได้ว่าหมวดหมู่ที่ได้ค่า average precision น้อยได้แก่หมวดหมู่ sit, stand และ walk จากหมวดหมู่ sit นั้นที่ได้ค่า  average precision น้อยนั้นเป็นเพราะว่าการกระทำนั้นใกล้เคียงกับท่าทางการกระทำของ eat และในส่วนของหมวดหมู่ stand และ walk จะเป็นเพราะว่ามีการทำนายในหมวดหมู่ของ stand ส่วนใหญ่จะทำนายออกมาเป็นหมวดหมู่ walk เพราะทั่งสองหมวดหมู่นี้มีการกระทำที่คล้ายคลึงกัน
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[scale=0.5]{chapter4/images/confusion_matrix.png}
+    \caption{Confusion matrix ของโมเดลปัญญาประดิษฐ์  ResNet50-ImageNet Centering Samplewise}
+    \label{fig:Confusion matrix of ResNet50-ImageNet Centering Samplewise model}
+\end{figure}
+
+จากตาราง \ref{tab: ResNet50-ImageNet Centering Samplewise average precision} และรูปภาพที่ \ref{fig:Confusion matrix of ResNet50-ImageNet Centering Samplewise model} จะเห็นได้ว่าหมวดหมู่ที่ได้ค่า average precision น้อยได้แก่หมวดหมู่ sit, stand และ walk จากหมวดหมู่ sit นั้นที่ได้ค่า  average precision น้อยนั้นเป็นเพราะว่าการกระทำนั้นใกล้เคียงกับท่าทางการกระทำของ eat และในส่วนของหมวดหมู่ stand และ walk จะเป็นเพราะว่ามีการทำนายในหมวดหมู่ของ stand ส่วนใหญ่จะทำนายออกมาเป็นหมวดหมู่ walk เพราะทั่งสองหมวดหมู่นี้มีการกระทำที่คล้ายคลึงกัน
 
 \input{chapter4/I3D_eval}
