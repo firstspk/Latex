@@ -374,7 +374,7 @@
         \textbf{ผู้เขียน}& {\@author} \\
 		\ifthenelse{\equal{\@authorTwo}{}}{}{{}& {\@authorTwo} \\}
 		\ifthenelse{\equal{\@authorThree}{}}{}{{}& {\@authorThree} \\}
-		\textbf{{อาจารย์ที่ปรึกษา}}& {ที่ปรึกษาวิทยานิพนธ์หลัก \@majoradvisor} \\
+		\textbf{{อาจารย์ที่ปรึกษา}}& {\@majoradvisor} \\
 		\ifthenelse{\equal{\@coadvisor}{}}{}{{}& {ที่ปรึกษาวิทยานิพนธ์ร่วม \@coadvisor} \\}
 		\textbf{หลักสูตร}& \@degreeTH \\
 		\textbf{สาขาวิชา}& \@majorProgramTH \\
@@ -389,6 +389,35 @@
 	\let\clearpage\relax
 	\chapter*{บทคัดย่อ}
 	\addcontentsline{toc}{chapter}{บทคัดย่อ}
+\endgroup
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Thesis Abstract %%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{abstract_eng}{
+\cleardoublepage
+\begin{onehalfspacing}
+\begin{flushleft}
+    \begin{tabular*}{\textwidth}{@{}p{.17\textwidth}p{.70\textwidth}@{}}
+        \textbf{Project Title}& {\@title} \\
+        \textbf{Project Credits} & {6}\\
+        \textbf{Candidate}& {Pathompong Sinngam} \\
+		\ifthenelse{\equal{Supakorn Benjawikai}{}}{}{{}& {Supakorn Benjawikai} \\}
+		\ifthenelse{\equal{Ukrit Lertannakarn}{}}{}{{}& {Ukrit Lertwannakarn} \\}
+		\textbf{{Project Advisor}}& {Dr. Warasinee Chaisangmongkon} \\
+		\ifthenelse{\equal{\@coadvisor}{}}{}{{}& {ที่ปรึกษาวิทยานิพนธ์ร่วม \@coadvisor} \\}
+		\textbf{Program}& \@degree \\
+		\textbf{Field of Study}& Robotics and Automation Engineering \\
+		\textbf{Faculty}& Institute of Field Robotics \\
+		\textbf{Academic Year}& 2019 \\
+    \end{tabular*}
+\end{flushleft}
+\end{onehalfspacing}
+\hrule height .7pt
+\vspace{2em}
+\begingroup
+	\let\clearpage\relax
+	\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
 \endgroup
 }
 

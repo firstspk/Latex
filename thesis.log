@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  11 NOV 2019 15:35
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  21 NOV 2019 11:24
 entering extended mode
 **c:/Users/asus/Desktop/Latex/thesis.tex
 (c:/Users/asus/Desktop/Latex/thesis.tex
@@ -1059,58 +1059,65 @@ Underfull \hbox (badness 10000) in alignment at lines 2--2
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
 (Font)              scaled to size 21.25432pt on input line 2.
-) (pages/acknowledgements.tex [3
+) (pages/abstract_eng.tex [3
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 2--2
+[][] 
+ []
+
+) (pages/acknowledgements.tex [4
 
 ]
 Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 []\TU/THSarabunNew(0)/bx/n/12 และ สุดท้าย นี้ ขอ น้อม รำลึก ถึง พระคุณ บิดา มารดา และ ครอบครัว ที่ ส่ง เสริม ให้ กำลัง ใจ และ ให้การ สนับสนุน
  []
 
-[4
+[5
 
 
-]) (thesis.toc [5
+]) (thesis.toc [6
 
 
 ]
-Overfull \hbox (16.98836pt too wide) in paragraph at lines 61--61
+Overfull \hbox (16.98836pt too wide) in paragraph at lines 62--62
  []|\TU/THSarabunNew(0)/bx/n/12 3.12.1  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
  []
 
+[7
 
-Overfull \hbox (16.98836pt too wide) in paragraph at lines 62--62
+]
+Overfull \hbox (16.98836pt too wide) in paragraph at lines 63--63
  []|\TU/THSarabunNew(0)/bx/n/12 3.12.2  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
  []
 
-[6
-
-] [7
+[8
 
 ])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [8
+ [9
 
-] (thesis.lof [9
+] (thesis.lof [10
 
 
-] [10
+] [11
 
 ])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [11
+ [12
 
-] (thesis.lot [12
+] (thesis.lot [13
 
 
 ])
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- (pages/abbreviations.tex [13
+ (pages/abbreviations.tex [14
 
 ]
 Overfull \hbox (54.68172pt too wide) in alignment at lines 4--36
@@ -1122,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--37
 
  []
 
-[14
+[15
 
 
 
@@ -1136,7 +1143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--75
 
  []
 
-[15
+[16
 
 
 
@@ -1150,7 +1157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--90
 
  []
 
-) [16
+) [17
 
 
 
@@ -1670,7 +1677,7 @@ LaTeX Warning: Command \^ invalid in math mode on input line 113.
 
 [92]) [93]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
-(Font)              scaled to size 30.6023pt on input line 46.
+(Font)              scaled to size 30.6023pt on input line 47.
  (appendix/appendix1.tex [93
 
 
@@ -1786,13 +1793,13 @@ File: appendix/unknown/001_CXS2_D1_001979.jpg Graphic file (type bmp)
 )) [101
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BA0A1C8275E273E6BCA29D2A89ED3A18.
+(rerunfilecheck)             Checksum: EA29945E1463B60A5284031B05106348.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1803,15 +1810,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 38666 strings out of 427669
- 772593 string characters out of 3149215
- 1035734 words of memory out of 3000000
- 42009 multiletter control sequences out of 15000+200000
+ 38670 strings out of 427669
+ 772660 string characters out of 3149215
+ 1037338 words of memory out of 3000000
+ 42011 multiletter control sequences out of 15000+200000
  538995 words of font info for 62 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,1507b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.xdv (120 pages, 2378596 bytes).
+Output written on thesis.xdv (121 pages, 2396144 bytes).

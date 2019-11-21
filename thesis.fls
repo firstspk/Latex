@@ -332,6 +332,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT pages\abstract.tex
 INPUT pages\abstract.tex
+INPUT pages\abstract_eng.tex
+INPUT pages\abstract_eng.tex
 INPUT pages\acknowledgements.tex
 INPUT pages\acknowledgements.tex
 INPUT thesis.toc

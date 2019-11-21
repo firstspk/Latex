@@ -1,34 +1,34 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces ตารางแสดงการเปรียบเทียบระหว่าง softmax function และ sigmoid function\relax }}{7}{table.caption.22}% 
-\contentsline {table}{\numberline {2.2}{\ignorespaces ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลสำหรับทดสอบของ YouTube-8M\relax }}{34}{table.caption.40}% 
-\contentsline {table}{\numberline {2.3}{\ignorespaces ผลการทดลองของวิธีต่างๆบนคุณลักษณะระดับเฟรม\relax }}{38}{table.caption.41}% 
-\contentsline {table}{\numberline {2.4}{\ignorespaces ประสิทธิภาพของโมเดล Resnet50 I3D ที่ใช้ชุดข้อมูล Kinetics และ Moments in Time\relax }}{40}{table.caption.42}% 
-\contentsline {table}{\numberline {2.5}{\ignorespaces อัตราร้อยละของความผิดพลาดของชุดข้อมูลทดสอบ ImageNet\relax }}{42}{table.caption.44}% 
-\contentsline {table}{\numberline {2.6}{\ignorespaces ค่าความผิดพลาดที่ได้จากการทดลองจำนวนชั้นของโมเดลปัญญาประดิษฐ์ ResNet บนชุดของข้อมูล CIFAR-10\relax }}{43}{table.caption.45}% 
-\contentsline {table}{\numberline {2.7}{\ignorespaces ประสิทธิภาพของโมเดล I3D แบบ two-stream เมื่อใช้ข้อมูลจาก UCF-101, HMDB-51 และ Kinetics ในการสร้างและทดสอบด้วยเครื่องมือวัดผลแบบความแม่นยำจากการทำนายอันดับแรกสุด\relax }}{45}{table.caption.48}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces ตารางแสดงการเปรียบเทียบระหว่าง softmax function และ sigmoid function\relax }}{7}{table.caption.23}% 
+\contentsline {table}{\numberline {2.2}{\ignorespaces ผลการทดสอบโมเดลต่างๆบนชุดข้อมูลสำหรับทดสอบของ YouTube-8M\relax }}{34}{table.caption.41}% 
+\contentsline {table}{\numberline {2.3}{\ignorespaces ผลการทดลองของวิธีต่างๆบนคุณลักษณะระดับเฟรม\relax }}{38}{table.caption.42}% 
+\contentsline {table}{\numberline {2.4}{\ignorespaces ประสิทธิภาพของโมเดล Resnet50 I3D ที่ใช้ชุดข้อมูล Kinetics และ Moments in Time\relax }}{40}{table.caption.43}% 
+\contentsline {table}{\numberline {2.5}{\ignorespaces อัตราร้อยละของความผิดพลาดของชุดข้อมูลทดสอบ ImageNet\relax }}{42}{table.caption.45}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces ค่าความผิดพลาดที่ได้จากการทดลองจำนวนชั้นของโมเดลปัญญาประดิษฐ์ ResNet บนชุดของข้อมูล CIFAR-10\relax }}{43}{table.caption.46}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces ประสิทธิภาพของโมเดล I3D แบบ two-stream เมื่อใช้ข้อมูลจาก UCF-101, HMDB-51 และ Kinetics ในการสร้างและทดสอบด้วยเครื่องมือวัดผลแบบความแม่นยำจากการทำนายอันดับแรกสุด\relax }}{45}{table.caption.49}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางแสดงจำนวนภาพที่ใช้ในการทดลองนี้\relax }}{67}{table.caption.62}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางแสดงจำนวนชุดของข้อมูลที่ใช้ในการทดลองนี้\relax }}{68}{table.caption.63}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางแสดงจำนวนภาพที่ใช้ในการทดลองนี้\relax }}{67}{table.caption.63}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางแสดงจำนวนชุดของข้อมูลที่ใช้ในการทดลองนี้\relax }}{68}{table.caption.64}% 
 \addvspace {10\p@ }
 {\vskip -10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล\relax }}{77}{table.caption.73}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces ผลการทดสอบประสิทธิภาพของการตรวจจับกรอบสี่เหลี่ยมภายในวิดีโอ\relax }}{78}{table.caption.74}% 
-\contentsline {table}{\numberline {4.3}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์\relax }}{79}{table.caption.75}% 
-\contentsline {table}{\numberline {4.4}{\ignorespaces ผลการทดสอบค่า AUC ของโมเดลปัญญาประดิษฐ์\relax }}{81}{table.caption.79}% 
-\contentsline {table}{\numberline {4.5}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์เทียบผลลัพธ์กับแหล่งอ้างอิง\relax }}{82}{table.caption.80}% 
-\contentsline {table}{\numberline {4.6}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ เมื่อใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{82}{table.caption.81}% 
-\contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{83}{table.caption.82}% 
-\contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{84}{table.caption.83}% 
-\contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{84}{table.caption.84}% 
-\contentsline {table}{\numberline {4.10}{\ignorespaces โมเดลปัญญาประดิษฐ์ ResNet50-ImageNet Centering Samplewise วัดค่า average precision (AP) ของแต่ละหมวดหมู่\relax }}{85}{table.caption.85}% 
-\contentsline {table}{\numberline {4.11}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบภาพสีปกติ\relax }}{86}{table.caption.86}% 
-\contentsline {table}{\numberline {4.12}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{86}{table.caption.87}% 
-\contentsline {table}{\numberline {4.13}{\ignorespaces ตารางเปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{86}{table.caption.88}% 
-\contentsline {table}{\numberline {4.14}{\ignorespaces ผลการทดสอบความแม่นยำเมื่อนำโมเดลแบบภาพสีปกติ และ optical flow มาใช้ร่วมกัน\relax }}{87}{table.caption.89}% 
-\contentsline {table}{\numberline {4.15}{\ignorespaces ตารางเปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{87}{table.caption.90}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces ข้อมูลผลการทำงานของโมเดลปัญญาประดิษฐ์สำหรับการทำการตรวจจับภาพบุคคล\relax }}{77}{table.caption.74}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces ผลการทดสอบประสิทธิภาพของการตรวจจับกรอบสี่เหลี่ยมภายในวิดีโอ\relax }}{78}{table.caption.75}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์\relax }}{79}{table.caption.76}% 
+\contentsline {table}{\numberline {4.4}{\ignorespaces ผลการทดสอบค่า AUC ของโมเดลปัญญาประดิษฐ์\relax }}{81}{table.caption.80}% 
+\contentsline {table}{\numberline {4.5}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์เทียบผลลัพธ์กับแหล่งอ้างอิง\relax }}{82}{table.caption.81}% 
+\contentsline {table}{\numberline {4.6}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ เมื่อใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{82}{table.caption.82}% 
+\contentsline {table}{\numberline {4.7}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้น ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{83}{table.caption.83}% 
+\contentsline {table}{\numberline {4.8}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{84}{table.caption.84}% 
+\contentsline {table}{\numberline {4.9}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ weight จาก ImageNet และการทำ scaling ใช้กับชุดข้อมูลที่ผู้วิจัยสร้างขึ้น\relax }}{84}{table.caption.85}% 
+\contentsline {table}{\numberline {4.10}{\ignorespaces โมเดลปัญญาประดิษฐ์ ResNet50-ImageNet Centering Samplewise วัดค่า average precision (AP) ของแต่ละหมวดหมู่\relax }}{85}{table.caption.86}% 
+\contentsline {table}{\numberline {4.11}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบภาพสีปกติ\relax }}{86}{table.caption.87}% 
+\contentsline {table}{\numberline {4.12}{\ignorespaces ผลการทดสอบความแม่นยำของโมเดลปัญญาประดิษฐ์ที่ผู้วิจัยสร้างขึ้นโดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นแบบ optical flow\relax }}{86}{table.caption.88}% 
+\contentsline {table}{\numberline {4.13}{\ignorespaces ตารางเปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{86}{table.caption.89}% 
+\contentsline {table}{\numberline {4.14}{\ignorespaces ผลการทดสอบความแม่นยำเมื่อนำโมเดลแบบภาพสีปกติ และ optical flow มาใช้ร่วมกัน\relax }}{87}{table.caption.90}% 
+\contentsline {table}{\numberline {4.15}{\ignorespaces ตารางเปรียบเทียบค่า AP ของทุกการกระทำของแต่ละโมเดล\relax }}{87}{table.caption.91}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
