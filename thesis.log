@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  21 NOV 2019 11:24
-=======
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  19 NOV 2019 11:56
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.8.22)  21 NOV 2019 11:54
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1387,35 +1383,20 @@ Overfull \hbox (2.21698pt too wide) in paragraph at lines 25--27
 
 
 ]
-<<<<<<< HEAD
 Overfull \hbox (16.98836pt too wide) in paragraph at lines 62--62
- []|\TU/THSarabunNew(0)/bx/n/12 3.12.1  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
+ []|\TU/THSarabunNew(0)/m/n/12 3.12.1  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล 
+ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
  []
 
 [7
 
 ]
 Overfull \hbox (16.98836pt too wide) in paragraph at lines 63--63
- []|\TU/THSarabunNew(0)/bx/n/12 3.12.2  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
- []
-
-[8
-=======
-Overfull \hbox (16.98836pt too wide) in paragraph at lines 61--61
- []|\TU/THSarabunNew(0)/m/n/12 3.12.1  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล 
-ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
- []
-
-[6
-
-]
-Overfull \hbox (16.98836pt too wide) in paragraph at lines 62--62
  []|\TU/THSarabunNew(0)/m/n/12 3.12.2  []ทดสอบ ประสิทธิภาพ การ ทำงาน ของ โมเดล 
 ปัญญา ประดิษฐ์ Faster RCNN ResNet101 
  []
 
-[7
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
+[8
 
 ])
 \tf@toc=\write6
@@ -1441,12 +1422,7 @@ Overfull \hbox (16.98836pt too wide) in paragraph at lines 62--62
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-<<<<<<< HEAD
  (pages/abbreviations.tex [14
-=======
- (pages/abbreviations.tex
-[13
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
 
 ]
 Overfull \hbox (54.68172pt too wide) in alignment at lines 4--36
@@ -2004,13 +1980,8 @@ LaTeX Warning: Command \^ invalid in math mode on input line 93.
 
 [94]) [95]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/bx/n' will be
-<<<<<<< HEAD
 (Font)              scaled to size 30.6023pt on input line 47.
- (appendix/appendix1.tex [93
-=======
-(Font)              scaled to size 30.6023pt on input line 46.
  (appendix/appendix1.tex [95
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
 
 
 ]
@@ -2123,7 +2094,23 @@ File: appendix/unknown/000_CXS0_D0_001794.jpg Graphic file (type bmp)
 File: appendix/unknown/001_CXS2_D1_001979.jpg Graphic file (type bmp)
 <appendix/unknown/001_CXS2_D1_001979.jpg>
 ))
-[103
+(pages/vitea1.tex [103
+
+]
+File: pages/images/feihong.jpg Graphic file (type bmp)
+<pages/images/feihong.jpg>
+ [104
+
+
+]
+File: pages/images/first.jpg Graphic file (type bmp)
+<pages/images/first.jpg>
+ [105
+
+]
+File: pages/images/o.png Graphic file (type bmp)
+<pages/images/o.png>
+) [106
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -2132,17 +2119,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: EA29945E1463B60A5284031B05106348.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-=======
-(rerunfilecheck)             Checksum: E3F42DC2D8927A8C351B8F7E3682FB5D.
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
+(rerunfilecheck)             Checksum: AC5931FDFABC6F1BEF03083A4AC898E2.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2150,24 +2127,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 38670 strings out of 427669
- 772660 string characters out of 3149215
- 1037338 words of memory out of 3000000
- 42011 multiletter control sequences out of 15000+200000
- 538995 words of font info for 62 fonts, out of 3000000 for 9000
-=======
- 38701 strings out of 427669
- 776773 string characters out of 3145155
- 1041102 words of memory out of 3000000
- 42029 multiletter control sequences out of 15000+200000
+ 38720 strings out of 427669
+ 777138 string characters out of 3145155
+ 1041706 words of memory out of 3000000
+ 42040 multiletter control sequences out of 15000+200000
  539075 words of font info for 72 fonts, out of 3000000 for 9000
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
  1348 hyphenation exceptions out of 8191
  62i,18n,77p,1481b,767s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-<<<<<<< HEAD
-Output written on thesis.xdv (121 pages, 2396144 bytes).
-=======
-Output written on thesis.pdf (122 pages).
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
+Output written on thesis.pdf (126 pages).

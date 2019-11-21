@@ -86,24 +86,6 @@
 \contentsline {subsection}{\numberline {4.5.4}ทดสอบประสิทธิภาพการทำงานของโมเดลปัญญาประดิษฐ์ I3D สร้างด้วยชุดข้อมูลที่ผู้วิจัยสร้างขึ้น โดยใช้ชุดข้อมูลที่ผู้วิจัยสร้างขึ้นในการทดสอบ}{86}{subsection.4.5.4}% 
 \contentsline {subsubsection}{\numberline {4.5.4.1}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลที่เป็นแบบภาพสีปกติ}{86}{subsubsection.4.5.4.1}% 
 \contentsline {subsubsection}{\numberline {4.5.4.2}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลที่เป็นแบบ optical flow}{86}{subsubsection.4.5.4.2}% 
-<<<<<<< HEAD
-\contentsline {subsubsection}{\numberline {4.5.4.3}ตารางแสดงการเปรียบเทียบค่า average precision (AP) ของทุกการกระทำของแต่ละโมเดล}{86}{subsubsection.4.5.4.3}% 
-\contentsline {subsubsection}{\numberline {4.5.4.4}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลทั้งสองแบบ (RGB + optical flow)}{86}{subsubsection.4.5.4.4}% 
-\contentsline {chapter}{\numberline {5}การอภิปรายผล สรุปผลงานวิจัย และข้อเสนอแนะ}{88}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}การอภิปรายผล}{88}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{88}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}ชุดข้อมูล}{88}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}โมเดลปัญญาประดิษฐ์}{88}{subsection.5.1.3}% 
-\contentsline {subsubsection}{\numberline {5.1.3.1}การสร้างโมเดลปัญญาประดิษฐ์ด้วยโครงสร้าง ResNet50}{88}{subsubsection.5.1.3.1}% 
-\contentsline {subsubsection}{\numberline {5.1.3.2}การสร้างโมเดลปัญญาประดิษฐ์ด้วยโครงสร้าง I3D}{89}{subsubsection.5.1.3.2}% 
-\contentsline {section}{\numberline {5.2}สรุปผลงานวิจัย}{89}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{89}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}โมเดลปัญญาประดิษฐ์}{89}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{90}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{90}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}โมเดลปัญญาประดิษฐ์}{90}{subsection.5.3.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{93}{chapter*.92}% 
-=======
 \contentsline {subsubsection}{\numberline {4.5.4.3}ตารางแสดงการเปรียบเทียบค่า average precision (AP) ของทุกการกระทำของแต่ละโมเดล}{87}{subsubsection.4.5.4.3}% 
 \contentsline {subsubsection}{\numberline {4.5.4.4}การทดสอบประสิทธิภาพของโมเดลปัญญาประดิษฐ์ I3D ที่ใช้ชุดข้อมูลทั้งสองแบบ (RGB + optical flow)}{87}{subsubsection.4.5.4.4}% 
 \contentsline {chapter}{\numberline {5}การอภิปรายผล สรุปผลงานวิจัย และข้อเสนอแนะ}{89}{chapter.5}% 
@@ -119,9 +101,9 @@
 \contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{91}{section.5.3}% 
 \contentsline {subsection}{\numberline {5.3.1}เครื่องมือกำกับคุณลักษณะด้วยปัญญาประดิษฐ์}{91}{subsection.5.3.1}% 
 \contentsline {subsection}{\numberline {5.3.2}โมเดลปัญญาประดิษฐ์}{91}{subsection.5.3.2}% 
-\contentsline {chapter}{เอกสารอ้างอิง}{95}{chapter*.92}% 
->>>>>>> 2c860d6b442c428927093647fa6cc7090f39380a
+\contentsline {chapter}{เอกสารอ้างอิง}{95}{chapter*.93}% 
 \ttl@change@i {\@ne }{chapter}{0pt}{}{\bfseries \appendixname \ \thecontentslabel \quad }{\bfseries \thecontentslabel }{\bfseries \titlerule *[.25pc]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {chapter}{\numberline {ก}ตัวอย่างชุดข้อมูลที่ผู้วิจัยสร้างขึ้น}{96}{appendix.A}% 
+\contentsline {chapter}{ประวัติผู้เขียน}{104}{appendix*.102}% 
 \contentsfinish 
